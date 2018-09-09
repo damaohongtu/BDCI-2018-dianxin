@@ -1,0 +1,148 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="true" />
+    <globalmarks />
+    <filemarks>
+      <file name="/Python Console" timestamp="1536406260968">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/https/https_eval.py" timestamp="1536322724228">
+        <mark key="[" line="31" column="59" />
+        <mark key="]" line="31" column="59" />
+        <mark key="." line="31" column="59" />
+      </file>
+      <file name="/a.dummy" timestamp="1536297396250">
+        <mark key="[" line="0" column="6" />
+        <mark key="]" line="0" column="13" />
+        <mark key="." line="0" column="6" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/cifar10/https.py" timestamp="1536296918529">
+        <mark key="[" line="335" column="0" />
+        <mark key="]" line="335" column="0" />
+        <mark key="." line="335" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/https/test.py" timestamp="1536403486042">
+        <mark key="[" line="11" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/https_project/train.py" timestamp="1536301340898">
+        <mark key="[" line="16" column="2" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/https/https_train.py" timestamp="1536406077508">
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="16" column="40" />
+        <mark key="^" line="14" column="0" />
+        <mark key="." line="16" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/https/https_input.py" timestamp="1536406160780">
+        <mark key="[" line="13" column="37" />
+        <mark key="]" line="17" column="13" />
+        <mark key="." line="17" column="13" />
+        <mark key="^" line="17" column="13" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/https/https.py" timestamp="1536477989204">
+        <mark key="[" line="147" column="40" />
+        <mark key="]" line="100" column="10" />
+        <mark key="." line="100" column="10" />
+        <mark key="^" line="100" column="10" />
+        <mark key="o" line="16" column="28" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/input/preprocess.py" timestamp="1536478413309">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/cifar10/cifar10_input.py" timestamp="1536296549745">
+        <mark key="[" line="20" column="33" />
+        <mark key="]" line="20" column="33" />
+        <mark key="." line="20" column="33" />
+      </file>
+    </filemarks>
+    <jumps />
+    <registers>
+      <register name="&quot;" type="2">
+        <text encoding="base64">b3MuZW52aXJvblsnQ1VEQV9WSVNJQkxFX0RFVklDRVMnXSA9ICcwJwo=</text>
+      </register>
+      <register name="-" type="4">
+        <text>/tmp/cifar10</text>
+      </register>
+      <register name="/" type="4">
+        <text>IMAGE</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">b3MuZW52aXJvblsnQ1VEQV9WSVNJQkxFX0RFVklDRVMnXSA9ICcwJwo=</text>
+      </register>
+      <register name="1" type="4">
+        <text encoding="base64">CiAgIiIiUnVuIEV2YWwgb25jZS4KCiAgQXJnczoKICAgIHNhdmVyOiBTYXZlci4KICAgIHN1bW1hcnlfd3JpdGVyOiBTdW1tYXJ5IHdyaXRlci4KICAgIHRvcF9rX29wOiBUb3AgSyBvcC4KICAgIHN1bW1hcnlfb3A6IFN1bW1hcnkgb3AuCiAgIiIi</text>
+      </register>
+      <register name="2" type="4">
+        <text encoding="base64">CkZMQUdTID0gdGYuYXBwLmZsYWdzLkZMQUdTCnRmLmFwcC5mbGFncy5ERUZJTkVfYm9vbGVhbigndXNlX2ZwMTYnLEZhbHNlLCJ0cmFpbiB0aGUgbW9kZWwgdXNpbmcgZnAxNiIp</text>
+      </register>
+      <register name="3" type="4">
+        <text encoding="base64">CmltcG9ydCB0ZW5zb3JmbG93IGFzIHRm</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">CkFjY3VyYWN5OgpjaWZhcjEwX3RyYWluLnB5IGFjaGlldmVzIH44NiUgYWNjdXJhY3kgYWZ0ZXIgMTAwSyBzdGVwcyAoMjU2IGVwb2NocyBvZgpkYXRhKSBhcyBqdWRnZWQgYnkgY2lmYXIxMF9ldmFsLnB5LgoKU3BlZWQ6IFdpdGggYmF0Y2hfc2l6ZSAxMjguCgpTeXN0ZW0gICAgICAgIHwgU3RlcCBUaW1lIChzZWMvYmF0Y2gpICB8ICAgICBBY2N1cmFjeQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KMSBUZXNsYSBLMjBtICB8IDAuMzUtMC42MCAgICAgICAgICAgICAgfCB+ODYlIGF0IDYwSyBzdGVwcyAgKDUgaG91cnMpCjEgVGVzbGEgSzQwbSAgfCAwLjI1LTAuMzUgICAgICAgICAgICAgIHwgfjg2JSBhdCAxMDBLIHN0ZXBzICg0IGhvdXJzKQoKVXNhZ2U6ClBsZWFzZSBzZWUgdGhlIHR1dG9yaWFsIGFuZCB3ZWJzaXRlIGZvciBob3cgdG8gZG93bmxvYWQgdGhlIENJRkFSLTEwCmRhdGEgc2V0LCBjb21waWxlIHRoZSBwcm9ncmFtIGFuZCB0cmFpbiB0aGUgbW9kZWwuCgpodHRwOi8vdGVuc29yZmxvdy5vcmcvdHV0b3JpYWxzL2RlZXBfY25uLw==</text>
+      </register>
+      <register name="5" type="4">
+        <text># Copyright 2015 The TensorFlow Authors. All Rights Reserved.
+#
+# Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# ==============================================================================</text>
+      </register>
+      <register name="6" type="4">
+        <text encoding="base64">CmRlZiBtYXliZV9kb3dubG9hZF9hbmRfZXh0cmFjdCgpOgogICIiIkRvd25sb2FkIGFuZCBleHRyYWN0IHRoZSB0YXJiYWxsIGZyb20gQWxleCdzIHdlYnNpdGUuIiIiCiAgZGVzdF9kaXJlY3RvcnkgPSBGTEFHUy5kYXRhX2RpcgogIGlmIG5vdCBvcy5wYXRoLmV4aXN0cyhkZXN0X2RpcmVjdG9yeSk6CiAgICBvcy5tYWtlZGlycyhkZXN0X2RpcmVjdG9yeSkKICBmaWxlbmFtZSA9IERBVEFfVVJMLnNwbGl0KCcvJylbLTFdCiAgZmlsZXBhdGggPSBvcy5wYXRoLmpvaW4oZGVzdF9kaXJlY3RvcnksIGZpbGVuYW1lKQogIGlmIG5vdCBvcy5wYXRoLmV4aXN0cyhmaWxlcGF0aCk6CiAgICBkZWYgX3Byb2dyZXNzKGNvdW50LCBibG9ja19zaXplLCB0b3RhbF9zaXplKToKICAgICAgc3lzLnN0ZG91dC53cml0ZSgnXHI+PiBEb3dubG9hZGluZyAlcyAlLjFmJSUnICUgKGZpbGVuYW1lLAogICAgICAgICAgZmxvYXQoY291bnQgKiBibG9ja19zaXplKSAvIGZsb2F0KHRvdGFsX3NpemUpICogMTAwLjApKQogICAgICBzeXMuc3Rkb3V0LmZsdXNoKCkKICAgIGZpbGVwYXRoLCBfID0gdXJsbGliLnJlcXVlc3QudXJscmV0cmlldmUoREFUQV9VUkwsIGZpbGVwYXRoLCBfcHJvZ3Jlc3MpCiAgICBwcmludCgpCiAgICBzdGF0aW5mbyA9IG9zLnN0YXQoZmlsZXBhdGgpCiAgICBwcmludCgnU3VjY2Vzc2Z1bGx5IGRvd25sb2FkZWQnLCBmaWxlbmFtZSwgc3RhdGluZm8uc3Rfc2l6ZSwgJ2J5dGVzLicpCiAgZXh0cmFjdGVkX2Rpcl9wYXRoID0gb3MucGF0aC5qb2luKGRlc3RfZGlyZWN0b3J5LCAnY2lmYXItMTAtYmF0Y2hlcy1iaW4nKQogIGlmIG5vdCBvcy5wYXRoLmV4aXN0cyhleHRyYWN0ZWRfZGlyX3BhdGgpOgogICAgdGFyZmlsZS5vcGVuKGZpbGVwYXRoLCAncjpneicpLmV4dHJhY3RhbGwoZGVzdF9kaXJlY3Rvcnkp</text>
+      </register>
+      <register name="7" type="4">
+        <text encoding="base64">CiAgIyBXZSBkb24ndCBhcHBseSBzb2Z0bWF4IGhlcmUgYmVjYXVzZQogICMgdGYubm4uc3BhcnNlX3NvZnRtYXhfY3Jvc3NfZW50cm9weV93aXRoX2xvZ2l0cyBhY2NlcHRzIHRoZSB1bnNjYWxlZCBsb2dpdHMKICAjIGFuZCBwZXJmb3JtcyB0aGUgc29mdG1heCBpbnRlcm5hbGx5IGZvciBlZmZpY2llbmN5Lg==</text>
+      </register>
+      <register name="8" type="4">
+        <text encoding="base64">CiAgIyBXZSBpbnN0YW50aWF0ZSBhbGwgdmFyaWFibGVzIHVzaW5nIHRmLmdldF92YXJpYWJsZSgpIGluc3RlYWQgb2YKICAjIHRmLlZhcmlhYmxlKCkgaW4gb3JkZXIgdG8gc2hhcmUgdmFyaWFibGVzIGFjcm9zcyBtdWx0aXBsZSBHUFUgdHJhaW5pbmcgcnVucy4KICAjIElmIHdlIG9ubHkgcmFuIHRoaXMgbW9kZWwgb24gYSBzaW5nbGUgR1BVLCB3ZSBjb3VsZCBzaW1wbGlmeSB0aGlzIGZ1bmN0aW9uCiAgIyBieSByZXBsYWNpbmcgYWxsIGluc3RhbmNlcyBvZiB0Zi5nZXRfdmFyaWFibGUoKSB3aXRoIHRmLlZhcmlhYmxlKCkuCiAgIw==</text>
+      </register>
+      <register name="9" type="4">
+        <text encoding="base64">CiAgIiIiUmVhZHMgYW5kIHBhcnNlcyBleGFtcGxlcyBmcm9tIENJRkFSMTAgZGF0YSBmaWxlcy4KCiAgUmVjb21tZW5kYXRpb246IGlmIHlvdSB3YW50IE4td2F5IHJlYWQgcGFyYWxsZWxpc20sIGNhbGwgdGhpcyBmdW5jdGlvbgogIE4gdGltZXMuICBUaGlzIHdpbGwgZ2l2ZSB5b3UgTiBpbmRlcGVuZGVudCBSZWFkZXJzIHJlYWRpbmcgZGlmZmVyZW50CiAgZmlsZXMgJiBwb3NpdGlvbnMgd2l0aGluIHRob3NlIGZpbGVzLCB3aGljaCB3aWxsIGdpdmUgYmV0dGVyIG1peGluZyBvZgogIGV4YW1wbGVzLgoKICBBcmdzOgogICAgZmlsZW5hbWVfcXVldWU6IEEgcXVldWUgb2Ygc3RyaW5ncyB3aXRoIHRoZSBmaWxlbmFtZXMgdG8gcmVhZCBmcm9tLgoKICBSZXR1cm5zOgogICAgQW4gb2JqZWN0IHJlcHJlc2VudGluZyBhIHNpbmdsZSBleGFtcGxlLCB3aXRoIHRoZSBmb2xsb3dpbmcgZmllbGRzOgogICAgICBoZWlnaHQ6IG51bWJlciBvZiByb3dzIGluIHRoZSByZXN1bHQgKDMyKQogICAgICB3aWR0aDogbnVtYmVyIG9mIGNvbHVtbnMgaW4gdGhlIHJlc3VsdCAoMzIpCiAgICAgIGRlcHRoOiBudW1iZXIgb2YgY29sb3IgY2hhbm5lbHMgaW4gdGhlIHJlc3VsdCAoMykKICAgICAga2V5OiBhIHNjYWxhciBzdHJpbmcgVGVuc29yIGRlc2NyaWJpbmcgdGhlIGZpbGVuYW1lICYgcmVjb3JkIG51bWJlcgogICAgICAgIGZvciB0aGlzIGV4YW1wbGUuCiAgICAgIGxhYmVsOiBhbiBpbnQzMiBUZW5zb3Igd2l0aCB0aGUgbGFiZWwgaW4gdGhlIHJhbmdlIDAuLjkuCiAgICAgIHVpbnQ4aW1hZ2U6IGEgW2hlaWdodCwgd2lkdGgsIGRlcHRoXSB1aW50OCBUZW5zb3Igd2l0aCB0aGUgaW1hZ2UgZGF0YQogICIiIg==</text>
+      </register>
+    </registers>
+    <search>
+      <last-search>IMAGE</last-search>
+      <last-offset />
+      <last-pattern>IMAGE</last-pattern>
+      <last-dir>1</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search>
+        <entry>IMA</entry>
+        <entry>IMAGE_SIZE</entry>
+        <entry>IMAGE</entry>
+      </history-search>
+      <history-cmd />
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed S</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed X</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed F</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+</application>
