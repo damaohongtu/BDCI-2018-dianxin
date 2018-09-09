@@ -24,6 +24,9 @@
       <file name="$USER_HOME$/workplace/experiment/https_project/train.py" timestamp="1536301340898">
         <mark key="[" line="16" column="2" />
       </file>
+      <file name="$USER_HOME$/workplace/BDCI/data/test.py" timestamp="1536485067998">
+        <mark key="[" line="4" column="31" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/https/https_train.py" timestamp="1536406077508">
         <mark key="[" line="16" column="0" />
         <mark key="]" line="16" column="40" />
@@ -43,8 +46,10 @@
         <mark key="^" line="100" column="10" />
         <mark key="o" line="16" column="28" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/input/preprocess.py" timestamp="1536480539461">
+      <file name="$USER_HOME$/workplace/BDCI/input/preprocess.py" timestamp="1536484931735">
+        <mark key="'" line="53" column="23" />
         <mark key="[" line="0" column="0" />
+        <mark key="o" line="37" column="38" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/cifar10/cifar10_input.py" timestamp="1536296549745">
         <mark key="[" line="20" column="33" />
@@ -52,7 +57,9 @@
         <mark key="." line="20" column="33" />
       </file>
     </filemarks>
-    <jumps />
+    <jumps>
+      <jump line="57" column="23" filename="$USER_HOME$/workplace/BDCI/input/preprocess.py" />
+    </jumps>
     <registers>
       <register name="&quot;" type="2">
         <text encoding="base64">b3MuZW52aXJvblsnQ1VEQV9WSVNJQkxFX0RFVklDRVMnXSA9ICcwJwo=</text>
