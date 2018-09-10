@@ -29,7 +29,11 @@
       <file name="$USER_HOME$/workplace/BDCI/is_similar.py" timestamp="1536497984162">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/wide_and_deep.py" timestamp="1536567193065" />
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/wide_and_deep.py" timestamp="1536567565251">
+        <mark key="[" line="16" column="11" />
+        <mark key="]" line="16" column="11" />
+        <mark key="." line="16" column="11" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/https_project/train.py" timestamp="1536301340898">
         <mark key="[" line="16" column="2" />
       </file>
@@ -84,7 +88,11 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ICAgIGRlZiBjaGFuZ2VfbGFiZWwoeCk6CiAgICAgICAgdG1wPXsiODk5NTAxNjYiOjAsICI5MDA2MzM0NSI6MSwgIjk5MTA0NzIyIjoyLCAiOTAxMDk5MTYiOjMsICI4OTk1MDE2NyI6NCwgIjg5OTUwMTY4Ijo1LAogICAgICAgICAgICAgIjk5OTk5ODI4Ijo2LCAiOTk5OTk4MjciOjcsICI4OTAxNjI1MiI6OCwgIjk5OTk5ODI2Ijo5LCAiOTk5OTk4MzAiOjEwLCAKICAgICAgICAgICAgICI4OTAxNjI1OSI6MTEsIjg5MDE2MjUzIjoxMiwgIjkwMTU1OTQ2IjoxMywgIjk5OTk5ODI1IjoxNH0=</text>
+        <text>&quot;service_type&quot;,&quot;is_mix_service&quot;,&quot;many_over_bill&quot;,&quot;contract_type&quot;,&quot;is_promise_low_consume&quot;,
+           &quot;net_service&quot;,&quot;gender&quot;,&quot;complaint_level&quot;,&quot;age&quot;,&quot;online_time&quot;,&quot;1_total_fee&quot;,&quot;2_total_fee&quot;,
+           &quot;3_total_fee&quot;,&quot;4_total_fee&quot;,&quot;month_traffic&quot;, &quot;contract_time&quot;,&quot;pay_times&quot;,&quot;pay_num&quot;,
+           &quot;last_month_traffic&quot;,&quot;local_trafffic_month&quot;,&quot;local_caller_time&quot;,&quot;service1_caller_time&quot;,
+           &quot;service2_caller_time&quot;,&quot;former_complaint_num&quot;,&quot;former_complaint_fee&quot;,&quot;current_service&quot;]</text>
       </register>
       <register name="-" type="4">
         <text>tf.contrib.layers.crossed_column([age_buckets], hash_bucket_size=int(1e6)),</text>
@@ -96,34 +104,38 @@
         <text encoding="base64">b3MuZW52aXJvblsnQ1VEQV9WSVNJQkxFX0RFVklDRVMnXSA9ICcwJwo=</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">ICAgIGRlZiBjaGFuZ2VfbGFiZWwoeCk6CiAgICAgICAgdG1wPXsiODk5NTAxNjYiOjAsICI5MDA2MzM0NSI6MSwgIjk5MTA0NzIyIjoyLCAiOTAxMDk5MTYiOjMsICI4OTk1MDE2NyI6NCwgIjg5OTUwMTY4Ijo1LAogICAgICAgICAgICAgIjk5OTk5ODI4Ijo2LCAiOTk5OTk4MjciOjcsICI4OTAxNjI1MiI6OCwgIjk5OTk5ODI2Ijo5LCAiOTk5OTk4MzAiOjEwLCAKICAgICAgICAgICAgICI4OTAxNjI1OSI6MTEsIjg5MDE2MjUzIjoxMiwgIjkwMTU1OTQ2IjoxMywgIjk5OTk5ODI1IjoxNH0=</text>
+        <text>&quot;service_type&quot;,&quot;is_mix_service&quot;,&quot;many_over_bill&quot;,&quot;contract_type&quot;,&quot;is_promise_low_consume&quot;,
+           &quot;net_service&quot;,&quot;gender&quot;,&quot;complaint_level&quot;,&quot;age&quot;,&quot;online_time&quot;,&quot;1_total_fee&quot;,&quot;2_total_fee&quot;,
+           &quot;3_total_fee&quot;,&quot;4_total_fee&quot;,&quot;month_traffic&quot;, &quot;contract_time&quot;,&quot;pay_times&quot;,&quot;pay_num&quot;,
+           &quot;last_month_traffic&quot;,&quot;local_trafffic_month&quot;,&quot;local_caller_time&quot;,&quot;service1_caller_time&quot;,
+           &quot;service2_caller_time&quot;,&quot;former_complaint_num&quot;,&quot;former_complaint_fee&quot;,&quot;current_service&quot;]</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIGVkdWNhdGlvbl9udW0gPSB0Zi5jb250cmliLmxheWVycy5yZWFsX3ZhbHVlZF9jb2x1bW4oImVkdWNhdGlvbl9udW0iKQogICAgY2FwaXRhbF9nYWluID0gdGYuY29udHJpYi5sYXllcnMucmVhbF92YWx1ZWRfY29sdW1uKCJjYXBpdGFsX2dhaW4iKQogICAgY2FwaXRhbF9sb3NzID0gdGYuY29udHJpYi5sYXllcnMucmVhbF92YWx1ZWRfY29sdW1uKCJjYXBpdGFsX2xvc3MiKQogICAgaG91cnNfcGVyX3dlZWsgPSB0Zi5jb250cmliLmxheWVycy5yZWFsX3ZhbHVlZF9jb2x1bW4oImhvdXJzX3Blcl93ZWVrIik=</text>
+        <text encoding="base64">ICAgIGRlZiBjaGFuZ2VfbGFiZWwoeCk6CiAgICAgICAgdG1wPXsiODk5NTAxNjYiOjAsICI5MDA2MzM0NSI6MSwgIjk5MTA0NzIyIjoyLCAiOTAxMDk5MTYiOjMsICI4OTk1MDE2NyI6NCwgIjg5OTUwMTY4Ijo1LAogICAgICAgICAgICAgIjk5OTk5ODI4Ijo2LCAiOTk5OTk4MjciOjcsICI4OTAxNjI1MiI6OCwgIjk5OTk5ODI2Ijo5LCAiOTk5OTk4MzAiOjEwLCAKICAgICAgICAgICAgICI4OTAxNjI1OSI6MTEsIjg5MDE2MjUzIjoxMiwgIjkwMTU1OTQ2IjoxMywgIjk5OTk5ODI1IjoxNH0=</text>
       </register>
       <register name="3" type="4">
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIGVkdWNhdGlvbl9udW0gPSB0Zi5jb250cmliLmxheWVycy5yZWFsX3ZhbHVlZF9jb2x1bW4oImVkdWNhdGlvbl9udW0iKQogICAgY2FwaXRhbF9nYWluID0gdGYuY29udHJpYi5sYXllcnMucmVhbF92YWx1ZWRfY29sdW1uKCJjYXBpdGFsX2dhaW4iKQogICAgY2FwaXRhbF9sb3NzID0gdGYuY29udHJpYi5sYXllcnMucmVhbF92YWx1ZWRfY29sdW1uKCJjYXBpdGFsX2xvc3MiKQogICAgaG91cnNfcGVyX3dlZWsgPSB0Zi5jb250cmliLmxheWVycy5yZWFsX3ZhbHVlZF9jb2x1bW4oImhvdXJzX3Blcl93ZWVrIik=</text>
+      </register>
+      <register name="4" type="4">
         <text>tf.contrib.layers.embedding_column(workclass, dimension=8),
                     tf.contrib.layers.embedding_column(education, dimension=8),</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB0Zi5jb250cmliLmxheWVycy5lbWJlZGRpbmdfY29sdW1uKHJlbGF0aW9uc2hpcCwgZGltZW5zaW9uPTgpLAogICAgICAgICAgICAgICAgICAgIHRmLmNvbnRyaWIubGF5ZXJzLmVtYmVkZGluZ19jb2x1bW4obmF0aXZlX2NvdW50cnksZGltZW5zaW9uPTgpLAogICAgICAgICAgICAgICAgICAgIHRmLmNvbnRyaWIubGF5ZXJzLmVtYmVkZGluZ19jb2x1bW4ob2NjdXBhdGlvbiwgZGltZW5zaW9uPTgpLA==</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text encoding="base64">ICAgIGVkdWNhdGlvbl9udW0gPSB0Zi5jb250cmliLmxheWVycy5yZWFsX3ZhbHVlZF9jb2x1bW4oImVkdWNhdGlvbl9udW0iKQogICAgY2FwaXRhbF9nYWluID0gdGYuY29udHJpYi5sYXllcnMucmVhbF92YWx1ZWRfY29sdW1uKCJjYXBpdGFsX2dhaW4iKQogICAgY2FwaXRhbF9sb3NzID0gdGYuY29udHJpYi5sYXllcnMucmVhbF92YWx1ZWRfY29sdW1uKCJjYXBpdGFsX2xvc3MiKQogICAgaG91cnNfcGVyX3dlZWsgPSB0Zi5jb250cmliLmxheWVycy5yZWFsX3ZhbHVlZF9jb2x1bW4oImhvdXJzX3Blcl93ZWVrIik=</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text encoding="base64">CiAgICBnZW5kZXIgPSB0Zi5jb250cmliLmxheWVycy5zcGFyc2VfY29sdW1uX3dpdGhfa2V5cyhjb2x1bW5fbmFtZT0iZ2VuZGVyIiwga2V5cz1bImZlbWFsZSIsIm1hbGUiXSkKICAgIGVkdWNhdGlvbiA9IHRmLmNvbnRyaWIubGF5ZXJzLnNwYXJzZV9jb2x1bW5fd2l0aF9oYXNoX2J1Y2tldCgiZWR1Y2F0aW9uIiwgaGFzaF9idWNrZXRfc2l6ZSA9IDEwMDApCiAgICByZWxhdGlvbnNoaXAgPSB0Zi5jb250cmliLmxheWVycy5zcGFyc2VfY29sdW1uX3dpdGhfaGFzaF9idWNrZXQoInJlbGF0aW9uc2hpcCIsIGhhc2hfYnVja2V0X3NpemUgPSAxMDApCiAgICB3b3JrY2xhc3MgPSB0Zi5jb250cmliLmxheWVycy5zcGFyc2VfY29sdW1uX3dpdGhfaGFzaF9idWNrZXQoIndvcmtjbGFzcyIsIGhhc2hfYnVja2V0X3NpemU9MTAwKQogICAgb2NjdXBhdGlvbiA9IHRmLmNvbnRyaWIubGF5ZXJzLnNwYXJzZV9jb2x1bW5fd2l0aF9oYXNoX2J1Y2tldCgib2NjdXBhdGlvbiIsIGhhc2hfYnVja2V0X3NpemU9MTAwMCkKICAgIG5hdGl2ZV9jb3VudHJ5ID0gdGYuY29udHJpYi5sYXllcnMuc3BhcnNlX2NvbHVtbl93aXRoX2hhc2hfYnVja2V0KCAibmF0aXZlX2NvdW50cnkiLCBoYXNoX2J1Y2tldF9zaXplPTEwMDAp</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>&quot;age&quot;, &quot;education_num&quot;, &quot;capital_gain&quot;, &quot;capital_loss&quot;,
                       &quot;hours_per_week&quot;</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>&quot;workclass&quot;, &quot;education&quot;, &quot;marital_status&quot;, &quot;occupation&quot;,
                        &quot;relationship&quot;, &quot;race&quot;, &quot;gender&quot;, &quot;native_country&quot;</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">CiMg6L+e57ut5pWw5o2u</text>
       </register>
     </registers>
     <search>
