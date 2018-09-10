@@ -15,7 +15,7 @@ from wide_deep import wide_deep_run_loop
 def define_census_flags():
   wide_deep_run_loop.define_wide_deep_flags()
   flags.adopt_module_key_flags(wide_deep_run_loop)
-  flags_core.set_defaults(data_dir='./census_data',
+  flags_core.set_defaults(data_dir='../data',
                           model_dir='./census_model',
                           train_epochs=40,
                           epochs_between_evals=2,
@@ -57,14 +57,6 @@ def build_estimator(model_dir, model_type, model_column_fn, inter_op, intra_op):
 
 
 def run_census(flags_obj):
-  """Construct all necessary functions and call run_loop.
-
-  Args:
-    flags_obj: Object containing user specified flags.
-  """
-  if flags_obj.download_if_missing:
-    census_dataset.download(flags_obj.data_dir)
-
   train_file = os.path.join(flags_obj.data_dir, census_dataset.TRAINING_FILE)
   test_file = os.path.join(flags_obj.data_dir, census_dataset.EVAL_FILE)
 
