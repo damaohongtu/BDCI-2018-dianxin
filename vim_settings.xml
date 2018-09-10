@@ -3,8 +3,9 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_dataset.py" timestamp="1536571584151">
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_dataset.py" timestamp="1536583563064">
         <mark key="'" line="35" column="45" />
+        <mark key="[" line="9" column="17" />
       </file>
       <file name="/Python Console" timestamp="1536563986278">
         <mark key="[" line="0" column="0" />
@@ -21,6 +22,12 @@
       <file name="$USER_HOME$/workplace/BDCI/is_similar.py" timestamp="1536497984162">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_predict.py" timestamp="1536583083322">
+        <mark key="[" line="15" column="0" />
+        <mark key="]" line="15" column="0" />
+        <mark key="." line="15" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/wide_deep_run_loop.py" timestamp="1536583714276" />
       <file name="$USER_HOME$/workplace/BDCI/data/preprocessed_train.csv" timestamp="1536488105628" />
       <file name="$USER_HOME$/workplace/experiment/https/https_train.py" timestamp="1536406077508">
         <mark key="[" line="16" column="0" />
@@ -55,6 +62,7 @@
         <mark key="o" line="37" column="38" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/lightGBM.py" timestamp="1536580856415" />
+      <file name="$USER_HOME$/workplace/BDCI/data/eval.csv" timestamp="1536583810683" />
       <file name="$USER_HOME$/workplace/BDCI/wide_deep/wide_and_deep.py" timestamp="1536575719230">
         <mark key="[" line="16" column="11" />
         <mark key="]" line="16" column="11" />
@@ -82,7 +90,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text># val_df.to_csv('../data/eval.csv', index=False, encoding='utf-8')</text>
+        <text encoding="base64">ClRFU1RfSU5QVVQgPSAoJzE4LFNlbGYtZW1wLW5vdC1pbmMsOTg3LEJhY2hlbG9ycywxMixNYXJyaWVkLWNpdi1zcG91c2UsYWJjLCcKICAgICAgICAgICAgICAnSHVzYmFuZCx6eXgsd3Z1LDM0LDU2LDc4LHRzciw8PTUwSycpCgpURVNUX0lOUFVUX1ZBTFVFUyA9IHsKICAgICdhZ2UnOiAxOCwKICAgICdlZHVjYXRpb25fbnVtJzogMTIsCiAgICAnY2FwaXRhbF9nYWluJzogMzQsCiAgICAnY2FwaXRhbF9sb3NzJzogNTYsCiAgICAnaG91cnNfcGVyX3dlZWsnOiA3OCwKICAgICdlZHVjYXRpb24nOiAnQmFjaGVsb3JzJywKICAgICdtYXJpdGFsX3N0YXR1cyc6ICdNYXJyaWVkLWNpdi1zcG91c2UnLAogICAgJ3JlbGF0aW9uc2hpcCc6ICdIdXNiYW5kJywKICAgICd3b3JrY2xhc3MnOiAnU2VsZi1lbXAtbm90LWluYycsCiAgICAnb2NjdXBhdGlvbic6ICdhYmMnLAp9</text>
       </register>
       <register name="-" type="4">
         <text># val_df.to_csv('../data/eval.csv', index=False, encoding='utf-8')</text>
@@ -94,35 +102,35 @@
         <text encoding="base64">b3MuZW52aXJvblsnQ1VEQV9WSVNJQkxFX0RFVklDRVMnXSA9ICcwJwo=</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">CmZyb20gdXRpbHMuZmxhZ3MgaW1wb3J0IGNvcmUgYXMgZmxhZ3NfY29yZQpmcm9tIHV0aWxzLmxvZ3MgaW1wb3J0IGxvZ2dlcg==</text>
+        <text encoding="base64">ClRFU1RfSU5QVVQgPSAoJzE4LFNlbGYtZW1wLW5vdC1pbmMsOTg3LEJhY2hlbG9ycywxMixNYXJyaWVkLWNpdi1zcG91c2UsYWJjLCcKICAgICAgICAgICAgICAnSHVzYmFuZCx6eXgsd3Z1LDM0LDU2LDc4LHRzciw8PTUwSycpCgpURVNUX0lOUFVUX1ZBTFVFUyA9IHsKICAgICdhZ2UnOiAxOCwKICAgICdlZHVjYXRpb25fbnVtJzogMTIsCiAgICAnY2FwaXRhbF9nYWluJzogMzQsCiAgICAnY2FwaXRhbF9sb3NzJzogNTYsCiAgICAnaG91cnNfcGVyX3dlZWsnOiA3OCwKICAgICdlZHVjYXRpb24nOiAnQmFjaGVsb3JzJywKICAgICdtYXJpdGFsX3N0YXR1cyc6ICdNYXJyaWVkLWNpdi1zcG91c2UnLAogICAgJ3JlbGF0aW9uc2hpcCc6ICdIdXNiYW5kJywKICAgICd3b3JrY2xhc3MnOiAnU2VsZi1lbXAtbm90LWluYycsCiAgICAnb2NjdXBhdGlvbic6ICdhYmMnLAp9</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">CmltcG9ydCBvcwppbXBvcnQgc3lzCgojIHB5bGludDogZGlzYWJsZT13cm9uZy1pbXBvcnQtb3JkZXIKZnJvbSBhYnNsIGltcG9ydCBhcHAgYXMgYWJzbF9hcHAKZnJvbSBhYnNsIGltcG9ydCBmbGFncwpmcm9tIHNpeC5tb3ZlcyBpbXBvcnQgdXJsbGli</text>
+        <text encoding="base64">CiAgZGVmIHRlc3RfaW5wdXRfZm4oc2VsZik6CiAgICBkYXRhc2V0ID0gY2Vuc3VzX2RhdGFzZXQuaW5wdXRfZm4oc2VsZi5pbnB1dF9jc3YsIDEsIEZhbHNlLCAxKQogICAgZmVhdHVyZXMsIGxhYmVscyA9IGRhdGFzZXQubWFrZV9vbmVfc2hvdF9pdGVyYXRvcigpLmdldF9uZXh0KCkKCiAgICB3aXRoIHNlbGYudGVzdF9zZXNzaW9uKCkgYXMgc2VzczoKICAgICAgZmVhdHVyZXMsIGxhYmVscyA9IHNlc3MucnVuKChmZWF0dXJlcywgbGFiZWxzKSkKCiAgICAgICMgQ29tcGFyZSB0aGUgdHdvIGZlYXR1cmVzIGRpY3Rpb25hcmllcy4KICAgICAgZm9yIGtleSBpbiBURVNUX0lOUFVUX1ZBTFVFUzoKICAgICAgICBzZWxmLmFzc2VydFRydWUoa2V5IGluIGZlYXR1cmVzKQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwobGVuKGZlYXR1cmVzW2tleV0pLCAxKQogICAgICAgIGZlYXR1cmVfdmFsdWUgPSBmZWF0dXJlc1trZXldWzBdCgogICAgICAgICMgQ29udmVydCBmcm9tIGJ5dGVzIHRvIHN0cmluZyBmb3IgUHl0aG9uIDMuCiAgICAgICAgaWYgaXNpbnN0YW5jZShmZWF0dXJlX3ZhbHVlLCBieXRlcyk6CiAgICAgICAgICBmZWF0dXJlX3ZhbHVlID0gZmVhdHVyZV92YWx1ZS5kZWNvZGUoKQoKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKFRFU1RfSU5QVVRfVkFMVUVTW2tleV0sIGZlYXR1cmVfdmFsdWUpCgogICAgICBzZWxmLmFzc2VydEZhbHNlKGxhYmVscyk=</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">ICAiIiJDb25zdHJ1Y3QgYWxsIG5lY2Vzc2FyeSBmdW5jdGlvbnMgYW5kIGNhbGwgcnVuX2xvb3AuCgogIEFyZ3M6CiAgICBmbGFnc19vYmo6IE9iamVjdCBjb250YWluaW5nIHVzZXIgc3BlY2lmaWVkIGZsYWdzLgogICIiIgogIGlmIGZsYWdzX29iai5kb3dubG9hZF9pZl9taXNzaW5nOgogICAgY2Vuc3VzX2RhdGFzZXQuZG93bmxvYWQoZmxhZ3Nfb2JqLmRhdGFfZGlyKQ==</text>
+        <text encoding="base64">ICAgd2l0aCB0Zi5nZmlsZS5PcGVuKHNlbGYuaW5wdXRfY3N2LCAndycpIGFzIHRlbXBfY3N2OgogICAgICB0ZW1wX2Nzdi53cml0ZShURVNUX0lOUFVUKQ==</text>
       </register>
       <register name="4" type="4">
+        <text encoding="base64">ICAgd2l0aCB0Zi5nZmlsZS5PcGVuKHNlbGYuaW5wdXRfY3N2LCAndycpIGFzIHRlbXBfY3N2OgogICAgICB0ZW1wX2Nzdi53cml0ZShURVNUX0lOUFVUKQ==</text>
+      </register>
+      <register name="5" type="4">
+        <text encoding="base64">CmZyb20gdXRpbHMuZmxhZ3MgaW1wb3J0IGNvcmUgYXMgZmxhZ3NfY29yZQpmcm9tIHV0aWxzLmxvZ3MgaW1wb3J0IGxvZ2dlcg==</text>
+      </register>
+      <register name="6" type="4">
+        <text encoding="base64">CmltcG9ydCBvcwppbXBvcnQgc3lzCgojIHB5bGludDogZGlzYWJsZT13cm9uZy1pbXBvcnQtb3JkZXIKZnJvbSBhYnNsIGltcG9ydCBhcHAgYXMgYWJzbF9hcHAKZnJvbSBhYnNsIGltcG9ydCBmbGFncwpmcm9tIHNpeC5tb3ZlcyBpbXBvcnQgdXJsbGli</text>
+      </register>
+      <register name="7" type="4">
+        <text encoding="base64">ICAiIiJDb25zdHJ1Y3QgYWxsIG5lY2Vzc2FyeSBmdW5jdGlvbnMgYW5kIGNhbGwgcnVuX2xvb3AuCgogIEFyZ3M6CiAgICBmbGFnc19vYmo6IE9iamVjdCBjb250YWluaW5nIHVzZXIgc3BlY2lmaWVkIGZsYWdzLgogICIiIgogIGlmIGZsYWdzX29iai5kb3dubG9hZF9pZl9taXNzaW5nOgogICAgY2Vuc3VzX2RhdGFzZXQuZG93bmxvYWQoZmxhZ3Nfb2JqLmRhdGFfZGlyKQ==</text>
+      </register>
+      <register name="8" type="4">
         <text>&quot;&quot;&quot;Generate an input function for the Estimator.&quot;&quot;&quot;
   assert tf.gfile.Exists(data_file), (
       '%s not found. Please make sure you have run census_dataset.py and '
       'set the --data_dir argument to the correct path.' % dat</text>
       </register>
-      <register name="5" type="4">
+      <register name="9" type="4">
         <text>[[''], [''], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [''],
                         [''], [0.0], [''], [''], ['']]</text>
-      </register>
-      <register name="6" type="4">
-        <text encoding="base64">CmRlZiBtYWluKF8pOgogIGRvd25sb2FkKGZsYWdzLkZMQUdTLmRhdGFfZGlyKQoKCmlmIF9fbmFtZV9fID09ICdfX21haW5fXyc6CiAgdGYubG9nZ2luZy5zZXRfdmVyYm9zaXR5KHRmLmxvZ2dpbmcuSU5GTykKICBkZWZpbmVfZGF0YV9kb3dubG9hZF9mbGFncygpCiAgYWJzbF9hcHAucnVuKG1haW4p</text>
-      </register>
-      <register name="7" type="4">
-        <text encoding="base64">CmRlZiBkZWZpbmVfZGF0YV9kb3dubG9hZF9mbGFncygpOgogICIiIkFkZCBmbGFncyBzcGVjaWZ5aW5nIGlucHV0IGRvd25sb2FkIGFyZ3VtZW50cy4iIiIKICBmbGFncy5ERUZJTkVfc3RyaW5nKAogICAgICBuYW1lPSJkYXRhX2RpciIsIGRlZmF1bHQ9Ii4vY2Vuc3VzX2RhdGEvIiwKICAgICAgaGVscD1mbGFnc19jb3JlLmhlbHBfd3JhcCgKICAgICAgICAgICJEaXJlY3RvcnkgdG8gZG93bmxvYWQgYW5kIGV4dHJhY3QgaW5wdXQuIikp</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">ICAgICAgYWdlLAogICAgICBlZHVjYXRpb25fbnVtLAogICAgICBjYXBpdGFsX2dhaW4sCiAgICAgIGNhcGl0YWxfbG9zcywKICAgICAgaG91cnNfcGVyX3dlZWssCiAgICAgIHRmLmZlYXR1cmVfY29sdW1uLmluZGljYXRvcl9jb2x1bW4od29ya2NsYXNzKSwKICAgICAgdGYuZmVhdHVyZV9jb2x1bW4uaW5kaWNhdG9yX2NvbHVtbihlZHVjYXRpb24pLAogICAgICB0Zi5mZWF0dXJlX2NvbHVtbi5pbmRpY2F0b3JfY29sdW1uKG1hcml0YWxfc3RhdHVzKSwKICAgICAgdGYuZmVhdHVyZV9jb2x1bW4uaW5kaWNhdG9yX2NvbHVtbihyZWxhdGlvbnNoaXApLAogICAgICAjIFRvIHNob3cgYW4gZXhhbXBsZSBvZiBlbWJlZGRpbmcKICAgICAgdGYuZmVhdHVyZV9jb2x1bW4uZW1iZWRkaW5nX2NvbHVtbihvY2N1cGF0aW9uLCBkaW1lbnNpb249OCks</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">ICBhZ2UgPSB0Zi5mZWF0dXJlX2NvbHVtbi5udW1lcmljX2NvbHVtbignYWdlJykKICBlZHVjYXRpb25fbnVtID0gdGYuZmVhdHVyZV9jb2x1bW4ubnVtZXJpY19jb2x1bW4oJ2VkdWNhdGlvbl9udW0nKQogIGNhcGl0YWxfZ2FpbiA9IHRmLmZlYXR1cmVfY29sdW1uLm51bWVyaWNfY29sdW1uKCdjYXBpdGFsX2dhaW4nKQogIGNhcGl0YWxfbG9zcyA9IHRmLmZlYXR1cmVfY29sdW1uLm51bWVyaWNfY29sdW1uKCdjYXBpdGFsX2xvc3MnKQogIGhvdXJzX3Blcl93ZWVrID0gdGYuZmVhdHVyZV9jb2x1bW4ubnVtZXJpY19jb2x1bW4oJ2hvdXJzX3Blcl93ZWU=</text>
       </register>
     </registers>
     <search>
