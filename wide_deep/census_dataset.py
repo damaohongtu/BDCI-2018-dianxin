@@ -75,7 +75,7 @@ def download(data_dir):
 def build_model_columns():
   """Builds a set of wide and deep feature columns."""
   # Continuous variable columns
-
+  age = tf.feature_column.numeric_column('age')
   education_num = tf.feature_column.numeric_column('education_num')
   capital_gain = tf.feature_column.numeric_column('capital_gain')
   capital_loss = tf.feature_column.numeric_column('capital_loss')
