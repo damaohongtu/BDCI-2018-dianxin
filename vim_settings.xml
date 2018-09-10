@@ -7,10 +7,9 @@
         <mark key="'" line="35" column="45" />
         <mark key="[" line="9" column="17" />
       </file>
-      <file name="/Python Console" timestamp="1536563986278">
+      <file name="/Python Console" timestamp="1536584110029">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/process_data.py" timestamp="1536576710169" />
       <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_main.py" timestamp="1536571324797">
         <mark key="[" line="7" column="0" />
         <mark key="]" line="7" column="0" />
@@ -27,8 +26,20 @@
         <mark key="]" line="15" column="0" />
         <mark key="." line="15" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/wide_deep_run_loop.py" timestamp="1536583714276" />
-      <file name="$USER_HOME$/workplace/BDCI/data/preprocessed_train.csv" timestamp="1536488105628" />
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/wide_and_deep.py" timestamp="1536575719230">
+        <mark key="[" line="16" column="11" />
+        <mark key="]" line="16" column="11" />
+        <mark key="." line="16" column="11" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/https_project/train.py" timestamp="1536301340898">
+        <mark key="[" line="16" column="2" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/data/test.py" timestamp="1536485067998">
+        <mark key="[" line="4" column="31" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/code/split_data.py" timestamp="1536558200428">
+        <mark key="[" line="7" column="17" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/https/https_train.py" timestamp="1536406077508">
         <mark key="[" line="16" column="0" />
         <mark key="]" line="16" column="40" />
@@ -49,6 +60,11 @@
         <mark key="]" line="18" column="0" />
         <mark key="." line="18" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/BDCI/EDA/EDA.md" timestamp="1536563842159">
+        <mark key="[" line="87" column="18" />
+        <mark key="]" line="87" column="18" />
+        <mark key="." line="87" column="18" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/https/https.py" timestamp="1536477989204">
         <mark key="[" line="147" column="40" />
         <mark key="]" line="100" column="10" />
@@ -60,27 +76,6 @@
         <mark key="'" line="53" column="23" />
         <mark key="[" line="43" column="50" />
         <mark key="o" line="37" column="38" />
-      </file>
-      <file name="$USER_HOME$/workplace/BDCI/lightGBM.py" timestamp="1536580856415" />
-      <file name="$USER_HOME$/workplace/BDCI/data/eval.csv" timestamp="1536583810683" />
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/wide_and_deep.py" timestamp="1536575719230">
-        <mark key="[" line="16" column="11" />
-        <mark key="]" line="16" column="11" />
-        <mark key="." line="16" column="11" />
-      </file>
-      <file name="$USER_HOME$/workplace/experiment/https_project/train.py" timestamp="1536301340898">
-        <mark key="[" line="16" column="2" />
-      </file>
-      <file name="$USER_HOME$/workplace/BDCI/data/test.py" timestamp="1536485067998">
-        <mark key="[" line="4" column="31" />
-      </file>
-      <file name="$USER_HOME$/workplace/BDCI/code/split_data.py" timestamp="1536558200428">
-        <mark key="[" line="7" column="17" />
-      </file>
-      <file name="$USER_HOME$/workplace/BDCI/EDA/EDA.md" timestamp="1536563842159">
-        <mark key="[" line="87" column="18" />
-        <mark key="]" line="87" column="18" />
-        <mark key="." line="87" column="18" />
       </file>
     </filemarks>
     <jumps>
