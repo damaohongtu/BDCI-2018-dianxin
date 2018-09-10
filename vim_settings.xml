@@ -4,6 +4,9 @@
     <globalmarks />
     <filemarks>
       <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_dataset.py" timestamp="1536557352895" />
+      <file name="/Python Console" timestamp="1536563986278">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/https/https_eval.py" timestamp="1536322724228">
         <mark key="[" line="31" column="59" />
         <mark key="]" line="31" column="59" />
@@ -26,7 +29,7 @@
       <file name="$USER_HOME$/workplace/BDCI/is_similar.py" timestamp="1536497984162">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/wide_and_deep.py" timestamp="1536563079500">
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/wide_and_deep.py" timestamp="1536564541897">
         <mark key="[" line="66" column="20" />
         <mark key="]" line="66" column="20" />
         <mark key="." line="66" column="20" />
@@ -56,7 +59,7 @@
         <mark key="." line="17" column="13" />
         <mark key="^" line="17" column="13" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/EDA/EDA.md" timestamp="1536562108715">
+      <file name="$USER_HOME$/workplace/BDCI/EDA/EDA.md" timestamp="1536563842159">
         <mark key="[" line="87" column="18" />
         <mark key="]" line="87" column="18" />
         <mark key="." line="87" column="18" />
@@ -84,10 +87,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text />
+        <text>tf.contrib.layers.crossed_column([age_buckets], hash_bucket_size=int(1e6)),</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>tf.contrib.layers.crossed_column([age_buckets], hash_bucket_size=int(1e6)),</text>
       </register>
       <register name="/" type="4">
         <text>IMAGE</text>
