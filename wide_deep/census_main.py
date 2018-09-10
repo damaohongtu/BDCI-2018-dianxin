@@ -53,7 +53,11 @@ def build_estimator(model_dir, model_type, model_column_fn, inter_op, intra_op):
         linear_feature_columns=wide_columns,
         dnn_feature_columns=deep_columns,
         dnn_hidden_units=hidden_units,
-        config=run_config)
+        config=run_config,
+        n_classes=15,
+        label_vocabulary=['99999825', '90063345', '90109916', '89950166', '89950168',
+                          '99104722', '89950167', '89016252', '90155946', '99999828',
+                          '99999826', '99999827', '89016259', '99999830', '89016253'])
 
 
 def run_census(flags_obj):
@@ -63,10 +67,17 @@ def run_census(flags_obj):
   # Train and evaluate the model every `flags.epochs_between_evals` epochs.
   def train_input_fn():
     return census_dataset.input_fn(
-        train_file, flags_obj.epochs_between_evals, True, flags_obj.batch_size)
+        data_file=train_file,
+        num_epochs=flags_obj.epochs_between_evals,
+        shuffle=True,
+        batch_size=flags_obj.batch_size)
 
   def eval_input_fn():
-    return census_dataset.input_fn(test_file, 1, False, flags_obj.batch_size)
+    return census_dataset.input_fn(
+        data_file=test_file,
+        num_epochs=1,
+        shuffle=False,
+        batch_size=flags_obj.batch_size)
 
   tensors_to_log = {
       'average_loss': '{loss_prefix}head/truediv',
@@ -74,7 +85,7 @@ def run_census(flags_obj):
   }
 
   wide_deep_run_loop.run_loop(
-      name="Census Income",
+      name="面向电信行业存量用户的智能套餐个性化匹配模型",
       train_input_fn=train_input_fn,
       eval_input_fn=eval_input_fn,
       model_column_fn=census_dataset.build_model_columns,

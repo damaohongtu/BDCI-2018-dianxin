@@ -97,7 +97,7 @@ def input_fn(data_file, num_epochs, shuffle, batch_size):
     features = dict(zip(_CSV_COLUMNS, columns))
     labels = features.pop('current_service')
 
-    classes = tf.equal(labels, '>50K')  # binary classification
+    classes = labels  # binary classification
 
     return features, classes
 
