@@ -1,5 +1,5 @@
 # 训练数据
-## 训练数据字段
+## 训练数据字段及其含义
 | 字段 | 中文名 | 数据类型 | 说明 |
 | --- | --- | --- | --- |
 | USERID | 用户ID | VARCHAR2(50) | 用户编码，标识用户的唯一字段 | 
@@ -29,3 +29,70 @@
 | complaint_level | 投诉重要性 | VARCHAR2(1000) | 1：普通，2：重要，3：重大 |
 | former_complaint_num | 交费金历史投诉总量 | NUMBER | 单位：次 |
 | former_complaint_fee | 历史执行补救费用交费金额 | NUMBER | 单位：分 |
+
+## 数据类型
+```angular2html
+# 用户ID
+user_id                    object
+
+# 离散数据
+service_type                int64
+is_mix_service              int64
+many_over_bill              int64
+contract_type               int64
+is_promise_low_consume      int64
+net_service                 int64
+gender                      int64
+complaint_level             int64
+age                         int64
+
+# 连续数据
+online_time                 int64
+1_total_fee               float64
+2_total_fee               float64
+3_total_fee               float64
+4_total_fee               float64
+month_traffic             float64
+contract_time               int64
+pay_times                   int64
+pay_num                   float64
+last_month_traffic        float64
+local_trafffic_month      float64
+local_caller_time         float64
+service1_caller_time      float64
+service2_caller_time      float64
+former_complaint_num        int64
+former_complaint_fee      float64
+
+# 标签
+current_service             int64
+```
+```
+"service_type",
+"is_mix_service",
+"many_over_bill",
+"contract_type",
+"is_promise_low_consume",
+"net_service",
+"gender",
+"complaint_level",
+"age"
+
+# 连续数据
+"online_time",
+"1_total_fee",
+"2_total_fee",
+"3_total_fee",
+"4_total_fee",
+"month_traffic", 
+"contract_time",
+"pay_times",
+"pay_num",
+"last_month_traffic",
+"local_trafffic_month",
+"local_caller_time",
+"service1_caller_time",
+"service2_caller_time",
+"former_complaint_num",
+"former_complaint_fee"
+```
