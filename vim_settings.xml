@@ -26,6 +26,11 @@
       <file name="$USER_HOME$/workplace/BDCI/is_similar.py" timestamp="1536497984162">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/wide_and_deep.py" timestamp="1536562057368">
+        <mark key="[" line="65" column="20" />
+        <mark key="]" line="65" column="20" />
+        <mark key="." line="65" column="20" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/https_project/train.py" timestamp="1536301340898">
         <mark key="[" line="16" column="2" />
       </file>
@@ -79,7 +84,8 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">CiAgICBnZW5kZXIgPSB0Zi5jb250cmliLmxheWVycy5zcGFyc2VfY29sdW1uX3dpdGhfa2V5cyhjb2x1bW5fbmFtZT0iZ2VuZGVyIiwga2V5cz1bImZlbWFsZSIsIm1hbGUiXSkKICAgIGVkdWNhdGlvbiA9IHRmLmNvbnRyaWIubGF5ZXJzLnNwYXJzZV9jb2x1bW5fd2l0aF9oYXNoX2J1Y2tldCgiZWR1Y2F0aW9uIiwgaGFzaF9idWNrZXRfc2l6ZSA9IDEwMDApCiAgICByZWxhdGlvbnNoaXAgPSB0Zi5jb250cmliLmxheWVycy5zcGFyc2VfY29sdW1uX3dpdGhfaGFzaF9idWNrZXQoInJlbGF0aW9uc2hpcCIsIGhhc2hfYnVja2V0X3NpemUgPSAxMDApCiAgICB3b3JrY2xhc3MgPSB0Zi5jb250cmliLmxheWVycy5zcGFyc2VfY29sdW1uX3dpdGhfaGFzaF9idWNrZXQoIndvcmtjbGFzcyIsIGhhc2hfYnVja2V0X3NpemU9MTAwKQogICAgb2NjdXBhdGlvbiA9IHRmLmNvbnRyaWIubGF5ZXJzLnNwYXJzZV9jb2x1bW5fd2l0aF9oYXNoX2J1Y2tldCgib2NjdXBhdGlvbiIsIGhhc2hfYnVja2V0X3NpemU9MTAwMCkKICAgIG5hdGl2ZV9jb3VudHJ5ID0gdGYuY29udHJpYi5sYXllcnMuc3BhcnNlX2NvbHVtbl93aXRoX2hhc2hfYnVja2V0KCAibmF0aXZlX2NvdW50cnkiLCBoYXNoX2J1Y2tldF9zaXplPTEwMDAp</text>
+        <text>tf.contrib.layers.embedding_column(workclass, dimension=8),
+                    tf.contrib.layers.embedding_column(education, dimension=8),</text>
       </register>
       <register name="-" type="4">
         <text />
@@ -91,26 +97,36 @@
         <text encoding="base64">b3MuZW52aXJvblsnQ1VEQV9WSVNJQkxFX0RFVklDRVMnXSA9ICcwJwo=</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">CiAgICBnZW5kZXIgPSB0Zi5jb250cmliLmxheWVycy5zcGFyc2VfY29sdW1uX3dpdGhfa2V5cyhjb2x1bW5fbmFtZT0iZ2VuZGVyIiwga2V5cz1bImZlbWFsZSIsIm1hbGUiXSkKICAgIGVkdWNhdGlvbiA9IHRmLmNvbnRyaWIubGF5ZXJzLnNwYXJzZV9jb2x1bW5fd2l0aF9oYXNoX2J1Y2tldCgiZWR1Y2F0aW9uIiwgaGFzaF9idWNrZXRfc2l6ZSA9IDEwMDApCiAgICByZWxhdGlvbnNoaXAgPSB0Zi5jb250cmliLmxheWVycy5zcGFyc2VfY29sdW1uX3dpdGhfaGFzaF9idWNrZXQoInJlbGF0aW9uc2hpcCIsIGhhc2hfYnVja2V0X3NpemUgPSAxMDApCiAgICB3b3JrY2xhc3MgPSB0Zi5jb250cmliLmxheWVycy5zcGFyc2VfY29sdW1uX3dpdGhfaGFzaF9idWNrZXQoIndvcmtjbGFzcyIsIGhhc2hfYnVja2V0X3NpemU9MTAwKQogICAgb2NjdXBhdGlvbiA9IHRmLmNvbnRyaWIubGF5ZXJzLnNwYXJzZV9jb2x1bW5fd2l0aF9oYXNoX2J1Y2tldCgib2NjdXBhdGlvbiIsIGhhc2hfYnVja2V0X3NpemU9MTAwMCkKICAgIG5hdGl2ZV9jb3VudHJ5ID0gdGYuY29udHJpYi5sYXllcnMuc3BhcnNlX2NvbHVtbl93aXRoX2hhc2hfYnVja2V0KCAibmF0aXZlX2NvdW50cnkiLCBoYXNoX2J1Y2tldF9zaXplPTEwMDAp</text>
+        <text>tf.contrib.layers.embedding_column(workclass, dimension=8),
+                    tf.contrib.layers.embedding_column(education, dimension=8),</text>
       </register>
       <register name="2" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB0Zi5jb250cmliLmxheWVycy5lbWJlZGRpbmdfY29sdW1uKHJlbGF0aW9uc2hpcCwgZGltZW5zaW9uPTgpLAogICAgICAgICAgICAgICAgICAgIHRmLmNvbnRyaWIubGF5ZXJzLmVtYmVkZGluZ19jb2x1bW4obmF0aXZlX2NvdW50cnksZGltZW5zaW9uPTgpLAogICAgICAgICAgICAgICAgICAgIHRmLmNvbnRyaWIubGF5ZXJzLmVtYmVkZGluZ19jb2x1bW4ob2NjdXBhdGlvbiwgZGltZW5zaW9uPTgpLA==</text>
+      </register>
+      <register name="3" type="4">
+        <text encoding="base64">ICAgIGVkdWNhdGlvbl9udW0gPSB0Zi5jb250cmliLmxheWVycy5yZWFsX3ZhbHVlZF9jb2x1bW4oImVkdWNhdGlvbl9udW0iKQogICAgY2FwaXRhbF9nYWluID0gdGYuY29udHJpYi5sYXllcnMucmVhbF92YWx1ZWRfY29sdW1uKCJjYXBpdGFsX2dhaW4iKQogICAgY2FwaXRhbF9sb3NzID0gdGYuY29udHJpYi5sYXllcnMucmVhbF92YWx1ZWRfY29sdW1uKCJjYXBpdGFsX2xvc3MiKQogICAgaG91cnNfcGVyX3dlZWsgPSB0Zi5jb250cmliLmxheWVycy5yZWFsX3ZhbHVlZF9jb2x1bW4oImhvdXJzX3Blcl93ZWVrIik=</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">CiAgICBnZW5kZXIgPSB0Zi5jb250cmliLmxheWVycy5zcGFyc2VfY29sdW1uX3dpdGhfa2V5cyhjb2x1bW5fbmFtZT0iZ2VuZGVyIiwga2V5cz1bImZlbWFsZSIsIm1hbGUiXSkKICAgIGVkdWNhdGlvbiA9IHRmLmNvbnRyaWIubGF5ZXJzLnNwYXJzZV9jb2x1bW5fd2l0aF9oYXNoX2J1Y2tldCgiZWR1Y2F0aW9uIiwgaGFzaF9idWNrZXRfc2l6ZSA9IDEwMDApCiAgICByZWxhdGlvbnNoaXAgPSB0Zi5jb250cmliLmxheWVycy5zcGFyc2VfY29sdW1uX3dpdGhfaGFzaF9idWNrZXQoInJlbGF0aW9uc2hpcCIsIGhhc2hfYnVja2V0X3NpemUgPSAxMDApCiAgICB3b3JrY2xhc3MgPSB0Zi5jb250cmliLmxheWVycy5zcGFyc2VfY29sdW1uX3dpdGhfaGFzaF9idWNrZXQoIndvcmtjbGFzcyIsIGhhc2hfYnVja2V0X3NpemU9MTAwKQogICAgb2NjdXBhdGlvbiA9IHRmLmNvbnRyaWIubGF5ZXJzLnNwYXJzZV9jb2x1bW5fd2l0aF9oYXNoX2J1Y2tldCgib2NjdXBhdGlvbiIsIGhhc2hfYnVja2V0X3NpemU9MTAwMCkKICAgIG5hdGl2ZV9jb3VudHJ5ID0gdGYuY29udHJpYi5sYXllcnMuc3BhcnNlX2NvbHVtbl93aXRoX2hhc2hfYnVja2V0KCAibmF0aXZlX2NvdW50cnkiLCBoYXNoX2J1Y2tldF9zaXplPTEwMDAp</text>
+      </register>
+      <register name="5" type="4">
         <text>&quot;age&quot;, &quot;education_num&quot;, &quot;capital_gain&quot;, &quot;capital_loss&quot;,
                       &quot;hours_per_week&quot;</text>
       </register>
-      <register name="3" type="4">
+      <register name="6" type="4">
         <text>&quot;workclass&quot;, &quot;education&quot;, &quot;marital_status&quot;, &quot;occupation&quot;,
                        &quot;relationship&quot;, &quot;race&quot;, &quot;gender&quot;, &quot;native_country&quot;</text>
       </register>
-      <register name="4" type="4">
+      <register name="7" type="4">
         <text encoding="base64">CiMg6L+e57ut5pWw5o2u</text>
       </register>
-      <register name="5" type="4">
+      <register name="8" type="4">
         <text>&quot;age&quot;, &quot;workclass&quot;, &quot;fnlwgt&quot;, &quot;education&quot;, &quot;education_num&quot;,
            &quot;marital_status&quot;, &quot;occupation&quot;, &quot;relationship&quot;, &quot;race&quot;, &quot;gender&quot;,
            &quot;capital_gain&quot;, &quot;capital_loss&quot;, &quot;hours_per_week&quot;, &quot;native_country&quot;,
            &quot;income_bracket&quot;</text>
       </register>
-      <register name="6" type="4">
+      <register name="9" type="4">
         <text># download test and train data
 def maybe_download():
     if FLAGS.train_data:
@@ -133,15 +149,6 @@ def maybe_download():
         print(&quot;Test data is downloaded to %s&quot; % test_file_name)
 
     return train_file_name, test_file_name</text>
-      </register>
-      <register name="7" type="4">
-        <text encoding="base64">CiAgIiIiUnVuIEV2YWwgb25jZS4KCiAgQXJnczoKICAgIHNhdmVyOiBTYXZlci4KICAgIHN1bW1hcnlfd3JpdGVyOiBTdW1tYXJ5IHdyaXRlci4KICAgIHRvcF9rX29wOiBUb3AgSyBvcC4KICAgIHN1bW1hcnlfb3A6IFN1bW1hcnkgb3AuCiAgIiIi</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">CkZMQUdTID0gdGYuYXBwLmZsYWdzLkZMQUdTCnRmLmFwcC5mbGFncy5ERUZJTkVfYm9vbGVhbigndXNlX2ZwMTYnLEZhbHNlLCJ0cmFpbiB0aGUgbW9kZWwgdXNpbmcgZnAxNiIp</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">CmltcG9ydCB0ZW5zb3JmbG93IGFzIHRm</text>
       </register>
     </registers>
     <search>
