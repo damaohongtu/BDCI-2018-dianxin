@@ -37,8 +37,10 @@
         <mark key="." line="17" column="13" />
         <mark key="^" line="17" column="13" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/tool/split_data.py" timestamp="1536576789260">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/workplace/BDCI/tool/split_data.py" timestamp="1536581037407">
+        <mark key="[" line="18" column="0" />
+        <mark key="]" line="18" column="0" />
+        <mark key="." line="18" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https/https.py" timestamp="1536477989204">
         <mark key="[" line="147" column="40" />
@@ -52,7 +54,7 @@
         <mark key="[" line="43" column="50" />
         <mark key="o" line="37" column="38" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/lightGBM.py" timestamp="1536566303668" />
+      <file name="$USER_HOME$/workplace/BDCI/lightGBM.py" timestamp="1536580856415" />
       <file name="$USER_HOME$/workplace/BDCI/wide_deep/wide_and_deep.py" timestamp="1536575719230">
         <mark key="[" line="16" column="11" />
         <mark key="]" line="16" column="11" />
@@ -80,10 +82,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">CmZyb20gdXRpbHMuZmxhZ3MgaW1wb3J0IGNvcmUgYXMgZmxhZ3NfY29yZQpmcm9tIHV0aWxzLmxvZ3MgaW1wb3J0IGxvZ2dlcg==</text>
+        <text># val_df.to_csv('../data/eval.csv', index=False, encoding='utf-8')</text>
       </register>
       <register name="-" type="4">
-        <text>from utils.flags import core as flags_c</text>
+        <text># val_df.to_csv('../data/eval.csv', index=False, encoding='utf-8')</text>
       </register>
       <register name="/" type="4">
         <text>IMAGE</text>
