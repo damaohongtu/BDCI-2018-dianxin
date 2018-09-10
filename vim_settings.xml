@@ -9,7 +9,7 @@
       <file name="/Python Console" timestamp="1536563986278">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/process_data.py" timestamp="1536557911058" />
+      <file name="$USER_HOME$/workplace/BDCI/process_data.py" timestamp="1536576710169" />
       <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_main.py" timestamp="1536571324797">
         <mark key="[" line="7" column="0" />
         <mark key="]" line="7" column="0" />
@@ -36,6 +36,9 @@
         <mark key="]" line="17" column="13" />
         <mark key="." line="17" column="13" />
         <mark key="^" line="17" column="13" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/tool/split_data.py" timestamp="1536576789260">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https/https.py" timestamp="1536477989204">
         <mark key="[" line="147" column="40" />
