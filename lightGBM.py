@@ -74,7 +74,7 @@ import numpy as np
 def f1_score_vali(preds, data_vali):
     labels = data_vali.get_label()
     preds = np.argmax(preds.reshape(15, -1), axis=0)
-    score_vali = f1_score(y_true=labels, y_pred=preds, average='weighted')
+    score_vali = f1_score(y_true=labels, y_pred=preds, average='macro')
     return 'f1_score', score_vali, True
 
 xx_score = []
