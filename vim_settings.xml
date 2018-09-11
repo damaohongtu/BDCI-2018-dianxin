@@ -3,9 +3,9 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_dataset.py" timestamp="1536583563064">
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_dataset.py" timestamp="1536632993524">
         <mark key="'" line="35" column="45" />
-        <mark key="[" line="9" column="17" />
+        <mark key="[" line="50" column="0" />
       </file>
       <file name="/Python Console" timestamp="1536586181588">
         <mark key="[" line="0" column="0" />
@@ -13,10 +13,10 @@
       <file name="$USER_HOME$/workplace/BDCI/__init__.py" timestamp="1536628825812">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_main.py" timestamp="1536571324797">
-        <mark key="[" line="7" column="0" />
-        <mark key="]" line="7" column="0" />
-        <mark key="." line="7" column="0" />
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_main.py" timestamp="1536633096933">
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="8" column="0" />
+        <mark key="." line="8" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https/test.py" timestamp="1536403486042">
         <mark key="[" line="11" column="0" />
@@ -78,9 +78,9 @@
         <mark key="^" line="100" column="10" />
         <mark key="o" line="16" column="28" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/input/preprocess.py" timestamp="1536488115702">
-        <mark key="'" line="53" column="23" />
-        <mark key="[" line="43" column="50" />
+      <file name="$USER_HOME$/workplace/BDCI/input/preprocess.py" timestamp="1536635302540">
+        <mark key="'" line="60" column="23" />
+        <mark key="[" line="50" column="0" />
         <mark key="o" line="37" column="38" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/wide_deep/test.py" timestamp="1536587040505">
