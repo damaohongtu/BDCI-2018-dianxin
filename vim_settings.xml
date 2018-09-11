@@ -3,9 +3,9 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_dataset.py" timestamp="1536655396663">
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_dataset.py" timestamp="1536656532810">
         <mark key="'" line="35" column="45" />
-        <mark key="[" line="18" column="61" />
+        <mark key="[" line="92" column="55" />
         <mark key="]" line="41" column="66" />
         <mark key="." line="41" column="66" />
       </file>
@@ -46,11 +46,6 @@
         <mark key="." line="73" column="23" />
         <mark key="o" line="49" column="38" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/wide_deep_predict.py" timestamp="1536654699693">
-        <mark key="[" line="54" column="0" />
-        <mark key="]" line="54" column="0" />
-        <mark key="." line="54" column="0" />
-      </file>
       <file name="$USER_HOME$/workplace/BDCI/__init__.py" timestamp="1536628825812">
         <mark key="[" line="0" column="0" />
       </file>
@@ -90,7 +85,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAnYWdlJzogX2Zsb2F0X2ZlYXR1cmUodmFsdWU9aW50KGFnZSkpLAogICAgICAgICAgICAgICAgICAgICd3b3JrY2xhc3MnOiBfYnl0ZXNfZmVhdHVyZSh2YWx1ZT13b3JrY2xhc3MuZW5jb2RlKCkpLAogICAgICAgICAgICAgICAgICAgICdmbmx3Z3QnOiBfZmxvYXRfZmVhdHVyZSh2YWx1ZT1pbnQoZm5sd2d0KSksCiAgICAgICAgICAgICAgICAgICAgJ2VkdWNhdGlvbic6IF9ieXRlc19mZWF0dXJlKHZhbHVlPWVkdWNhdGlvbi5lbmNvZGUoKSksCiAgICAgICAgICAgICAgICAgICAgJ2VkdWNhdGlvbl9udW0nOiBfZmxvYXRfZmVhdHVyZSh2YWx1ZT1pbnQoZWR1Y2F0aW9uX251bSkpLAogICAgICAgICAgICAgICAgICAgICdtYXJpdGFsX3N0YXR1cyc6IF9ieXRlc19mZWF0dXJlKHZhbHVlPW1hcml0YWxfc3RhdHVzLmVuY29kZSgpKSwKICAgICAgICAgICAgICAgICAgICAnb2NjdXBhdGlvbic6IF9ieXRlc19mZWF0dXJlKHZhbHVlPW9jY3VwYXRpb24uZW5jb2RlKCkpLAogICAgICAgICAgICAgICAgICAgICdyZWxhdGlvbnNoaXAnOiBfYnl0ZXNfZmVhdHVyZSh2YWx1ZT1yZWxhdGlvbnNoaXAuZW5jb2RlKCkpLAogICAgICAgICAgICAgICAgICAgICdyYWNlJzogX2J5dGVzX2ZlYXR1cmUodmFsdWU9cmFjZS5lbmNvZGUoKSksCiAgICAgICAgICAgICAgICAgICAgJ2dlbmRlcic6IF9ieXRlc19mZWF0dXJlKHZhbHVlPWdlbmRlci5lbmNvZGUoKSksCiAgICAgICAgICAgICAgICAgICAgJ2NhcGl0YWxfZ2Fpbic6IF9mbG9hdF9mZWF0dXJlKHZhbHVlPWludChjYXBpdGFsX2dhaW4pKSwKICAgICAgICAgICAgICAgICAgICAnY2FwaXRhbF9sb3NzJzogX2Zsb2F0X2ZlYXR1cmUodmFsdWU9aW50KGNhcGl0YWxfbG9zcykpLAogICAgICAgICAgICAgICAgICAgICdob3Vyc19wZXJfd2Vlayc6IF9mbG9hdF9mZWF0dXJlKHZhbHVlPWZsb2F0KGhvdXJzX3Blcl93ZWVrKSksCiAgICAgICAgICAgICAgICAgICAgJ25hdGl2ZV9jb3VudHJ5JzogX2J5dGVzX2ZlYXR1cmUodmFsdWU9bmF0aXZlX2NvdW50cnkuZW5jb2RlKCkpLA==</text>
+        <text encoding="base64">CiAgICBwcmVkaWN0aW9uX091dEZpbGUuY2xvc2UoKQoKCmRlZiBfZmxvYXRfZmVhdHVyZSh2YWx1ZSk6CiAgICByZXR1cm4gdGYudHJhaW4uRmVhdHVyZShmbG9hdF9saXN0PXRmLnRyYWluLkZsb2F0TGlzdCh2YWx1ZT1bdmFsdWVdKSkKCgpkZWYgX2J5dGVzX2ZlYXR1cmUodmFsdWUpOgogICAgcmV0dXJuIHRmLnRyYWluLkZlYXR1cmUoYnl0ZXNfbGlzdD10Zi50cmFpbi5CeXRlc0xpc3QodmFsdWU9W3ZhbHVlXSkpCgoKZGVmIF9pbnQ2NF9mZWF0dXJlKHZhbHVlKToKICAgIHJldHVybiB0Zi50cmFpbi5GZWF0dXJlKGludDY0X2xpc3Q9dGYudHJhaW4uSW50NjRMaXN0KHZhbHVlPVt2YWx1ZV0pKQ==</text>
       </register>
       <register name="-" type="4">
         <text />
@@ -102,114 +97,56 @@
         <text encoding="base64">b3MuZW52aXJvblsnQ1VEQV9WSVNJQkxFX0RFVklDRVMnXSA9ICcwJwo=</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAnYWdlJzogX2Zsb2F0X2ZlYXR1cmUodmFsdWU9aW50KGFnZSkpLAogICAgICAgICAgICAgICAgICAgICd3b3JrY2xhc3MnOiBfYnl0ZXNfZmVhdHVyZSh2YWx1ZT13b3JrY2xhc3MuZW5jb2RlKCkpLAogICAgICAgICAgICAgICAgICAgICdmbmx3Z3QnOiBfZmxvYXRfZmVhdHVyZSh2YWx1ZT1pbnQoZm5sd2d0KSksCiAgICAgICAgICAgICAgICAgICAgJ2VkdWNhdGlvbic6IF9ieXRlc19mZWF0dXJlKHZhbHVlPWVkdWNhdGlvbi5lbmNvZGUoKSksCiAgICAgICAgICAgICAgICAgICAgJ2VkdWNhdGlvbl9udW0nOiBfZmxvYXRfZmVhdHVyZSh2YWx1ZT1pbnQoZWR1Y2F0aW9uX251bSkpLAogICAgICAgICAgICAgICAgICAgICdtYXJpdGFsX3N0YXR1cyc6IF9ieXRlc19mZWF0dXJlKHZhbHVlPW1hcml0YWxfc3RhdHVzLmVuY29kZSgpKSwKICAgICAgICAgICAgICAgICAgICAnb2NjdXBhdGlvbic6IF9ieXRlc19mZWF0dXJlKHZhbHVlPW9jY3VwYXRpb24uZW5jb2RlKCkpLAogICAgICAgICAgICAgICAgICAgICdyZWxhdGlvbnNoaXAnOiBfYnl0ZXNfZmVhdHVyZSh2YWx1ZT1yZWxhdGlvbnNoaXAuZW5jb2RlKCkpLAogICAgICAgICAgICAgICAgICAgICdyYWNlJzogX2J5dGVzX2ZlYXR1cmUodmFsdWU9cmFjZS5lbmNvZGUoKSksCiAgICAgICAgICAgICAgICAgICAgJ2dlbmRlcic6IF9ieXRlc19mZWF0dXJlKHZhbHVlPWdlbmRlci5lbmNvZGUoKSksCiAgICAgICAgICAgICAgICAgICAgJ2NhcGl0YWxfZ2Fpbic6IF9mbG9hdF9mZWF0dXJlKHZhbHVlPWludChjYXBpdGFsX2dhaW4pKSwKICAgICAgICAgICAgICAgICAgICAnY2FwaXRhbF9sb3NzJzogX2Zsb2F0X2ZlYXR1cmUodmFsdWU9aW50KGNhcGl0YWxfbG9zcykpLAogICAgICAgICAgICAgICAgICAgICdob3Vyc19wZXJfd2Vlayc6IF9mbG9hdF9mZWF0dXJlKHZhbHVlPWZsb2F0KGhvdXJzX3Blcl93ZWVrKSksCiAgICAgICAgICAgICAgICAgICAgJ25hdGl2ZV9jb3VudHJ5JzogX2J5dGVzX2ZlYXR1cmUodmFsdWU9bmF0aXZlX2NvdW50cnkuZW5jb2RlKCkpLA==</text>
+        <text encoding="base64">CiAgICBwcmVkaWN0aW9uX091dEZpbGUuY2xvc2UoKQoKCmRlZiBfZmxvYXRfZmVhdHVyZSh2YWx1ZSk6CiAgICByZXR1cm4gdGYudHJhaW4uRmVhdHVyZShmbG9hdF9saXN0PXRmLnRyYWluLkZsb2F0TGlzdCh2YWx1ZT1bdmFsdWVdKSkKCgpkZWYgX2J5dGVzX2ZlYXR1cmUodmFsdWUpOgogICAgcmV0dXJuIHRmLnRyYWluLkZlYXR1cmUoYnl0ZXNfbGlzdD10Zi50cmFpbi5CeXRlc0xpc3QodmFsdWU9W3ZhbHVlXSkpCgoKZGVmIF9pbnQ2NF9mZWF0dXJlKHZhbHVlKToKICAgIHJldHVybiB0Zi50cmFpbi5GZWF0dXJlKGludDY0X2xpc3Q9dGYudHJhaW4uSW50NjRMaXN0KHZhbHVlPVt2YWx1ZV0pKQ==</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">ICAgICAgICBpZiBub3Qgb3MucGF0aC5leGlzdHModHJhaW5fZGZuKToKICAgICAgICAgICAgdXJsbGliLnVybHJldHJpZXZlKCJodHRwczovL2FyY2hpdmUuaWNzLnVjaS5lZHUvbWwvbWFjaGluZS1sZWFybmluZy1kYXRhYmFzZXMvYWR1bHQvYWR1bHQuZGF0YSIsIHRyYWluX2RmbikKICAgICAgICAgICAgcHJpbnQoIlRyYWluaW5nIGRhdGEgaXMgZG93bmxvYWRlZCB0byAlcyIgJSB0cmFpbl9kZm4pCgogICAgICAgIGlmIG5vdCBvcy5wYXRoLmV4aXN0cyh0ZXN0X2Rmbik6CiAgICAgICAgICAgIHVybGxpYi51cmxyZXRyaWV2ZSgiaHR0cHM6Ly9hcmNoaXZlLmljcy51Y2kuZWR1L21sL21hY2hpbmUtbGVhcm5pbmctZGF0YWJhc2VzL2FkdWx0L2FkdWx0LnRlc3QiLCB0ZXN0X2RmbikKICAgICAgICAgICAgcHJpbnQoIlRlc3QgZGF0YSBpcyBkb3dubG9hZGVkIHRvICVzIiAlIHRlc3RfZGZuKQ==</text>
+        <text encoding="base64">ICAgICAgICBwcmVkaWN0aW9uX091dEZpbGUud3JpdGUoc3RyKGxhYmVsX2luZGV4KSkKICAgICAgICAgICAgICAgIHByZWRpY3Rpb25fT3V0RmlsZS53cml0ZSgnLCcpCiAgICAgICAgICAgICAgICBwcmVkaWN0aW9uX091dEZpbGUud3JpdGUoc3RyKG91dHB1dF9kaWN0WydzY29yZXMnXVswXVtsYWJlbF9pbmRleF0pKQogICAgICAgICAgICAgICAgcHJlZGljdGlvbl9PdXRGaWxlLndyaXRlKCdcbicp</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">IyB0ZXN0OuS/ruaUuee8uuaNn+WAvAp0ZXN0X2RhdGFbJzJfdG90YWxfZmVlJ109dGVzdF9kYXRhWycyX3RvdGFsX2ZlZSddLmFwcGx5KHRvdGFsX2ZlZV9mb3JtYXQpCnRlc3RfZGF0YVsnM190b3RhbF9mZWUnXT10ZXN0X2RhdGFbJzNfdG90YWxfZmVlJ10uYXBwbHkodG90YWxfZmVlX2Zvcm1hdCkKdGVzdF9kYXRhWydnZW5kZXInXT10ZXN0X2RhdGFbJ2dlbmRlciddLmFwcGx5KGdlbmRlcl9mb3JtYXQpCnRlc3RfZGF0YVsnYWdlJ109dGVzdF9kYXRhWydhZ2UnXS5hcHBseShhZ2VfZm9ybWF0KQoKIyB0ZXN0Oua3u+WKoOe8uuaNn+WAvO+8jOa3u+WKoOmYiOWAvAp0ZXN0X2RhdGEubG9jW3Rlc3RfZGF0YVsnMV90b3RhbF9mZWUnXT44MDAuMCwnMV90b3RhbF9mZWUnXT04MDAuMAp0ZXN0X2RhdGEubG9jW3Rlc3RfZGF0YVsnMl90b3RhbF9mZWUnXT44MDAuMCwnMl90b3RhbF9mZWUnXT04MDAuMAp0ZXN0X3hfbWVhbl8yPXRlc3RfZGF0YVsnMl90b3RhbF9mZWUnXS5tZWFuKCkKdGVzdF9kYXRhLmxvY1t0ZXN0X2RhdGFbJzJfdG90YWxfZmVlJ108MCwnMl90b3RhbF9mZWUnXT10ZXN0X3hfbWVhbl8yCnRlc3RfZGF0YS5sb2NbdGVzdF9kYXRhWyczX3RvdGFsX2ZlZSddPjgwMC4wLCczX3RvdGFsX2ZlZSddPTgwMC4wCnRlc3RfeF9tZWFuXzM9dGVzdF9kYXRhWyczX3RvdGFsX2ZlZSddLm1lYW4oKQp0ZXN0X2RhdGEubG9jW3Rlc3RfZGF0YVsnM190b3RhbF9mZWUnXTwwLCczX3RvdGFsX2ZlZSddPXRlc3RfeF9tZWFuXzMKdGVzdF9kYXRhLmxvY1t0ZXN0X2RhdGFbJzRfdG90YWxfZmVlJ10+ODAwLjAsJzRfdG90YWxfZmVlJ109ODAwLjAKdGVzdF9kYXRhLmxvY1t0ZXN0X2RhdGFbJ21vbnRoX3RyYWZmaWMnXT4yMDAwMC4wLCdtb250aF90cmFmZmljJ109MjAwMDAuMAp0ZXN0X2RhdGEubG9jW3Rlc3RfZGF0YVsncGF5X251bSddPjUwMC4wLCdwYXlfbnVtJ109NTAwLjAKdGVzdF9kYXRhLmxvY1t0ZXN0X2RhdGFbJ2xvY2FsX2NhbGxlcl90aW1lJ10+MTAwMC4wLCdsb2NhbF9jYWxsZXJfdGltZSddPTEwMDAuMAp0ZXN0X2RhdGEubG9jW3Rlc3RfZGF0YVsnc2VydmljZTFfY2FsbGVyX3RpbWUnXT4xMDAwLjAsJ3NlcnZpY2UxX2NhbGxlcl90aW1lJ109MTAwMC4wCnRlc3RfZGF0YS5sb2NbdGVzdF9kYXRhWydzZXJ2aWNlMl9jYWxsZXJfdGltZSddPjI1MDAuMCwnc2VydmljZTJfY2FsbGVyX3RpbWUnXT0yNTAwLjA=</text>
+        <text encoding="base64">CiAgICAgICAgcHJlZGljdGlvbl9PdXRGaWxlID0gb3BlbihwcmVkaWN0aW9ub3V0cHV0ZmlsZSwgJ3cnKQogICAgICAgICMgUmVhZCBmaWxlIGFuZCBjcmVhdGUgZmVhdHVyZV9kaWN0IGZvciBlYWNoIHJlY29yZAogICAgICAgIHdpdGggb3BlbihwcmVkaWN0aW9uaW5wdXRmaWxlKSBhcyBpbmY6CiAgICAgICAgICAgIGZvciBsaW5lIGluIGluZjogCiAgICAgICAgICAgICAgICBmZWF0dXJlX2RpY3QgPXRlc3RfaW5wdXRfZm4oKQogICAgICAgICAgICAgICAgIyBQcmVwYXJlIG1vZGVsIGlucHV0</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">CgoKI1RFU1RfQ1NWID0gb3MucGF0aC5qb2luKG9zLnBhdGguZGlybmFtZShfX2ZpbGVfXyksICcuLi9kYXRhL3Rlc3QuY3N2Jyk=</text>
+        <text encoding="base64">CiAgICAjIFdlIGNhbGwgcmVwZWF0IGFmdGVyIHNodWZmbGluZywgcmF0aGVyIHRoYW4gYmVmb3JlLCB0byBwcmV2ZW50IHNlcGFyYXRlCiAgICAjIGVwb2NocyBmcm9tIGJsZW5kaW5nIHRvZ2V0aGVyLg==</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">CgpjbGFzcyBCYXNlVGVzdCh0Zi50ZXN0LlRlc3RDYXNlKToKICAiIiJUZXN0cyBmb3IgV2lkZSBEZWVwIG1vZGVsLiIiIgoKICBAY2xhc3NtZXRob2QKICBkZWYgc2V0VXBDbGFzcyhjbHMpOiAgIyBweWxpbnQ6IGRpc2FibGU9aW52YWxpZC1uYW1lCiAgICBzdXBlcihCYXNlVGVzdCwgY2xzKS5zZXRVcENsYXNzKCkKICAgIGNlbnN1c19tYWluLmRlZmluZV9jZW5zdXNfZmxhZ3MoKQoKICBkZWYgc2V0VXAoc2VsZik6CiAgICAjIENyZWF0ZSB0ZW1wb3JhcnkgQ1NWIGZpbGUKICAgIHNlbGYudGVtcF9kaXIgPSBzZWxmLmdldF90ZW1wX2RpcigpCiAgICAjIHNlbGYuaW5wdXRfY3N2ID0gb3MucGF0aC5qb2luKHNlbGYudGVtcF9kaXIsICcuLi9kYXRhL3Rlc3QuY3N2JykKICAgIHNlbGYuaW5wdXRfY3N2ID0nLi4vZGF0YS90ZXN0LmNzdicKCiAgICB3aXRoIHRmLmdmaWxlLk9wZW4oVEVTVF9DU1YsICJyIikgYXMgdGVtcF9jc3Y6CiAgICAgIHRlc3RfY3N2X2NvbnRlbnRzID0gdGVtcF9jc3YucmVhZCgpCgogICAgIyBVc2VkIGZvciBlbmQtdG8tZW5kIHRlc3RzLgogICAgZm9yIGZuYW1lIGluIFtjZW5zdXNfZGF0YXNldC5UUkFJTklOR19GSUxFLCBjZW5zdXNfZGF0YXNldC5FVkFMX0ZJTEVdOgogICAgICB3aXRoIHRmLmdmaWxlLk9wZW4ob3MucGF0aC5qb2luKHNlbGYudGVtcF9kaXIsIGZuYW1lKSwgJ3cnKSBhcyB0ZXN0X2NzdjoKICAgICAgICB0ZXN0X2Nzdi53cml0ZSh0ZXN0X2Nzdl9jb250ZW50cyk=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbHVtbnMgPSB0Zi5kZWNvZGVfY3N2KHZhbHVlLCByZWNvcmRfZGVmYXVsdHM9X0NTVl9DT0xVTU5fREVGQVVMVFMpCiAgICAgICAgICAgICAgICBmZWF0dXJlcyA9IGRpY3QoemlwKF9DU1ZfQ09MVU1OUywgY29sdW1ucykp</text>
       </register>
       <register name="6" type="4">
-        <text>def build_and_test_estimator(self, model_type):
-    &quot;&quot;&quot;Ensure that model trains and minimizes loss.&quot;&quot;&quot;
-    model = census_main.build_estimator(
-        self.temp_dir, model_type,
-        model_column_fn=census_dataset.build_model_columns,
-        inter_op=0, intra_op=0)
-
-    # Train for 1 step to initialize model and evaluate initial loss
-    def get_input_fn(num_epochs, shuffle, batch_size):
-      def input_fn():
-        return census_dataset.input_fn(
-            TEST_CSV, num_epochs=num_epochs, shuffle=shuffle,
-            batch_size=batch_size)
-      return input_fn
-
-    model.train(input_fn=get_input_fn(1, True, 1), steps=1)
-    initial_results = model.evaluate(input_fn=get_input_fn(1, False, 1))
-
-    # Train for 100 epochs at batch size 3 and evaluate final loss
-    model.train(input_fn=get_input_fn(100, True, 3))
-    final_results = model.evaluate(input_fn=get_input_fn(1, False, 1))
-
-    print('%s initial results:' % model_type, initial_results)
-    print('%s final results:' % model_type, final_results)
-
-    # Ensure loss has decreased, while accuracy and both AUCs have increased.
-    self.assertLess(final_results['loss'], initial_results['loss'])
-    self.assertGreater(final_results['auc'], initial_results['auc'])
-    self.assertGreater(final_results['auc_precision_recall'],
-                       initial_results['auc_precision_recall'])
-    self.assertGreater(final_results['accuracy'], initial_results['accuracy'])
-
-  def test_wide_deep_estimator_training(self):
-    self.build_and_test_estimator('wide_deep')
-
-  def test_end_to_end_wide(self):
-    integration.run_synthetic(
-        main=census_main.main, tmp_root=self.get_temp_dir(),
-        extra_flags=[
-            '--data_dir', self.get_temp_dir(),
-            '--model_type', 'wide',
-            '--download_if_missing=false'
-        ],
-        synth=False, max_train=None)
-
-  def test_end_to_end_deep(self):
-    integration.run_synthetic(
-        main=census_main.main, tmp_root=self.get_temp_dir(),
-        extra_flags=[
-            '--data_dir', self.get_temp_dir(),
-            '--model_type', 'deep',
-            '--download_if_missing=false'
-        ],
-        synth=False, max_train=None)
-
-  def test_end_to_end_wide_deep(self):
-    integration.run_synthetic(
-        main=census_main.main, tmp_root=self.get_temp_dir(),
-        extra_flags=[
-            '--data_dir', self.get_temp_dir(),
-            '--model_type', 'wide_deep',
-            '--download_if_missing=false'
-        ],
-        synth=False, max_train=None)</text>
+        <text encoding="base64">ICAgICAgICAjV3JpdGUgSGVhZGVyIGZvciBDU1YgZmlsZQogICAgICAgIHByZWRpY3Rpb25fT3V0RmlsZS53cml0ZSgiYWdlLCB3b3JrY2xhc3MsIGZubHdndCwgZWR1Y2F0aW9uLCBlZHVjYXRpb25fbnVtLG1hcml0YWxfc3RhdHVzLCBvY2N1cGF0aW9uLCByZWxhdGlvbnNoaXAsIHJhY2UsIGdlbmRlcixjYXBpdGFsX2dhaW4sIGNhcGl0YWxfbG9zcywgaG91cnNfcGVyX3dlZWssIG5hdGl2ZV9jb3VudHJ5LHByZWRpY3RlZF9pbmNvbWVfYnJhY2tldCxwcm9iYWJpbGl0eSIpCiAgICAgICAgcHJlZGljdGlvbl9PdXRGaWxlLndyaXRlKCdcbicp</text>
       </register>
       <register name="7" type="4">
-        <text>class BaseTest(tf.test.TestCase):
-  &quot;&quot;&quot;Tests for Wide Deep model.&quot;&quot;&quot;
-
-  @classmethod
-  def setUpClass(cls):  # pylint: disable=invalid-name
-    super(BaseTest, cls).setUpClass()
-    census_main.define_census_flags()
-
-  def setUp(self):
-    # Create temporary CSV file
-    self.temp_dir = self.get_temp_dir()
-    # self.input_csv = os.path.join(self.temp_dir, '../data/test.csv')
-    self.input_csv ='../data/test.csv'
-
-    with tf.gfile.Open(TEST_CSV, &quot;r&quot;) as temp_csv:
-      test_csv_contents = temp_csv.read()
-
-    # Used for end-to-end tests.
-    for fname in [census_dataset.TRAINING_FILE, census_dataset.EVAL_FILE]:
-      with tf.gfile.Open(os.path.join(self.temp_dir, fname), 'w') as test_csv:
-        test_csv.write(test_csv_contents)</text>
+        <text encoding="base64">ICAgICAgICMgUmVhZCBkYXRhLCB1c2luZyBweXRob24sIGludG8gb3VyIGZlYXR1cmVzCiAgICAgICAgICAgICAgICBzZXJ2aWNlX3R5cGUsaXNfbWl4X3NlcnZpY2Usb25saW5lX3RpbWUsdG90YWxfZmVlXzEsdG90YWxfZmVlXzIsdG90YWxfZmVlXzMsdG90YWxfZmVlXzQsbW9udGhfdHJhZmZpYyxtYW55X292ZXJfYmlsbCxjb250cmFjdF90eXBlLGNvbnRyYWN0X3RpbWUsaXNfcHJvbWlzZV9sb3dfY29uc3VtZSxuZXRfc2VydmljZSxwYXlfdGltZXMscGF5X251bSxsYXN0X21vbnRoX3RyYWZmaWMsbG9jYWxfdHJhZmZmaWNfbW9udGgsbG9jYWxfY2FsbGVyX3RpbWUsc2VydmljZTFfY2FsbGVyX3RpbWUsc2VydmljZTJfY2FsbGVyX3RpbWUsZ2VuZGVyLGFnZSxjb21wbGFpbnRfbGV2ZWwsZm9ybWVyX2NvbXBsYWludF9udW0sZm9ybWVyX2NvbXBsYWludF9mZWUsdXNlcl9pZCA9IGxpbmUuc3RyaXAoKS5zcGxpdCgiLCIpCgogICAgICAgICAgICAgICAgIyBDcmVhdGUgYSBmZWF0dXJlX2RpY3QgZm9yIHRyYWluLmV4YW1wbGUgLSBHZXQgRmVhdHVyZSBDb2x1bW5zIHVzaWc=</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">ClRFU1RfSU5QVVQgPSAoJzE4LFNlbGYtZW1wLW5vdC1pbmMsOTg3LEJhY2hlbG9ycywxMixNYXJyaWVkLWNpdi1zcG91c2UsYWJjLCcKICAgICAgICAgICAgICAnSHVzYmFuZCx6eXgsd3Z1LDM0LDU2LDc4LHRzciw8PTUwSycpCgpURVNUX0lOUFVUX1ZBTFVFUyA9IHsKICAgICdhZ2UnOiAxOCwKICAgICdlZHVjYXRpb25fbnVtJzogMTIsCiAgICAnY2FwaXRhbF9nYWluJzogMzQsCiAgICAnY2FwaXRhbF9sb3NzJzogNTYsCiAgICAnaG91cnNfcGVyX3dlZWsnOiA3OCwKICAgICdlZHVjYXRpb24nOiAnQmFjaGVsb3JzJywKICAgICdtYXJpdGFsX3N0YXR1cyc6ICdNYXJyaWVkLWNpdi1zcG91c2UnLAogICAgJ3JlbGF0aW9uc2hpcCc6ICdIdXNiYW5kJywKICAgICd3b3JrY2xhc3MnOiAnU2VsZi1lbXAtbm90LWluYycsCiAgICAnb2NjdXBhdGlvbic6ICdhYmMnLAp9</text>
+        <text>&quot;service_type&quot;,
+                    &quot;is_mix_service&quot;,
+                    &quot;online_time&quot;,
+                    &quot;1_total_fee&quot;,
+                    &quot;2_total_fee&quot;,
+                    &quot;3_total_fee&quot;,
+                    &quot;4_total_fee&quot;,
+                    &quot;month_traffic&quot;,
+                    &quot;many_over_bill&quot;,
+                    &quot;contract_type&quot;,
+                    &quot;contract_time&quot;,
+                    &quot;is_promise_low_consume&quot;,
+                    &quot;net_service&quot;,
+                    &quot;pay_times&quot;,
+                    &quot;pay_num&quot;,
+                    &quot;last_month_traffic&quot;,
+                    &quot;local_trafffic_month&quot;,
+                    &quot;local_caller_time&quot;,
+                    &quot;service1_caller_time&quot;,
+                    &quot;service2_caller_time&quot;,
+                    &quot;gender&quot;,
+                    &quot;age&quot;,
+                    &quot;complaint_level&quot;,
+                    &quot;former_complaint_num&quot;,
+                    &quot;former_complaint_fee&quot;,
+                    &quot;user_id&quot;</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">CiAgZGVmIHRlc3RfaW5wdXRfZm4oc2VsZik6CiAgICBkYXRhc2V0ID0gY2Vuc3VzX2RhdGFzZXQuaW5wdXRfZm4oc2VsZi5pbnB1dF9jc3YsIDEsIEZhbHNlLCAxKQogICAgZmVhdHVyZXMsIGxhYmVscyA9IGRhdGFzZXQubWFrZV9vbmVfc2hvdF9pdGVyYXRvcigpLmdldF9uZXh0KCkKCiAgICB3aXRoIHNlbGYudGVzdF9zZXNzaW9uKCkgYXMgc2VzczoKICAgICAgZmVhdHVyZXMsIGxhYmVscyA9IHNlc3MucnVuKChmZWF0dXJlcywgbGFiZWxzKSkKCiAgICAgICMgQ29tcGFyZSB0aGUgdHdvIGZlYXR1cmVzIGRpY3Rpb25hcmllcy4KICAgICAgZm9yIGtleSBpbiBURVNUX0lOUFVUX1ZBTFVFUzoKICAgICAgICBzZWxmLmFzc2VydFRydWUoa2V5IGluIGZlYXR1cmVzKQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwobGVuKGZlYXR1cmVzW2tleV0pLCAxKQogICAgICAgIGZlYXR1cmVfdmFsdWUgPSBmZWF0dXJlc1trZXldWzBdCgogICAgICAgICMgQ29udmVydCBmcm9tIGJ5dGVzIHRvIHN0cmluZyBmb3IgUHl0aG9uIDMuCiAgICAgICAgaWYgaXNpbnN0YW5jZShmZWF0dXJlX3ZhbHVlLCBieXRlcyk6CiAgICAgICAgICBmZWF0dXJlX3ZhbHVlID0gZmVhdHVyZV92YWx1ZS5kZWNvZGUoKQoKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKFRFU1RfSU5QVVRfVkFMVUVTW2tleV0sIGZlYXR1cmVfdmFsdWUpCgogICAgICBzZWxmLmFzc2VydEZhbHNlKGxhYmVscyk=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAnYWdlJzogX2Zsb2F0X2ZlYXR1cmUodmFsdWU9aW50KGFnZSkpLAogICAgICAgICAgICAgICAgICAgICd3b3JrY2xhc3MnOiBfYnl0ZXNfZmVhdHVyZSh2YWx1ZT13b3JrY2xhc3MuZW5jb2RlKCkpLAogICAgICAgICAgICAgICAgICAgICdmbmx3Z3QnOiBfZmxvYXRfZmVhdHVyZSh2YWx1ZT1pbnQoZm5sd2d0KSksCiAgICAgICAgICAgICAgICAgICAgJ2VkdWNhdGlvbic6IF9ieXRlc19mZWF0dXJlKHZhbHVlPWVkdWNhdGlvbi5lbmNvZGUoKSksCiAgICAgICAgICAgICAgICAgICAgJ2VkdWNhdGlvbl9udW0nOiBfZmxvYXRfZmVhdHVyZSh2YWx1ZT1pbnQoZWR1Y2F0aW9uX251bSkpLAogICAgICAgICAgICAgICAgICAgICdtYXJpdGFsX3N0YXR1cyc6IF9ieXRlc19mZWF0dXJlKHZhbHVlPW1hcml0YWxfc3RhdHVzLmVuY29kZSgpKSwKICAgICAgICAgICAgICAgICAgICAnb2NjdXBhdGlvbic6IF9ieXRlc19mZWF0dXJlKHZhbHVlPW9jY3VwYXRpb24uZW5jb2RlKCkpLAogICAgICAgICAgICAgICAgICAgICdyZWxhdGlvbnNoaXAnOiBfYnl0ZXNfZmVhdHVyZSh2YWx1ZT1yZWxhdGlvbnNoaXAuZW5jb2RlKCkpLAogICAgICAgICAgICAgICAgICAgICdyYWNlJzogX2J5dGVzX2ZlYXR1cmUodmFsdWU9cmFjZS5lbmNvZGUoKSksCiAgICAgICAgICAgICAgICAgICAgJ2dlbmRlcic6IF9ieXRlc19mZWF0dXJlKHZhbHVlPWdlbmRlci5lbmNvZGUoKSksCiAgICAgICAgICAgICAgICAgICAgJ2NhcGl0YWxfZ2Fpbic6IF9mbG9hdF9mZWF0dXJlKHZhbHVlPWludChjYXBpdGFsX2dhaW4pKSwKICAgICAgICAgICAgICAgICAgICAnY2FwaXRhbF9sb3NzJzogX2Zsb2F0X2ZlYXR1cmUodmFsdWU9aW50KGNhcGl0YWxfbG9zcykpLAogICAgICAgICAgICAgICAgICAgICdob3Vyc19wZXJfd2Vlayc6IF9mbG9hdF9mZWF0dXJlKHZhbHVlPWZsb2F0KGhvdXJzX3Blcl93ZWVrKSksCiAgICAgICAgICAgICAgICAgICAgJ25hdGl2ZV9jb3VudHJ5JzogX2J5dGVzX2ZlYXR1cmUodmFsdWU9bmF0aXZlX2NvdW50cnkuZW5jb2RlKCkpLA==</text>
       </register>
     </registers>
     <search>
