@@ -15,7 +15,7 @@
       <file name="/a.dummy" timestamp="1536652145767">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_main.py" timestamp="1536650274357">
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_main.py" timestamp="1536663247944">
         <mark key="[" line="24" column="39" />
         <mark key="]" line="8" column="0" />
         <mark key="." line="8" column="0" />
@@ -46,7 +46,11 @@
         <mark key="." line="73" column="23" />
         <mark key="o" line="49" column="38" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/wide_deep_predict.py" timestamp="1536661421883" />
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/wide_deep_predict.py" timestamp="1536663408440">
+        <mark key="[" line="44" column="0" />
+        <mark key="]" line="44" column="0" />
+        <mark key="." line="44" column="0" />
+      </file>
       <file name="$USER_HOME$/workplace/BDCI/__init__.py" timestamp="1536628825812">
         <mark key="[" line="0" column="0" />
       </file>
@@ -86,7 +90,24 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">CiAgICBwcmVkaWN0aW9uX091dEZpbGUuY2xvc2UoKQoKCmRlZiBfZmxvYXRfZmVhdHVyZSh2YWx1ZSk6CiAgICByZXR1cm4gdGYudHJhaW4uRmVhdHVyZShmbG9hdF9saXN0PXRmLnRyYWluLkZsb2F0TGlzdCh2YWx1ZT1bdmFsdWVdKSkKCgpkZWYgX2J5dGVzX2ZlYXR1cmUodmFsdWUpOgogICAgcmV0dXJuIHRmLnRyYWluLkZlYXR1cmUoYnl0ZXNfbGlzdD10Zi50cmFpbi5CeXRlc0xpc3QodmFsdWU9W3ZhbHVlXSkpCgoKZGVmIF9pbnQ2NF9mZWF0dXJlKHZhbHVlKToKICAgIHJldHVybiB0Zi50cmFpbi5GZWF0dXJlKGludDY0X2xpc3Q9dGYudHJhaW4uSW50NjRMaXN0KHZhbHVlPVt2YWx1ZV0pKQ==</text>
+        <text>def main():
+    with tf.Session() as sess:
+        print(&quot;start...&quot;)
+        # load the saved model
+        tf.saved_model.loader.load(sess, [tf.saved_model.tag_constants.SERVING], exported_path)
+
+        # get the predictor , refer tf.contrib.predictor
+        predictor = tf.contrib.predictor.from_saved_model(exported_path)
+        feature_dict=test_input_fn()
+        model_input = tf.train.Example(features=tf.train.Features(feature=feature_dict))
+        model_input = model_input.SerializeToString()
+        output_dict = predictor({&quot;inputs&quot;: [feature_dict]})
+
+        print(&quot; prediction Label is &quot;, output_dict['classes'])
+        print('Probability : ' + str(output_dict['scores']))
+
+                # Positive label = 1
+        label_index = np.argmax(output_dict['scores'])</text>
       </register>
       <register name="-" type="4">
         <text />
@@ -98,27 +119,47 @@
         <text encoding="base64">b3MuZW52aXJvblsnQ1VEQV9WSVNJQkxFX0RFVklDRVMnXSA9ICcwJwo=</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">CiAgICBwcmVkaWN0aW9uX091dEZpbGUuY2xvc2UoKQoKCmRlZiBfZmxvYXRfZmVhdHVyZSh2YWx1ZSk6CiAgICByZXR1cm4gdGYudHJhaW4uRmVhdHVyZShmbG9hdF9saXN0PXRmLnRyYWluLkZsb2F0TGlzdCh2YWx1ZT1bdmFsdWVdKSkKCgpkZWYgX2J5dGVzX2ZlYXR1cmUodmFsdWUpOgogICAgcmV0dXJuIHRmLnRyYWluLkZlYXR1cmUoYnl0ZXNfbGlzdD10Zi50cmFpbi5CeXRlc0xpc3QodmFsdWU9W3ZhbHVlXSkpCgoKZGVmIF9pbnQ2NF9mZWF0dXJlKHZhbHVlKToKICAgIHJldHVybiB0Zi50cmFpbi5GZWF0dXJlKGludDY0X2xpc3Q9dGYudHJhaW4uSW50NjRMaXN0KHZhbHVlPVt2YWx1ZV0pKQ==</text>
+        <text>def main():
+    with tf.Session() as sess:
+        print(&quot;start...&quot;)
+        # load the saved model
+        tf.saved_model.loader.load(sess, [tf.saved_model.tag_constants.SERVING], exported_path)
+
+        # get the predictor , refer tf.contrib.predictor
+        predictor = tf.contrib.predictor.from_saved_model(exported_path)
+        feature_dict=test_input_fn()
+        model_input = tf.train.Example(features=tf.train.Features(feature=feature_dict))
+        model_input = model_input.SerializeToString()
+        output_dict = predictor({&quot;inputs&quot;: [feature_dict]})
+
+        print(&quot; prediction Label is &quot;, output_dict['classes'])
+        print('Probability : ' + str(output_dict['scores']))
+
+                # Positive label = 1
+        label_index = np.argmax(output_dict['scores'])</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">ICAgICAgICBwcmVkaWN0aW9uX091dEZpbGUud3JpdGUoc3RyKGxhYmVsX2luZGV4KSkKICAgICAgICAgICAgICAgIHByZWRpY3Rpb25fT3V0RmlsZS53cml0ZSgnLCcpCiAgICAgICAgICAgICAgICBwcmVkaWN0aW9uX091dEZpbGUud3JpdGUoc3RyKG91dHB1dF9kaWN0WydzY29yZXMnXVswXVtsYWJlbF9pbmRleF0pKQogICAgICAgICAgICAgICAgcHJlZGljdGlvbl9PdXRGaWxlLndyaXRlKCdcbicp</text>
+        <text encoding="base64">CiAgICBwcmVkaWN0aW9uX091dEZpbGUuY2xvc2UoKQoKCmRlZiBfZmxvYXRfZmVhdHVyZSh2YWx1ZSk6CiAgICByZXR1cm4gdGYudHJhaW4uRmVhdHVyZShmbG9hdF9saXN0PXRmLnRyYWluLkZsb2F0TGlzdCh2YWx1ZT1bdmFsdWVdKSkKCgpkZWYgX2J5dGVzX2ZlYXR1cmUodmFsdWUpOgogICAgcmV0dXJuIHRmLnRyYWluLkZlYXR1cmUoYnl0ZXNfbGlzdD10Zi50cmFpbi5CeXRlc0xpc3QodmFsdWU9W3ZhbHVlXSkpCgoKZGVmIF9pbnQ2NF9mZWF0dXJlKHZhbHVlKToKICAgIHJldHVybiB0Zi50cmFpbi5GZWF0dXJlKGludDY0X2xpc3Q9dGYudHJhaW4uSW50NjRMaXN0KHZhbHVlPVt2YWx1ZV0pKQ==</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">CiAgICAgICAgcHJlZGljdGlvbl9PdXRGaWxlID0gb3BlbihwcmVkaWN0aW9ub3V0cHV0ZmlsZSwgJ3cnKQogICAgICAgICMgUmVhZCBmaWxlIGFuZCBjcmVhdGUgZmVhdHVyZV9kaWN0IGZvciBlYWNoIHJlY29yZAogICAgICAgIHdpdGggb3BlbihwcmVkaWN0aW9uaW5wdXRmaWxlKSBhcyBpbmY6CiAgICAgICAgICAgIGZvciBsaW5lIGluIGluZjogCiAgICAgICAgICAgICAgICBmZWF0dXJlX2RpY3QgPXRlc3RfaW5wdXRfZm4oKQogICAgICAgICAgICAgICAgIyBQcmVwYXJlIG1vZGVsIGlucHV0</text>
+        <text encoding="base64">ICAgICAgICBwcmVkaWN0aW9uX091dEZpbGUud3JpdGUoc3RyKGxhYmVsX2luZGV4KSkKICAgICAgICAgICAgICAgIHByZWRpY3Rpb25fT3V0RmlsZS53cml0ZSgnLCcpCiAgICAgICAgICAgICAgICBwcmVkaWN0aW9uX091dEZpbGUud3JpdGUoc3RyKG91dHB1dF9kaWN0WydzY29yZXMnXVswXVtsYWJlbF9pbmRleF0pKQogICAgICAgICAgICAgICAgcHJlZGljdGlvbl9PdXRGaWxlLndyaXRlKCdcbicp</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">CiAgICAjIFdlIGNhbGwgcmVwZWF0IGFmdGVyIHNodWZmbGluZywgcmF0aGVyIHRoYW4gYmVmb3JlLCB0byBwcmV2ZW50IHNlcGFyYXRlCiAgICAjIGVwb2NocyBmcm9tIGJsZW5kaW5nIHRvZ2V0aGVyLg==</text>
+        <text encoding="base64">CiAgICAgICAgcHJlZGljdGlvbl9PdXRGaWxlID0gb3BlbihwcmVkaWN0aW9ub3V0cHV0ZmlsZSwgJ3cnKQogICAgICAgICMgUmVhZCBmaWxlIGFuZCBjcmVhdGUgZmVhdHVyZV9kaWN0IGZvciBlYWNoIHJlY29yZAogICAgICAgIHdpdGggb3BlbihwcmVkaWN0aW9uaW5wdXRmaWxlKSBhcyBpbmY6CiAgICAgICAgICAgIGZvciBsaW5lIGluIGluZjogCiAgICAgICAgICAgICAgICBmZWF0dXJlX2RpY3QgPXRlc3RfaW5wdXRfZm4oKQogICAgICAgICAgICAgICAgIyBQcmVwYXJlIG1vZGVsIGlucHV0</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbHVtbnMgPSB0Zi5kZWNvZGVfY3N2KHZhbHVlLCByZWNvcmRfZGVmYXVsdHM9X0NTVl9DT0xVTU5fREVGQVVMVFMpCiAgICAgICAgICAgICAgICBmZWF0dXJlcyA9IGRpY3QoemlwKF9DU1ZfQ09MVU1OUywgY29sdW1ucykp</text>
+        <text encoding="base64">CiAgICAjIFdlIGNhbGwgcmVwZWF0IGFmdGVyIHNodWZmbGluZywgcmF0aGVyIHRoYW4gYmVmb3JlLCB0byBwcmV2ZW50IHNlcGFyYXRlCiAgICAjIGVwb2NocyBmcm9tIGJsZW5kaW5nIHRvZ2V0aGVyLg==</text>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">ICAgICAgICAjV3JpdGUgSGVhZGVyIGZvciBDU1YgZmlsZQogICAgICAgIHByZWRpY3Rpb25fT3V0RmlsZS53cml0ZSgiYWdlLCB3b3JrY2xhc3MsIGZubHdndCwgZWR1Y2F0aW9uLCBlZHVjYXRpb25fbnVtLG1hcml0YWxfc3RhdHVzLCBvY2N1cGF0aW9uLCByZWxhdGlvbnNoaXAsIHJhY2UsIGdlbmRlcixjYXBpdGFsX2dhaW4sIGNhcGl0YWxfbG9zcywgaG91cnNfcGVyX3dlZWssIG5hdGl2ZV9jb3VudHJ5LHByZWRpY3RlZF9pbmNvbWVfYnJhY2tldCxwcm9iYWJpbGl0eSIpCiAgICAgICAgcHJlZGljdGlvbl9PdXRGaWxlLndyaXRlKCdcbicp</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbHVtbnMgPSB0Zi5kZWNvZGVfY3N2KHZhbHVlLCByZWNvcmRfZGVmYXVsdHM9X0NTVl9DT0xVTU5fREVGQVVMVFMpCiAgICAgICAgICAgICAgICBmZWF0dXJlcyA9IGRpY3QoemlwKF9DU1ZfQ09MVU1OUywgY29sdW1ucykp</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">ICAgICAgICMgUmVhZCBkYXRhLCB1c2luZyBweXRob24sIGludG8gb3VyIGZlYXR1cmVzCiAgICAgICAgICAgICAgICBzZXJ2aWNlX3R5cGUsaXNfbWl4X3NlcnZpY2Usb25saW5lX3RpbWUsdG90YWxfZmVlXzEsdG90YWxfZmVlXzIsdG90YWxfZmVlXzMsdG90YWxfZmVlXzQsbW9udGhfdHJhZmZpYyxtYW55X292ZXJfYmlsbCxjb250cmFjdF90eXBlLGNvbnRyYWN0X3RpbWUsaXNfcHJvbWlzZV9sb3dfY29uc3VtZSxuZXRfc2VydmljZSxwYXlfdGltZXMscGF5X251bSxsYXN0X21vbnRoX3RyYWZmaWMsbG9jYWxfdHJhZmZmaWNfbW9udGgsbG9jYWxfY2FsbGVyX3RpbWUsc2VydmljZTFfY2FsbGVyX3RpbWUsc2VydmljZTJfY2FsbGVyX3RpbWUsZ2VuZGVyLGFnZSxjb21wbGFpbnRfbGV2ZWwsZm9ybWVyX2NvbXBsYWludF9udW0sZm9ybWVyX2NvbXBsYWludF9mZWUsdXNlcl9pZCA9IGxpbmUuc3RyaXAoKS5zcGxpdCgiLCIpCgogICAgICAgICAgICAgICAgIyBDcmVhdGUgYSBmZWF0dXJlX2RpY3QgZm9yIHRyYWluLmV4YW1wbGUgLSBHZXQgRmVhdHVyZSBDb2x1bW5zIHVzaWc=</text>
+        <text encoding="base64">ICAgICAgICAjV3JpdGUgSGVhZGVyIGZvciBDU1YgZmlsZQogICAgICAgIHByZWRpY3Rpb25fT3V0RmlsZS53cml0ZSgiYWdlLCB3b3JrY2xhc3MsIGZubHdndCwgZWR1Y2F0aW9uLCBlZHVjYXRpb25fbnVtLG1hcml0YWxfc3RhdHVzLCBvY2N1cGF0aW9uLCByZWxhdGlvbnNoaXAsIHJhY2UsIGdlbmRlcixjYXBpdGFsX2dhaW4sIGNhcGl0YWxfbG9zcywgaG91cnNfcGVyX3dlZWssIG5hdGl2ZV9jb3VudHJ5LHByZWRpY3RlZF9pbmNvbWVfYnJhY2tldCxwcm9iYWJpbGl0eSIpCiAgICAgICAgcHJlZGljdGlvbl9PdXRGaWxlLndyaXRlKCdcbicp</text>
       </register>
       <register name="8" type="4">
+        <text encoding="base64">ICAgICAgICMgUmVhZCBkYXRhLCB1c2luZyBweXRob24sIGludG8gb3VyIGZlYXR1cmVzCiAgICAgICAgICAgICAgICBzZXJ2aWNlX3R5cGUsaXNfbWl4X3NlcnZpY2Usb25saW5lX3RpbWUsdG90YWxfZmVlXzEsdG90YWxfZmVlXzIsdG90YWxfZmVlXzMsdG90YWxfZmVlXzQsbW9udGhfdHJhZmZpYyxtYW55X292ZXJfYmlsbCxjb250cmFjdF90eXBlLGNvbnRyYWN0X3RpbWUsaXNfcHJvbWlzZV9sb3dfY29uc3VtZSxuZXRfc2VydmljZSxwYXlfdGltZXMscGF5X251bSxsYXN0X21vbnRoX3RyYWZmaWMsbG9jYWxfdHJhZmZmaWNfbW9udGgsbG9jYWxfY2FsbGVyX3RpbWUsc2VydmljZTFfY2FsbGVyX3RpbWUsc2VydmljZTJfY2FsbGVyX3RpbWUsZ2VuZGVyLGFnZSxjb21wbGFpbnRfbGV2ZWwsZm9ybWVyX2NvbXBsYWludF9udW0sZm9ybWVyX2NvbXBsYWludF9mZWUsdXNlcl9pZCA9IGxpbmUuc3RyaXAoKS5zcGxpdCgiLCIpCgogICAgICAgICAgICAgICAgIyBDcmVhdGUgYSBmZWF0dXJlX2RpY3QgZm9yIHRyYWluLmV4YW1wbGUgLSBHZXQgRmVhdHVyZSBDb2x1bW5zIHVzaWc=</text>
+      </register>
+      <register name="9" type="4">
         <text>&quot;service_type&quot;,
                     &quot;is_mix_service&quot;,
                     &quot;online_time&quot;,
@@ -145,9 +186,6 @@
                     &quot;former_complaint_num&quot;,
                     &quot;former_complaint_fee&quot;,
                     &quot;user_id&quot;</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAnYWdlJzogX2Zsb2F0X2ZlYXR1cmUodmFsdWU9aW50KGFnZSkpLAogICAgICAgICAgICAgICAgICAgICd3b3JrY2xhc3MnOiBfYnl0ZXNfZmVhdHVyZSh2YWx1ZT13b3JrY2xhc3MuZW5jb2RlKCkpLAogICAgICAgICAgICAgICAgICAgICdmbmx3Z3QnOiBfZmxvYXRfZmVhdHVyZSh2YWx1ZT1pbnQoZm5sd2d0KSksCiAgICAgICAgICAgICAgICAgICAgJ2VkdWNhdGlvbic6IF9ieXRlc19mZWF0dXJlKHZhbHVlPWVkdWNhdGlvbi5lbmNvZGUoKSksCiAgICAgICAgICAgICAgICAgICAgJ2VkdWNhdGlvbl9udW0nOiBfZmxvYXRfZmVhdHVyZSh2YWx1ZT1pbnQoZWR1Y2F0aW9uX251bSkpLAogICAgICAgICAgICAgICAgICAgICdtYXJpdGFsX3N0YXR1cyc6IF9ieXRlc19mZWF0dXJlKHZhbHVlPW1hcml0YWxfc3RhdHVzLmVuY29kZSgpKSwKICAgICAgICAgICAgICAgICAgICAnb2NjdXBhdGlvbic6IF9ieXRlc19mZWF0dXJlKHZhbHVlPW9jY3VwYXRpb24uZW5jb2RlKCkpLAogICAgICAgICAgICAgICAgICAgICdyZWxhdGlvbnNoaXAnOiBfYnl0ZXNfZmVhdHVyZSh2YWx1ZT1yZWxhdGlvbnNoaXAuZW5jb2RlKCkpLAogICAgICAgICAgICAgICAgICAgICdyYWNlJzogX2J5dGVzX2ZlYXR1cmUodmFsdWU9cmFjZS5lbmNvZGUoKSksCiAgICAgICAgICAgICAgICAgICAgJ2dlbmRlcic6IF9ieXRlc19mZWF0dXJlKHZhbHVlPWdlbmRlci5lbmNvZGUoKSksCiAgICAgICAgICAgICAgICAgICAgJ2NhcGl0YWxfZ2Fpbic6IF9mbG9hdF9mZWF0dXJlKHZhbHVlPWludChjYXBpdGFsX2dhaW4pKSwKICAgICAgICAgICAgICAgICAgICAnY2FwaXRhbF9sb3NzJzogX2Zsb2F0X2ZlYXR1cmUodmFsdWU9aW50KGNhcGl0YWxfbG9zcykpLAogICAgICAgICAgICAgICAgICAgICdob3Vyc19wZXJfd2Vlayc6IF9mbG9hdF9mZWF0dXJlKHZhbHVlPWZsb2F0KGhvdXJzX3Blcl93ZWVrKSksCiAgICAgICAgICAgICAgICAgICAgJ25hdGl2ZV9jb3VudHJ5JzogX2J5dGVzX2ZlYXR1cmUodmFsdWU9bmF0aXZlX2NvdW50cnkuZW5jb2RlKCkpLA==</text>
       </register>
     </registers>
     <search>
