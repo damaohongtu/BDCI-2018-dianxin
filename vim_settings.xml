@@ -3,9 +3,9 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_dataset.py" timestamp="1536641966289">
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_dataset.py" timestamp="1536647598524">
         <mark key="'" line="35" column="45" />
-        <mark key="[" line="41" column="66" />
+        <mark key="[" line="18" column="61" />
         <mark key="]" line="41" column="66" />
         <mark key="." line="41" column="66" />
       </file>
@@ -15,7 +15,6 @@
       <file name="$USER_HOME$/workplace/BDCI/__init__.py" timestamp="1536628825812">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/data/preprocessed_test.csv" timestamp="1536641742350" />
       <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_main.py" timestamp="1536633096933">
         <mark key="[" line="3" column="0" />
         <mark key="]" line="8" column="0" />
@@ -30,7 +29,7 @@
       <file name="$USER_HOME$/workplace/BDCI/utils/testing/integration.py" timestamp="1536585954206">
         <mark key="[" line="28" column="14" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_predict.py" timestamp="1536587078946">
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_predict.py" timestamp="1536647356100">
         <mark key="[" line="14" column="42" />
         <mark key="]" line="14" column="42" />
         <mark key="." line="14" column="42" />
@@ -40,6 +39,7 @@
         <mark key="]" line="16" column="11" />
         <mark key="." line="16" column="11" />
       </file>
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/wide_deep_run_loop.py" timestamp="1536647314794" />
       <file name="$USER_HOME$/workplace/experiment/https_project/train.py" timestamp="1536301340898">
         <mark key="[" line="16" column="2" />
       </file>
@@ -87,8 +87,10 @@
         <mark key="." line="73" column="23" />
         <mark key="o" line="49" column="38" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/test.py" timestamp="1536587040505">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/test.py" timestamp="1536646418203">
+        <mark key="[" line="8" column="8" />
+        <mark key="]" line="8" column="8" />
+        <mark key="." line="8" column="8" />
       </file>
     </filemarks>
     <jumps>
@@ -98,10 +100,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>,normalizer_fn=lambda x:x/60.0)</text>
+        <text>self.temp</text>
       </register>
       <register name="-" type="4">
-        <text>,normalizer_fn=lambda x:x/60.0)</text>
+        <text>self.temp</text>
       </register>
       <register name="/" type="4">
         <text>IMAGE</text>
