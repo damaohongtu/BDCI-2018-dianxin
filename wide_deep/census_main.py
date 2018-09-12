@@ -1,15 +1,16 @@
 """Train DNN on census income dataset."""
 
 import os
-
+import sys
+sys.path.append("/home/tm/workplace/BDCI")
 from absl import app as absl_app
 from absl import flags
 import tensorflow as tf
 
 from utils.flags import core as flags_core
 from utils.logs import logger
-from wide_deep import census_dataset
-from wide_deep import wide_deep_run_loop
+import census_dataset
+import wide_deep_run_loop
 
 
 def define_census_flags():
@@ -21,7 +22,7 @@ def define_census_flags():
                           epochs_between_evals=2,
                           inter_op_parallelism_threads=0,
                           intra_op_parallelism_threads=0,
-                          batch_size=40)
+                          batch_size=128)
 
 
 def build_estimator(model_dir, model_type, model_column_fn, inter_op, intra_op):
