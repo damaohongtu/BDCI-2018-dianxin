@@ -3,13 +3,16 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_dataset.py" timestamp="1536656532810">
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_dataset.py" timestamp="1536714493809">
         <mark key="'" line="35" column="45" />
-        <mark key="[" line="92" column="55" />
+        <mark key="[" line="79" column="10" />
         <mark key="]" line="41" column="66" />
         <mark key="." line="41" column="66" />
       </file>
       <file name="/Python Console" timestamp="1536586181588">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/__init__.py" timestamp="1536628825812">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/a.dummy" timestamp="1536652145767">
@@ -26,37 +29,13 @@
       <file name="$USER_HOME$/workplace/BDCI/is_similar.py" timestamp="1536497984162">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/BDCI/utils/testing/integration.py" timestamp="1536585954206">
+        <mark key="[" line="28" column="14" />
+      </file>
       <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_predict.py" timestamp="1536647356100">
         <mark key="[" line="14" column="42" />
         <mark key="]" line="14" column="42" />
         <mark key="." line="14" column="42" />
-      </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/wide_deep_run_loop.py" timestamp="1536664803040" />
-      <file name="$USER_HOME$/workplace/BDCI/utils/data/split_data.py" timestamp="1536557621917">
-        <mark key="[" line="1" column="0" />
-      </file>
-      <file name="$USER_HOME$/workplace/BDCI/tool/split_data.py" timestamp="1536581037407">
-        <mark key="[" line="18" column="0" />
-        <mark key="]" line="18" column="0" />
-        <mark key="." line="18" column="0" />
-      </file>
-      <file name="$USER_HOME$/workplace/BDCI/input/preprocess.py" timestamp="1536641605443">
-        <mark key="[" line="73" column="23" />
-        <mark key="]" line="73" column="23" />
-        <mark key="." line="73" column="23" />
-        <mark key="o" line="49" column="38" />
-      </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/wide_deep_predict.py" timestamp="1536664936722">
-        <mark key="[" line="43" column="0" />
-        <mark key="]" line="43" column="0" />
-        <mark key="." line="43" column="0" />
-      </file>
-      <file name="$USER_HOME$/workplace/BDCI/__init__.py" timestamp="1536628825812">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/wide_deep.py" timestamp="1536649102616" />
-      <file name="$USER_HOME$/workplace/BDCI/utils/testing/integration.py" timestamp="1536585954206">
-        <mark key="[" line="28" column="14" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/wide_deep/wide_and_deep.py" timestamp="1536575719230">
         <mark key="[" line="16" column="11" />
@@ -75,12 +54,30 @@
       <file name="$USER_HOME$/workplace/BDCI/code/split_data.py" timestamp="1536558200428">
         <mark key="[" line="7" column="17" />
       </file>
+      <file name="$USER_HOME$/workplace/BDCI/utils/data/split_data.py" timestamp="1536557621917">
+        <mark key="[" line="1" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/tool/split_data.py" timestamp="1536581037407">
+        <mark key="[" line="18" column="0" />
+        <mark key="]" line="18" column="0" />
+        <mark key="." line="18" column="0" />
+      </file>
       <file name="$USER_HOME$/workplace/BDCI/EDA/EDA.md" timestamp="1536563842159">
         <mark key="[" line="87" column="18" />
         <mark key="]" line="87" column="18" />
         <mark key="." line="87" column="18" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/proprecess.py" timestamp="1536666247755" />
+      <file name="$USER_HOME$/workplace/BDCI/input/preprocess.py" timestamp="1536641605443">
+        <mark key="[" line="73" column="23" />
+        <mark key="]" line="73" column="23" />
+        <mark key="." line="73" column="23" />
+        <mark key="o" line="49" column="38" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/wide_deep_predict.py" timestamp="1536664936722">
+        <mark key="[" line="43" column="0" />
+        <mark key="]" line="43" column="0" />
+        <mark key="." line="43" column="0" />
+      </file>
       <file name="$USER_HOME$/workplace/BDCI/wide_deep/test.py" timestamp="1536646418203">
         <mark key="[" line="8" column="8" />
         <mark key="]" line="8" column="8" />
