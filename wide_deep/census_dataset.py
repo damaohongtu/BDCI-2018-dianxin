@@ -75,17 +75,23 @@ def build_model_columns():
 
   crossed_columns = [
       tf.feature_column.crossed_column(
-          ['service_type', 'is_mix_service'], hash_bucket_size=_HASH_BUCKET_SIZE),
+          ['gender','service_type', 'is_mix_service'], hash_bucket_size=_HASH_BUCKET_SIZE),
       tf.feature_column.crossed_column(
-          [age_buckets, 'gender', 'complaint_level'],
-          hash_bucket_size=_HASH_BUCKET_SIZE),
+          ['service_type','is_mix_service',age_buckets, 'gender', 'complaint_level'],hash_bucket_size=_HASH_BUCKET_SIZE),
+      tf.feature_column.crossed_column(
+          ['is_promise_low_consume', 'net_service','many_over_bill','complaint_level'],hash_bucket_size=_HASH_BUCKET_SIZE),
   ]
 
   wide_columns = base_columns + crossed_columns
 
   deep_columns = [online_time,total_fee_1,total_fee_2,total_fee_3,total_fee_4,month_traffic,
                   contract_time,pay_times,pay_num,last_month_traffic,local_trafffic_month,
-                  local_caller_time,service1_caller_time,service2_caller_time,former_complaint_num,former_complaint_fee]
+                  local_caller_time,service1_caller_time,service2_caller_time,former_complaint_num,former_complaint_fee,
+                  tf.feature_column.indicator_column(service_type),
+                  tf.feature_column.indicator_column(many_over_bill),
+                  tf.feature_column.indicator_column(contract_type),
+                  tf.feature_column.embedding_column(complaint_level,dimension=8)
+                  ]
 
   return wide_columns, deep_columns
 

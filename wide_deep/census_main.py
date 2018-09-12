@@ -18,7 +18,8 @@ def define_census_flags():
   flags.adopt_module_key_flags(wide_deep_run_loop)
   flags_core.set_defaults(data_dir='../data',
                           model_dir='./census_model',
-                          train_epochs=40,
+                          train_epochs=100,
+                          model_type='wide_deep',
                           epochs_between_evals=2,
                           inter_op_parallelism_threads=0,
                           intra_op_parallelism_threads=0,
@@ -28,7 +29,7 @@ def define_census_flags():
 def build_estimator(model_dir, model_type, model_column_fn, inter_op, intra_op):
   """Build an estimator appropriate for the given model type."""
   wide_columns, deep_columns = model_column_fn()
-  hidden_units = [100, 75, 50, 25]
+  hidden_units = [128, 256, 512]
 
   # Create a tf.estimator.RunConfig to ensure the model is run on CPU, which
   # trains faster than GPU for this model.
