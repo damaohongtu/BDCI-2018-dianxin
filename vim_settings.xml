@@ -1,0 +1,240 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="true" />
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_dataset.py" timestamp="1536747415481">
+        <mark key="'" line="35" column="45" />
+        <mark key="[" line="79" column="10" />
+        <mark key="]" line="41" column="66" />
+        <mark key="." line="41" column="66" />
+      </file>
+      <file name="/Python Console" timestamp="1536732715295">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/a.dummy" timestamp="1536652145767">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_main.py" timestamp="1536721785311">
+        <mark key="[" line="20" column="41" />
+        <mark key="]" line="8" column="0" />
+        <mark key="." line="8" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/wide_deep/python/lib/read_conf.py" timestamp="1536733926675">
+        <mark key="[" line="162" column="46" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/https/test.py" timestamp="1536403486042">
+        <mark key="[" line="11" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/is_similar.py" timestamp="1536497984162">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_predict.py" timestamp="1536647356100">
+        <mark key="[" line="14" column="42" />
+        <mark key="]" line="14" column="42" />
+        <mark key="." line="14" column="42" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/utils/data/split_data.py" timestamp="1536557621917">
+        <mark key="[" line="1" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/tool/split_data.py" timestamp="1536581037407">
+        <mark key="[" line="18" column="0" />
+        <mark key="]" line="18" column="0" />
+        <mark key="." line="18" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/input/preprocess.py" timestamp="1536641605443">
+        <mark key="[" line="73" column="23" />
+        <mark key="]" line="73" column="23" />
+        <mark key="." line="73" column="23" />
+        <mark key="o" line="49" column="38" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/wide_deep_predict.py" timestamp="1536664936722">
+        <mark key="[" line="43" column="0" />
+        <mark key="]" line="43" column="0" />
+        <mark key="." line="43" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/lightGBM.py" timestamp="1536800142157" />
+      <file name="$USER_HOME$/workplace/BDCI/__init__.py" timestamp="1536628825812">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/wide_deep/python/train.py" timestamp="1536733965281">
+        <mark key="[" line="174" column="67" />
+      </file>
+      <file name="$USER_HOME$/.conda/envs/shanshan/lib/python3.6/site-packages/tensorflow/python/estimator/canned/dnn_linear_combined.py" timestamp="1536726413760">
+        <mark key="[" line="320" column="36" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/utils/testing/integration.py" timestamp="1536585954206">
+        <mark key="[" line="28" column="14" />
+      </file>
+      <file name="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/python/feature_column/feature_column.py" timestamp="1536734175526">
+        <mark key="[" line="1486" column="39" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/wide_and_deep.py" timestamp="1536575719230">
+        <mark key="[" line="16" column="11" />
+        <mark key="]" line="16" column="11" />
+        <mark key="." line="16" column="11" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/https_project/train.py" timestamp="1536301340898">
+        <mark key="[" line="16" column="2" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/predict_concat.py" timestamp="1536666380631">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/data/test.py" timestamp="1536485067998">
+        <mark key="[" line="4" column="31" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/code/split_data.py" timestamp="1536558200428">
+        <mark key="[" line="7" column="17" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/EDA/EDA.md" timestamp="1536563842159">
+        <mark key="[" line="87" column="18" />
+        <mark key="]" line="87" column="18" />
+        <mark key="." line="87" column="18" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/test.py" timestamp="1536646418203">
+        <mark key="[" line="8" column="8" />
+        <mark key="]" line="8" column="8" />
+        <mark key="." line="8" column="8" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="57" column="23" filename="$USER_HOME$/workplace/BDCI/input/preprocess.py" />
+      <jump line="48" column="40" filename="$USER_HOME$/workplace/BDCI/wide_deep/census_dataset.py" />
+      <jump line="49" column="45" filename="$USER_HOME$/workplace/BDCI/wide_deep/census_dataset.py" />
+    </jumps>
+    <registers>
+      <register name="&quot;" type="4">
+        <text>def main():
+    with tf.Session() as sess:
+        print(&quot;start...&quot;)
+        # load the saved model
+        tf.saved_model.loader.load(sess, [tf.saved_model.tag_constants.SERVING], exported_path)
+
+        # get the predictor , refer tf.contrib.predictor
+        predictor = tf.contrib.predictor.from_saved_model(exported_path)
+        feature_dict=test_input_fn()
+        model_input = tf.train.Example(features=tf.train.Features(feature=feature_dict))
+        model_input = model_input.SerializeToString()
+        output_dict = predictor({&quot;inputs&quot;: [feature_dict]})
+
+        print(&quot; prediction Label is &quot;, output_dict['classes'])
+        print('Probability : ' + str(output_dict['scores']))
+
+                # Positive label = 1
+        label_index = np.argmax(output_dict['scores'])</text>
+      </register>
+      <register name="-" type="4">
+        <text />
+      </register>
+      <register name="/" type="4">
+        <text>IMAGE</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">b3MuZW52aXJvblsnQ1VEQV9WSVNJQkxFX0RFVklDRVMnXSA9ICcwJwo=</text>
+      </register>
+      <register name="1" type="4">
+        <text>def main():
+    with tf.Session() as sess:
+        print(&quot;start...&quot;)
+        # load the saved model
+        tf.saved_model.loader.load(sess, [tf.saved_model.tag_constants.SERVING], exported_path)
+
+        # get the predictor , refer tf.contrib.predictor
+        predictor = tf.contrib.predictor.from_saved_model(exported_path)
+        feature_dict=test_input_fn()
+        model_input = tf.train.Example(features=tf.train.Features(feature=feature_dict))
+        model_input = model_input.SerializeToString()
+        output_dict = predictor({&quot;inputs&quot;: [feature_dict]})
+
+        print(&quot; prediction Label is &quot;, output_dict['classes'])
+        print('Probability : ' + str(output_dict['scores']))
+
+                # Positive label = 1
+        label_index = np.argmax(output_dict['scores'])</text>
+      </register>
+      <register name="2" type="4">
+        <text encoding="base64">CiAgICBwcmVkaWN0aW9uX091dEZpbGUuY2xvc2UoKQoKCmRlZiBfZmxvYXRfZmVhdHVyZSh2YWx1ZSk6CiAgICByZXR1cm4gdGYudHJhaW4uRmVhdHVyZShmbG9hdF9saXN0PXRmLnRyYWluLkZsb2F0TGlzdCh2YWx1ZT1bdmFsdWVdKSkKCgpkZWYgX2J5dGVzX2ZlYXR1cmUodmFsdWUpOgogICAgcmV0dXJuIHRmLnRyYWluLkZlYXR1cmUoYnl0ZXNfbGlzdD10Zi50cmFpbi5CeXRlc0xpc3QodmFsdWU9W3ZhbHVlXSkpCgoKZGVmIF9pbnQ2NF9mZWF0dXJlKHZhbHVlKToKICAgIHJldHVybiB0Zi50cmFpbi5GZWF0dXJlKGludDY0X2xpc3Q9dGYudHJhaW4uSW50NjRMaXN0KHZhbHVlPVt2YWx1ZV0pKQ==</text>
+      </register>
+      <register name="3" type="4">
+        <text encoding="base64">ICAgICAgICBwcmVkaWN0aW9uX091dEZpbGUud3JpdGUoc3RyKGxhYmVsX2luZGV4KSkKICAgICAgICAgICAgICAgIHByZWRpY3Rpb25fT3V0RmlsZS53cml0ZSgnLCcpCiAgICAgICAgICAgICAgICBwcmVkaWN0aW9uX091dEZpbGUud3JpdGUoc3RyKG91dHB1dF9kaWN0WydzY29yZXMnXVswXVtsYWJlbF9pbmRleF0pKQogICAgICAgICAgICAgICAgcHJlZGljdGlvbl9PdXRGaWxlLndyaXRlKCdcbicp</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">CiAgICAgICAgcHJlZGljdGlvbl9PdXRGaWxlID0gb3BlbihwcmVkaWN0aW9ub3V0cHV0ZmlsZSwgJ3cnKQogICAgICAgICMgUmVhZCBmaWxlIGFuZCBjcmVhdGUgZmVhdHVyZV9kaWN0IGZvciBlYWNoIHJlY29yZAogICAgICAgIHdpdGggb3BlbihwcmVkaWN0aW9uaW5wdXRmaWxlKSBhcyBpbmY6CiAgICAgICAgICAgIGZvciBsaW5lIGluIGluZjogCiAgICAgICAgICAgICAgICBmZWF0dXJlX2RpY3QgPXRlc3RfaW5wdXRfZm4oKQogICAgICAgICAgICAgICAgIyBQcmVwYXJlIG1vZGVsIGlucHV0</text>
+      </register>
+      <register name="5" type="4">
+        <text encoding="base64">CiAgICAjIFdlIGNhbGwgcmVwZWF0IGFmdGVyIHNodWZmbGluZywgcmF0aGVyIHRoYW4gYmVmb3JlLCB0byBwcmV2ZW50IHNlcGFyYXRlCiAgICAjIGVwb2NocyBmcm9tIGJsZW5kaW5nIHRvZ2V0aGVyLg==</text>
+      </register>
+      <register name="6" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbHVtbnMgPSB0Zi5kZWNvZGVfY3N2KHZhbHVlLCByZWNvcmRfZGVmYXVsdHM9X0NTVl9DT0xVTU5fREVGQVVMVFMpCiAgICAgICAgICAgICAgICBmZWF0dXJlcyA9IGRpY3QoemlwKF9DU1ZfQ09MVU1OUywgY29sdW1ucykp</text>
+      </register>
+      <register name="7" type="4">
+        <text encoding="base64">ICAgICAgICAjV3JpdGUgSGVhZGVyIGZvciBDU1YgZmlsZQogICAgICAgIHByZWRpY3Rpb25fT3V0RmlsZS53cml0ZSgiYWdlLCB3b3JrY2xhc3MsIGZubHdndCwgZWR1Y2F0aW9uLCBlZHVjYXRpb25fbnVtLG1hcml0YWxfc3RhdHVzLCBvY2N1cGF0aW9uLCByZWxhdGlvbnNoaXAsIHJhY2UsIGdlbmRlcixjYXBpdGFsX2dhaW4sIGNhcGl0YWxfbG9zcywgaG91cnNfcGVyX3dlZWssIG5hdGl2ZV9jb3VudHJ5LHByZWRpY3RlZF9pbmNvbWVfYnJhY2tldCxwcm9iYWJpbGl0eSIpCiAgICAgICAgcHJlZGljdGlvbl9PdXRGaWxlLndyaXRlKCdcbicp</text>
+      </register>
+      <register name="8" type="4">
+        <text encoding="base64">ICAgICAgICMgUmVhZCBkYXRhLCB1c2luZyBweXRob24sIGludG8gb3VyIGZlYXR1cmVzCiAgICAgICAgICAgICAgICBzZXJ2aWNlX3R5cGUsaXNfbWl4X3NlcnZpY2Usb25saW5lX3RpbWUsdG90YWxfZmVlXzEsdG90YWxfZmVlXzIsdG90YWxfZmVlXzMsdG90YWxfZmVlXzQsbW9udGhfdHJhZmZpYyxtYW55X292ZXJfYmlsbCxjb250cmFjdF90eXBlLGNvbnRyYWN0X3RpbWUsaXNfcHJvbWlzZV9sb3dfY29uc3VtZSxuZXRfc2VydmljZSxwYXlfdGltZXMscGF5X251bSxsYXN0X21vbnRoX3RyYWZmaWMsbG9jYWxfdHJhZmZmaWNfbW9udGgsbG9jYWxfY2FsbGVyX3RpbWUsc2VydmljZTFfY2FsbGVyX3RpbWUsc2VydmljZTJfY2FsbGVyX3RpbWUsZ2VuZGVyLGFnZSxjb21wbGFpbnRfbGV2ZWwsZm9ybWVyX2NvbXBsYWludF9udW0sZm9ybWVyX2NvbXBsYWludF9mZWUsdXNlcl9pZCA9IGxpbmUuc3RyaXAoKS5zcGxpdCgiLCIpCgogICAgICAgICAgICAgICAgIyBDcmVhdGUgYSBmZWF0dXJlX2RpY3QgZm9yIHRyYWluLmV4YW1wbGUgLSBHZXQgRmVhdHVyZSBDb2x1bW5zIHVzaWc=</text>
+      </register>
+      <register name="9" type="4">
+        <text>&quot;service_type&quot;,
+                    &quot;is_mix_service&quot;,
+                    &quot;online_time&quot;,
+                    &quot;1_total_fee&quot;,
+                    &quot;2_total_fee&quot;,
+                    &quot;3_total_fee&quot;,
+                    &quot;4_total_fee&quot;,
+                    &quot;month_traffic&quot;,
+                    &quot;many_over_bill&quot;,
+                    &quot;contract_type&quot;,
+                    &quot;contract_time&quot;,
+                    &quot;is_promise_low_consume&quot;,
+                    &quot;net_service&quot;,
+                    &quot;pay_times&quot;,
+                    &quot;pay_num&quot;,
+                    &quot;last_month_traffic&quot;,
+                    &quot;local_trafffic_month&quot;,
+                    &quot;local_caller_time&quot;,
+                    &quot;service1_caller_time&quot;,
+                    &quot;service2_caller_time&quot;,
+                    &quot;gender&quot;,
+                    &quot;age&quot;,
+                    &quot;complaint_level&quot;,
+                    &quot;former_complaint_num&quot;,
+                    &quot;former_complaint_fee&quot;,
+                    &quot;user_id&quot;</text>
+      </register>
+    </registers>
+    <search>
+      <last-search>IMAGE</last-search>
+      <last-offset />
+      <last-pattern>IMAGE</last-pattern>
+      <last-dir>1</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search>
+        <entry>IMA</entry>
+        <entry>IMAGE_SIZE</entry>
+        <entry>IMAGE</entry>
+      </history-search>
+      <history-cmd />
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed S</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed X</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed F</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+</application>
