@@ -6,31 +6,30 @@
       <file name="$USER_HOME$/workplace/experiment/https/https_data/pcap_parse.py" timestamp="1536807438495">
         <mark key="[" line="0" column="46" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_dataset.py" timestamp="1536747415481">
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_dataset.py" timestamp="1537000219061">
         <mark key="'" line="35" column="45" />
         <mark key="[" line="79" column="10" />
         <mark key="]" line="41" column="66" />
         <mark key="." line="41" column="66" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/data/load_data.py" timestamp="1536998170293" />
+      <file name="$USER_HOME$/workplace/BDCI/data/load_data.py" timestamp="1537001320878">
+        <mark key="[" line="9" column="28" />
+      </file>
       <file name="/Python Console" timestamp="1536732715295">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_predict.py" timestamp="1536999014484">
-        <mark key="[" line="3" column="0" />
+      <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_predict.py" timestamp="1537001127115">
+        <mark key="[" line="13" column="29" />
       </file>
       <file name="/a.dummy" timestamp="1536997265179">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_main.py" timestamp="1536999114998">
-        <mark key="[" line="10" column="0" />
-        <mark key="]" line="10" column="0" />
-        <mark key="." line="10" column="0" />
-      </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_main.py" timestamp="1536721785311">
-        <mark key="[" line="20" column="41" />
-        <mark key="]" line="8" column="0" />
-        <mark key="." line="8" column="0" />
+      <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_main.py" timestamp="1537001603110">
+        <mark key="'" line="40" column="4" />
+        <mark key="[" line="47" column="30" />
+        <mark key="]" line="17" column="54" />
+        <mark key="." line="17" column="54" />
+        <mark key="^" line="17" column="54" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wide_deep/python/lib/read_conf.py" timestamp="1536733926675">
         <mark key="[" line="162" column="46" />
@@ -41,11 +40,6 @@
       <file name="$USER_HOME$/workplace/BDCI/is_similar.py" timestamp="1536497984162">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_predict.py" timestamp="1536647356100">
-        <mark key="[" line="14" column="42" />
-        <mark key="]" line="14" column="42" />
-        <mark key="." line="14" column="42" />
-      </file>
       <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_predict.py" timestamp="1536999044609">
         <mark key="[" line="0" column="0" />
       </file>
@@ -53,21 +47,12 @@
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/data/preprocessed_train.csv" timestamp="1536989653868" />
+      <file name="$USER_HOME$/.conda/envs/tensorflow/lib/python3.6/site-packages/xgboost/training.py" timestamp="1537001016291" />
       <file name="$USER_HOME$/workplace/BDCI/utils/data/split_data.py" timestamp="1536557621917">
         <mark key="[" line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/tool/split_data.py" timestamp="1536581037407">
-        <mark key="[" line="18" column="0" />
-        <mark key="]" line="18" column="0" />
-        <mark key="." line="18" column="0" />
-      </file>
-      <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_main.py" timestamp="1536999921742">
+      <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_main.py" timestamp="1537000106338">
         <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/wide_deep_predict.py" timestamp="1536664936722">
-        <mark key="[" line="43" column="0" />
-        <mark key="]" line="43" column="0" />
-        <mark key="." line="43" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/lightGBM.py" timestamp="1536994645907" />
       <file name="$USER_HOME$/workplace/BDCI/__init__.py" timestamp="1536628825812">
@@ -88,11 +73,6 @@
       <file name="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/python/feature_column/feature_column.py" timestamp="1536734175526">
         <mark key="[" line="1486" column="39" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/wide_and_deep.py" timestamp="1536575719230">
-        <mark key="[" line="16" column="11" />
-        <mark key="]" line="16" column="11" />
-        <mark key="." line="16" column="11" />
-      </file>
       <file name="$USER_HOME$/workplace/experiment/https_project/train.py" timestamp="1536301340898">
         <mark key="[" line="16" column="2" />
       </file>
@@ -105,24 +85,16 @@
       <file name="$USER_HOME$/workplace/BDCI/code/split_data.py" timestamp="1536558200428">
         <mark key="[" line="7" column="17" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/EDA/EDA.md" timestamp="1536563842159">
-        <mark key="[" line="87" column="18" />
-        <mark key="]" line="87" column="18" />
-        <mark key="." line="87" column="18" />
-      </file>
       <file name="$USER_HOME$/workplace/experiment/https/https_data/android_auto_run.py" timestamp="1536819794266">
         <mark key="[" line="32" column="0" />
-      </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/test.py" timestamp="1536646418203">
-        <mark key="[" line="8" column="8" />
-        <mark key="]" line="8" column="8" />
-        <mark key="." line="8" column="8" />
       </file>
     </filemarks>
     <jumps>
       <jump line="57" column="23" filename="$USER_HOME$/workplace/BDCI/input/preprocess.py" />
       <jump line="48" column="40" filename="$USER_HOME$/workplace/BDCI/wide_deep/census_dataset.py" />
       <jump line="49" column="45" filename="$USER_HOME$/workplace/BDCI/wide_deep/census_dataset.py" />
+      <jump line="47" column="13" filename="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_main.py" />
+      <jump line="40" column="4" filename="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_main.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
