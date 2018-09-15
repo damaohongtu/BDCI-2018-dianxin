@@ -24,15 +24,17 @@
       <file name="/a.dummy" timestamp="1536997265179">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_main.py" timestamp="1537002135479">
-        <mark key="'" line="39" column="4" />
-        <mark key="]" line="17" column="54" />
-        <mark key="." line="17" column="54" />
-        <mark key="^" line="17" column="54" />
+      <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_main.py" timestamp="1537008621793">
+        <mark key="'" line="41" column="4" />
+        <mark key="[" line="1" column="12" />
+        <mark key="]" line="19" column="54" />
+        <mark key="." line="19" column="54" />
+        <mark key="^" line="19" column="54" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wide_deep/python/lib/read_conf.py" timestamp="1536733926675">
         <mark key="[" line="162" column="46" />
       </file>
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_main.py" timestamp="1537008612196" />
       <file name="$USER_HOME$/workplace/experiment/https/test.py" timestamp="1536403486042">
         <mark key="[" line="11" column="0" />
       </file>
@@ -45,15 +47,12 @@
       <file name="$USER_HOME$/workplace/BDCI/XGBoost/xgboost_main.py" timestamp="1536988717300">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/data/preprocessed_train.csv" timestamp="1536989653868" />
-      <file name="$USER_HOME$/.conda/envs/tensorflow/lib/python3.6/site-packages/xgboost/training.py" timestamp="1537001016291" />
       <file name="$USER_HOME$/workplace/BDCI/utils/data/split_data.py" timestamp="1536557621917">
         <mark key="[" line="1" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_main.py" timestamp="1537000106338">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/lightGBM.py" timestamp="1537001938845" />
       <file name="$USER_HOME$/workplace/BDCI/__init__.py" timestamp="1536628825812">
         <mark key="[" line="0" column="0" />
       </file>
