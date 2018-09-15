@@ -24,7 +24,7 @@
       <file name="/a.dummy" timestamp="1536997265179">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_main.py" timestamp="1537008621793">
+      <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_main.py" timestamp="1537009648132">
         <mark key="'" line="41" column="4" />
         <mark key="[" line="1" column="12" />
         <mark key="]" line="19" column="54" />
@@ -50,8 +50,10 @@
       <file name="$USER_HOME$/workplace/BDCI/utils/data/split_data.py" timestamp="1536557621917">
         <mark key="[" line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_main.py" timestamp="1537000106338">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_main.py" timestamp="1537010430586">
+        <mark key="[" line="35" column="34" />
+        <mark key="]" line="35" column="34" />
+        <mark key="." line="35" column="34" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/__init__.py" timestamp="1536628825812">
         <mark key="[" line="0" column="0" />
@@ -96,17 +98,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>train_data=pd.read_csv('../data/preprocessed_train.csv')
-#label2current_service = dict(zip(range(0,len(set(train['current_service']))),sorted(list(set(train['current_service'])))))
-label_vocabulary={0:'99999825', 1:'90063345', 2:'90109916', 3:'89950166', 4:'89950168',
-                  5:'99104722', 6:'89950167', 7:'89016252', 8:'90155946', 9:'99999828',
-                  10:'99999826', 11:'99999827', 12:'89016259', 13:'99999830', 14:'89016253'}
-
-
-train_data['current_service'] = train_data['current_service'].map(label_vocabulary)</text>
+        <text>, cat_features=categorical_features_indices)</text>
       </register>
       <register name="-" type="4">
-        <text>np.savetxt('xgb_submission.csv',np.c_[range(1,len(test_data)+1),preds],delimiter=',',header='ImageId,Label',comments='',fmt='%d')</text>
+        <text>, cat_features=categorical_features_indices)</text>
       </register>
       <register name="/" type="4">
         <text>IMAGE</text>
