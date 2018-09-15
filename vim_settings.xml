@@ -15,14 +15,13 @@
       <file name="/Python Console" timestamp="1536732715295">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_predict.py" timestamp="1536992834413">
+        <mark key="[" line="2" column="51" />
+      </file>
       <file name="/a.dummy" timestamp="1536819744966">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_main.py" timestamp="1536991350365">
-        <mark key="[" line="23" column="0" />
-        <mark key="]" line="23" column="0" />
-        <mark key="." line="23" column="0" />
-      </file>
+      <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_main.py" timestamp="1536993283419" />
       <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_main.py" timestamp="1536721785311">
         <mark key="[" line="20" column="41" />
         <mark key="]" line="8" column="0" />
@@ -89,7 +88,7 @@
       <file name="$USER_HOME$/workplace/experiment/https_project/train.py" timestamp="1536301340898">
         <mark key="[" line="16" column="2" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/predict_concat.py" timestamp="1536666380631">
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/predict_concat.py" timestamp="1536992545023">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/data/test.py" timestamp="1536485067998">
@@ -119,13 +118,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>model = XGBClassifier()
-eval_set = [(X_test, y_test)]
-print(eval_set[0][1])
-# model.fit(X_train, y_train, early_stopping_rounds=10, eval_metric=&quot;logloss&quot;, eval_set=eval_set, ver</text>
+        <text>np.savetxt('xgb_submission.csv',np.c_[range(1,len(test_data)+1),preds],delimiter=',',header='ImageId,Label',comments='',fmt='%d')</text>
       </register>
       <register name="-" type="4">
-        <text>label2current_service = dict(zip(range(0,len(set(train['current_service']))),sorted(list(set(train['current_service'])))))</text>
+        <text>np.savetxt('xgb_submission.csv',np.c_[range(1,len(test_data)+1),preds],delimiter=',',header='ImageId,Label',comments='',fmt='%d')</text>
       </register>
       <register name="/" type="4">
         <text>IMAGE</text>
