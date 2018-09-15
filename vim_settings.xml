@@ -18,6 +18,7 @@
       <file name="/a.dummy" timestamp="1536819744966">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_main.py" timestamp="1536990089959" />
       <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_main.py" timestamp="1536721785311">
         <mark key="[" line="20" column="41" />
         <mark key="]" line="8" column="0" />
@@ -40,6 +41,7 @@
       <file name="$USER_HOME$/workplace/BDCI/XGBoost/xgboost_main.py" timestamp="1536988717300">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/BDCI/data/preprocessed_train.csv" timestamp="1536989653868" />
       <file name="$USER_HOME$/workplace/BDCI/utils/data/split_data.py" timestamp="1536557621917">
         <mark key="[" line="1" column="0" />
       </file>
