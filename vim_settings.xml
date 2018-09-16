@@ -15,7 +15,7 @@
       <file name="$USER_HOME$/workplace/BDCI/data/load_data.py" timestamp="1537002013615">
         <mark key="[" line="9" column="28" />
       </file>
-      <file name="/Python Console" timestamp="1536732715295">
+      <file name="/Python Console" timestamp="1537073326113">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_predict.py" timestamp="1537002109538">
@@ -50,10 +50,10 @@
       <file name="$USER_HOME$/workplace/BDCI/utils/data/split_data.py" timestamp="1536557621917">
         <mark key="[" line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_main.py" timestamp="1537072841828">
-        <mark key="[" line="37" column="0" />
-        <mark key="]" line="37" column="0" />
-        <mark key="." line="37" column="0" />
+      <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_main.py" timestamp="1537073771990">
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="7" column="0" />
+        <mark key="." line="7" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/__init__.py" timestamp="1536628825812">
         <mark key="[" line="0" column="0" />
@@ -98,11 +98,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>train_pool = Pool(X_train, y_train)
-validate_pool = Pool(X_val, y_val)</text>
+        <text />
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA=</text>
+        <text />
       </register>
       <register name="/" type="4">
         <text>IMAGE</text>
@@ -111,14 +110,21 @@ validate_pool = Pool(X_val, y_val)</text>
         <text encoding="base64">b3MuZW52aXJvblsnQ1VEQV9WSVNJQkxFX0RFVklDRVMnXSA9ICcwJwo=</text>
       </register>
       <register name="1" type="4">
+        <text>import catboost as cat
+from sklearn.metrics import accuracy_score</text>
+      </register>
+      <register name="2" type="4">
+        <text encoding="base64">ICAgJ2xvZ2dpbmdfbGV2ZWwnOiAnU2lsZW50JywKICAgICd1c2VfYmVzdF9tb2RlbCc6IEZhbHNl</text>
+      </register>
+      <register name="3" type="4">
         <text>train_pool = Pool(X_train, y_train)
 validate_pool = Pool(X_val, y_val)</text>
       </register>
-      <register name="2" type="4">
+      <register name="4" type="4">
         <text># categorical_features_indices=['service_type', 'is_mix_service', 'many_over_bill', 'contract_type',
 #                               'is_promise_low_consume','net_service', 'gender', 'complaint_level']</text>
       </register>
-      <register name="3" type="4">
+      <register name="5" type="4">
         <text>train_data=pd.read_csv('../data/preprocessed_train.csv')
 #label2current_service = dict(zip(range(0,len(set(train['current_service']))),sorted(list(set(train['current_service'])))))
 label_vocabulary={0:'99999825', 1:'90063345', 2:'90109916', 3:'89950166', 4:'89950168',
@@ -128,16 +134,16 @@ label_vocabulary={0:'99999825', 1:'90063345', 2:'90109916', 3:'89950166', 4:'899
 
 train_data['current_service'] = train_data['current_service'].map(label_vocabulary)</text>
       </register>
-      <register name="4" type="4">
+      <register name="6" type="4">
         <text>model = XGBClassifier()
 eval_set = [(X_test, y_test)]
 print(eval_set[0][1])
 # model.fit(X_train, y_train, early_stopping_rounds=10, eval_metric=&quot;logloss&quot;, eval_set=eval_set, ver</text>
       </register>
-      <register name="5" type="4">
+      <register name="7" type="4">
         <text encoding="base64">Cm1vZGVsID0gWEdCQ2xhc3NpZmllcigpCm1vZGVsLmZpdChYX3RyYWluLCB5X3RyYWluKQp5X3ByZWQgPSBtb2RlbC5wcmVkaWN0KFhfdGVzdCkKcHJlZGljdGlvbnMgPSBbcm91bmQodmFsdWUpIGZvciB2YWx1ZSBpbiB5X3ByZWRd</text>
       </register>
-      <register name="6" type="4">
+      <register name="8" type="4">
         <text>def main():
     with tf.Session() as sess:
         print(&quot;start...&quot;)
@@ -157,14 +163,8 @@ print(eval_set[0][1])
                 # Positive label = 1
         label_index = np.argmax(output_dict['scores'])</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">CiAgICBwcmVkaWN0aW9uX091dEZpbGUuY2xvc2UoKQoKCmRlZiBfZmxvYXRfZmVhdHVyZSh2YWx1ZSk6CiAgICByZXR1cm4gdGYudHJhaW4uRmVhdHVyZShmbG9hdF9saXN0PXRmLnRyYWluLkZsb2F0TGlzdCh2YWx1ZT1bdmFsdWVdKSkKCgpkZWYgX2J5dGVzX2ZlYXR1cmUodmFsdWUpOgogICAgcmV0dXJuIHRmLnRyYWluLkZlYXR1cmUoYnl0ZXNfbGlzdD10Zi50cmFpbi5CeXRlc0xpc3QodmFsdWU9W3ZhbHVlXSkpCgoKZGVmIF9pbnQ2NF9mZWF0dXJlKHZhbHVlKToKICAgIHJldHVybiB0Zi50cmFpbi5GZWF0dXJlKGludDY0X2xpc3Q9dGYudHJhaW4uSW50NjRMaXN0KHZhbHVlPVt2YWx1ZV0pKQ==</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">ICAgICAgICBwcmVkaWN0aW9uX091dEZpbGUud3JpdGUoc3RyKGxhYmVsX2luZGV4KSkKICAgICAgICAgICAgICAgIHByZWRpY3Rpb25fT3V0RmlsZS53cml0ZSgnLCcpCiAgICAgICAgICAgICAgICBwcmVkaWN0aW9uX091dEZpbGUud3JpdGUoc3RyKG91dHB1dF9kaWN0WydzY29yZXMnXVswXVtsYWJlbF9pbmRleF0pKQogICAgICAgICAgICAgICAgcHJlZGljdGlvbl9PdXRGaWxlLndyaXRlKCdcbicp</text>
-      </register>
       <register name="9" type="4">
-        <text encoding="base64">CiAgICAgICAgcHJlZGljdGlvbl9PdXRGaWxlID0gb3BlbihwcmVkaWN0aW9ub3V0cHV0ZmlsZSwgJ3cnKQogICAgICAgICMgUmVhZCBmaWxlIGFuZCBjcmVhdGUgZmVhdHVyZV9kaWN0IGZvciBlYWNoIHJlY29yZAogICAgICAgIHdpdGggb3BlbihwcmVkaWN0aW9uaW5wdXRmaWxlKSBhcyBpbmY6CiAgICAgICAgICAgIGZvciBsaW5lIGluIGluZjogCiAgICAgICAgICAgICAgICBmZWF0dXJlX2RpY3QgPXRlc3RfaW5wdXRfZm4oKQogICAgICAgICAgICAgICAgIyBQcmVwYXJlIG1vZGVsIGlucHV0</text>
+        <text encoding="base64">CiAgICBwcmVkaWN0aW9uX091dEZpbGUuY2xvc2UoKQoKCmRlZiBfZmxvYXRfZmVhdHVyZSh2YWx1ZSk6CiAgICByZXR1cm4gdGYudHJhaW4uRmVhdHVyZShmbG9hdF9saXN0PXRmLnRyYWluLkZsb2F0TGlzdCh2YWx1ZT1bdmFsdWVdKSkKCgpkZWYgX2J5dGVzX2ZlYXR1cmUodmFsdWUpOgogICAgcmV0dXJuIHRmLnRyYWluLkZlYXR1cmUoYnl0ZXNfbGlzdD10Zi50cmFpbi5CeXRlc0xpc3QodmFsdWU9W3ZhbHVlXSkpCgoKZGVmIF9pbnQ2NF9mZWF0dXJlKHZhbHVlKToKICAgIHJldHVybiB0Zi50cmFpbi5GZWF0dXJlKGludDY0X2xpc3Q9dGYudHJhaW4uSW50NjRMaXN0KHZhbHVlPVt2YWx1ZV0pKQ==</text>
       </register>
     </registers>
     <search>
