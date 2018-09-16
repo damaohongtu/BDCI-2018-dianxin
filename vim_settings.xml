@@ -50,13 +50,13 @@
       <file name="$USER_HOME$/workplace/BDCI/utils/data/split_data.py" timestamp="1536557621917">
         <mark key="[" line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_main.py" timestamp="1537082877158">
-        <mark key="[" line="63" column="23" />
-        <mark key="]" line="63" column="23" />
-        <mark key="." line="63" column="23" />
-        <mark key="^" line="56" column="0" />
+      <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_main.py" timestamp="1537086835364">
+        <mark key="[" line="84" column="0" />
+        <mark key="]" line="84" column="0" />
+        <mark key="^" line="76" column="0" />
+        <mark key="." line="84" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/lightGBM.py" timestamp="1537084661235">
+      <file name="$USER_HOME$/workplace/BDCI/lightGBM.py" timestamp="1537086346206">
         <mark key="[" line="108" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/__init__.py" timestamp="1536628825812">
@@ -77,7 +77,7 @@
       <file name="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/python/feature_column/feature_column.py" timestamp="1536734175526">
         <mark key="[" line="1486" column="39" />
       </file>
-      <file name="$USER_HOME$/.conda/envs/tensorflow/lib/python3.6/site-packages/catboost/core.py" timestamp="1537083028972" />
+      <file name="$USER_HOME$/.conda/envs/tensorflow/lib/python3.6/site-packages/catboost/core.py" timestamp="1537086201508" />
       <file name="$USER_HOME$/workplace/experiment/https_project/train.py" timestamp="1536301340898">
         <mark key="[" line="16" column="2" />
       </file>
@@ -103,10 +103,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>,cat_features=categorical_features_indices</text>
+        <text encoding="base64">Cgo=</text>
       </register>
       <register name="-" type="4">
-        <text>,cat_features=categorical_features_indices</text>
+        <text />
       </register>
       <register name="/" type="4">
         <text>IMAGE</text>
@@ -115,61 +115,41 @@
         <text encoding="base64">bW9kZWwuZml0KHRyYWluX3Bvb2wsIGV2YWxfc2V0PXZhbGlkYXRlX3Bvb2wsY2F0X2ZlYXR1cmVzPWNhdGVnb3JpY2FsX2ZlYXR1cmVzX2luZGljZXMpCg==</text>
       </register>
       <register name="1" type="4">
+        <text encoding="base64">Cgo=</text>
+      </register>
+      <register name="2" type="4">
+        <text encoding="base64">CgpwcmVkcyA9IG1vZGVsLnByZWRpY3QoY2diX3Rlc3Qp</text>
+      </register>
+      <register name="3" type="4">
+        <text>model = CatBoostClassifier(**params)lse:
+        cv_pred = np.hstack((cv_pred, np.array(y_test).reshape(-1, 1)))</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">Cm1vZGVsID0gQ2F0Qm9vc3RDbGFzc2lmaWVyKCoqcGFyYW1zKQ==</text>
+      </register>
+      <register name="5" type="4">
+        <text># cv_score = cross_val_score(estimator=model,
+#                            X=X,
+#                            y=Y,
+#                            scoring='roc_auc',
+#                            cv=5,
+#                            verbose=1)
+# print('Cross validation AUC: {:.4f}'.format(np.mean(cv_score)))</text>
+      </register>
+      <register name="6" type="4">
         <text>import catboost as cat
 from sklearn.metrics import accuracy_score</text>
       </register>
-      <register name="2" type="4">
+      <register name="7" type="4">
         <text encoding="base64">ICAgJ2xvZ2dpbmdfbGV2ZWwnOiAnU2lsZW50JywKICAgICd1c2VfYmVzdF9tb2RlbCc6IEZhbHNl</text>
       </register>
-      <register name="3" type="4">
+      <register name="8" type="4">
         <text>train_pool = Pool(X_train, y_train)
 validate_pool = Pool(X_val, y_val)</text>
       </register>
-      <register name="4" type="4">
+      <register name="9" type="4">
         <text># categorical_features_indices=['service_type', 'is_mix_service', 'many_over_bill', 'contract_type',
 #                               'is_promise_low_consume','net_service', 'gender', 'complaint_level']</text>
-      </register>
-      <register name="5" type="4">
-        <text>train_data=pd.read_csv('../data/preprocessed_train.csv')
-#label2current_service = dict(zip(range(0,len(set(train['current_service']))),sorted(list(set(train['current_service'])))))
-label_vocabulary={0:'99999825', 1:'90063345', 2:'90109916', 3:'89950166', 4:'89950168',
-                  5:'99104722', 6:'89950167', 7:'89016252', 8:'90155946', 9:'99999828',
-                  10:'99999826', 11:'99999827', 12:'89016259', 13:'99999830', 14:'89016253'}
-
-
-train_data['current_service'] = train_data['current_service'].map(label_vocabulary)</text>
-      </register>
-      <register name="6" type="4">
-        <text>model = XGBClassifier()
-eval_set = [(X_test, y_test)]
-print(eval_set[0][1])
-# model.fit(X_train, y_train, early_stopping_rounds=10, eval_metric=&quot;logloss&quot;, eval_set=eval_set, ver</text>
-      </register>
-      <register name="7" type="4">
-        <text encoding="base64">Cm1vZGVsID0gWEdCQ2xhc3NpZmllcigpCm1vZGVsLmZpdChYX3RyYWluLCB5X3RyYWluKQp5X3ByZWQgPSBtb2RlbC5wcmVkaWN0KFhfdGVzdCkKcHJlZGljdGlvbnMgPSBbcm91bmQodmFsdWUpIGZvciB2YWx1ZSBpbiB5X3ByZWRd</text>
-      </register>
-      <register name="8" type="4">
-        <text>def main():
-    with tf.Session() as sess:
-        print(&quot;start...&quot;)
-        # load the saved model
-        tf.saved_model.loader.load(sess, [tf.saved_model.tag_constants.SERVING], exported_path)
-
-        # get the predictor , refer tf.contrib.predictor
-        predictor = tf.contrib.predictor.from_saved_model(exported_path)
-        feature_dict=test_input_fn()
-        model_input = tf.train.Example(features=tf.train.Features(feature=feature_dict))
-        model_input = model_input.SerializeToString()
-        output_dict = predictor({&quot;inputs&quot;: [feature_dict]})
-
-        print(&quot; prediction Label is &quot;, output_dict['classes'])
-        print('Probability : ' + str(output_dict['scores']))
-
-                # Positive label = 1
-        label_index = np.argmax(output_dict['scores'])</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">CiAgICBwcmVkaWN0aW9uX091dEZpbGUuY2xvc2UoKQoKCmRlZiBfZmxvYXRfZmVhdHVyZSh2YWx1ZSk6CiAgICByZXR1cm4gdGYudHJhaW4uRmVhdHVyZShmbG9hdF9saXN0PXRmLnRyYWluLkZsb2F0TGlzdCh2YWx1ZT1bdmFsdWVdKSkKCgpkZWYgX2J5dGVzX2ZlYXR1cmUodmFsdWUpOgogICAgcmV0dXJuIHRmLnRyYWluLkZlYXR1cmUoYnl0ZXNfbGlzdD10Zi50cmFpbi5CeXRlc0xpc3QodmFsdWU9W3ZhbHVlXSkpCgoKZGVmIF9pbnQ2NF9mZWF0dXJlKHZhbHVlKToKICAgIHJldHVybiB0Zi50cmFpbi5GZWF0dXJlKGludDY0X2xpc3Q9dGYudHJhaW4uSW50NjRMaXN0KHZhbHVlPVt2YWx1ZV0pKQ==</text>
       </register>
     </registers>
     <search>
