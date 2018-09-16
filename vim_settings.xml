@@ -24,7 +24,7 @@
       <file name="/a.dummy" timestamp="1536997265179">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_main.py" timestamp="1537071072747">
+      <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_main.py" timestamp="1537083002226">
         <mark key="'" line="41" column="4" />
         <mark key="[" line="54" column="25" />
         <mark key="]" line="19" column="54" />
@@ -50,11 +50,11 @@
       <file name="$USER_HOME$/workplace/BDCI/utils/data/split_data.py" timestamp="1536557621917">
         <mark key="[" line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_main.py" timestamp="1537082235557">
-        <mark key="[" line="66" column="38" />
-        <mark key="]" line="66" column="38" />
-        <mark key="." line="66" column="38" />
-        <mark key="^" line="52" column="0" />
+      <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_main.py" timestamp="1537082877158">
+        <mark key="[" line="63" column="23" />
+        <mark key="]" line="63" column="23" />
+        <mark key="." line="63" column="23" />
+        <mark key="^" line="56" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/__init__.py" timestamp="1536628825812">
         <mark key="[" line="0" column="0" />
@@ -74,6 +74,7 @@
       <file name="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/python/feature_column/feature_column.py" timestamp="1536734175526">
         <mark key="[" line="1486" column="39" />
       </file>
+      <file name="$USER_HOME$/.conda/envs/tensorflow/lib/python3.6/site-packages/catboost/core.py" timestamp="1537083028972" />
       <file name="$USER_HOME$/workplace/experiment/https_project/train.py" timestamp="1536301340898">
         <mark key="[" line="16" column="2" />
       </file>
@@ -99,10 +100,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text />
+        <text>,cat_features=categorical_features_indices</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>,cat_features=categorical_features_indices</text>
       </register>
       <register name="/" type="4">
         <text>IMAGE</text>
