@@ -14,23 +14,8 @@ from wide_deep import wide_deep_run_loop
 
 tf.logging.set_verbosity(tf.logging.ERROR)
 
-TEST_INPUT = ('18,Self-emp-not-inc,987,Bachelors,12,Married-civ-spouse,abc,'
-              'Husband,zyx,wvu,34,56,78,tsr,<=50K')
 
-TEST_INPUT_VALUES = {
-    'age': 18,
-    'education_num': 12,
-    'capital_gain': 34,
-    'capital_loss': 56,
-    'hours_per_week': 78,
-    'education': 'Bachelors',
-    'marital_status': 'Married-civ-spouse',
-    'relationship': 'Husband',
-    'workclass': 'Self-emp-not-inc',
-    'occupation': 'abc',
-}
-
-TEST_CSV = os.path.join(os.path.dirname(__file__), 'census_test.csv')
+TEST_CSV = os.path.join(os.path.dirname(__file__), '../test.csv')
 
 
 class BaseTest(tf.test.TestCase):
@@ -45,8 +30,7 @@ class BaseTest(tf.test.TestCase):
     # Create temporary CSV file
     self.temp_dir = self.get_temp_dir()
     self.input_csv = os.path.join(self.temp_dir, 'test.csv')
-    with tf.gfile.Open(self.input_csv, 'w') as temp_csv:
-      temp_csv.write(TEST_INPUT)
+
 
     with tf.gfile.Open(TEST_CSV, "r") as temp_csv:
       test_csv_contents = temp_csv.read()
@@ -55,27 +39,6 @@ class BaseTest(tf.test.TestCase):
     for fname in [census_dataset.TRAINING_FILE, census_dataset.EVAL_FILE]:
       with tf.gfile.Open(os.path.join(self.temp_dir, fname), 'w') as test_csv:
         test_csv.write(test_csv_contents)
-
-  def test_input_fn(self):
-    dataset = census_dataset.input_fn(self.input_csv, 1, False, 1)
-    features, labels = dataset.make_one_shot_iterator().get_next()
-
-    with self.test_session() as sess:
-      features, labels = sess.run((features, labels))
-
-      # Compare the two features dictionaries.
-      for key in TEST_INPUT_VALUES:
-        self.assertTrue(key in features)
-        self.assertEqual(len(features[key]), 1)
-        feature_value = features[key][0]
-
-        # Convert from bytes to string for Python 3.
-        if isinstance(feature_value, bytes):
-          feature_value = feature_value.decode()
-
-        self.assertEqual(TEST_INPUT_VALUES[key], feature_value)
-
-      self.assertFalse(labels)
 
   def build_and_test_estimator(self, model_type):
     """Ensure that model trains and minimizes loss."""

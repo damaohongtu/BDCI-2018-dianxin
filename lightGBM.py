@@ -106,7 +106,7 @@ for index,(train_index,test_index) in enumerate(skf.split(X,y)):
     else:
         cv_pred = np.hstack((cv_pred, np.array(y_test).reshape(-1, 1)))
 
-# 投票
+# 投票,将数据分成五份，用五份数据训练五个模型，每个模型对test进行预测，预测结果
 submit = []
 for line in cv_pred:
     submit.append(np.argmax(np.bincount(line)))

@@ -1,0 +1,7 @@
+{
+  "census_predict.py::BaseTest::test_end_to_end_deep": true,
+  "census_predict.py::BaseTest::test_end_to_end_wide": true,
+  "census_predict.py::BaseTest::test_end_to_end_wide_deep": true,
+  "census_predict.py::BaseTest::test_session": true,
+  "census_predict.py::BaseTest::test_wide_deep_estimator_training": true
+}
