@@ -8,7 +8,6 @@ Lizi Liao (liaolizi.llz@gmail.com)
 @references:
 '''
 import os
-import sys
 import math
 import numpy as np
 import tensorflow as tf
@@ -16,9 +15,8 @@ from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.metrics import mean_squared_error, classification_report
 from time import time
 import argparse
-import load as DATA
+from nFM import load as DATA
 import pandas as pd
-from focal_loss import focal_loss
 from tensorflow.contrib.layers.python.layers import batch_norm as batch_norm
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
