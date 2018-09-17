@@ -7,7 +7,7 @@ from __future__ import print_function
 import tensorflow as tf
 
 TRAINING_FILE = 'train.csv'
-EVAL_FILE = 'test.csv'
+EVAL_FILE = 'eval.csv'
 
 
 

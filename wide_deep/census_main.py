@@ -10,7 +10,7 @@ from utils.flags import core as flags_core
 from utils.logs import logger
 from wide_deep import census_dataset
 from wide_deep import wide_deep_run_loop
-
+from tensorflow.python.ops.losses import losses
 
 def define_census_flags():
   wide_deep_run_loop.define_wide_deep_flags()
@@ -18,7 +18,7 @@ def define_census_flags():
   flags_core.set_defaults(data_dir='../data',
                           model_dir='./census_model',
                           train_epochs=40,
-                          epochs_between_evals=2,
+                          epochs_between_evals=1,
                           inter_op_parallelism_threads=0,
                           intra_op_parallelism_threads=0,
                           batch_size=40)
