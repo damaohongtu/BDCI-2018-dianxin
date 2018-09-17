@@ -34,7 +34,6 @@
       <file name="$USER_HOME$/workplace/experiment/wide_deep/python/lib/read_conf.py" timestamp="1536733926675">
         <mark key="[" line="162" column="46" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_main.py" timestamp="1537008612196" />
       <file name="$USER_HOME$/workplace/experiment/https/test.py" timestamp="1536403486042">
         <mark key="[" line="11" column="0" />
       </file>
@@ -50,11 +49,11 @@
       <file name="$USER_HOME$/workplace/BDCI/utils/data/split_data.py" timestamp="1536557621917">
         <mark key="[" line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_main.py" timestamp="1537086835364">
-        <mark key="[" line="86" column="0" />
-        <mark key="]" line="86" column="0" />
-        <mark key="^" line="78" column="0" />
-        <mark key="." line="86" column="0" />
+      <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_main.py" timestamp="1537180412953">
+        <mark key="[" line="51" column="17" />
+        <mark key="]" line="87" column="0" />
+        <mark key="^" line="79" column="0" />
+        <mark key="." line="87" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/lightGBM.py" timestamp="1537087568022">
         <mark key="[" line="108" column="0" />
@@ -77,7 +76,6 @@
       <file name="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/python/feature_column/feature_column.py" timestamp="1536734175526">
         <mark key="[" line="1486" column="39" />
       </file>
-      <file name="$USER_HOME$/.conda/envs/tensorflow/lib/python3.6/site-packages/catboost/core.py" timestamp="1537086201508" />
       <file name="$USER_HOME$/workplace/experiment/https_project/train.py" timestamp="1536301340898">
         <mark key="[" line="16" column="2" />
       </file>
