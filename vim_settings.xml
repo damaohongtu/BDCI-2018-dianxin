@@ -6,7 +6,7 @@
       <file name="$USER_HOME$/workplace/experiment/https/https_data/pcap_parse.py" timestamp="1536807438495">
         <mark key="[" line="0" column="46" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_dataset.py" timestamp="1537000219061">
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_dataset.py" timestamp="1537331338685">
         <mark key="'" line="35" column="45" />
         <mark key="[" line="79" column="10" />
         <mark key="]" line="41" column="66" />
@@ -54,6 +54,7 @@
         <mark key="^" line="79" column="0" />
         <mark key="." line="87" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/BDCI/input/preprocess.py" timestamp="1537332544335" />
       <file name="$USER_HOME$/workplace/BDCI/lightGBM.py" timestamp="1537087568022">
         <mark key="[" line="108" column="0" />
       </file>
@@ -100,7 +101,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>from sklearn.model_selection import train_test_split</text>
+        <text encoding="base64">IyB0cmFpbuS/ruaUuee8uuaNn+WAvAp0cmFpbl9kYXRhWycyX3RvdGFsX2ZlZSddPXRyYWluX2RhdGFbJzJfdG90YWxfZmVlJ10uYXBwbHkodG90YWxfZmVlX2Zvcm1hdCkKdHJhaW5fZGF0YVsnM190b3RhbF9mZWUnXT10cmFpbl9kYXRhWyczX3RvdGFsX2ZlZSddLmFwcGx5KHRvdGFsX2ZlZV9mb3JtYXQpCnRyYWluX2RhdGFbJ2dlbmRlciddPXRyYWluX2RhdGFbJ2dlbmRlciddLmFwcGx5KGdlbmRlcl9mb3JtYXQpCnRyYWluX2RhdGFbJ2FnZSddPXRyYWluX2RhdGFbJ2FnZSddLmFwcGx5KGFnZV9mb3JtYXQpCgojIHRyYWlu5re75Yqg57y65o2f5YC877yM5re75Yqg6ZiI5YC8CnRyYWluX2RhdGEubG9jW3RyYWluX2RhdGFbJzFfdG90YWxfZmVlJ10+ODAwLjAsJzFfdG90YWxfZmVlJ109ODAwLjAKCnRyYWluX2RhdGEubG9jW3RyYWluX2RhdGFbJzJfdG90YWxfZmVlJ10+ODAwLjAsJzJfdG90YWxfZmVlJ109ODAwLjAKdHJhaW5feF9tZWFuXzI9dHJhaW5fZGF0YVsnMl90b3RhbF9mZWUnXS5tZWFuKCkKCnRyYWluX2RhdGEubG9jW3RyYWluX2RhdGFbJzJfdG90YWxfZmVlJ108MCwnMl90b3RhbF9mZWUnXT10cmFpbl94X21lYW5fMgp0cmFpbl9kYXRhLmxvY1t0cmFpbl9kYXRhWyczX3RvdGFsX2ZlZSddPjgwMC4wLCczX3RvdGFsX2ZlZSddPTgwMC4wCgp0cmFpbl94X21lYW5fMz10cmFpbl9kYXRhWyczX3RvdGFsX2ZlZSddLm1lYW4oKQp0cmFpbl9kYXRhLmxvY1t0cmFpbl9kYXRhWyczX3RvdGFsX2ZlZSddPDAsJzNfdG90YWxfZmVlJ109dHJhaW5feF9tZWFuXzMKCnRyYWluX2RhdGEubG9jW3RyYWluX2RhdGFbJzRfdG90YWxfZmVlJ10+ODAwLjAsJzRfdG90YWxfZmVlJ109ODAwLjAKCnRyYWluX2RhdGEubG9jW3RyYWluX2RhdGFbJ21vbnRoX3RyYWZmaWMnXT41MDAwLjAsJ21vbnRoX3RyYWZmaWMnXT01MDAwLjAKdHJhaW5fZGF0YS5sb2NbdHJhaW5fZGF0YVsncGF5X251bSddPjQwMC4wLCdwYXlfbnVtJ109NDAwLjAKdHJhaW5fZGF0YS5sb2NbdHJhaW5fZGF0YVsnbG9jYWxfY2FsbGVyX3RpbWUnXT4zMDAuMCwnbG9jYWxfY2FsbGVyX3RpbWUnXT0zMDAuMAp0cmFpbl9kYXRhLmxvY1t0cmFpbl9kYXRhWydzZXJ2aWNlMV9jYWxsZXJfdGltZSddPjMwMC4wLCdzZXJ2aWNlMV9jYWxsZXJfdGltZSddPTMwMC4wCnRyYWluX2RhdGEubG9jW3RyYWluX2RhdGFbJ3NlcnZpY2UyX2NhbGxlcl90aW1lJ10+NTAwLjAsJ3NlcnZpY2UyX2NhbGxlcl90aW1lJ109NTAwLjAKdHJhaW5fZGF0YS5sb2NbdHJhaW5fZGF0YVsnbGFzdF9tb250aF90cmFmZmljJ10+NTAwMC4wLCdsYXN0X21vbnRoX3RyYWZmaWMnXT01MDAwLjAKdHJhaW5fZGF0YS5sb2NbdHJhaW5fZGF0YVsnbG9jYWxfdHJhZmZmaWNfbW9udGgnXT41MDAwMC4wLCdsb2NhbF90cmFmZmZpY19tb250aCddPTUwMDAwLjAKdHJhaW5fZGF0YS5sb2NbdHJhaW5fZGF0YVsnZm9ybWVyX2NvbXBsYWludF9udW0nXT41LjAsJ2Zvcm1lcl9jb21wbGFpbnRfbnVtJ109NS4wCnRyYWluX2RhdGEubG9jW3RyYWluX2RhdGFbJ2Zvcm1lcl9jb21wbGFpbnRfZmVlJ10+MS4wLCdmb3JtZXJfY29tcGxhaW50X2ZlZSddPTEuMAojIOW9kuS4gOWMluaVsOaNrgp0cmFpbl9kYXRhW2NvbHVtbl9uYW1lc109cHJlcHJvY2Vzc2luZy5zY2FsZSh0cmFpbl9kYXRhW2NvbHVtbl9uYW1lc10pCgp0cmFpbl9kYXRhLnRvX2NzdignLi4vZGF0YS9wcmVwcm9jZXNzZWRfdHJhaW4uY3N2JyxpbmRleD1GYWxzZSkKZGVsICB0cmFpbl9kYXRh</text>
       </register>
       <register name="-" type="4">
         <text>from sklearn.model_selection import train_test_split</text>
@@ -112,19 +113,22 @@
         <text encoding="base64">bW9kZWwuZml0KHRyYWluX3Bvb2wsIGV2YWxfc2V0PXZhbGlkYXRlX3Bvb2wsY2F0X2ZlYXR1cmVzPWNhdGVnb3JpY2FsX2ZlYXR1cmVzX2luZGljZXMpCg==</text>
       </register>
       <register name="1" type="4">
+        <text encoding="base64">IyB0cmFpbuS/ruaUuee8uuaNn+WAvAp0cmFpbl9kYXRhWycyX3RvdGFsX2ZlZSddPXRyYWluX2RhdGFbJzJfdG90YWxfZmVlJ10uYXBwbHkodG90YWxfZmVlX2Zvcm1hdCkKdHJhaW5fZGF0YVsnM190b3RhbF9mZWUnXT10cmFpbl9kYXRhWyczX3RvdGFsX2ZlZSddLmFwcGx5KHRvdGFsX2ZlZV9mb3JtYXQpCnRyYWluX2RhdGFbJ2dlbmRlciddPXRyYWluX2RhdGFbJ2dlbmRlciddLmFwcGx5KGdlbmRlcl9mb3JtYXQpCnRyYWluX2RhdGFbJ2FnZSddPXRyYWluX2RhdGFbJ2FnZSddLmFwcGx5KGFnZV9mb3JtYXQpCgojIHRyYWlu5re75Yqg57y65o2f5YC877yM5re75Yqg6ZiI5YC8CnRyYWluX2RhdGEubG9jW3RyYWluX2RhdGFbJzFfdG90YWxfZmVlJ10+ODAwLjAsJzFfdG90YWxfZmVlJ109ODAwLjAKCnRyYWluX2RhdGEubG9jW3RyYWluX2RhdGFbJzJfdG90YWxfZmVlJ10+ODAwLjAsJzJfdG90YWxfZmVlJ109ODAwLjAKdHJhaW5feF9tZWFuXzI9dHJhaW5fZGF0YVsnMl90b3RhbF9mZWUnXS5tZWFuKCkKCnRyYWluX2RhdGEubG9jW3RyYWluX2RhdGFbJzJfdG90YWxfZmVlJ108MCwnMl90b3RhbF9mZWUnXT10cmFpbl94X21lYW5fMgp0cmFpbl9kYXRhLmxvY1t0cmFpbl9kYXRhWyczX3RvdGFsX2ZlZSddPjgwMC4wLCczX3RvdGFsX2ZlZSddPTgwMC4wCgp0cmFpbl94X21lYW5fMz10cmFpbl9kYXRhWyczX3RvdGFsX2ZlZSddLm1lYW4oKQp0cmFpbl9kYXRhLmxvY1t0cmFpbl9kYXRhWyczX3RvdGFsX2ZlZSddPDAsJzNfdG90YWxfZmVlJ109dHJhaW5feF9tZWFuXzMKCnRyYWluX2RhdGEubG9jW3RyYWluX2RhdGFbJzRfdG90YWxfZmVlJ10+ODAwLjAsJzRfdG90YWxfZmVlJ109ODAwLjAKCnRyYWluX2RhdGEubG9jW3RyYWluX2RhdGFbJ21vbnRoX3RyYWZmaWMnXT41MDAwLjAsJ21vbnRoX3RyYWZmaWMnXT01MDAwLjAKdHJhaW5fZGF0YS5sb2NbdHJhaW5fZGF0YVsncGF5X251bSddPjQwMC4wLCdwYXlfbnVtJ109NDAwLjAKdHJhaW5fZGF0YS5sb2NbdHJhaW5fZGF0YVsnbG9jYWxfY2FsbGVyX3RpbWUnXT4zMDAuMCwnbG9jYWxfY2FsbGVyX3RpbWUnXT0zMDAuMAp0cmFpbl9kYXRhLmxvY1t0cmFpbl9kYXRhWydzZXJ2aWNlMV9jYWxsZXJfdGltZSddPjMwMC4wLCdzZXJ2aWNlMV9jYWxsZXJfdGltZSddPTMwMC4wCnRyYWluX2RhdGEubG9jW3RyYWluX2RhdGFbJ3NlcnZpY2UyX2NhbGxlcl90aW1lJ10+NTAwLjAsJ3NlcnZpY2UyX2NhbGxlcl90aW1lJ109NTAwLjAKdHJhaW5fZGF0YS5sb2NbdHJhaW5fZGF0YVsnbGFzdF9tb250aF90cmFmZmljJ10+NTAwMC4wLCdsYXN0X21vbnRoX3RyYWZmaWMnXT01MDAwLjAKdHJhaW5fZGF0YS5sb2NbdHJhaW5fZGF0YVsnbG9jYWxfdHJhZmZmaWNfbW9udGgnXT41MDAwMC4wLCdsb2NhbF90cmFmZmZpY19tb250aCddPTUwMDAwLjAKdHJhaW5fZGF0YS5sb2NbdHJhaW5fZGF0YVsnZm9ybWVyX2NvbXBsYWludF9udW0nXT41LjAsJ2Zvcm1lcl9jb21wbGFpbnRfbnVtJ109NS4wCnRyYWluX2RhdGEubG9jW3RyYWluX2RhdGFbJ2Zvcm1lcl9jb21wbGFpbnRfZmVlJ10+MS4wLCdmb3JtZXJfY29tcGxhaW50X2ZlZSddPTEuMAojIOW9kuS4gOWMluaVsOaNrgp0cmFpbl9kYXRhW2NvbHVtbl9uYW1lc109cHJlcHJvY2Vzc2luZy5zY2FsZSh0cmFpbl9kYXRhW2NvbHVtbl9uYW1lc10pCgp0cmFpbl9kYXRhLnRvX2NzdignLi4vZGF0YS9wcmVwcm9jZXNzZWRfdHJhaW4uY3N2JyxpbmRleD1GYWxzZSkKZGVsICB0cmFpbl9kYXRh</text>
+      </register>
+      <register name="2" type="4">
         <text>from xgboost import plot_importance
 from matplotlib import pyplot</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text encoding="base64">IHByZWRzID0gbW9kZWwucHJlZGljdCh4Z2JfdGVzdCxudHJlZV9saW1pdD1tb2RlbC5iZXN0X250cmVlX2xpbWl0KQoKIyByZXN1bHQ9cGQuRGF0YUZyYW1lKHByZWRzLGNvbHVtbnM9WydwcmVkaWN0J10pCiMgcmVzdWx0WydwcmVkaWN0J109cmVzdWx0WydwcmVkaWN0J10ubWFwKGxhYmVsMmN1cnJlbnRfc2VydmljZSkKIyB4Z2Jfc3VibWlzc2lvbj1wZC5jb25jYXQoW3VzZXJfaWQscmVzdWx0XSxheGlzPTEpCiMgeGdiX3N1Ym1pc3Npb24udG9fY3N2KCcuL3hnYl9zdWJtaXNzaW9uLmNzdicsaW5kZXg9RmFsc2UpCiMKIyBtb2RlbC5zYXZlX21vZGVsKCcuL3hnYi5tb2RlbCcpICMg55So5LqO5a2Y5YKo6K6t57uD5Ye655qE5qih5Z6LCiMgcHJpbnQgKCJiZXN0IGJlc3RfbnRyZWVfbGltaXQiLG1vZGVsLmJlc3RfbnRyZWVfbGltaXQpCiM=</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>#watchlist = [(xgb_val, 'val')]
 
 #训练模型并保存
 # early_stopping_rounds 当设置的迭代次数较大时，early_stopping_rounds 可在一定的迭代次数内准确率没有提升就停止训练</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text># params={
 #     'booster':'gbtree',
 #     'objective': 'multi:softmax', #多分类的问题
@@ -143,24 +147,21 @@ from matplotlib import pyplot</text>
 #     'seed':1000,
 #     'nthread':7</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>seed = 7
 test_size = 0.33
 X_train, X_val, y_train, y_val = train_test_split(X, Y, test_size=test_size, random_state=seed)
 xgb_train=xgb.DMatrix(X_train,label=y_train)
 xgb_val=xgb.DMatrix(X_val,y_val)</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text encoding="base64">ICAgIHRyYWluX3Bvb2wgPSBQb29sKFhfdHJhaW4sIHlfdHJhaW4pCiAgICB2YWxpZGF0ZV9wb29sID0gUG9vbChYX3ZhbGlkLCB5X3ZhbGlkKQ==</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">ICAgIGltcG9ydGFuY2VzID0gcGQuRGF0YUZyYW1lKHsnRmVhdHVyZSc6bW9kZWwuZmVhdHVyZV9pbXBvcnRhbmNlc18sICdJbXBvcnRhbmNlJzogbW9kZWwuZmVhdHVyZV9pbXBvcnRhbmNlc199KQogICAgdG9wX2ltcG9ydGFuY2VzID0gaW1wb3J0YW5jZXMuc29ydF92YWx1ZXMoYnk9J0ltcG9ydGFuY2UnLCBhc2NlbmRpbmc9RmFsc2UpWzoyMF0KICAgIGZpZywgYXggPSBwbHQuc3VicGxvdHMoMSwgMSwgZmlnc2l6ZT1bMTAsIDddKQogICAgc25zLmJhcnBsb3QoeD0nSW1wb3J0YW5jZScsIHk9J0ZlYXR1cmUnLCBkYXRhPXRvcF9pbXBvcnRhbmNlcywgYXg9YXgsb3JpZW50PSdoJykKICAgIHBsdC50aWdodF9sYXlvdXQoKQoKICAgIHBsdC5zYXZlZmlnKCdmZWF0dXJlX2ltcG9ydGFuY2Ulcy5wbmcnJXN0cihpbmRleCkp</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">Y3B1IOe6v+eoi+aVsAojICAgICAjJ2V2YWxfbWV0cmljJzogJ2F1YycKIyB9Cg==</text>
-      </register>
       <register name="9" type="4">
-        <text encoding="base64">Cgo=</text>
+        <text encoding="base64">Y3B1IOe6v+eoi+aVsAojICAgICAjJ2V2YWxfbWV0cmljJzogJ2F1YycKIyB9Cg==</text>
       </register>
     </registers>
     <search>
