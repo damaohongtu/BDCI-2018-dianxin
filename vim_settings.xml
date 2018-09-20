@@ -71,7 +71,8 @@
       <file name="$USER_HOME$/.conda/envs/shanshan/lib/python3.6/site-packages/tensorflow/python/estimator/canned/dnn_linear_combined.py" timestamp="1536726413760">
         <mark key="[" line="320" column="36" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/https_project/wd_https_keras.py" timestamp="1537441393592">
+      <file name="$USER_HOME$/workplace/experiment/https_project/wd_https_keras.py" timestamp="1537443352476">
+        <mark key="[" line="165" column="55" />
         <mark key="]" line="8" column="0" />
         <mark key="^" line="8" column="0" />
         <mark key="." line="8" column="0" />
@@ -82,10 +83,10 @@
       <file name="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/python/feature_column/feature_column.py" timestamp="1536734175526">
         <mark key="[" line="1486" column="39" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/https_project/cnn_test.py" timestamp="1537441485804">
-        <mark key="[" line="68" column="0" />
-        <mark key="]" line="68" column="0" />
-        <mark key="." line="68" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/https_project/cnn_test.py" timestamp="1537442635462">
+        <mark key="[" line="51" column="23" />
+        <mark key="]" line="51" column="23" />
+        <mark key="." line="51" column="23" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https_project/train.py" timestamp="1536301340898">
         <mark key="[" line="16" column="2" />
@@ -112,18 +113,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>#编译模型
-model.compile(loss='categorical_crossentropy',
-              optimizer='adadelta',
-              metrics=['accuracy'])
-#训练模型
-model.fit(X_train, Y_train, batch_size=batch_size, epochs=epochs,
-          verbose=1, validation_data=(X_test, Y_test))
-#评估模型
-score = model.evaluate(X_test, Y_test, verbose=0)</text>
+        <text>(X_train.shape[1],)</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICMg5Y2356ev5bGCMQ==</text>
+        <text>(X_train.shape[1],)</text>
       </register>
       <register name="/" type="4">
         <text>IMAGE</text>
