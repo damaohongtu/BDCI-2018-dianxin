@@ -71,15 +71,21 @@
       <file name="$USER_HOME$/.conda/envs/shanshan/lib/python3.6/site-packages/tensorflow/python/estimator/canned/dnn_linear_combined.py" timestamp="1536726413760">
         <mark key="[" line="320" column="36" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/https_project/wd_https_keras.py" timestamp="1537435514069" />
+      <file name="$USER_HOME$/workplace/experiment/https_project/wd_https_keras.py" timestamp="1537441393592">
+        <mark key="]" line="8" column="0" />
+        <mark key="^" line="8" column="0" />
+        <mark key="." line="8" column="0" />
+      </file>
       <file name="$USER_HOME$/workplace/BDCI/utils/testing/integration.py" timestamp="1536585954206">
         <mark key="[" line="28" column="14" />
       </file>
       <file name="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/python/feature_column/feature_column.py" timestamp="1536734175526">
         <mark key="[" line="1486" column="39" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/https_project/cnn_test.py" timestamp="1537440488332">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/https_project/cnn_test.py" timestamp="1537441485804">
+        <mark key="[" line="68" column="0" />
+        <mark key="]" line="68" column="0" />
+        <mark key="." line="68" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https_project/train.py" timestamp="1536301340898">
         <mark key="[" line="16" column="2" />
@@ -106,10 +112,18 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">CiAgICBkZWVwX2NvbHMgPSBlbWJlZGRpbmdfY29scyArIGNvbnRfY29scwogICAgZGZfZGVlcCwgdW5pcXVlX3ZhbHMgPSB2YWwyaWR4KGRmX2RlZXAsIGVtYmVkZGluZ19jb2xzKQ==</text>
+        <text>#编译模型
+model.compile(loss='categorical_crossentropy',
+              optimizer='adadelta',
+              metrics=['accuracy'])
+#训练模型
+model.fit(X_train, Y_train, batch_size=batch_size, epochs=epochs,
+          verbose=1, validation_data=(X_test, Y_test))
+#评估模型
+score = model.evaluate(X_test, Y_test, verbose=0)</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text encoding="base64">ICMg5Y2356ev5bGCMQ==</text>
       </register>
       <register name="/" type="4">
         <text>IMAGE</text>
@@ -118,31 +132,43 @@
         <text encoding="base64">bW9kZWwuZml0KHRyYWluX3Bvb2wsIGV2YWxfc2V0PXZhbGlkYXRlX3Bvb2wsY2F0X2ZlYXR1cmVzPWNhdGVnb3JpY2FsX2ZlYXR1cmVzX2luZGljZXMpCg==</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">CiAgICBkZWVwX2NvbHMgPSBlbWJlZGRpbmdfY29scyArIGNvbnRfY29scwogICAgZGZfZGVlcCwgdW5pcXVlX3ZhbHMgPSB2YWwyaWR4KGRmX2RlZXAsIGVtYmVkZGluZ19jb2xzKQ==</text>
+        <text>#编译模型
+model.compile(loss='categorical_crossentropy',
+              optimizer='adadelta',
+              metrics=['accuracy'])
+#训练模型
+model.fit(X_train, Y_train, batch_size=batch_size, epochs=epochs,
+          verbose=1, validation_data=(X_test, Y_test))
+#评估模型
+score = model.evaluate(X_test, Y_test, verbose=0)</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">ICAgZW1iZWRkaW5nc190ZW5zb3JzID0gW10KICAgIG5fZmFjdG9ycyA9IDgKICAgIHJlZyA9IDFlLTMKICAgIGZvciBlYyBpbiBlbWJlZGRpbmdfY29sczoKICAgICAgICBsYXllcl9uYW1lID0gZWMgKyAnX2lucCcKICAgICAgICB0X2lucCwgdF9idWlsZCA9IGVtYmVkZGluZ19pbnB1dCgKICAgICAgICAgICAgbGF5ZXJfbmFtZSwgdW5pcXVlX3ZhbHNbZWNdLCBuX2ZhY3RvcnMsIHJlZykKICAgICAgICBlbWJlZGRpbmdzX3RlbnNvcnMuYXBwZW5kKCh0X2lucCwgdF9idWlsZCkpCiAgICAgICAgZGVsKHRfaW5wLCB0X2J1aWxkKQoKICAgIGNvbnRpbnVvdXNfdGVuc29ycyA9IFtdCiAgICBmb3IgY2MgaW4gY29udF9jb2xzOgogICAgICAgIGxheWVyX25hbWUgPSBjYyArICdfaW4nCiAgICAgICAgdF9pbnAsIHRfYnVpbGQgPSBjb250aW5vdXNfaW5wdXQobGF5ZXJfbmFtZSkKICAgICAgICBjb250aW51b3VzX3RlbnNvcnMuYXBwZW5kKCh0X2lucCwgdF9idWlsZCkpCiAgICAgICAgZGVsKHRfaW5wLCB0X2J1aWxkKQ==</text>
+        <text encoding="base64">CmRlZXBfaW5wID0gSW5wdXQoc2hhcGU9KFhfdHJhaW4uc2hhcGVbMV0sKSwgZHR5cGU9J2Zsb2F0MzInLCBuYW1lPSdkZWVwJw==</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">CiAgICBpbnBfbGF5ZXIgPSAgW2V0WzBdIGZvciBldCBpbiBlbWJlZGRpbmdzX3RlbnNvcnNdCiAgICBpbnBfbGF5ZXIgKz0gW2N0WzBdIGZvciBjdCBpbiBjb250aW51b3VzX3RlbnNvcnNdCiAgICBpbnBfZW1iZWQgPSAgW2V0WzFdIGZvciBldCBpbiBlbWJlZGRpbmdzX3RlbnNvcnNdCiAgICBpbnBfZW1iZWQgKz0gW2N0WzFdIGZvciBjdCBpbiBjb250aW51b3VzX3RlbnNvcnNd</text>
+        <text>&quot;&quot;&quot;
+model.add(Convolution2D(nb_filters, kernel_size[0], kernel_size[1],
+                        border_mode='same',
+                        input_shape=input_shape))
+&quot;&quot;&quot;</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">CiAgICBlbWJlZGRpbmdzX3RlbnNvcnMgPSBbXQogICAgbl9mYWN0b3JzID0gOAogICAgcmVnID0gMWUtMwogICAgZm9yIGVjIGluIGVtYmVkZGluZ19jb2xzOgogICAgICAgIGxheWVyX25hbWUgPSBlYyArICdfaW5wJwogICAgICAgIHRfaW5wLCB0X2J1aWxkID0gZW1iZWRkaW5nX2lucHV0KAogICAgICAgICAgICBsYXllcl9uYW1lLCB1bmlxdWVfdmFsc1tlY10sIG5fZmFjdG9ycywgcmVnKQogICAgICAgIGVtYmVkZGluZ3NfdGVuc29ycy5hcHBlbmQoKHRfaW5wLCB0X2J1aWxkKSkKICAgICAgICBkZWwodF9pbnAsIHRfYnVpbGQpCgogICAgY29udGludW91c190ZW5zb3JzID0gW10KICAgIGZvciBjYyBpbiBjb250X2NvbHM6CiAgICAgICAgbGF5ZXJfbmFtZSA9IGNjICsgJ19pbicKICAgICAgICB0X2lucCwgdF9idWlsZCA9IGNvbnRpbm91c19pbnB1dChsYXllcl9uYW1lKQogICAgICAgIGNvbnRpbnVvdXNfdGVuc29ycy5hcHBlbmQoKHRfaW5wLCB0X2J1aWxkKSkKICAgICAgICBkZWwodF9pbnAsIHRfYnVpbGQp</text>
+        <text encoding="base64">CiAgICBkZWVwX2NvbHMgPSBlbWJlZGRpbmdfY29scyArIGNvbnRfY29scwogICAgZGZfZGVlcCwgdW5pcXVlX3ZhbHMgPSB2YWwyaWR4KGRmX2RlZXAsIGVtYmVkZGluZ19jb2xzKQ==</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">CiAgICBpbnBfbGF5ZXIgPSAgW2V0WzBdIGZvciBldCBpbiBlbWJlZGRpbmdzX3RlbnNvcnNdCiAgICBpbnBfbGF5ZXIgKz0gW2N0WzBdIGZvciBjdCBpbiBjb250aW51b3VzX3RlbnNvcnNdCiAgICBpbnBfZW1iZWQgPSAgW2V0WzFdIGZvciBldCBpbiBlbWJlZGRpbmdzX3RlbnNvcnNdCiAgICBpbnBfZW1iZWQgKz0gW2N0WzFdIGZvciBjdCBpbiBjb250aW51b3VzX3RlbnNvcnNd</text>
+        <text encoding="base64">ICAgZW1iZWRkaW5nc190ZW5zb3JzID0gW10KICAgIG5fZmFjdG9ycyA9IDgKICAgIHJlZyA9IDFlLTMKICAgIGZvciBlYyBpbiBlbWJlZGRpbmdfY29sczoKICAgICAgICBsYXllcl9uYW1lID0gZWMgKyAnX2lucCcKICAgICAgICB0X2lucCwgdF9idWlsZCA9IGVtYmVkZGluZ19pbnB1dCgKICAgICAgICAgICAgbGF5ZXJfbmFtZSwgdW5pcXVlX3ZhbHNbZWNdLCBuX2ZhY3RvcnMsIHJlZykKICAgICAgICBlbWJlZGRpbmdzX3RlbnNvcnMuYXBwZW5kKCh0X2lucCwgdF9idWlsZCkpCiAgICAgICAgZGVsKHRfaW5wLCB0X2J1aWxkKQoKICAgIGNvbnRpbnVvdXNfdGVuc29ycyA9IFtdCiAgICBmb3IgY2MgaW4gY29udF9jb2xzOgogICAgICAgIGxheWVyX25hbWUgPSBjYyArICdfaW4nCiAgICAgICAgdF9pbnAsIHRfYnVpbGQgPSBjb250aW5vdXNfaW5wdXQobGF5ZXJfbmFtZSkKICAgICAgICBjb250aW51b3VzX3RlbnNvcnMuYXBwZW5kKCh0X2lucCwgdF9idWlsZCkpCiAgICAgICAgZGVsKHRfaW5wLCB0X2J1aWxkKQ==</text>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">CiAgICAKCiAgICAjIEFkZCBhIGZlYXR1cmUgdG8gaWxsdXN0cmF0ZSBtdWx0aWNsYXNzIGNsYXNzaWZpY2F0aW9uCiAgICBhZ2VfZ3JvdXBzID0gWzAsIDI1LCA2NSwgOTBdCiAgICBhZ2VfbGFiZWxzID0gcmFuZ2UobGVuKGFnZV9ncm91cHMpIC0gMSkKICAgIGRmX3RyYWluWydhZ2VfZ3JvdXAnXSA9IHBkLmN1dCgKICAgICAgICBkZl90cmFpblsnYWdlJ10sIGFnZV9ncm91cHMsIGxhYmVscz1hZ2VfbGFiZWxzKQogICAgZGZfdGVzdFsnYWdlX2dyb3VwJ10gPSBwZC5jdXQoCiAgICAgICAgZGZfdGVzdFsnYWdlJ10sIGFnZV9ncm91cHMsIGxhYmVscz1hZ2VfbGFiZWxzKQ==</text>
+        <text encoding="base64">CiAgICBpbnBfbGF5ZXIgPSAgW2V0WzBdIGZvciBldCBpbiBlbWJlZGRpbmdzX3RlbnNvcnNdCiAgICBpbnBfbGF5ZXIgKz0gW2N0WzBdIGZvciBjdCBpbiBjb250aW51b3VzX3RlbnNvcnNdCiAgICBpbnBfZW1iZWQgPSAgW2V0WzFdIGZvciBldCBpbiBlbWJlZGRpbmdzX3RlbnNvcnNdCiAgICBpbnBfZW1iZWQgKz0gW2N0WzFdIGZvciBjdCBpbiBjb250aW51b3VzX3RlbnNvcnNd</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">IyBBZGQgYSBmZWF0dXJlIHRvIGlsbHVzdHJhdGUgdGhlIGxvZ2lzdGljIHJlZ3Jlc3Npb24gZXhhbXBsZQogICAgZGZfdHJhaW5bJ2luY29tZV9sYWJlbCddID0gKAogICAgICAgIGRmX3RyYWluWyJpbmNvbWVfYnJhY2tldCJdLmFwcGx5KGxhbWJkYSB4OiAiPjUwSyIgaW4geCkpLmFzdHlwZShpbnQpCiAgICBkZl90ZXN0WydpbmNvbWVfbGFiZWwnXSA9ICgKICAgICAgICBkZl90ZXN0WyJpbmNvbWVfYnJhY2tldCJdLmFwcGx5KGxhbWJkYSB4OiAiPjUwSyIgaW4geCkpLmFzdHlwZShpbnQp</text>
+        <text encoding="base64">CiAgICBlbWJlZGRpbmdzX3RlbnNvcnMgPSBbXQogICAgbl9mYWN0b3JzID0gOAogICAgcmVnID0gMWUtMwogICAgZm9yIGVjIGluIGVtYmVkZGluZ19jb2xzOgogICAgICAgIGxheWVyX25hbWUgPSBlYyArICdfaW5wJwogICAgICAgIHRfaW5wLCB0X2J1aWxkID0gZW1iZWRkaW5nX2lucHV0KAogICAgICAgICAgICBsYXllcl9uYW1lLCB1bmlxdWVfdmFsc1tlY10sIG5fZmFjdG9ycywgcmVnKQogICAgICAgIGVtYmVkZGluZ3NfdGVuc29ycy5hcHBlbmQoKHRfaW5wLCB0X2J1aWxkKSkKICAgICAgICBkZWwodF9pbnAsIHRfYnVpbGQpCgogICAgY29udGludW91c190ZW5zb3JzID0gW10KICAgIGZvciBjYyBpbiBjb250X2NvbHM6CiAgICAgICAgbGF5ZXJfbmFtZSA9IGNjICsgJ19pbicKICAgICAgICB0X2lucCwgdF9idWlsZCA9IGNvbnRpbm91c19pbnB1dChsYXllcl9uYW1lKQogICAgICAgIGNvbnRpbnVvdXNfdGVuc29ycy5hcHBlbmQoKHRfaW5wLCB0X2J1aWxkKSkKICAgICAgICBkZWwodF9pbnAsIHRfYnVpbGQp</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">ICAgIiIiUnVuIHRoZSB3aWRlIGFuZCBkZWVwIG1vZGVsLiBQYXJhbWV0ZXJzIGFyZSB0aGUgc2FtZSBhcyB0aG9zZSBmb3IgdGhlCiAgICB3aWRlIGFuZCBkZWVwIGZ1bmN0aW9ucwogICAgIiIi</text>
+        <text encoding="base64">CiAgICBpbnBfbGF5ZXIgPSAgW2V0WzBdIGZvciBldCBpbiBlbWJlZGRpbmdzX3RlbnNvcnNdCiAgICBpbnBfbGF5ZXIgKz0gW2N0WzBdIGZvciBjdCBpbiBjb250aW51b3VzX3RlbnNvcnNdCiAgICBpbnBfZW1iZWQgPSAgW2V0WzFdIGZvciBldCBpbiBlbWJlZGRpbmdzX3RlbnNvcnNdCiAgICBpbnBfZW1iZWQgKz0gW2N0WzFdIGZvciBjdCBpbiBjb250aW51b3VzX3RlbnNvcnNd</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">ICAgICIiImlmIGFkdWx0IGRhdGEgInRyYWluLmNzdiIgYW5kICJ0ZXN0LmNzdiIgYXJlIG5vdCBpbiB5b3VyIGRpcmVjdG9yeSwKICAgIGRvd25sb2FkIHRoZW0uCiAgICAiIiI=</text>
+        <text encoding="base64">CiAgICAKCiAgICAjIEFkZCBhIGZlYXR1cmUgdG8gaWxsdXN0cmF0ZSBtdWx0aWNsYXNzIGNsYXNzaWZpY2F0aW9uCiAgICBhZ2VfZ3JvdXBzID0gWzAsIDI1LCA2NSwgOTBdCiAgICBhZ2VfbGFiZWxzID0gcmFuZ2UobGVuKGFnZV9ncm91cHMpIC0gMSkKICAgIGRmX3RyYWluWydhZ2VfZ3JvdXAnXSA9IHBkLmN1dCgKICAgICAgICBkZl90cmFpblsnYWdlJ10sIGFnZV9ncm91cHMsIGxhYmVscz1hZ2VfbGFiZWxzKQogICAgZGZfdGVzdFsnYWdlX2dyb3VwJ10gPSBwZC5jdXQoCiAgICAgICAgZGZfdGVzdFsnYWdlJ10sIGFnZV9ncm91cHMsIGxhYmVscz1hZ2VfbGFiZWxzKQ==</text>
       </register>
     </registers>
     <search>
