@@ -81,7 +81,8 @@ def run_loop(name, train_input_fn, eval_input_fn, model_column_fn,
   """Define training loop."""
   model_helpers.apply_clean(flags.FLAGS)
   model = build_estimator_fn(
-      model_dir=flags_obj.model_dir, model_type=flags_obj.model_type,
+      model_dir=flags_obj.model_dir,
+      model_type=flags_obj.model_type,
       model_column_fn=model_column_fn,
       inter_op=flags_obj.inter_op_parallelism_threads,
       intra_op=flags_obj.intra_op_parallelism_threads)
@@ -93,7 +94,9 @@ def run_loop(name, train_input_fn, eval_input_fn, model_column_fn,
   }
 
   benchmark_logger = logger.get_benchmark_logger()
-  benchmark_logger.log_run_info('wide_deep', name, run_params,
+  benchmark_logger.log_run_info('wide_deep',
+                                name,
+                                run_params,
                                 test_id=flags_obj.benchmark_test_id)
 
   loss_prefix = LOSS_PREFIX.get(flags_obj.model_type, '')
