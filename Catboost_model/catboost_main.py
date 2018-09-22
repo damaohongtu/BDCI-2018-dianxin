@@ -49,6 +49,8 @@ cb_test=Pool(test_data)
 skf = StratifiedKFold(n_splits=n_splits,random_state=seed,shuffle=True)
 X,Y=X.values,Y.values
 cv_pred = []
+# 五折交叉验证，使用多线程执行程序
+
 for index,(train_index,test_index) in enumerate(skf.split(X,Y)):
     print(index)
     X_train, X_valid, y_train, y_valid = X[train_index],X[test_index],Y[train_index],Y[test_index]
