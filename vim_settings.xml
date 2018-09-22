@@ -56,11 +56,11 @@
         <mark key="^" line="79" column="0" />
         <mark key="." line="87" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/input/preprocess.py" timestamp="1537606496366">
-        <mark key="[" line="49" column="18" />
-        <mark key="]" line="49" column="0" />
+      <file name="$USER_HOME$/workplace/BDCI/input/preprocess.py" timestamp="1537607452062">
+        <mark key="[" line="88" column="0" />
+        <mark key="]" line="88" column="0" />
         <mark key="^" line="49" column="0" />
-        <mark key="." line="49" column="0" />
+        <mark key="." line="88" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/lightGBM.py" timestamp="1537087568022">
         <mark key="[" line="108" column="0" />
@@ -119,9 +119,8 @@
       <jump line="40" column="4" filename="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_main.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>#print('train_data[former_complaint_num]:',train_data['former_complaint_num'])
-#print(&quot;train_data[former_complaint_fee]:&quot;,train_data['former_complaint_fee'])</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>(X_train.shape[1],)</text>
@@ -132,14 +131,17 @@
       <register name="0" type="2">
         <text encoding="base64">bW9kZWwuZml0KHRyYWluX3Bvb2wsIGV2YWxfc2V0PXZhbGlkYXRlX3Bvb2wsY2F0X2ZlYXR1cmVzPWNhdGVnb3JpY2FsX2ZlYXR1cmVzX2luZGljZXMpCg==</text>
       </register>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="4">
         <text>#print('train_data[former_complaint_num]:',train_data['former_complaint_num'])
 #print(&quot;train_data[former_complaint_fee]:&quot;,train_data['former_complaint_fee'])</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text encoding="base64">CmRhdGEubG9jW2RhdGFbJzNfdG90YWxfZmVlJ10+ODAwLjAsJzNfdG90YWxfZmVlJ109ODAwLjAKZGF0YV94X21lYW5fMz1kYXRhWyczX3RvdGFsX2ZlZSddLm1lYW4oKQpkYXRhLmxvY1tkYXRhWyczX3RvdGFsX2ZlZSddPDAsJzNfdG90YWxfZmVlJ109ZGF0YV94X21lYW5fMw==</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>#编译模型
 model.compile(loss='categorical_crossentropy',
               optimizer='adadelta',
@@ -150,27 +152,24 @@ model.fit(X_train, Y_train, batch_size=batch_size, epochs=epochs,
 #评估模型
 score = model.evaluate(X_test, Y_test, verbose=0)</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text encoding="base64">CmRlZXBfaW5wID0gSW5wdXQoc2hhcGU9KFhfdHJhaW4uc2hhcGVbMV0sKSwgZHR5cGU9J2Zsb2F0MzInLCBuYW1lPSdkZWVwJw==</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>&quot;&quot;&quot;
 model.add(Convolution2D(nb_filters, kernel_size[0], kernel_size[1],
                         border_mode='same',
                         input_shape=input_shape))
 &quot;&quot;&quot;</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text encoding="base64">CiAgICBkZWVwX2NvbHMgPSBlbWJlZGRpbmdfY29scyArIGNvbnRfY29scwogICAgZGZfZGVlcCwgdW5pcXVlX3ZhbHMgPSB2YWwyaWR4KGRmX2RlZXAsIGVtYmVkZGluZ19jb2xzKQ==</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">ICAgZW1iZWRkaW5nc190ZW5zb3JzID0gW10KICAgIG5fZmFjdG9ycyA9IDgKICAgIHJlZyA9IDFlLTMKICAgIGZvciBlYyBpbiBlbWJlZGRpbmdfY29sczoKICAgICAgICBsYXllcl9uYW1lID0gZWMgKyAnX2lucCcKICAgICAgICB0X2lucCwgdF9idWlsZCA9IGVtYmVkZGluZ19pbnB1dCgKICAgICAgICAgICAgbGF5ZXJfbmFtZSwgdW5pcXVlX3ZhbHNbZWNdLCBuX2ZhY3RvcnMsIHJlZykKICAgICAgICBlbWJlZGRpbmdzX3RlbnNvcnMuYXBwZW5kKCh0X2lucCwgdF9idWlsZCkpCiAgICAgICAgZGVsKHRfaW5wLCB0X2J1aWxkKQoKICAgIGNvbnRpbnVvdXNfdGVuc29ycyA9IFtdCiAgICBmb3IgY2MgaW4gY29udF9jb2xzOgogICAgICAgIGxheWVyX25hbWUgPSBjYyArICdfaW4nCiAgICAgICAgdF9pbnAsIHRfYnVpbGQgPSBjb250aW5vdXNfaW5wdXQobGF5ZXJfbmFtZSkKICAgICAgICBjb250aW51b3VzX3RlbnNvcnMuYXBwZW5kKCh0X2lucCwgdF9idWlsZCkpCiAgICAgICAgZGVsKHRfaW5wLCB0X2J1aWxkKQ==</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">CiAgICBpbnBfbGF5ZXIgPSAgW2V0WzBdIGZvciBldCBpbiBlbWJlZGRpbmdzX3RlbnNvcnNdCiAgICBpbnBfbGF5ZXIgKz0gW2N0WzBdIGZvciBjdCBpbiBjb250aW51b3VzX3RlbnNvcnNdCiAgICBpbnBfZW1iZWQgPSAgW2V0WzFdIGZvciBldCBpbiBlbWJlZGRpbmdzX3RlbnNvcnNdCiAgICBpbnBfZW1iZWQgKz0gW2N0WzFdIGZvciBjdCBpbiBjb250aW51b3VzX3RlbnNvcnNd</text>
-      </register>
       <register name="9" type="4">
-        <text encoding="base64">CiAgICBlbWJlZGRpbmdzX3RlbnNvcnMgPSBbXQogICAgbl9mYWN0b3JzID0gOAogICAgcmVnID0gMWUtMwogICAgZm9yIGVjIGluIGVtYmVkZGluZ19jb2xzOgogICAgICAgIGxheWVyX25hbWUgPSBlYyArICdfaW5wJwogICAgICAgIHRfaW5wLCB0X2J1aWxkID0gZW1iZWRkaW5nX2lucHV0KAogICAgICAgICAgICBsYXllcl9uYW1lLCB1bmlxdWVfdmFsc1tlY10sIG5fZmFjdG9ycywgcmVnKQogICAgICAgIGVtYmVkZGluZ3NfdGVuc29ycy5hcHBlbmQoKHRfaW5wLCB0X2J1aWxkKSkKICAgICAgICBkZWwodF9pbnAsIHRfYnVpbGQpCgogICAgY29udGludW91c190ZW5zb3JzID0gW10KICAgIGZvciBjYyBpbiBjb250X2NvbHM6CiAgICAgICAgbGF5ZXJfbmFtZSA9IGNjICsgJ19pbicKICAgICAgICB0X2lucCwgdF9idWlsZCA9IGNvbnRpbm91c19pbnB1dChsYXllcl9uYW1lKQogICAgICAgIGNvbnRpbnVvdXNfdGVuc29ycy5hcHBlbmQoKHRfaW5wLCB0X2J1aWxkKSkKICAgICAgICBkZWwodF9pbnAsIHRfYnVpbGQp</text>
+        <text encoding="base64">CiAgICBpbnBfbGF5ZXIgPSAgW2V0WzBdIGZvciBldCBpbiBlbWJlZGRpbmdzX3RlbnNvcnNdCiAgICBpbnBfbGF5ZXIgKz0gW2N0WzBdIGZvciBjdCBpbiBjb250aW51b3VzX3RlbnNvcnNdCiAgICBpbnBfZW1iZWQgPSAgW2V0WzFdIGZvciBldCBpbiBlbWJlZGRpbmdzX3RlbnNvcnNdCiAgICBpbnBfZW1iZWQgKz0gW2N0WzFdIGZvciBjdCBpbiBjb250aW51b3VzX3RlbnNvcnNd</text>
       </register>
     </registers>
     <search>
