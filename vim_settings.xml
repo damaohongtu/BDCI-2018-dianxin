@@ -15,6 +15,9 @@
       <file name="$USER_HOME$/workplace/BDCI/data/load_data.py" timestamp="1537002013615">
         <mark key="[" line="9" column="28" />
       </file>
+      <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgb_features.py" timestamp="1537593658601">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="/Python Console" timestamp="1537427673018">
         <mark key="[" line="0" column="0" />
       </file>
@@ -51,10 +54,10 @@
         <mark key="^" line="79" column="0" />
         <mark key="." line="87" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/input/preprocess.py" timestamp="1537335550471">
-        <mark key="[" line="62" column="79" />
-        <mark key="]" line="62" column="79" />
-        <mark key="." line="62" column="79" />
+      <file name="$USER_HOME$/workplace/BDCI/input/preprocess.py" timestamp="1537593897560">
+        <mark key="[" line="60" column="5" />
+        <mark key="]" line="63" column="79" />
+        <mark key="." line="63" column="79" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/lightGBM.py" timestamp="1537087568022">
         <mark key="[" line="108" column="0" />
