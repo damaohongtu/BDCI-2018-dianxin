@@ -6,22 +6,26 @@
       <file name="$USER_HOME$/workplace/experiment/https/https_data/pcap_parse.py" timestamp="1536807438495">
         <mark key="[" line="0" column="46" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_dataset.py" timestamp="1536747415481">
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_dataset.py" timestamp="1537331338685">
         <mark key="'" line="35" column="45" />
         <mark key="[" line="79" column="10" />
         <mark key="]" line="41" column="66" />
         <mark key="." line="41" column="66" />
       </file>
-      <file name="/Python Console" timestamp="1536732715295">
+      <file name="$USER_HOME$/workplace/BDCI/data/load_data.py" timestamp="1537002013615">
+        <mark key="[" line="9" column="28" />
+      </file>
+      <file name="/Python Console" timestamp="1537427673018">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/a.dummy" timestamp="1536819744966">
+      <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_predict.py" timestamp="1537002109538">
+        <mark key="[" line="13" column="29" />
+      </file>
+      <file name="/a.dummy" timestamp="1536997265179">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_main.py" timestamp="1536721785311">
-        <mark key="[" line="20" column="41" />
-        <mark key="]" line="8" column="0" />
-        <mark key="." line="8" column="0" />
+      <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_main.py" timestamp="1537337616143">
+        <mark key="^" line="18" column="54" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wide_deep/python/lib/read_conf.py" timestamp="1536733926675">
         <mark key="[" line="162" column="46" />
@@ -32,10 +36,8 @@
       <file name="$USER_HOME$/workplace/BDCI/is_similar.py" timestamp="1536497984162">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/census_predict.py" timestamp="1536647356100">
-        <mark key="[" line="14" column="42" />
-        <mark key="]" line="14" column="42" />
-        <mark key="." line="14" column="42" />
+      <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_predict.py" timestamp="1536999044609">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/XGBoost/xgboost_main.py" timestamp="1536988717300">
         <mark key="[" line="0" column="0" />
@@ -43,23 +45,24 @@
       <file name="$USER_HOME$/workplace/BDCI/utils/data/split_data.py" timestamp="1536557621917">
         <mark key="[" line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/tool/split_data.py" timestamp="1536581037407">
-        <mark key="[" line="18" column="0" />
-        <mark key="]" line="18" column="0" />
-        <mark key="." line="18" column="0" />
+      <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_main.py" timestamp="1537181587067">
+        <mark key="[" line="42" column="11" />
+        <mark key="]" line="87" column="0" />
+        <mark key="^" line="79" column="0" />
+        <mark key="." line="87" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/input/preprocess.py" timestamp="1536641605443">
-        <mark key="[" line="73" column="23" />
-        <mark key="]" line="73" column="23" />
-        <mark key="." line="73" column="23" />
-        <mark key="o" line="49" column="38" />
+      <file name="$USER_HOME$/workplace/BDCI/input/preprocess.py" timestamp="1537335550471">
+        <mark key="[" line="62" column="79" />
+        <mark key="]" line="62" column="79" />
+        <mark key="." line="62" column="79" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/wide_deep_predict.py" timestamp="1536664936722">
-        <mark key="[" line="43" column="0" />
-        <mark key="]" line="43" column="0" />
-        <mark key="." line="43" column="0" />
+      <file name="$USER_HOME$/workplace/BDCI/lightGBM.py" timestamp="1537087568022">
+        <mark key="[" line="108" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/__init__.py" timestamp="1536628825812">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/data/load_data_with_header.py" timestamp="1536997203899">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wide_deep/python/train.py" timestamp="1536733965281">
@@ -68,21 +71,27 @@
       <file name="$USER_HOME$/.conda/envs/shanshan/lib/python3.6/site-packages/tensorflow/python/estimator/canned/dnn_linear_combined.py" timestamp="1536726413760">
         <mark key="[" line="320" column="36" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/https_project/wd_https_keras.py" timestamp="1537493390208">
+        <mark key="[" line="94" column="24" />
+        <mark key="]" line="8" column="0" />
+        <mark key="^" line="8" column="0" />
+        <mark key="." line="8" column="0" />
+      </file>
       <file name="$USER_HOME$/workplace/BDCI/utils/testing/integration.py" timestamp="1536585954206">
         <mark key="[" line="28" column="14" />
       </file>
       <file name="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/python/feature_column/feature_column.py" timestamp="1536734175526">
         <mark key="[" line="1486" column="39" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/wide_and_deep.py" timestamp="1536575719230">
-        <mark key="[" line="16" column="11" />
-        <mark key="]" line="16" column="11" />
-        <mark key="." line="16" column="11" />
+      <file name="$USER_HOME$/workplace/experiment/https_project/cnn_test.py" timestamp="1537444037284">
+        <mark key="[" line="51" column="23" />
+        <mark key="]" line="51" column="23" />
+        <mark key="." line="51" column="23" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https_project/train.py" timestamp="1536301340898">
         <mark key="[" line="16" column="2" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/predict_concat.py" timestamp="1536666380631">
+      <file name="$USER_HOME$/workplace/BDCI/wide_deep/predict_concat.py" timestamp="1536993895809">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/data/test.py" timestamp="1536485067998">
@@ -91,123 +100,68 @@
       <file name="$USER_HOME$/workplace/BDCI/code/split_data.py" timestamp="1536558200428">
         <mark key="[" line="7" column="17" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/EDA/EDA.md" timestamp="1536563842159">
-        <mark key="[" line="87" column="18" />
-        <mark key="]" line="87" column="18" />
-        <mark key="." line="87" column="18" />
-      </file>
       <file name="$USER_HOME$/workplace/experiment/https/https_data/android_auto_run.py" timestamp="1536819794266">
         <mark key="[" line="32" column="0" />
-      </file>
-      <file name="$USER_HOME$/workplace/BDCI/wide_deep/test.py" timestamp="1536646418203">
-        <mark key="[" line="8" column="8" />
-        <mark key="]" line="8" column="8" />
-        <mark key="." line="8" column="8" />
       </file>
     </filemarks>
     <jumps>
       <jump line="57" column="23" filename="$USER_HOME$/workplace/BDCI/input/preprocess.py" />
       <jump line="48" column="40" filename="$USER_HOME$/workplace/BDCI/wide_deep/census_dataset.py" />
       <jump line="49" column="45" filename="$USER_HOME$/workplace/BDCI/wide_deep/census_dataset.py" />
+      <jump line="47" column="13" filename="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_main.py" />
+      <jump line="40" column="4" filename="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_main.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>def main():
-    with tf.Session() as sess:
-        print(&quot;start...&quot;)
-        # load the saved model
-        tf.saved_model.loader.load(sess, [tf.saved_model.tag_constants.SERVING], exported_path)
-
-        # get the predictor , refer tf.contrib.predictor
-        predictor = tf.contrib.predictor.from_saved_model(exported_path)
-        feature_dict=test_input_fn()
-        model_input = tf.train.Example(features=tf.train.Features(feature=feature_dict))
-        model_input = model_input.SerializeToString()
-        output_dict = predictor({&quot;inputs&quot;: [feature_dict]})
-
-        print(&quot; prediction Label is &quot;, output_dict['classes'])
-        print('Probability : ' + str(output_dict['scores']))
-
-                # Positive label = 1
-        label_index = np.argmax(output_dict['scores'])</text>
+        <text>(X_train.shape[1],)</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>(X_train.shape[1],)</text>
       </register>
       <register name="/" type="4">
         <text>IMAGE</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">b3MuZW52aXJvblsnQ1VEQV9WSVNJQkxFX0RFVklDRVMnXSA9ICcwJwo=</text>
+        <text encoding="base64">bW9kZWwuZml0KHRyYWluX3Bvb2wsIGV2YWxfc2V0PXZhbGlkYXRlX3Bvb2wsY2F0X2ZlYXR1cmVzPWNhdGVnb3JpY2FsX2ZlYXR1cmVzX2luZGljZXMpCg==</text>
       </register>
       <register name="1" type="4">
-        <text>def main():
-    with tf.Session() as sess:
-        print(&quot;start...&quot;)
-        # load the saved model
-        tf.saved_model.loader.load(sess, [tf.saved_model.tag_constants.SERVING], exported_path)
-
-        # get the predictor , refer tf.contrib.predictor
-        predictor = tf.contrib.predictor.from_saved_model(exported_path)
-        feature_dict=test_input_fn()
-        model_input = tf.train.Example(features=tf.train.Features(feature=feature_dict))
-        model_input = model_input.SerializeToString()
-        output_dict = predictor({&quot;inputs&quot;: [feature_dict]})
-
-        print(&quot; prediction Label is &quot;, output_dict['classes'])
-        print('Probability : ' + str(output_dict['scores']))
-
-                # Positive label = 1
-        label_index = np.argmax(output_dict['scores'])</text>
+        <text>#编译模型
+model.compile(loss='categorical_crossentropy',
+              optimizer='adadelta',
+              metrics=['accuracy'])
+#训练模型
+model.fit(X_train, Y_train, batch_size=batch_size, epochs=epochs,
+          verbose=1, validation_data=(X_test, Y_test))
+#评估模型
+score = model.evaluate(X_test, Y_test, verbose=0)</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">CiAgICBwcmVkaWN0aW9uX091dEZpbGUuY2xvc2UoKQoKCmRlZiBfZmxvYXRfZmVhdHVyZSh2YWx1ZSk6CiAgICByZXR1cm4gdGYudHJhaW4uRmVhdHVyZShmbG9hdF9saXN0PXRmLnRyYWluLkZsb2F0TGlzdCh2YWx1ZT1bdmFsdWVdKSkKCgpkZWYgX2J5dGVzX2ZlYXR1cmUodmFsdWUpOgogICAgcmV0dXJuIHRmLnRyYWluLkZlYXR1cmUoYnl0ZXNfbGlzdD10Zi50cmFpbi5CeXRlc0xpc3QodmFsdWU9W3ZhbHVlXSkpCgoKZGVmIF9pbnQ2NF9mZWF0dXJlKHZhbHVlKToKICAgIHJldHVybiB0Zi50cmFpbi5GZWF0dXJlKGludDY0X2xpc3Q9dGYudHJhaW4uSW50NjRMaXN0KHZhbHVlPVt2YWx1ZV0pKQ==</text>
+        <text encoding="base64">CmRlZXBfaW5wID0gSW5wdXQoc2hhcGU9KFhfdHJhaW4uc2hhcGVbMV0sKSwgZHR5cGU9J2Zsb2F0MzInLCBuYW1lPSdkZWVwJw==</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">ICAgICAgICBwcmVkaWN0aW9uX091dEZpbGUud3JpdGUoc3RyKGxhYmVsX2luZGV4KSkKICAgICAgICAgICAgICAgIHByZWRpY3Rpb25fT3V0RmlsZS53cml0ZSgnLCcpCiAgICAgICAgICAgICAgICBwcmVkaWN0aW9uX091dEZpbGUud3JpdGUoc3RyKG91dHB1dF9kaWN0WydzY29yZXMnXVswXVtsYWJlbF9pbmRleF0pKQogICAgICAgICAgICAgICAgcHJlZGljdGlvbl9PdXRGaWxlLndyaXRlKCdcbicp</text>
+        <text>&quot;&quot;&quot;
+model.add(Convolution2D(nb_filters, kernel_size[0], kernel_size[1],
+                        border_mode='same',
+                        input_shape=input_shape))
+&quot;&quot;&quot;</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">CiAgICAgICAgcHJlZGljdGlvbl9PdXRGaWxlID0gb3BlbihwcmVkaWN0aW9ub3V0cHV0ZmlsZSwgJ3cnKQogICAgICAgICMgUmVhZCBmaWxlIGFuZCBjcmVhdGUgZmVhdHVyZV9kaWN0IGZvciBlYWNoIHJlY29yZAogICAgICAgIHdpdGggb3BlbihwcmVkaWN0aW9uaW5wdXRmaWxlKSBhcyBpbmY6CiAgICAgICAgICAgIGZvciBsaW5lIGluIGluZjogCiAgICAgICAgICAgICAgICBmZWF0dXJlX2RpY3QgPXRlc3RfaW5wdXRfZm4oKQogICAgICAgICAgICAgICAgIyBQcmVwYXJlIG1vZGVsIGlucHV0</text>
+        <text encoding="base64">CiAgICBkZWVwX2NvbHMgPSBlbWJlZGRpbmdfY29scyArIGNvbnRfY29scwogICAgZGZfZGVlcCwgdW5pcXVlX3ZhbHMgPSB2YWwyaWR4KGRmX2RlZXAsIGVtYmVkZGluZ19jb2xzKQ==</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">CiAgICAjIFdlIGNhbGwgcmVwZWF0IGFmdGVyIHNodWZmbGluZywgcmF0aGVyIHRoYW4gYmVmb3JlLCB0byBwcmV2ZW50IHNlcGFyYXRlCiAgICAjIGVwb2NocyBmcm9tIGJsZW5kaW5nIHRvZ2V0aGVyLg==</text>
+        <text encoding="base64">ICAgZW1iZWRkaW5nc190ZW5zb3JzID0gW10KICAgIG5fZmFjdG9ycyA9IDgKICAgIHJlZyA9IDFlLTMKICAgIGZvciBlYyBpbiBlbWJlZGRpbmdfY29sczoKICAgICAgICBsYXllcl9uYW1lID0gZWMgKyAnX2lucCcKICAgICAgICB0X2lucCwgdF9idWlsZCA9IGVtYmVkZGluZ19pbnB1dCgKICAgICAgICAgICAgbGF5ZXJfbmFtZSwgdW5pcXVlX3ZhbHNbZWNdLCBuX2ZhY3RvcnMsIHJlZykKICAgICAgICBlbWJlZGRpbmdzX3RlbnNvcnMuYXBwZW5kKCh0X2lucCwgdF9idWlsZCkpCiAgICAgICAgZGVsKHRfaW5wLCB0X2J1aWxkKQoKICAgIGNvbnRpbnVvdXNfdGVuc29ycyA9IFtdCiAgICBmb3IgY2MgaW4gY29udF9jb2xzOgogICAgICAgIGxheWVyX25hbWUgPSBjYyArICdfaW4nCiAgICAgICAgdF9pbnAsIHRfYnVpbGQgPSBjb250aW5vdXNfaW5wdXQobGF5ZXJfbmFtZSkKICAgICAgICBjb250aW51b3VzX3RlbnNvcnMuYXBwZW5kKCh0X2lucCwgdF9idWlsZCkpCiAgICAgICAgZGVsKHRfaW5wLCB0X2J1aWxkKQ==</text>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbHVtbnMgPSB0Zi5kZWNvZGVfY3N2KHZhbHVlLCByZWNvcmRfZGVmYXVsdHM9X0NTVl9DT0xVTU5fREVGQVVMVFMpCiAgICAgICAgICAgICAgICBmZWF0dXJlcyA9IGRpY3QoemlwKF9DU1ZfQ09MVU1OUywgY29sdW1ucykp</text>
+        <text encoding="base64">CiAgICBpbnBfbGF5ZXIgPSAgW2V0WzBdIGZvciBldCBpbiBlbWJlZGRpbmdzX3RlbnNvcnNdCiAgICBpbnBfbGF5ZXIgKz0gW2N0WzBdIGZvciBjdCBpbiBjb250aW51b3VzX3RlbnNvcnNdCiAgICBpbnBfZW1iZWQgPSAgW2V0WzFdIGZvciBldCBpbiBlbWJlZGRpbmdzX3RlbnNvcnNdCiAgICBpbnBfZW1iZWQgKz0gW2N0WzFdIGZvciBjdCBpbiBjb250aW51b3VzX3RlbnNvcnNd</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">ICAgICAgICAjV3JpdGUgSGVhZGVyIGZvciBDU1YgZmlsZQogICAgICAgIHByZWRpY3Rpb25fT3V0RmlsZS53cml0ZSgiYWdlLCB3b3JrY2xhc3MsIGZubHdndCwgZWR1Y2F0aW9uLCBlZHVjYXRpb25fbnVtLG1hcml0YWxfc3RhdHVzLCBvY2N1cGF0aW9uLCByZWxhdGlvbnNoaXAsIHJhY2UsIGdlbmRlcixjYXBpdGFsX2dhaW4sIGNhcGl0YWxfbG9zcywgaG91cnNfcGVyX3dlZWssIG5hdGl2ZV9jb3VudHJ5LHByZWRpY3RlZF9pbmNvbWVfYnJhY2tldCxwcm9iYWJpbGl0eSIpCiAgICAgICAgcHJlZGljdGlvbl9PdXRGaWxlLndyaXRlKCdcbicp</text>
+        <text encoding="base64">CiAgICBlbWJlZGRpbmdzX3RlbnNvcnMgPSBbXQogICAgbl9mYWN0b3JzID0gOAogICAgcmVnID0gMWUtMwogICAgZm9yIGVjIGluIGVtYmVkZGluZ19jb2xzOgogICAgICAgIGxheWVyX25hbWUgPSBlYyArICdfaW5wJwogICAgICAgIHRfaW5wLCB0X2J1aWxkID0gZW1iZWRkaW5nX2lucHV0KAogICAgICAgICAgICBsYXllcl9uYW1lLCB1bmlxdWVfdmFsc1tlY10sIG5fZmFjdG9ycywgcmVnKQogICAgICAgIGVtYmVkZGluZ3NfdGVuc29ycy5hcHBlbmQoKHRfaW5wLCB0X2J1aWxkKSkKICAgICAgICBkZWwodF9pbnAsIHRfYnVpbGQpCgogICAgY29udGludW91c190ZW5zb3JzID0gW10KICAgIGZvciBjYyBpbiBjb250X2NvbHM6CiAgICAgICAgbGF5ZXJfbmFtZSA9IGNjICsgJ19pbicKICAgICAgICB0X2lucCwgdF9idWlsZCA9IGNvbnRpbm91c19pbnB1dChsYXllcl9uYW1lKQogICAgICAgIGNvbnRpbnVvdXNfdGVuc29ycy5hcHBlbmQoKHRfaW5wLCB0X2J1aWxkKSkKICAgICAgICBkZWwodF9pbnAsIHRfYnVpbGQp</text>
       </register>
       <register name="8" type="4">
-        <text encoding="base64">ICAgICAgICMgUmVhZCBkYXRhLCB1c2luZyBweXRob24sIGludG8gb3VyIGZlYXR1cmVzCiAgICAgICAgICAgICAgICBzZXJ2aWNlX3R5cGUsaXNfbWl4X3NlcnZpY2Usb25saW5lX3RpbWUsdG90YWxfZmVlXzEsdG90YWxfZmVlXzIsdG90YWxfZmVlXzMsdG90YWxfZmVlXzQsbW9udGhfdHJhZmZpYyxtYW55X292ZXJfYmlsbCxjb250cmFjdF90eXBlLGNvbnRyYWN0X3RpbWUsaXNfcHJvbWlzZV9sb3dfY29uc3VtZSxuZXRfc2VydmljZSxwYXlfdGltZXMscGF5X251bSxsYXN0X21vbnRoX3RyYWZmaWMsbG9jYWxfdHJhZmZmaWNfbW9udGgsbG9jYWxfY2FsbGVyX3RpbWUsc2VydmljZTFfY2FsbGVyX3RpbWUsc2VydmljZTJfY2FsbGVyX3RpbWUsZ2VuZGVyLGFnZSxjb21wbGFpbnRfbGV2ZWwsZm9ybWVyX2NvbXBsYWludF9udW0sZm9ybWVyX2NvbXBsYWludF9mZWUsdXNlcl9pZCA9IGxpbmUuc3RyaXAoKS5zcGxpdCgiLCIpCgogICAgICAgICAgICAgICAgIyBDcmVhdGUgYSBmZWF0dXJlX2RpY3QgZm9yIHRyYWluLmV4YW1wbGUgLSBHZXQgRmVhdHVyZSBDb2x1bW5zIHVzaWc=</text>
+        <text encoding="base64">CiAgICBpbnBfbGF5ZXIgPSAgW2V0WzBdIGZvciBldCBpbiBlbWJlZGRpbmdzX3RlbnNvcnNdCiAgICBpbnBfbGF5ZXIgKz0gW2N0WzBdIGZvciBjdCBpbiBjb250aW51b3VzX3RlbnNvcnNdCiAgICBpbnBfZW1iZWQgPSAgW2V0WzFdIGZvciBldCBpbiBlbWJlZGRpbmdzX3RlbnNvcnNdCiAgICBpbnBfZW1iZWQgKz0gW2N0WzFdIGZvciBjdCBpbiBjb250aW51b3VzX3RlbnNvcnNd</text>
       </register>
       <register name="9" type="4">
-        <text>&quot;service_type&quot;,
-                    &quot;is_mix_service&quot;,
-                    &quot;online_time&quot;,
-                    &quot;1_total_fee&quot;,
-                    &quot;2_total_fee&quot;,
-                    &quot;3_total_fee&quot;,
-                    &quot;4_total_fee&quot;,
-                    &quot;month_traffic&quot;,
-                    &quot;many_over_bill&quot;,
-                    &quot;contract_type&quot;,
-                    &quot;contract_time&quot;,
-                    &quot;is_promise_low_consume&quot;,
-                    &quot;net_service&quot;,
-                    &quot;pay_times&quot;,
-                    &quot;pay_num&quot;,
-                    &quot;last_month_traffic&quot;,
-                    &quot;local_trafffic_month&quot;,
-                    &quot;local_caller_time&quot;,
-                    &quot;service1_caller_time&quot;,
-                    &quot;service2_caller_time&quot;,
-                    &quot;gender&quot;,
-                    &quot;age&quot;,
-                    &quot;complaint_level&quot;,
-                    &quot;former_complaint_num&quot;,
-                    &quot;former_complaint_fee&quot;,
-                    &quot;user_id&quot;</text>
+        <text encoding="base64">CiAgICAKCiAgICAjIEFkZCBhIGZlYXR1cmUgdG8gaWxsdXN0cmF0ZSBtdWx0aWNsYXNzIGNsYXNzaWZpY2F0aW9uCiAgICBhZ2VfZ3JvdXBzID0gWzAsIDI1LCA2NSwgOTBdCiAgICBhZ2VfbGFiZWxzID0gcmFuZ2UobGVuKGFnZV9ncm91cHMpIC0gMSkKICAgIGRmX3RyYWluWydhZ2VfZ3JvdXAnXSA9IHBkLmN1dCgKICAgICAgICBkZl90cmFpblsnYWdlJ10sIGFnZV9ncm91cHMsIGxhYmVscz1hZ2VfbGFiZWxzKQogICAgZGZfdGVzdFsnYWdlX2dyb3VwJ10gPSBwZC5jdXQoCiAgICAgICAgZGZfdGVzdFsnYWdlJ10sIGFnZV9ncm91cHMsIGxhYmVscz1hZ2VfbGFiZWxzKQ==</text>
       </register>
     </registers>
     <search>
