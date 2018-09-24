@@ -51,7 +51,11 @@
       <file name="$USER_HOME$/workplace/BDCI/utils/data/split_data.py" timestamp="1536557621917">
         <mark key="[" line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/wfe.py" timestamp="1537766140768" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/wfe.py" timestamp="1537768936142">
+        <mark key="[" line="95" column="24" />
+        <mark key="]" line="95" column="24" />
+        <mark key="." line="95" column="24" />
+      </file>
       <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_main.py" timestamp="1537181587067">
         <mark key="[" line="42" column="11" />
         <mark key="]" line="87" column="0" />
@@ -124,15 +128,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>#to test:
-#add for every tcp flag a counter. accumulate it per flow
-#do a chi square test to see if the number of flags are related with a protocol
-#ex:
-#http://hsc.uwe.ac.uk/dataanalysis/quantinfasschi.asp
-#packets=rdpcap(&quot;tcp_or_udp.pcap&quot;)</text>
+        <text>+str(export_object(flow.payload))+&quot;\n&quot;)</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>+str(export_object(flow.payload))+&quot;\n&quot;)</text>
       </register>
       <register name="/" type="4">
         <text>IMAGE</text>
