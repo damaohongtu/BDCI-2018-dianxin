@@ -42,6 +42,7 @@
       <file name="$USER_HOME$/workplace/BDCI/is_similar.py" timestamp="1536497984162">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/output.csv" timestamp="1537770116089" />
       <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_predict.py" timestamp="1536999044609">
         <mark key="[" line="0" column="0" />
       </file>
@@ -51,10 +52,10 @@
       <file name="$USER_HOME$/workplace/BDCI/utils/data/split_data.py" timestamp="1536557621917">
         <mark key="[" line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/wfe.py" timestamp="1537768936142">
-        <mark key="[" line="95" column="24" />
-        <mark key="]" line="95" column="24" />
-        <mark key="." line="95" column="24" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/wfe.py" timestamp="1537769834824">
+        <mark key="[" line="98" column="0" />
+        <mark key="]" line="98" column="0" />
+        <mark key="." line="98" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_main.py" timestamp="1537181587067">
         <mark key="[" line="42" column="11" />
@@ -128,7 +129,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>+str(export_object(flow.payload))+&quot;\n&quot;)</text>
+        <text encoding="base64">IyBmb3IgZmxvdyBpbiBmbG93cy52YWx1ZXMoKToKIyAJcHJpbnQgKCIlcywlcywlcywlcywlcywlcywlLjNmLCVzLCVzLCVzLCVzLCVzLCVzIiUocHJvdG9fbmFtZShmbG93LnNwb3J0LGZsb3cuZHBvcnQpLGZsb3cuc3JjLGZsb3cuc3BvcnQsZmxvdy5kc3QsZmxvdy5kcG9ydCxmbG93LnByb3RvLGZsb3cucHVzaF9mbGFnX3JhdGlvKCksZmxvdy5hdnJnX2xlbigpLGZsb3cuYXZyZ19wYXlsb2FkX2xlbigpLGZsb3cucGt0X2NvdW50LGZsb3cuYXZyZ19pbnRlcl9hcnJpdmFsX3RpbWUoKSxmbG93LmtvbG1vZ29yb3YoKSxmbG93LnNoYW5ub24oKSkpCg==</text>
       </register>
       <register name="-" type="4">
         <text>+str(export_object(flow.payload))+&quot;\n&quot;)</text>
@@ -140,6 +141,9 @@
         <text encoding="base64">bW9kZWwuZml0KHRyYWluX3Bvb2wsIGV2YWxfc2V0PXZhbGlkYXRlX3Bvb2wsY2F0X2ZlYXR1cmVzPWNhdGVnb3JpY2FsX2ZlYXR1cmVzX2luZGljZXMpCg==</text>
       </register>
       <register name="1" type="4">
+        <text encoding="base64">IyBmb3IgZmxvdyBpbiBmbG93cy52YWx1ZXMoKToKIyAJcHJpbnQgKCIlcywlcywlcywlcywlcywlcywlLjNmLCVzLCVzLCVzLCVzLCVzLCVzIiUocHJvdG9fbmFtZShmbG93LnNwb3J0LGZsb3cuZHBvcnQpLGZsb3cuc3JjLGZsb3cuc3BvcnQsZmxvdy5kc3QsZmxvdy5kcG9ydCxmbG93LnByb3RvLGZsb3cucHVzaF9mbGFnX3JhdGlvKCksZmxvdy5hdnJnX2xlbigpLGZsb3cuYXZyZ19wYXlsb2FkX2xlbigpLGZsb3cucGt0X2NvdW50LGZsb3cuYXZyZ19pbnRlcl9hcnJpdmFsX3RpbWUoKSxmbG93LmtvbG1vZ29yb3YoKSxmbG93LnNoYW5ub24oKSkpCg==</text>
+      </register>
+      <register name="2" type="4">
         <text>#to test:
 #add for every tcp flag a counter. accumulate it per flow
 #do a chi square test to see if the number of flags are related with a protocol
@@ -147,17 +151,17 @@
 #http://hsc.uwe.ac.uk/dataanalysis/quantinfasschi.asp
 #packets=rdpcap(&quot;tcp_or_udp.pcap&quot;)</text>
       </register>
-      <register name="2" type="2">
+      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>#print('train_data[former_complaint_num]:',train_data['former_complaint_num'])
 #print(&quot;train_data[former_complaint_fee]:&quot;,train_data['former_complaint_fee'])</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text encoding="base64">CmRhdGEubG9jW2RhdGFbJzNfdG90YWxfZmVlJ10+ODAwLjAsJzNfdG90YWxfZmVlJ109ODAwLjAKZGF0YV94X21lYW5fMz1kYXRhWyczX3RvdGFsX2ZlZSddLm1lYW4oKQpkYXRhLmxvY1tkYXRhWyczX3RvdGFsX2ZlZSddPDAsJzNfdG90YWxfZmVlJ109ZGF0YV94X21lYW5fMw==</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>#编译模型
 model.compile(loss='categorical_crossentropy',
               optimizer='adadelta',
@@ -168,21 +172,18 @@ model.fit(X_train, Y_train, batch_size=batch_size, epochs=epochs,
 #评估模型
 score = model.evaluate(X_test, Y_test, verbose=0)</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text encoding="base64">CmRlZXBfaW5wID0gSW5wdXQoc2hhcGU9KFhfdHJhaW4uc2hhcGVbMV0sKSwgZHR5cGU9J2Zsb2F0MzInLCBuYW1lPSdkZWVwJw==</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>&quot;&quot;&quot;
 model.add(Convolution2D(nb_filters, kernel_size[0], kernel_size[1],
                         border_mode='same',
                         input_shape=input_shape))
 &quot;&quot;&quot;</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">CiAgICBkZWVwX2NvbHMgPSBlbWJlZGRpbmdfY29scyArIGNvbnRfY29scwogICAgZGZfZGVlcCwgdW5pcXVlX3ZhbHMgPSB2YWwyaWR4KGRmX2RlZXAsIGVtYmVkZGluZ19jb2xzKQ==</text>
-      </register>
       <register name="9" type="4">
-        <text encoding="base64">ICAgZW1iZWRkaW5nc190ZW5zb3JzID0gW10KICAgIG5fZmFjdG9ycyA9IDgKICAgIHJlZyA9IDFlLTMKICAgIGZvciBlYyBpbiBlbWJlZGRpbmdfY29sczoKICAgICAgICBsYXllcl9uYW1lID0gZWMgKyAnX2lucCcKICAgICAgICB0X2lucCwgdF9idWlsZCA9IGVtYmVkZGluZ19pbnB1dCgKICAgICAgICAgICAgbGF5ZXJfbmFtZSwgdW5pcXVlX3ZhbHNbZWNdLCBuX2ZhY3RvcnMsIHJlZykKICAgICAgICBlbWJlZGRpbmdzX3RlbnNvcnMuYXBwZW5kKCh0X2lucCwgdF9idWlsZCkpCiAgICAgICAgZGVsKHRfaW5wLCB0X2J1aWxkKQoKICAgIGNvbnRpbnVvdXNfdGVuc29ycyA9IFtdCiAgICBmb3IgY2MgaW4gY29udF9jb2xzOgogICAgICAgIGxheWVyX25hbWUgPSBjYyArICdfaW4nCiAgICAgICAgdF9pbnAsIHRfYnVpbGQgPSBjb250aW5vdXNfaW5wdXQobGF5ZXJfbmFtZSkKICAgICAgICBjb250aW51b3VzX3RlbnNvcnMuYXBwZW5kKCh0X2lucCwgdF9idWlsZCkpCiAgICAgICAgZGVsKHRfaW5wLCB0X2J1aWxkKQ==</text>
+        <text encoding="base64">CiAgICBkZWVwX2NvbHMgPSBlbWJlZGRpbmdfY29scyArIGNvbnRfY29scwogICAgZGZfZGVlcCwgdW5pcXVlX3ZhbHMgPSB2YWwyaWR4KGRmX2RlZXAsIGVtYmVkZGluZ19jb2xzKQ==</text>
       </register>
     </registers>
     <search>
