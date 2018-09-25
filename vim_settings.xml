@@ -68,8 +68,10 @@
         <mark key="^" line="79" column="0" />
         <mark key="." line="87" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/payload_cut.py" timestamp="1537850150083">
-        <mark key="[" line="18" column="53" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/payload_cut.py" timestamp="1537854930840">
+        <mark key="[" line="22" column="0" />
+        <mark key="]" line="22" column="0" />
+        <mark key="." line="22" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/input/preprocess.py" timestamp="1537609026440">
         <mark key="[" line="92" column="0" />
@@ -143,11 +145,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>def _export_object(obj):
-    return (bytes_base64(gzip.zlib.compress(six.moves.cPickle.dumps(obj, 2), 9)))</text>
+        <text>print(os.listdir('./payload2'))</text>
       </register>
       <register name="-" type="4">
-        <text>+str(export_object(flow.payload))+&quot;\n&quot;)</text>
+        <text>print(os.listdir('./payload2'))</text>
       </register>
       <register name="/" type="4">
         <text>IMAGE</text>
