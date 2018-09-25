@@ -19,7 +19,7 @@
         <mark key="]" line="0" column="13066" />
         <mark key="." line="0" column="13066" />
       </file>
-      <file name="/Python Console" timestamp="1537866336905">
+      <file name="/Python Console" timestamp="1537871566128">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_predict.py" timestamp="1537002109538">
@@ -55,6 +55,7 @@
         <mark key="]" line="102" column="0" />
         <mark key="." line="102" column="0" />
       </file>
+      <file name="$USER_HOME$/.conda/envs/tensorflow/lib/python3.6/site-packages/sklearn/preprocessing/data.py" timestamp="1537871406384" />
       <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_main.py" timestamp="1537181587067">
         <mark key="[" line="42" column="11" />
         <mark key="]" line="87" column="0" />
@@ -125,10 +126,9 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/file_concat.py" timestamp="1537864142030">
         <mark key="[" line="3" column="8" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/code/wd_https_keras.py" timestamp="1537866182787">
-        <mark key="[" line="81" column="0" />
-        <mark key="]" line="81" column="0" />
-        <mark key="." line="81" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/code/wd_https_keras.py" timestamp="1537871895543">
+        <mark key="[" line="68" column="0" />
+        <mark key="]" line="68" column="72" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https/https_data/android_auto_run.py" timestamp="1536819794266">
         <mark key="[" line="32" column="0" />
@@ -234,6 +234,9 @@ output_type = args.t</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed A</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed D</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
