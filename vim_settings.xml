@@ -42,7 +42,6 @@
       <file name="$USER_HOME$/workplace/BDCI/is_similar.py" timestamp="1536497984162">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/output.csv" timestamp="1537792819947" />
       <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_predict.py" timestamp="1536999044609">
         <mark key="[" line="0" column="0" />
       </file>
@@ -57,15 +56,14 @@
         <mark key="]" line="102" column="0" />
         <mark key="." line="102" column="0" />
       </file>
-      <file name="/usr/local/lib/python2.7/dist-packages/scapy/utils.py" timestamp="1537776812588" />
       <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_main.py" timestamp="1537181587067">
         <mark key="[" line="42" column="11" />
         <mark key="]" line="87" column="0" />
         <mark key="^" line="79" column="0" />
         <mark key="." line="87" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/payload_cut.py" timestamp="1537795285624">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/payload_cut.py" timestamp="1537843911258">
+        <mark key="[" line="12" column="15" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/input/preprocess.py" timestamp="1537609026440">
         <mark key="[" line="92" column="0" />
@@ -76,7 +74,9 @@
       <file name="$USER_HOME$/workplace/BDCI/lightGBM.py" timestamp="1537087568022">
         <mark key="[" line="108" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/https_parse.py" timestamp="1537794868892" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/code/preprocess.py" timestamp="1537844098103">
+        <mark key="[" line="29" column="51" />
+      </file>
       <file name="/Dummy.txt" timestamp="1537765634132">
         <mark key="[" line="0" column="0" />
       </file>
@@ -121,7 +121,6 @@
       <file name="$USER_HOME$/workplace/BDCI/code/split_data.py" timestamp="1536558200428">
         <mark key="[" line="7" column="17" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/payload/166.txt" timestamp="1537792723123" />
       <file name="$USER_HOME$/workplace/experiment/https/https_data/android_auto_run.py" timestamp="1536819794266">
         <mark key="[" line="32" column="0" />
       </file>
