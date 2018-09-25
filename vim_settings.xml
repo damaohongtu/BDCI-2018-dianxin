@@ -21,6 +21,11 @@
         <mark key="]" line="33" column="0" />
         <mark key="." line="33" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/payload2/Android_aiqiyi_2018091901.pcap_0.txt" timestamp="1537850412752">
+        <mark key="[" line="0" column="13065" />
+        <mark key="]" line="0" column="13066" />
+        <mark key="." line="0" column="13066" />
+      </file>
       <file name="/Python Console" timestamp="1537793745373">
         <mark key="[" line="0" column="0" />
       </file>
@@ -63,8 +68,8 @@
         <mark key="^" line="79" column="0" />
         <mark key="." line="87" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/payload_cut.py" timestamp="1537843911258">
-        <mark key="[" line="12" column="15" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/payload_cut.py" timestamp="1537850150083">
+        <mark key="[" line="16" column="53" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/input/preprocess.py" timestamp="1537609026440">
         <mark key="[" line="92" column="0" />
@@ -122,7 +127,7 @@
       <file name="$USER_HOME$/workplace/BDCI/code/split_data.py" timestamp="1536558200428">
         <mark key="[" line="7" column="17" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/code/wd_https_keras.py" timestamp="1537844414184">
+      <file name="$USER_HOME$/workplace/experiment/wd_https/code/wd_https_keras.py" timestamp="1537849688389">
         <mark key="[" line="23" column="15" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https/https_data/android_auto_run.py" timestamp="1536819794266">
