@@ -85,6 +85,7 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/code/preprocess.py" timestamp="1537844098103">
         <mark key="[" line="29" column="51" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/https_parse.py" timestamp="1537856383548" />
       <file name="/Dummy.txt" timestamp="1537765634132">
         <mark key="[" line="0" column="0" />
       </file>
@@ -129,7 +130,7 @@
       <file name="$USER_HOME$/workplace/BDCI/code/split_data.py" timestamp="1536558200428">
         <mark key="[" line="7" column="17" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/code/wd_https_keras.py" timestamp="1537849688389">
+      <file name="$USER_HOME$/workplace/experiment/wd_https/code/wd_https_keras.py" timestamp="1537856972489">
         <mark key="[" line="23" column="15" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https/https_data/android_auto_run.py" timestamp="1536819794266">
@@ -145,7 +146,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>print(os.listdir('./payload2'))</text>
+        <text encoding="base64">ICAgIGlmIG91dHB1dF90eXBlID09ICJhcmZmIjoKICAgICAgICBwcmludCAoIkByZWxhdGlvbiBwcm90b2NvbF9kZXRlY3Rpb24iKQogICAgICAgIHByaW50ICgiQGF0dHJpYnV0ZSBwcm90b2NvbC1uYW1lIiwie3NzaCxodHRwLG15c3FsLHVua25vd259IikKCiAgICAgICAgZm9yIGF0dHIgaW4gYXR0cnM6CiAgICAgICAgICAgIGlmIGF0dHIgaW4gWydwa3RfY291bnQnLCdhdmVyYWdlX2xlbicsJ2Zsb3dfYXZlcmFnZV9pbnRlcl9hcnJpdmFsX3RpbWUnLCdwdXNoX2ZsYWdfcmF0aW8nLCdhdmVyYWdlX3BheWxvYWRfbGVuJywna29sbW9nb3JvdicsJ3NoYW5ub24nXToKICAgICAgICAgICAgICAgIHByaW50ICgiQGF0dHJpYnV0ZSIsYXR0ciwibnVtZXJpYyIpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBwcmludCAoIkBhdHRyaWJ1dGUiLGF0dHIsInN0cmluZyIpCiAgICAgICAgcHJpbnQgKCJAZGF0YSIpCiAgICBlbHNlOg==</text>
       </register>
       <register name="-" type="4">
         <text>print(os.listdir('./payload2'))</text>
@@ -157,14 +158,17 @@
         <text encoding="base64">bW9kZWwuZml0KHRyYWluX3Bvb2wsIGV2YWxfc2V0PXZhbGlkYXRlX3Bvb2wsY2F0X2ZlYXR1cmVzPWNhdGVnb3JpY2FsX2ZlYXR1cmVzX2luZGljZXMpCg==</text>
       </register>
       <register name="1" type="4">
+        <text encoding="base64">ICAgIGlmIG91dHB1dF90eXBlID09ICJhcmZmIjoKICAgICAgICBwcmludCAoIkByZWxhdGlvbiBwcm90b2NvbF9kZXRlY3Rpb24iKQogICAgICAgIHByaW50ICgiQGF0dHJpYnV0ZSBwcm90b2NvbC1uYW1lIiwie3NzaCxodHRwLG15c3FsLHVua25vd259IikKCiAgICAgICAgZm9yIGF0dHIgaW4gYXR0cnM6CiAgICAgICAgICAgIGlmIGF0dHIgaW4gWydwa3RfY291bnQnLCdhdmVyYWdlX2xlbicsJ2Zsb3dfYXZlcmFnZV9pbnRlcl9hcnJpdmFsX3RpbWUnLCdwdXNoX2ZsYWdfcmF0aW8nLCdhdmVyYWdlX3BheWxvYWRfbGVuJywna29sbW9nb3JvdicsJ3NoYW5ub24nXToKICAgICAgICAgICAgICAgIHByaW50ICgiQGF0dHJpYnV0ZSIsYXR0ciwibnVtZXJpYyIpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBwcmludCAoIkBhdHRyaWJ1dGUiLGF0dHIsInN0cmluZyIpCiAgICAgICAgcHJpbnQgKCJAZGF0YSIpCiAgICBlbHNlOg==</text>
+      </register>
+      <register name="2" type="4">
         <text>def _export_object(obj):
     return (bytes_base64(gzip.zlib.compress(six.moves.cPickle.dumps(obj, 2), 9)))</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text>#reduce it to TCP
     #TODO check if its possible to pack it again in the original class, that we are able to call .conversations() on this array</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>parser = argparse.ArgumentParser(description='Process a pcap file, generating the flows and output it as arff or csv')
 parser.add_argument('-i',help=&quot;pcap file to be readin&quot;,required=True)
 parser.add_argument('-o',help=&quot;output file to be written&quot;)
@@ -176,10 +180,10 @@ args = parser.parse_args()
 pcap_file = args.i
 output_type = args.t</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text encoding="base64">IyBmb3IgZmxvdyBpbiBmbG93cy52YWx1ZXMoKToKIyAJcHJpbnQgKCIlcywlcywlcywlcywlcywlcywlLjNmLCVzLCVzLCVzLCVzLCVzLCVzIiUocHJvdG9fbmFtZShmbG93LnNwb3J0LGZsb3cuZHBvcnQpLGZsb3cuc3JjLGZsb3cuc3BvcnQsZmxvdy5kc3QsZmxvdy5kcG9ydCxmbG93LnByb3RvLGZsb3cucHVzaF9mbGFnX3JhdGlvKCksZmxvdy5hdnJnX2xlbigpLGZsb3cuYXZyZ19wYXlsb2FkX2xlbigpLGZsb3cucGt0X2NvdW50LGZsb3cuYXZyZ19pbnRlcl9hcnJpdmFsX3RpbWUoKSxmbG93LmtvbG1vZ29yb3YoKSxmbG93LnNoYW5ub24oKSkpCg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>#to test:
 #add for every tcp flag a counter. accumulate it per flow
 #do a chi square test to see if the number of flags are related with a protocol
@@ -187,26 +191,15 @@ output_type = args.t</text>
 #http://hsc.uwe.ac.uk/dataanalysis/quantinfasschi.asp
 #packets=rdpcap(&quot;tcp_or_udp.pcap&quot;)</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>#print('train_data[former_complaint_num]:',train_data['former_complaint_num'])
 #print(&quot;train_data[former_complaint_fee]:&quot;,train_data['former_complaint_fee'])</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">CmRhdGEubG9jW2RhdGFbJzNfdG90YWxfZmVlJ10+ODAwLjAsJzNfdG90YWxfZmVlJ109ODAwLjAKZGF0YV94X21lYW5fMz1kYXRhWyczX3RvdGFsX2ZlZSddLm1lYW4oKQpkYXRhLmxvY1tkYXRhWyczX3RvdGFsX2ZlZSddPDAsJzNfdG90YWxfZmVlJ109ZGF0YV94X21lYW5fMw==</text>
-      </register>
       <register name="9" type="4">
-        <text>#编译模型
-model.compile(loss='categorical_crossentropy',
-              optimizer='adadelta',
-              metrics=['accuracy'])
-#训练模型
-model.fit(X_train, Y_train, batch_size=batch_size, epochs=epochs,
-          verbose=1, validation_data=(X_test, Y_test))
-#评估模型
-score = model.evaluate(X_test, Y_test, verbose=0)</text>
+        <text encoding="base64">CmRhdGEubG9jW2RhdGFbJzNfdG90YWxfZmVlJ10+ODAwLjAsJzNfdG90YWxfZmVlJ109ODAwLjAKZGF0YV94X21lYW5fMz1kYXRhWyczX3RvdGFsX2ZlZSddLm1lYW4oKQpkYXRhLmxvY1tkYXRhWyczX3RvdGFsX2ZlZSddPDAsJzNfdG90YWxfZmVlJ109ZGF0YV94X21lYW5fMw==</text>
       </register>
     </registers>
     <search>
