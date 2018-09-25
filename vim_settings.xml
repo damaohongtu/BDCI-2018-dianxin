@@ -3,7 +3,6 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/output/Android_aiqiyi_2018091901.pcap.csv" timestamp="1537845669797" />
       <file name="$USER_HOME$/workplace/experiment/https/https_data/pcap_parse.py" timestamp="1536807438495">
         <mark key="[" line="0" column="46" />
       </file>
@@ -79,7 +78,6 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/code/preprocess.py" timestamp="1537844098103">
         <mark key="[" line="29" column="51" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/https_parse.py" timestamp="1537856383548" />
       <file name="/Dummy.txt" timestamp="1537765634132">
         <mark key="[" line="0" column="0" />
       </file>
@@ -124,8 +122,8 @@
       <file name="$USER_HOME$/workplace/BDCI/code/split_data.py" timestamp="1536558200428">
         <mark key="[" line="7" column="17" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/file_concat.py" timestamp="1537861225026">
-        <mark key="[" line="9" column="26" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/file_concat.py" timestamp="1537862278763">
+        <mark key="[" line="3" column="8" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/code/wd_https_keras.py" timestamp="1537856972489">
         <mark key="[" line="23" column="15" />
