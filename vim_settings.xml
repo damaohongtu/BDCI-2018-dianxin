@@ -129,9 +129,10 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/file_concat.py" timestamp="1537879602812">
         <mark key="[" line="43" column="9" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/code/wd_https_keras.py" timestamp="1537879841255">
-        <mark key="[" line="229" column="47" />
-        <mark key="]" line="67" column="72" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/code/wd_https_keras.py" timestamp="1537882830691">
+        <mark key="[" line="167" column="0" />
+        <mark key="]" line="167" column="0" />
+        <mark key="." line="167" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https/https_data/android_auto_run.py" timestamp="1536819794266">
         <mark key="[" line="32" column="0" />
@@ -146,7 +147,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ICAgICMgY3Jvc3NlZF9jb2x1bW5zX2QgPSBjcm9zc19jb2x1bW5zKHhfY29scykKICAgICMgIyDnprvmlaPlsZ7mgKcKICAgICMgY2F0ZWdvcmljYWxfY29sdW1ucyA9IGxpc3QoZGZfd2lkZS5zZWxlY3RfZHR5cGVzKGluY2x1ZGU9WydvYmplY3QnXSkuY29sdW1ucykKICAgICMKICAgICMgd2lkZV9jb2xzICs9IGNyb3NzZWRfY29sdW1uc19kLmtleXMoKQogICAgIwogICAgIyBmb3IgaywgdiBpbiBjcm9zc2VkX2NvbHVtbnNfZC5pdGVyaXRlbXMoKToKICAgICMgICAgIGRmX3dpZGVba10gPSBkZl93aWRlW3ZdLmFwcGx5KGxhbWJkYSB4OiAnLScuam9pbih4KSwgYXhpcz0xKQogICAgIwogICAgIyBkZl93aWRlID0gZGZfd2lkZVt3aWRlX2NvbHMgKyBbdGFyZ2V0XSArIFsnSVNfVFJBSU4nXV0KICAgICMKICAgICMgZHVtbXlfY29scyA9IFsKICAgICMgICAgIGMgZm9yIGMgaW4gd2lkZV9jb2xzIGlmIGMgaW4gY2F0ZWdvcmljYWxfY29sdW1ucyArIGNyb3NzZWRfY29sdW1uc19kLmtleXMoKV0KICAgICMgZGZfd2lkZSA9IHBkLmdldF9kdW1taWVzKGRmX3dpZGUsIGNvbHVtbnM9W3ggZm9yIHggaW4gZHVtbXlfY29sc10p</text>
+        <text encoding="base64">ICAgICAgICAjIGQgPSBEZW5zZSg1MTIsYWN0aXZhdGlvbj0ncmVsdScpKGQpCiAgICAgICAgIyBkID0gRGVuc2UoNTEyLGFjdGl2YXRpb249J3JlbHUnKShkKQogICAgICAgICMgZCA9IERlbnNlKDUxMixhY3RpdmF0aW9uPSdyZWx1JykoZCk=</text>
       </register>
       <register name="-" type="4">
         <text>print(os.listdir('./payload2'))</text>
@@ -158,20 +159,33 @@
         <text encoding="base64">bW9kZWwuZml0KHRyYWluX3Bvb2wsIGV2YWxfc2V0PXZhbGlkYXRlX3Bvb2wsY2F0X2ZlYXR1cmVzPWNhdGVnb3JpY2FsX2ZlYXR1cmVzX2luZGljZXMpCg==</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">ICAgICMgY3Jvc3NlZF9jb2x1bW5zX2QgPSBjcm9zc19jb2x1bW5zKHhfY29scykKICAgICMgIyDnprvmlaPlsZ7mgKcKICAgICMgY2F0ZWdvcmljYWxfY29sdW1ucyA9IGxpc3QoZGZfd2lkZS5zZWxlY3RfZHR5cGVzKGluY2x1ZGU9WydvYmplY3QnXSkuY29sdW1ucykKICAgICMKICAgICMgd2lkZV9jb2xzICs9IGNyb3NzZWRfY29sdW1uc19kLmtleXMoKQogICAgIwogICAgIyBmb3IgaywgdiBpbiBjcm9zc2VkX2NvbHVtbnNfZC5pdGVyaXRlbXMoKToKICAgICMgICAgIGRmX3dpZGVba10gPSBkZl93aWRlW3ZdLmFwcGx5KGxhbWJkYSB4OiAnLScuam9pbih4KSwgYXhpcz0xKQogICAgIwogICAgIyBkZl93aWRlID0gZGZfd2lkZVt3aWRlX2NvbHMgKyBbdGFyZ2V0XSArIFsnSVNfVFJBSU4nXV0KICAgICMKICAgICMgZHVtbXlfY29scyA9IFsKICAgICMgICAgIGMgZm9yIGMgaW4gd2lkZV9jb2xzIGlmIGMgaW4gY2F0ZWdvcmljYWxfY29sdW1ucyArIGNyb3NzZWRfY29sdW1uc19kLmtleXMoKV0KICAgICMgZGZfd2lkZSA9IHBkLmdldF9kdW1taWVzKGRmX3dpZGUsIGNvbHVtbnM9W3ggZm9yIHggaW4gZHVtbXlfY29sc10p</text>
+        <text encoding="base64">ICAgICAgICAjIGQgPSBEZW5zZSg1MTIsYWN0aXZhdGlvbj0ncmVsdScpKGQpCiAgICAgICAgIyBkID0gRGVuc2UoNTEyLGFjdGl2YXRpb249J3JlbHUnKShkKQogICAgICAgICMgZCA9IERlbnNlKDUxMixhY3RpdmF0aW9uPSdyZWx1JykoZCk=</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">ICAgIGlmIG91dHB1dF90eXBlID09ICJhcmZmIjoKICAgICAgICBwcmludCAoIkByZWxhdGlvbiBwcm90b2NvbF9kZXRlY3Rpb24iKQogICAgICAgIHByaW50ICgiQGF0dHJpYnV0ZSBwcm90b2NvbC1uYW1lIiwie3NzaCxodHRwLG15c3FsLHVua25vd259IikKCiAgICAgICAgZm9yIGF0dHIgaW4gYXR0cnM6CiAgICAgICAgICAgIGlmIGF0dHIgaW4gWydwa3RfY291bnQnLCdhdmVyYWdlX2xlbicsJ2Zsb3dfYXZlcmFnZV9pbnRlcl9hcnJpdmFsX3RpbWUnLCdwdXNoX2ZsYWdfcmF0aW8nLCdhdmVyYWdlX3BheWxvYWRfbGVuJywna29sbW9nb3JvdicsJ3NoYW5ub24nXToKICAgICAgICAgICAgICAgIHByaW50ICgiQGF0dHJpYnV0ZSIsYXR0ciwibnVtZXJpYyIpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBwcmludCAoIkBhdHRyaWJ1dGUiLGF0dHIsInN0cmluZyIpCiAgICAgICAgcHJpbnQgKCJAZGF0YSIpCiAgICBlbHNlOg==</text>
+        <text># d = Convolution2D(nb_filters,(kernel_size[0],kernel_size[1]),padding='same',input_shape=input_shape)(d)
+        # d = Activation('relu')(d)
+        # d = Convolution2D(nb_filters,(kernel_size[0],kernel_size[1]))(d)
+        # d = MaxPooling2D(pool_size=pool_size)(d)
+        # d = Convolution2D(nb_filters,(kernel_size[0],kernel_size[1]),padding='same',input_shape=input_shape)(d)
+        # d = Activation('relu')(d)
+        # d = Convolution2D(nb_filters,(kernel_size[0],kernel_size[1]))(d)
+        # d = MaxPooling2D(pool_size=pool_size)(d)</text>
       </register>
       <register name="3" type="4">
+        <text encoding="base64">ICAgICMgY3Jvc3NlZF9jb2x1bW5zX2QgPSBjcm9zc19jb2x1bW5zKHhfY29scykKICAgICMgIyDnprvmlaPlsZ7mgKcKICAgICMgY2F0ZWdvcmljYWxfY29sdW1ucyA9IGxpc3QoZGZfd2lkZS5zZWxlY3RfZHR5cGVzKGluY2x1ZGU9WydvYmplY3QnXSkuY29sdW1ucykKICAgICMKICAgICMgd2lkZV9jb2xzICs9IGNyb3NzZWRfY29sdW1uc19kLmtleXMoKQogICAgIwogICAgIyBmb3IgaywgdiBpbiBjcm9zc2VkX2NvbHVtbnNfZC5pdGVyaXRlbXMoKToKICAgICMgICAgIGRmX3dpZGVba10gPSBkZl93aWRlW3ZdLmFwcGx5KGxhbWJkYSB4OiAnLScuam9pbih4KSwgYXhpcz0xKQogICAgIwogICAgIyBkZl93aWRlID0gZGZfd2lkZVt3aWRlX2NvbHMgKyBbdGFyZ2V0XSArIFsnSVNfVFJBSU4nXV0KICAgICMKICAgICMgZHVtbXlfY29scyA9IFsKICAgICMgICAgIGMgZm9yIGMgaW4gd2lkZV9jb2xzIGlmIGMgaW4gY2F0ZWdvcmljYWxfY29sdW1ucyArIGNyb3NzZWRfY29sdW1uc19kLmtleXMoKV0KICAgICMgZGZfd2lkZSA9IHBkLmdldF9kdW1taWVzKGRmX3dpZGUsIGNvbHVtbnM9W3ggZm9yIHggaW4gZHVtbXlfY29sc10p</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">ICAgIGlmIG91dHB1dF90eXBlID09ICJhcmZmIjoKICAgICAgICBwcmludCAoIkByZWxhdGlvbiBwcm90b2NvbF9kZXRlY3Rpb24iKQogICAgICAgIHByaW50ICgiQGF0dHJpYnV0ZSBwcm90b2NvbC1uYW1lIiwie3NzaCxodHRwLG15c3FsLHVua25vd259IikKCiAgICAgICAgZm9yIGF0dHIgaW4gYXR0cnM6CiAgICAgICAgICAgIGlmIGF0dHIgaW4gWydwa3RfY291bnQnLCdhdmVyYWdlX2xlbicsJ2Zsb3dfYXZlcmFnZV9pbnRlcl9hcnJpdmFsX3RpbWUnLCdwdXNoX2ZsYWdfcmF0aW8nLCdhdmVyYWdlX3BheWxvYWRfbGVuJywna29sbW9nb3JvdicsJ3NoYW5ub24nXToKICAgICAgICAgICAgICAgIHByaW50ICgiQGF0dHJpYnV0ZSIsYXR0ciwibnVtZXJpYyIpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBwcmludCAoIkBhdHRyaWJ1dGUiLGF0dHIsInN0cmluZyIpCiAgICAgICAgcHJpbnQgKCJAZGF0YSIpCiAgICBlbHNlOg==</text>
+      </register>
+      <register name="5" type="4">
         <text>def _export_object(obj):
     return (bytes_base64(gzip.zlib.compress(six.moves.cPickle.dumps(obj, 2), 9)))</text>
       </register>
-      <register name="4" type="4">
+      <register name="6" type="4">
         <text>#reduce it to TCP
     #TODO check if its possible to pack it again in the original class, that we are able to call .conversations() on this array</text>
       </register>
-      <register name="5" type="4">
+      <register name="7" type="4">
         <text>parser = argparse.ArgumentParser(description='Process a pcap file, generating the flows and output it as arff or csv')
 parser.add_argument('-i',help=&quot;pcap file to be readin&quot;,required=True)
 parser.add_argument('-o',help=&quot;output file to be written&quot;)
@@ -183,23 +197,16 @@ args = parser.parse_args()
 pcap_file = args.i
 output_type = args.t</text>
       </register>
-      <register name="6" type="4">
+      <register name="8" type="4">
         <text encoding="base64">IyBmb3IgZmxvdyBpbiBmbG93cy52YWx1ZXMoKToKIyAJcHJpbnQgKCIlcywlcywlcywlcywlcywlcywlLjNmLCVzLCVzLCVzLCVzLCVzLCVzIiUocHJvdG9fbmFtZShmbG93LnNwb3J0LGZsb3cuZHBvcnQpLGZsb3cuc3JjLGZsb3cuc3BvcnQsZmxvdy5kc3QsZmxvdy5kcG9ydCxmbG93LnByb3RvLGZsb3cucHVzaF9mbGFnX3JhdGlvKCksZmxvdy5hdnJnX2xlbigpLGZsb3cuYXZyZ19wYXlsb2FkX2xlbigpLGZsb3cucGt0X2NvdW50LGZsb3cuYXZyZ19pbnRlcl9hcnJpdmFsX3RpbWUoKSxmbG93LmtvbG1vZ29yb3YoKSxmbG93LnNoYW5ub24oKSkpCg==</text>
       </register>
-      <register name="7" type="4">
+      <register name="9" type="4">
         <text>#to test:
 #add for every tcp flag a counter. accumulate it per flow
 #do a chi square test to see if the number of flags are related with a protocol
 #ex:
 #http://hsc.uwe.ac.uk/dataanalysis/quantinfasschi.asp
 #packets=rdpcap(&quot;tcp_or_udp.pcap&quot;)</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="9" type="4">
-        <text>#print('train_data[former_complaint_num]:',train_data['former_complaint_num'])
-#print(&quot;train_data[former_complaint_fee]:&quot;,train_data['former_complaint_fee'])</text>
       </register>
     </registers>
     <search>
