@@ -19,12 +19,13 @@
         <mark key="]" line="0" column="13066" />
         <mark key="." line="0" column="13066" />
       </file>
-      <file name="/Python Console" timestamp="1537871566128">
+      <file name="/Python Console" timestamp="1537929844461">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_predict.py" timestamp="1537002109538">
         <mark key="[" line="13" column="29" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/code/cnn/main.py" timestamp="1537930848989" />
       <file name="/a.dummy" timestamp="1536997265179">
         <mark key="[" line="0" column="0" />
       </file>
@@ -42,6 +43,9 @@
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_predict.py" timestamp="1536999044609">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/code/classification_w/logisticRegression.py" timestamp="1537930753943">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/XGBoost/xgboost_main.py" timestamp="1536988717300">
@@ -139,10 +143,13 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/file_concat.py" timestamp="1537879602812">
         <mark key="[" line="43" column="9" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/code/wd_https_keras.py" timestamp="1537882830691">
+      <file name="$USER_HOME$/workplace/experiment/wd_https/code/wd_https_keras.py" timestamp="1537930734981">
         <mark key="[" line="167" column="0" />
         <mark key="]" line="167" column="0" />
         <mark key="." line="167" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/code/input.py" timestamp="1537930554209">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https/https_data/android_auto_run.py" timestamp="1536819794266">
         <mark key="[" line="32" column="0" />
