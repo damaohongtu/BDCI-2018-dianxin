@@ -3,9 +3,6 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/workplace/experiment/https/https_data/pcap_parse.py" timestamp="1536807438495">
-        <mark key="[" line="0" column="46" />
-      </file>
       <file name="$USER_HOME$/workplace/BDCI/data/load_data.py" timestamp="1537002013615">
         <mark key="[" line="9" column="28" />
       </file>
@@ -13,17 +10,6 @@
         <mark key="[" line="33" column="0" />
         <mark key="]" line="33" column="0" />
         <mark key="." line="33" column="0" />
-      </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/payload2/Android_aiqiyi_2018091901.pcap_0.txt" timestamp="1537850412752">
-        <mark key="[" line="0" column="13065" />
-        <mark key="]" line="0" column="13066" />
-        <mark key="." line="0" column="13066" />
-      </file>
-      <file name="/Python Console" timestamp="1537929844461">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_predict.py" timestamp="1537002109538">
-        <mark key="[" line="13" column="29" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/code/cnn/main.py" timestamp="1537930848989" />
       <file name="/a.dummy" timestamp="1536997265179">
@@ -35,23 +21,11 @@
       <file name="$USER_HOME$/workplace/experiment/https/test.py" timestamp="1536403486042">
         <mark key="[" line="11" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/XGBoost.py" timestamp="1537932661117">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/workplace/BDCI/is_similar.py" timestamp="1536497984162">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_predict.py" timestamp="1536999044609">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/code/classification_w/logisticRegression.py" timestamp="1537930753943">
         <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/workplace/BDCI/XGBoost/xgboost_main.py" timestamp="1536988717300">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/workplace/BDCI/utils/data/split_data.py" timestamp="1536557621917">
-        <mark key="[" line="1" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/wfe.py" timestamp="1537794841935">
         <mark key="[" line="55" column="0" />
@@ -79,19 +53,13 @@
       <file name="$USER_HOME$/workplace/experiment/https/https.py" timestamp="1537928276408">
         <mark key="[" line="70" column="37" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/SVM.py" timestamp="1537949650335">
+      <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/SVM.py" timestamp="1537950723772">
         <mark key="[" line="20" column="62" />
         <mark key="]" line="20" column="62" />
         <mark key="." line="20" column="62" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/lightGBM.py" timestamp="1537087568022">
-        <mark key="[" line="108" column="0" />
-      </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/code/preprocess.py" timestamp="1537844098103">
         <mark key="[" line="29" column="51" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1537765634132">
-        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/__init__.py" timestamp="1536628825812">
         <mark key="[" line="0" column="0" />
@@ -107,17 +75,61 @@
       <file name="$USER_HOME$/workplace/experiment/wide_deep/python/train.py" timestamp="1536733965281">
         <mark key="[" line="174" column="67" />
       </file>
-      <file name="$USER_HOME$/.conda/envs/shanshan/lib/python3.6/site-packages/tensorflow/python/estimator/canned/dnn_linear_combined.py" timestamp="1536726413760">
-        <mark key="[" line="320" column="36" />
-      </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/payload_cut.py" timestamp="1537876304510">
-        <mark key="[" line="14" column="22" />
-      </file>
       <file name="$USER_HOME$/workplace/BDCI/utils/testing/integration.py" timestamp="1536585954206">
         <mark key="[" line="28" column="14" />
       </file>
       <file name="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/python/feature_column/feature_column.py" timestamp="1536734175526">
         <mark key="[" line="1486" column="39" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/file_concat.py" timestamp="1537879602812">
+        <mark key="[" line="43" column="9" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/code/input.py" timestamp="1537930554209">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/https/https_data/android_auto_run.py" timestamp="1536819794266">
+        <mark key="[" line="32" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/https/https_data/pcap_parse.py" timestamp="1536807438495">
+        <mark key="[" line="0" column="46" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/payload2/Android_aiqiyi_2018091901.pcap_0.txt" timestamp="1537850412752">
+        <mark key="[" line="0" column="13065" />
+        <mark key="]" line="0" column="13066" />
+        <mark key="." line="0" column="13066" />
+      </file>
+      <file name="/Python Console" timestamp="1537929844461">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_predict.py" timestamp="1537002109538">
+        <mark key="[" line="13" column="29" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/XGBoost.py" timestamp="1537950489103">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_predict.py" timestamp="1536999044609">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/XGBoost/xgboost_main.py" timestamp="1536988717300">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/utils/data/split_data.py" timestamp="1536557621917">
+        <mark key="[" line="1" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/lgb.py" timestamp="1537951326836">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/lightGBM.py" timestamp="1537087568022">
+        <mark key="[" line="108" column="0" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1537765634132">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/.conda/envs/shanshan/lib/python3.6/site-packages/tensorflow/python/estimator/canned/dnn_linear_combined.py" timestamp="1536726413760">
+        <mark key="[" line="320" column="36" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/payload_cut.py" timestamp="1537876304510">
+        <mark key="[" line="14" column="22" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https_project/cnn_test.py" timestamp="1537444037284">
         <mark key="[" line="51" column="23" />
@@ -136,19 +148,10 @@
       <file name="$USER_HOME$/workplace/BDCI/code/split_data.py" timestamp="1536558200428">
         <mark key="[" line="7" column="17" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/file_concat.py" timestamp="1537879602812">
-        <mark key="[" line="43" column="9" />
-      </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/code/wd_https_keras.py" timestamp="1537930734981">
         <mark key="[" line="167" column="0" />
         <mark key="]" line="167" column="0" />
         <mark key="." line="167" column="0" />
-      </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/code/input.py" timestamp="1537930554209">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/workplace/experiment/https/https_data/android_auto_run.py" timestamp="1536819794266">
-        <mark key="[" line="32" column="0" />
       </file>
     </filemarks>
     <jumps>
