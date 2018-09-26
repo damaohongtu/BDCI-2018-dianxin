@@ -3,6 +3,9 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/workplace/experiment/https/https_data/pcap_parse.py" timestamp="1536807438495">
+        <mark key="[" line="0" column="46" />
+      </file>
       <file name="$USER_HOME$/workplace/BDCI/data/load_data.py" timestamp="1537002013615">
         <mark key="[" line="9" column="28" />
       </file>
@@ -11,7 +14,17 @@
         <mark key="]" line="33" column="0" />
         <mark key="." line="33" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/code/cnn/main.py" timestamp="1537930848989" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/payload2/Android_aiqiyi_2018091901.pcap_0.txt" timestamp="1537850412752">
+        <mark key="[" line="0" column="13065" />
+        <mark key="]" line="0" column="13066" />
+        <mark key="." line="0" column="13066" />
+      </file>
+      <file name="/Python Console" timestamp="1537964828583">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_predict.py" timestamp="1537002109538">
+        <mark key="[" line="13" column="29" />
+      </file>
       <file name="/a.dummy" timestamp="1536997265179">
         <mark key="[" line="0" column="0" />
       </file>
@@ -21,10 +34,22 @@
       <file name="$USER_HOME$/workplace/experiment/https/test.py" timestamp="1536403486042">
         <mark key="[" line="11" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/XGBoost.py" timestamp="1537964263928">
+        <mark key="[" line="3" column="0" />
+      </file>
       <file name="$USER_HOME$/workplace/BDCI/is_similar.py" timestamp="1536497984162">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_predict.py" timestamp="1536999044609">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/code/classification_w/logisticRegression.py" timestamp="1537930753943">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/result/figures.py" timestamp="1537963854351">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/XGBoost/xgboost_main.py" timestamp="1536988717300">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/wfe.py" timestamp="1537794841935">
@@ -39,6 +64,9 @@
         <mark key="[" line="5" column="0" />
         <mark key="]" line="5" column="0" />
         <mark key="." line="5" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/utils/data/split_data.py" timestamp="1536557621917">
+        <mark key="[" line="1" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https/https_input.py" timestamp="1537927819020">
         <mark key="[" line="18" column="0" />
@@ -58,8 +86,19 @@
         <mark key="]" line="20" column="62" />
         <mark key="." line="20" column="62" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/lgb.py" timestamp="1537964810424">
+        <mark key="[" line="37" column="0" />
+        <mark key="]" line="37" column="0" />
+        <mark key="." line="37" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/lightGBM.py" timestamp="1537087568022">
+        <mark key="[" line="108" column="0" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/code/preprocess.py" timestamp="1537844098103">
         <mark key="[" line="29" column="51" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1537765634132">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/__init__.py" timestamp="1536628825812">
         <mark key="[" line="0" column="0" />
@@ -75,61 +114,17 @@
       <file name="$USER_HOME$/workplace/experiment/wide_deep/python/train.py" timestamp="1536733965281">
         <mark key="[" line="174" column="67" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/utils/testing/integration.py" timestamp="1536585954206">
-        <mark key="[" line="28" column="14" />
-      </file>
-      <file name="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/python/feature_column/feature_column.py" timestamp="1536734175526">
-        <mark key="[" line="1486" column="39" />
-      </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/file_concat.py" timestamp="1537879602812">
-        <mark key="[" line="43" column="9" />
-      </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/code/input.py" timestamp="1537930554209">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/workplace/experiment/https/https_data/android_auto_run.py" timestamp="1536819794266">
-        <mark key="[" line="32" column="0" />
-      </file>
-      <file name="$USER_HOME$/workplace/experiment/https/https_data/pcap_parse.py" timestamp="1536807438495">
-        <mark key="[" line="0" column="46" />
-      </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/payload2/Android_aiqiyi_2018091901.pcap_0.txt" timestamp="1537850412752">
-        <mark key="[" line="0" column="13065" />
-        <mark key="]" line="0" column="13066" />
-        <mark key="." line="0" column="13066" />
-      </file>
-      <file name="/Python Console" timestamp="1537929844461">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_predict.py" timestamp="1537002109538">
-        <mark key="[" line="13" column="29" />
-      </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/XGBoost.py" timestamp="1537950489103">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_predict.py" timestamp="1536999044609">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/workplace/BDCI/XGBoost/xgboost_main.py" timestamp="1536988717300">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/workplace/BDCI/utils/data/split_data.py" timestamp="1536557621917">
-        <mark key="[" line="1" column="0" />
-      </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/lgb.py" timestamp="1537951326836">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/workplace/BDCI/lightGBM.py" timestamp="1537087568022">
-        <mark key="[" line="108" column="0" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1537765634132">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/.conda/envs/shanshan/lib/python3.6/site-packages/tensorflow/python/estimator/canned/dnn_linear_combined.py" timestamp="1536726413760">
         <mark key="[" line="320" column="36" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/payload_cut.py" timestamp="1537876304510">
         <mark key="[" line="14" column="22" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/utils/testing/integration.py" timestamp="1536585954206">
+        <mark key="[" line="28" column="14" />
+      </file>
+      <file name="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/python/feature_column/feature_column.py" timestamp="1536734175526">
+        <mark key="[" line="1486" column="39" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https_project/cnn_test.py" timestamp="1537444037284">
         <mark key="[" line="51" column="23" />
@@ -148,10 +143,19 @@
       <file name="$USER_HOME$/workplace/BDCI/code/split_data.py" timestamp="1536558200428">
         <mark key="[" line="7" column="17" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/file_concat.py" timestamp="1537879602812">
+        <mark key="[" line="43" column="9" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/code/wd_https_keras.py" timestamp="1537930734981">
         <mark key="[" line="167" column="0" />
         <mark key="]" line="167" column="0" />
         <mark key="." line="167" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/code/input.py" timestamp="1537930554209">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/https/https_data/android_auto_run.py" timestamp="1536819794266">
+        <mark key="[" line="32" column="0" />
       </file>
     </filemarks>
     <jumps>
@@ -163,7 +167,8 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>coring=scoring,return_train_score=False</text>
+        <text>print(y_pred)
+print(eval_labels)</text>
       </register>
       <register name="-" type="4">
         <text>coring=scoring,return_train_score=False</text>
@@ -175,6 +180,10 @@
         <text encoding="base64">bW9kZWwuZml0KHRyYWluX3Bvb2wsIGV2YWxfc2V0PXZhbGlkYXRlX3Bvb2wsY2F0X2ZlYXR1cmVzPWNhdGVnb3JpY2FsX2ZlYXR1cmVzX2luZGljZXMpCg==</text>
       </register>
       <register name="1" type="4">
+        <text>print(y_pred)
+print(eval_labels)</text>
+      </register>
+      <register name="2" type="4">
         <text>output_train=pd.read_csv('../../data/output_train.csv')
 output_val=pd.read_csv('../../data/output_val.csv')
 common_features=['push_flag_ratio','average_len','average_payload_len','pkt_count','flow_average_inter_arrival_time','kolmogorov','shannon']
@@ -185,16 +194,16 @@ train_data=np.asarray(output_train[common_features],dtype=np.float32)
 eval_labels=np.asarray(output_val.pop('label'),dtype=np.int32)
 eval_data=np.asarray(output_val[common_features],dtype=np.float32)</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text encoding="base64">CmZyb20gc2tsZWFybi5saW5lYXJfbW9kZWwgaW1wb3J0IExvZ2lzdGljUmVncmVzc2lvbgpmcm9tIHNrbGVhcm4ubW9kZWxfc2VsZWN0aW9uIGltcG9ydCBjcm9zc192YWxfc2NvcmU=</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text encoding="base64">ICAgIGNzdl9maWxlbmFtZXM9b3MubGlzdGRpcihkYXRhX2RpcikKICAgICMgZGF0YSBzZXQKICAgIGRhdGFfZGY9cGQuRGF0YUZyYW1lKCkKCiAgICBmb3IgY3N2X2ZpbGVuYW1lIGluIGNzdl9maWxlbmFtZXM6CiAgICAgICAgZGY9cGQucmVhZF9jc3YoZGF0YV9kaXIrJy8nK2Nzdl9maWxlbmFtZSxoZWFkZXI9Tm9uZSxzZXA9JywnKQogICAgICAgIGRhdGFfZGY9cGQuY29uY2F0KFtkYXRhX2RmLGRmXSxpZ25vcmVfaW5kZXg9VHJ1ZSkKICAgICAgICBkZWwgZGYKICAgICMgdHJhaW4gZGF0YQogICAgdHJhaW5fZGY9ZGF0YV9kZi5zYW1wbGUoZnJhYz0wLjgscmFuZG9tX3N0YXRlPTIwMCkKICAgIHRyYWluX2xhYmVscz0gbnAuYXNhcnJheSh0cmFpbl9kZlsxMDI0XSxkdHlwZT1ucC5pbnQzMikKICAgIHRyYWluX2RhdGE9bnAuYXNhcnJheSh0cmFpbl9kZi5kcm9wKFsxMDI0XSxheGlzPTEpLGR0eXBlPW5wLmZsb2F0MzIpCgogICAgIyBldmFsIGRhdGEKICAgIGV2YWxfZGYgPSBkYXRhX2RmLmRyb3AodHJhaW5fZGYpCiAgICBldmFsX2xhYmVscyA9IG5wLmFzYXJyYXkoZXZhbF9kZlsxMDI0XSwgZHR5cGU9bnAuaW50MzIpCiAgICBldmFsX2RhdGEgPSBucC5hc2FycmF5KGV2YWxfZGYuZHJvcChbMTAyNF0sIGF4aXM9MSksIGR0eXBlPWZsb2F0KQogICAgZGVsIGRhdGFfZGYsIHRyYWluX2RmLCBldmFsX2Rm</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text encoding="base64">ICAgICAgICAjIGQgPSBEZW5zZSg1MTIsYWN0aXZhdGlvbj0ncmVsdScpKGQpCiAgICAgICAgIyBkID0gRGVuc2UoNTEyLGFjdGl2YXRpb249J3JlbHUnKShkKQogICAgICAgICMgZCA9IERlbnNlKDUxMixhY3RpdmF0aW9uPSdyZWx1JykoZCk=</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text># d = Convolution2D(nb_filters,(kernel_size[0],kernel_size[1]),padding='same',input_shape=input_shape)(d)
         # d = Activation('relu')(d)
         # d = Convolution2D(nb_filters,(kernel_size[0],kernel_size[1]))(d)
@@ -204,19 +213,15 @@ eval_data=np.asarray(output_val[common_features],dtype=np.float32)</text>
         # d = Convolution2D(nb_filters,(kernel_size[0],kernel_size[1]))(d)
         # d = MaxPooling2D(pool_size=pool_size)(d)</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text encoding="base64">ICAgICMgY3Jvc3NlZF9jb2x1bW5zX2QgPSBjcm9zc19jb2x1bW5zKHhfY29scykKICAgICMgIyDnprvmlaPlsZ7mgKcKICAgICMgY2F0ZWdvcmljYWxfY29sdW1ucyA9IGxpc3QoZGZfd2lkZS5zZWxlY3RfZHR5cGVzKGluY2x1ZGU9WydvYmplY3QnXSkuY29sdW1ucykKICAgICMKICAgICMgd2lkZV9jb2xzICs9IGNyb3NzZWRfY29sdW1uc19kLmtleXMoKQogICAgIwogICAgIyBmb3IgaywgdiBpbiBjcm9zc2VkX2NvbHVtbnNfZC5pdGVyaXRlbXMoKToKICAgICMgICAgIGRmX3dpZGVba10gPSBkZl93aWRlW3ZdLmFwcGx5KGxhbWJkYSB4OiAnLScuam9pbih4KSwgYXhpcz0xKQogICAgIwogICAgIyBkZl93aWRlID0gZGZfd2lkZVt3aWRlX2NvbHMgKyBbdGFyZ2V0XSArIFsnSVNfVFJBSU4nXV0KICAgICMKICAgICMgZHVtbXlfY29scyA9IFsKICAgICMgICAgIGMgZm9yIGMgaW4gd2lkZV9jb2xzIGlmIGMgaW4gY2F0ZWdvcmljYWxfY29sdW1ucyArIGNyb3NzZWRfY29sdW1uc19kLmtleXMoKV0KICAgICMgZGZfd2lkZSA9IHBkLmdldF9kdW1taWVzKGRmX3dpZGUsIGNvbHVtbnM9W3ggZm9yIHggaW4gZHVtbXlfY29sc10p</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">ICAgIGlmIG91dHB1dF90eXBlID09ICJhcmZmIjoKICAgICAgICBwcmludCAoIkByZWxhdGlvbiBwcm90b2NvbF9kZXRlY3Rpb24iKQogICAgICAgIHByaW50ICgiQGF0dHJpYnV0ZSBwcm90b2NvbC1uYW1lIiwie3NzaCxodHRwLG15c3FsLHVua25vd259IikKCiAgICAgICAgZm9yIGF0dHIgaW4gYXR0cnM6CiAgICAgICAgICAgIGlmIGF0dHIgaW4gWydwa3RfY291bnQnLCdhdmVyYWdlX2xlbicsJ2Zsb3dfYXZlcmFnZV9pbnRlcl9hcnJpdmFsX3RpbWUnLCdwdXNoX2ZsYWdfcmF0aW8nLCdhdmVyYWdlX3BheWxvYWRfbGVuJywna29sbW9nb3JvdicsJ3NoYW5ub24nXToKICAgICAgICAgICAgICAgIHByaW50ICgiQGF0dHJpYnV0ZSIsYXR0ciwibnVtZXJpYyIpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBwcmludCAoIkBhdHRyaWJ1dGUiLGF0dHIsInN0cmluZyIpCiAgICAgICAgcHJpbnQgKCJAZGF0YSIpCiAgICBlbHNlOg==</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>def _export_object(obj):
     return (bytes_base64(gzip.zlib.compress(six.moves.cPickle.dumps(obj, 2), 9)))</text>
-      </register>
-      <register name="9" type="4">
-        <text>#reduce it to TCP
-    #TODO check if its possible to pack it again in the original class, that we are able to call .conversations() on this array</text>
       </register>
     </registers>
     <search>
