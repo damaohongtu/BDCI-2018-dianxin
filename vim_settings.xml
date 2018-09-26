@@ -79,8 +79,10 @@
       <file name="$USER_HOME$/workplace/experiment/https/https.py" timestamp="1537928276408">
         <mark key="[" line="70" column="37" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/SVM.py" timestamp="1537947379673">
-        <mark key="[" line="2" column="13" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/SVM.py" timestamp="1537949650335">
+        <mark key="[" line="20" column="62" />
+        <mark key="]" line="20" column="62" />
+        <mark key="." line="20" column="62" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/lightGBM.py" timestamp="1537087568022">
         <mark key="[" line="108" column="0" />
@@ -158,10 +160,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text />
+        <text>coring=scoring,return_train_score=False</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>coring=scoring,return_train_score=False</text>
       </register>
       <register name="/" type="4">
         <text>IMAGE</text>
