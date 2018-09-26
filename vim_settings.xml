@@ -55,7 +55,14 @@
         <mark key="]" line="102" column="0" />
         <mark key="." line="102" column="0" />
       </file>
-      <file name="$USER_HOME$/.conda/envs/tensorflow/lib/python3.6/site-packages/sklearn/preprocessing/data.py" timestamp="1537871406384" />
+      <file name="$USER_HOME$/workplace/experiment/https/https_train.py" timestamp="1537925094250">
+        <mark key="[" line="40" column="94" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/https/https_input.py" timestamp="1537925075029">
+        <mark key="[" line="18" column="0" />
+        <mark key="]" line="18" column="0" />
+        <mark key="." line="18" column="0" />
+      </file>
       <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_main.py" timestamp="1537181587067">
         <mark key="[" line="42" column="11" />
         <mark key="]" line="87" column="0" />
@@ -72,6 +79,9 @@
         <mark key="]" line="92" column="0" />
         <mark key="^" line="53" column="0" />
         <mark key="." line="92" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/https/https.py" timestamp="1537925148338">
+        <mark key="[" line="70" column="37" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/lightGBM.py" timestamp="1537087568022">
         <mark key="[" line="108" column="0" />
@@ -147,7 +157,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ICAgICAgICAjIGQgPSBEZW5zZSg1MTIsYWN0aXZhdGlvbj0ncmVsdScpKGQpCiAgICAgICAgIyBkID0gRGVuc2UoNTEyLGFjdGl2YXRpb249J3JlbHUnKShkKQogICAgICAgICMgZCA9IERlbnNlKDUxMixhY3RpdmF0aW9uPSdyZWx1JykoZCk=</text>
+        <text encoding="base64">ICAgIGNzdl9maWxlbmFtZXM9b3MubGlzdGRpcihkYXRhX2RpcikKICAgICMgZGF0YSBzZXQKICAgIGRhdGFfZGY9cGQuRGF0YUZyYW1lKCkKCiAgICBmb3IgY3N2X2ZpbGVuYW1lIGluIGNzdl9maWxlbmFtZXM6CiAgICAgICAgZGY9cGQucmVhZF9jc3YoZGF0YV9kaXIrJy8nK2Nzdl9maWxlbmFtZSxoZWFkZXI9Tm9uZSxzZXA9JywnKQogICAgICAgIGRhdGFfZGY9cGQuY29uY2F0KFtkYXRhX2RmLGRmXSxpZ25vcmVfaW5kZXg9VHJ1ZSkKICAgICAgICBkZWwgZGYKICAgICMgdHJhaW4gZGF0YQogICAgdHJhaW5fZGY9ZGF0YV9kZi5zYW1wbGUoZnJhYz0wLjgscmFuZG9tX3N0YXRlPTIwMCkKICAgIHRyYWluX2xhYmVscz0gbnAuYXNhcnJheSh0cmFpbl9kZlsxMDI0XSxkdHlwZT1ucC5pbnQzMikKICAgIHRyYWluX2RhdGE9bnAuYXNhcnJheSh0cmFpbl9kZi5kcm9wKFsxMDI0XSxheGlzPTEpLGR0eXBlPW5wLmZsb2F0MzIpCgogICAgIyBldmFsIGRhdGEKICAgIGV2YWxfZGYgPSBkYXRhX2RmLmRyb3AodHJhaW5fZGYpCiAgICBldmFsX2xhYmVscyA9IG5wLmFzYXJyYXkoZXZhbF9kZlsxMDI0XSwgZHR5cGU9bnAuaW50MzIpCiAgICBldmFsX2RhdGEgPSBucC5hc2FycmF5KGV2YWxfZGYuZHJvcChbMTAyNF0sIGF4aXM9MSksIGR0eXBlPWZsb2F0KQogICAgZGVsIGRhdGFfZGYsIHRyYWluX2RmLCBldmFsX2Rm</text>
       </register>
       <register name="-" type="4">
         <text>print(os.listdir('./payload2'))</text>
@@ -159,9 +169,12 @@
         <text encoding="base64">bW9kZWwuZml0KHRyYWluX3Bvb2wsIGV2YWxfc2V0PXZhbGlkYXRlX3Bvb2wsY2F0X2ZlYXR1cmVzPWNhdGVnb3JpY2FsX2ZlYXR1cmVzX2luZGljZXMpCg==</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">ICAgICAgICAjIGQgPSBEZW5zZSg1MTIsYWN0aXZhdGlvbj0ncmVsdScpKGQpCiAgICAgICAgIyBkID0gRGVuc2UoNTEyLGFjdGl2YXRpb249J3JlbHUnKShkKQogICAgICAgICMgZCA9IERlbnNlKDUxMixhY3RpdmF0aW9uPSdyZWx1JykoZCk=</text>
+        <text encoding="base64">ICAgIGNzdl9maWxlbmFtZXM9b3MubGlzdGRpcihkYXRhX2RpcikKICAgICMgZGF0YSBzZXQKICAgIGRhdGFfZGY9cGQuRGF0YUZyYW1lKCkKCiAgICBmb3IgY3N2X2ZpbGVuYW1lIGluIGNzdl9maWxlbmFtZXM6CiAgICAgICAgZGY9cGQucmVhZF9jc3YoZGF0YV9kaXIrJy8nK2Nzdl9maWxlbmFtZSxoZWFkZXI9Tm9uZSxzZXA9JywnKQogICAgICAgIGRhdGFfZGY9cGQuY29uY2F0KFtkYXRhX2RmLGRmXSxpZ25vcmVfaW5kZXg9VHJ1ZSkKICAgICAgICBkZWwgZGYKICAgICMgdHJhaW4gZGF0YQogICAgdHJhaW5fZGY9ZGF0YV9kZi5zYW1wbGUoZnJhYz0wLjgscmFuZG9tX3N0YXRlPTIwMCkKICAgIHRyYWluX2xhYmVscz0gbnAuYXNhcnJheSh0cmFpbl9kZlsxMDI0XSxkdHlwZT1ucC5pbnQzMikKICAgIHRyYWluX2RhdGE9bnAuYXNhcnJheSh0cmFpbl9kZi5kcm9wKFsxMDI0XSxheGlzPTEpLGR0eXBlPW5wLmZsb2F0MzIpCgogICAgIyBldmFsIGRhdGEKICAgIGV2YWxfZGYgPSBkYXRhX2RmLmRyb3AodHJhaW5fZGYpCiAgICBldmFsX2xhYmVscyA9IG5wLmFzYXJyYXkoZXZhbF9kZlsxMDI0XSwgZHR5cGU9bnAuaW50MzIpCiAgICBldmFsX2RhdGEgPSBucC5hc2FycmF5KGV2YWxfZGYuZHJvcChbMTAyNF0sIGF4aXM9MSksIGR0eXBlPWZsb2F0KQogICAgZGVsIGRhdGFfZGYsIHRyYWluX2RmLCBldmFsX2Rm</text>
       </register>
       <register name="2" type="4">
+        <text encoding="base64">ICAgICAgICAjIGQgPSBEZW5zZSg1MTIsYWN0aXZhdGlvbj0ncmVsdScpKGQpCiAgICAgICAgIyBkID0gRGVuc2UoNTEyLGFjdGl2YXRpb249J3JlbHUnKShkKQogICAgICAgICMgZCA9IERlbnNlKDUxMixhY3RpdmF0aW9uPSdyZWx1JykoZCk=</text>
+      </register>
+      <register name="3" type="4">
         <text># d = Convolution2D(nb_filters,(kernel_size[0],kernel_size[1]),padding='same',input_shape=input_shape)(d)
         # d = Activation('relu')(d)
         # d = Convolution2D(nb_filters,(kernel_size[0],kernel_size[1]))(d)
@@ -171,21 +184,21 @@
         # d = Convolution2D(nb_filters,(kernel_size[0],kernel_size[1]))(d)
         # d = MaxPooling2D(pool_size=pool_size)(d)</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text encoding="base64">ICAgICMgY3Jvc3NlZF9jb2x1bW5zX2QgPSBjcm9zc19jb2x1bW5zKHhfY29scykKICAgICMgIyDnprvmlaPlsZ7mgKcKICAgICMgY2F0ZWdvcmljYWxfY29sdW1ucyA9IGxpc3QoZGZfd2lkZS5zZWxlY3RfZHR5cGVzKGluY2x1ZGU9WydvYmplY3QnXSkuY29sdW1ucykKICAgICMKICAgICMgd2lkZV9jb2xzICs9IGNyb3NzZWRfY29sdW1uc19kLmtleXMoKQogICAgIwogICAgIyBmb3IgaywgdiBpbiBjcm9zc2VkX2NvbHVtbnNfZC5pdGVyaXRlbXMoKToKICAgICMgICAgIGRmX3dpZGVba10gPSBkZl93aWRlW3ZdLmFwcGx5KGxhbWJkYSB4OiAnLScuam9pbih4KSwgYXhpcz0xKQogICAgIwogICAgIyBkZl93aWRlID0gZGZfd2lkZVt3aWRlX2NvbHMgKyBbdGFyZ2V0XSArIFsnSVNfVFJBSU4nXV0KICAgICMKICAgICMgZHVtbXlfY29scyA9IFsKICAgICMgICAgIGMgZm9yIGMgaW4gd2lkZV9jb2xzIGlmIGMgaW4gY2F0ZWdvcmljYWxfY29sdW1ucyArIGNyb3NzZWRfY29sdW1uc19kLmtleXMoKV0KICAgICMgZGZfd2lkZSA9IHBkLmdldF9kdW1taWVzKGRmX3dpZGUsIGNvbHVtbnM9W3ggZm9yIHggaW4gZHVtbXlfY29sc10p</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text encoding="base64">ICAgIGlmIG91dHB1dF90eXBlID09ICJhcmZmIjoKICAgICAgICBwcmludCAoIkByZWxhdGlvbiBwcm90b2NvbF9kZXRlY3Rpb24iKQogICAgICAgIHByaW50ICgiQGF0dHJpYnV0ZSBwcm90b2NvbC1uYW1lIiwie3NzaCxodHRwLG15c3FsLHVua25vd259IikKCiAgICAgICAgZm9yIGF0dHIgaW4gYXR0cnM6CiAgICAgICAgICAgIGlmIGF0dHIgaW4gWydwa3RfY291bnQnLCdhdmVyYWdlX2xlbicsJ2Zsb3dfYXZlcmFnZV9pbnRlcl9hcnJpdmFsX3RpbWUnLCdwdXNoX2ZsYWdfcmF0aW8nLCdhdmVyYWdlX3BheWxvYWRfbGVuJywna29sbW9nb3JvdicsJ3NoYW5ub24nXToKICAgICAgICAgICAgICAgIHByaW50ICgiQGF0dHJpYnV0ZSIsYXR0ciwibnVtZXJpYyIpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBwcmludCAoIkBhdHRyaWJ1dGUiLGF0dHIsInN0cmluZyIpCiAgICAgICAgcHJpbnQgKCJAZGF0YSIpCiAgICBlbHNlOg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>def _export_object(obj):
     return (bytes_base64(gzip.zlib.compress(six.moves.cPickle.dumps(obj, 2), 9)))</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>#reduce it to TCP
     #TODO check if its possible to pack it again in the original class, that we are able to call .conversations() on this array</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>parser = argparse.ArgumentParser(description='Process a pcap file, generating the flows and output it as arff or csv')
 parser.add_argument('-i',help=&quot;pcap file to be readin&quot;,required=True)
 parser.add_argument('-o',help=&quot;output file to be written&quot;)
@@ -197,16 +210,8 @@ args = parser.parse_args()
 pcap_file = args.i
 output_type = args.t</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">IyBmb3IgZmxvdyBpbiBmbG93cy52YWx1ZXMoKToKIyAJcHJpbnQgKCIlcywlcywlcywlcywlcywlcywlLjNmLCVzLCVzLCVzLCVzLCVzLCVzIiUocHJvdG9fbmFtZShmbG93LnNwb3J0LGZsb3cuZHBvcnQpLGZsb3cuc3JjLGZsb3cuc3BvcnQsZmxvdy5kc3QsZmxvdy5kcG9ydCxmbG93LnByb3RvLGZsb3cucHVzaF9mbGFnX3JhdGlvKCksZmxvdy5hdnJnX2xlbigpLGZsb3cuYXZyZ19wYXlsb2FkX2xlbigpLGZsb3cucGt0X2NvdW50LGZsb3cuYXZyZ19pbnRlcl9hcnJpdmFsX3RpbWUoKSxmbG93LmtvbG1vZ29yb3YoKSxmbG93LnNoYW5ub24oKSkpCg==</text>
-      </register>
       <register name="9" type="4">
-        <text>#to test:
-#add for every tcp flag a counter. accumulate it per flow
-#do a chi square test to see if the number of flags are related with a protocol
-#ex:
-#http://hsc.uwe.ac.uk/dataanalysis/quantinfasschi.asp
-#packets=rdpcap(&quot;tcp_or_udp.pcap&quot;)</text>
+        <text encoding="base64">IyBmb3IgZmxvdyBpbiBmbG93cy52YWx1ZXMoKToKIyAJcHJpbnQgKCIlcywlcywlcywlcywlcywlcywlLjNmLCVzLCVzLCVzLCVzLCVzLCVzIiUocHJvdG9fbmFtZShmbG93LnNwb3J0LGZsb3cuZHBvcnQpLGZsb3cuc3JjLGZsb3cuc3BvcnQsZmxvdy5kc3QsZmxvdy5kcG9ydCxmbG93LnByb3RvLGZsb3cucHVzaF9mbGFnX3JhdGlvKCksZmxvdy5hdnJnX2xlbigpLGZsb3cuYXZyZ19wYXlsb2FkX2xlbigpLGZsb3cucGt0X2NvdW50LGZsb3cuYXZyZ19pbnRlcl9hcnJpdmFsX3RpbWUoKSxmbG93LmtvbG1vZ29yb3YoKSxmbG93LnNoYW5ub24oKSkpCg==</text>
       </register>
     </registers>
     <search>
