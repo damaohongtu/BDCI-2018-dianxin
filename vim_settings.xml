@@ -53,6 +53,9 @@
         <mark key="]" line="18" column="0" />
         <mark key="." line="18" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_deep/wd_https_keras.py" timestamp="1539157132480">
+        <mark key="[" line="136" column="42" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/payload_cut.py" timestamp="1537854930840">
         <mark key="[" line="22" column="0" />
         <mark key="]" line="22" column="0" />
@@ -68,6 +71,9 @@
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/lstm/test.py" timestamp="1538098975712">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/cnn/main.py" timestamp="1539159539725">
+        <mark key="[" line="21" column="48" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/code/preprocess.py" timestamp="1537844098103">
         <mark key="[" line="29" column="51" />
@@ -143,8 +149,8 @@
       <file name="$USER_HOME$/workplace/BDCI/lightGBM.py" timestamp="1538718841117">
         <mark key="[" line="18" column="19" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/payload_merge_3.py" timestamp="1539156123873">
-        <mark key="[" line="1" column="22" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/payload_merge_3.py" timestamp="1539158183531">
+        <mark key="[" line="15" column="54" />
         <mark key="]" line="1" column="22" />
         <mark key="." line="1" column="22" />
       </file>
@@ -157,10 +163,20 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/payload_cut.py" timestamp="1539084362999">
         <mark key="[" line="17" column="27" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/test.py" timestamp="1539159254530">
+        <mark key="[" line="3" column="22" />
+        <mark key="]" line="3" column="22" />
+        <mark key="." line="3" column="22" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/https_project/cnn_test.py" timestamp="1537444037284">
         <mark key="[" line="51" column="23" />
         <mark key="]" line="51" column="23" />
         <mark key="." line="51" column="23" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/file_concat_4.py" timestamp="1539157012566">
+        <mark key="[" line="35" column="17" />
+        <mark key="]" line="35" column="17" />
+        <mark key="." line="35" column="17" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https_project/train.py" timestamp="1536301340898">
         <mark key="[" line="16" column="2" />
@@ -192,10 +208,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">CiMgcHl0aG9u5paH5Lu25ou85o6lCiMgQW5kcm9pZF9haXFpeWlfMjAxODA5MTkwMSAgMC01MzEKIyBBbmRyb2lkX2Nsb3VkbXVzaWNfMjAxODA5MTkwMSAgMC02NTIKIyBBbmRyb2lkX3Nob3VqaWJhaWR1XzIwMTgwOTE5MDEgIDAtMzY0</text>
+        <text encoding="base64">CnByaW50KHBheWxvYWRfdHJhaW5bImxhYmVsIl0udW5pcXVlKCkp</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>ss4094</text>
       </register>
       <register name="/" type="4">
         <text>IMAGE</text>
@@ -204,18 +220,36 @@
         <text encoding="base64">bW9kZWwuZml0KHRyYWluX3Bvb2wsIGV2YWxfc2V0PXZhbGlkYXRlX3Bvb2wsY2F0X2ZlYXR1cmVzPWNhdGVnb3JpY2FsX2ZlYXR1cmVzX2luZGljZXMpCg==</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">CiMgcHl0aG9u5paH5Lu25ou85o6lCiMgQW5kcm9pZF9haXFpeWlfMjAxODA5MTkwMSAgMC01MzEKIyBBbmRyb2lkX2Nsb3VkbXVzaWNfMjAxODA5MTkwMSAgMC02NTIKIyBBbmRyb2lkX3Nob3VqaWJhaWR1XzIwMTgwOTE5MDEgIDAtMzY0</text>
+        <text encoding="base64">CnByaW50KHBheWxvYWRfdHJhaW5bImxhYmVsIl0udW5pcXVlKCkp</text>
       </register>
       <register name="2" type="4">
+        <text>[ 14 ,233 ,144 ,119 ,  3 ,204 ,148,   8 , 23 , 56 ,122 ,106 , 93 ,181 ,115,  43, 178 ,105,
+  164 ,145, 241 ,151, 211   4 113  63   7 198  97   0 220 108 227 155 244 147
+  57 ,229 , 98 ,132 ,196  52  39  91  55 239  90 224 203  49  81  99 143 140
+  114 ,146  ,12 ,180 , 95  82 161  33  70 179 208  22 174   9 117 207 214  44
+  28 , 42 , 10, 175 , 79 116 124 234  92 184 226 165 100 200 128 134 210 195
+  48 ,254 , 20  ,59 ,205  17 103  54 152  71 206 187 230  77 242 154 193 169
+  166 ,173 , 16 ,172 , 76  ,30 ,135  ,69, 249]</text>
+      </register>
+      <register name="3" type="4">
+        <text encoding="base64">CnByaW50KHBheWxvYWRfdHJhaW4uaGVhZCgpKQ==</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">CgojIG91dHB1dD1wZC5yZWFkX2NzdigiLi9vdXRwdXQuY3N2IikKIyBvdXRwdXRfdHJhaW4sb3V0cHV0X3ZhbD10cmFpbl90ZXN0X3NwbGl0KHJhbmdlKG91dHB1dC5fX2xlbl9fKCkpLHRlc3Rfc2l6ZT0wLjIsc2h1ZmZsZT1UcnVlKQojIHByaW50KG91dHB1dF90cmFpbikKIyBwcmludChvdXRwdXRfdmFsKQojIG91dHB1dC5pbG9jW291dHB1dF90cmFpbl0udG9fY3N2KCcuLi9kYXRhL291dHB1dF90cmFpbi5jc3YnLGluZGV4PUZhbHNlKQojIG91dHB1dC5pbG9jW291dHB1dF92YWxdLnRvX2NzdignLi4vZGF0YS9vdXRwdXRfdmFsLmNzdicsaW5kZXg9RmFsc2UpCiMgZGVsIG91dHB1dA==</text>
+      </register>
+      <register name="5" type="4">
+        <text encoding="base64">CiMgcHl0aG9u5paH5Lu25ou85o6lCiMgQW5kcm9pZF9haXFpeWlfMjAxODA5MTkwMSAgMC01MzEKIyBBbmRyb2lkX2Nsb3VkbXVzaWNfMjAxODA5MTkwMSAgMC02NTIKIyBBbmRyb2lkX3Nob3VqaWJhaWR1XzIwMTgwOTE5MDEgIDAtMzY0</text>
+      </register>
+      <register name="6" type="4">
         <text>'mean_total_fee','min_total_fee','max_total_fee','max_min',
               '4_3_total_fee','4_2_total_fee','4_1_total_fee','3_2_total_fee','3_1_total_fee','2_1_total_fee',
               'month_traffic_fee','pay_num_per_time','service_caller_time_all',
               'cur_last_month_traffic','cur_last_month_traffic_rate','lo</text>
       </register>
-      <register name="3" type="4">
+      <register name="7" type="4">
         <text encoding="base64">CiMg5pWw5o2u5pyJ6Zeu6aKY5pWw5o2uCmZvciBpIGluIHRyYWluX2NvbDoKICAgIFhbaV0gPSBYW2ldLnJlcGxhY2UoIlxcTiIsIC0xKQogICAgWF90ZXN0W2ldID0gWF90ZXN0W2ldLnJlcGxhY2UoIlxcTiIsIC0xKQ==</text>
       </register>
-      <register name="4" type="4">
+      <register name="8" type="4">
         <text>'''
 简单分析数据：
 user_id 为编码后的数据，大小：
@@ -232,29 +266,9 @@ print('train data of current_service shape', (set(train['current_service'])))
 print('train data shape', test.shape)
 print('train data of user_id shape', len(set(test['user_id'])))</text>
       </register>
-      <register name="5" type="4">
+      <register name="9" type="4">
         <text>print(y_pred)
 print(eval_labels)</text>
-      </register>
-      <register name="6" type="4">
-        <text>output_train=pd.read_csv('../../data/output_train.csv')
-output_val=pd.read_csv('../../data/output_val.csv')
-common_features=['push_flag_ratio','average_len','average_payload_len','pkt_count','flow_average_inter_arrival_time','kolmogorov','shannon']
-
-train_labels=np.asarray(output_train.pop('label'),dtype=np.int32)
-train_data=np.asarray(output_train[common_features],dtype=np.float32)
-
-eval_labels=np.asarray(output_val.pop('label'),dtype=np.int32)
-eval_data=np.asarray(output_val[common_features],dtype=np.float32)</text>
-      </register>
-      <register name="7" type="4">
-        <text encoding="base64">CmZyb20gc2tsZWFybi5saW5lYXJfbW9kZWwgaW1wb3J0IExvZ2lzdGljUmVncmVzc2lvbgpmcm9tIHNrbGVhcm4ubW9kZWxfc2VsZWN0aW9uIGltcG9ydCBjcm9zc192YWxfc2NvcmU=</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">ICAgIGNzdl9maWxlbmFtZXM9b3MubGlzdGRpcihkYXRhX2RpcikKICAgICMgZGF0YSBzZXQKICAgIGRhdGFfZGY9cGQuRGF0YUZyYW1lKCkKCiAgICBmb3IgY3N2X2ZpbGVuYW1lIGluIGNzdl9maWxlbmFtZXM6CiAgICAgICAgZGY9cGQucmVhZF9jc3YoZGF0YV9kaXIrJy8nK2Nzdl9maWxlbmFtZSxoZWFkZXI9Tm9uZSxzZXA9JywnKQogICAgICAgIGRhdGFfZGY9cGQuY29uY2F0KFtkYXRhX2RmLGRmXSxpZ25vcmVfaW5kZXg9VHJ1ZSkKICAgICAgICBkZWwgZGYKICAgICMgdHJhaW4gZGF0YQogICAgdHJhaW5fZGY9ZGF0YV9kZi5zYW1wbGUoZnJhYz0wLjgscmFuZG9tX3N0YXRlPTIwMCkKICAgIHRyYWluX2xhYmVscz0gbnAuYXNhcnJheSh0cmFpbl9kZlsxMDI0XSxkdHlwZT1ucC5pbnQzMikKICAgIHRyYWluX2RhdGE9bnAuYXNhcnJheSh0cmFpbl9kZi5kcm9wKFsxMDI0XSxheGlzPTEpLGR0eXBlPW5wLmZsb2F0MzIpCgogICAgIyBldmFsIGRhdGEKICAgIGV2YWxfZGYgPSBkYXRhX2RmLmRyb3AodHJhaW5fZGYpCiAgICBldmFsX2xhYmVscyA9IG5wLmFzYXJyYXkoZXZhbF9kZlsxMDI0XSwgZHR5cGU9bnAuaW50MzIpCiAgICBldmFsX2RhdGEgPSBucC5hc2FycmF5KGV2YWxfZGYuZHJvcChbMTAyNF0sIGF4aXM9MSksIGR0eXBlPWZsb2F0KQogICAgZGVsIGRhdGFfZGYsIHRyYWluX2RmLCBldmFsX2Rm</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">ICAgICAgICAjIGQgPSBEZW5zZSg1MTIsYWN0aXZhdGlvbj0ncmVsdScpKGQpCiAgICAgICAgIyBkID0gRGVuc2UoNTEyLGFjdGl2YXRpb249J3JlbHUnKShkKQogICAgICAgICMgZCA9IERlbnNlKDUxMixhY3RpdmF0aW9uPSdyZWx1JykoZCk=</text>
       </register>
     </registers>
     <search>
@@ -295,6 +309,12 @@ eval_data=np.asarray(output_val[common_features],dtype=np.float32)</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed D</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed W</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed H</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
