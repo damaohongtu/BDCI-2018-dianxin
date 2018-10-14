@@ -17,7 +17,7 @@
       <file name="/a.dummy" timestamp="1539155083867">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_main.py" timestamp="1539081277464">
+      <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_main.py" timestamp="1539483089001">
         <mark key="[" line="43" column="17" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wide_deep/python/lib/read_conf.py" timestamp="1536733926675">
@@ -127,6 +127,9 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/XGBoost.py" timestamp="1537964263928">
         <mark key="[" line="3" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/BDCI/input/preprocess_old.py" timestamp="1539484430681">
+        <mark key="[" line="30" column="16" />
+      </file>
       <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_predict.py" timestamp="1536999044609">
         <mark key="[" line="0" column="0" />
       </file>
@@ -138,6 +141,13 @@
       </file>
       <file name="$USER_HOME$/workplace/BDCI/utils/data/split_data.py" timestamp="1536557621917">
         <mark key="[" line="1" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/BDCI/input/preprocess.py" timestamp="1539486031182">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="73" column="0" />
+        <mark key="]" line="73" column="0" />
+        <mark key="^" line="103" column="0" />
+        <mark key="." line="73" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/lgb.py" timestamp="1537964810424">
         <mark key="[" line="37" column="0" />
@@ -203,24 +213,44 @@
       <jump line="49" column="45" filename="$USER_HOME$/workplace/BDCI/wide_deep/census_dataset.py" />
       <jump line="47" column="13" filename="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_main.py" />
       <jump line="40" column="4" filename="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_main.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/workplace/BDCI/input/preprocess.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">CnByaW50KHBheWxvYWRfdHJhaW5bImxhYmVsIl0udW5pcXVlKCkp</text>
+        <text>'1_total_fee','2_total_fee','3_total_fee','4_total_fee',
+'month_traffic','pay_num','local_caller_time',
+'service1_caller_time','service2_caller_time',
+'last_month_traffic','local_trafffic_month',
+'former_complaint_num','former_complaint_fee',
+'mean_total_fee','min_total_fee','max_total_fee','max_min',
+'4_3_total_fee','4_2_total_fee','4_1_total_fee','3_2_total_fee','3_1_total_fee','2_1_total_fee',
+'month_traffic_fee','pay_num_per_time','service_caller_time_all',
+'cur_last_month_traffic','cur_last_month_traffic_rate','local_month_traffic_caller_time']</text>
       </register>
       <register name="-" type="4">
         <text>ss4094</text>
       </register>
       <register name="/" type="4">
-        <text>IMAGE</text>
+        <text>contract</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">bW9kZWwuZml0KHRyYWluX3Bvb2wsIGV2YWxfc2V0PXZhbGlkYXRlX3Bvb2wsY2F0X2ZlYXR1cmVzPWNhdGVnb3JpY2FsX2ZlYXR1cmVzX2luZGljZXMpCg==</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">CnByaW50KHBheWxvYWRfdHJhaW5bImxhYmVsIl0udW5pcXVlKCkp</text>
+        <text>'1_total_fee','2_total_fee','3_total_fee','4_total_fee',
+'month_traffic','pay_num','local_caller_time',
+'service1_caller_time','service2_caller_time',
+'last_month_traffic','local_trafffic_month',
+'former_complaint_num','former_complaint_fee',
+'mean_total_fee','min_total_fee','max_total_fee','max_min',
+'4_3_total_fee','4_2_total_fee','4_1_total_fee','3_2_total_fee','3_1_total_fee','2_1_total_fee',
+'month_traffic_fee','pay_num_per_time','service_caller_time_all',
+'cur_last_month_traffic','cur_last_month_traffic_rate','local_month_traffic_caller_time']</text>
       </register>
       <register name="2" type="4">
+        <text encoding="base64">CnByaW50KHBheWxvYWRfdHJhaW5bImxhYmVsIl0udW5pcXVlKCkp</text>
+      </register>
+      <register name="3" type="4">
         <text>[ 14 ,233 ,144 ,119 ,  3 ,204 ,148,   8 , 23 , 56 ,122 ,106 , 93 ,181 ,115,  43, 178 ,105,
   164 ,145, 241 ,151, 211   4 113  63   7 198  97   0 220 108 227 155 244 147
   57 ,229 , 98 ,132 ,196  52  39  91  55 239  90 224 203  49  81  99 143 140
@@ -229,25 +259,25 @@
   48 ,254 , 20  ,59 ,205  17 103  54 152  71 206 187 230  77 242 154 193 169
   166 ,173 , 16 ,172 , 76  ,30 ,135  ,69, 249]</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text encoding="base64">CnByaW50KHBheWxvYWRfdHJhaW4uaGVhZCgpKQ==</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text encoding="base64">CgojIG91dHB1dD1wZC5yZWFkX2NzdigiLi9vdXRwdXQuY3N2IikKIyBvdXRwdXRfdHJhaW4sb3V0cHV0X3ZhbD10cmFpbl90ZXN0X3NwbGl0KHJhbmdlKG91dHB1dC5fX2xlbl9fKCkpLHRlc3Rfc2l6ZT0wLjIsc2h1ZmZsZT1UcnVlKQojIHByaW50KG91dHB1dF90cmFpbikKIyBwcmludChvdXRwdXRfdmFsKQojIG91dHB1dC5pbG9jW291dHB1dF90cmFpbl0udG9fY3N2KCcuLi9kYXRhL291dHB1dF90cmFpbi5jc3YnLGluZGV4PUZhbHNlKQojIG91dHB1dC5pbG9jW291dHB1dF92YWxdLnRvX2NzdignLi4vZGF0YS9vdXRwdXRfdmFsLmNzdicsaW5kZXg9RmFsc2UpCiMgZGVsIG91dHB1dA==</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text encoding="base64">CiMgcHl0aG9u5paH5Lu25ou85o6lCiMgQW5kcm9pZF9haXFpeWlfMjAxODA5MTkwMSAgMC01MzEKIyBBbmRyb2lkX2Nsb3VkbXVzaWNfMjAxODA5MTkwMSAgMC02NTIKIyBBbmRyb2lkX3Nob3VqaWJhaWR1XzIwMTgwOTE5MDEgIDAtMzY0</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>'mean_total_fee','min_total_fee','max_total_fee','max_min',
               '4_3_total_fee','4_2_total_fee','4_1_total_fee','3_2_total_fee','3_1_total_fee','2_1_total_fee',
               'month_traffic_fee','pay_num_per_time','service_caller_time_all',
               'cur_last_month_traffic','cur_last_month_traffic_rate','lo</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">CiMg5pWw5o2u5pyJ6Zeu6aKY5pWw5o2uCmZvciBpIGluIHRyYWluX2NvbDoKICAgIFhbaV0gPSBYW2ldLnJlcGxhY2UoIlxcTiIsIC0xKQogICAgWF90ZXN0W2ldID0gWF90ZXN0W2ldLnJlcGxhY2UoIlxcTiIsIC0xKQ==</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>'''
 简单分析数据：
 user_id 为编码后的数据，大小：
@@ -264,15 +294,11 @@ print('train data of current_service shape', (set(train['current_service'])))
 print('train data shape', test.shape)
 print('train data of user_id shape', len(set(test['user_id'])))</text>
       </register>
-      <register name="9" type="4">
-        <text>print(y_pred)
-print(eval_labels)</text>
-      </register>
     </registers>
     <search>
-      <last-search>IMAGE</last-search>
+      <last-search>contract</last-search>
       <last-offset />
-      <last-pattern>IMAGE</last-pattern>
+      <last-pattern>contract</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
@@ -281,8 +307,11 @@ print(eval_labels)</text>
         <entry>IMA</entry>
         <entry>IMAGE_SIZE</entry>
         <entry>IMAGE</entry>
+        <entry>contract</entry>
       </history-search>
-      <history-cmd />
+      <history-cmd>
+        <entry>/</entry>
+      </history-cmd>
       <history-expr />
       <history-input />
     </history>
