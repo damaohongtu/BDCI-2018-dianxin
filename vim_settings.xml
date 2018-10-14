@@ -73,11 +73,14 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/lstm/test.py" timestamp="1538098975712">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/cnn/main.py" timestamp="1539159539725">
-        <mark key="[" line="21" column="48" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/cnn/main.py" timestamp="1539167359941">
+        <mark key="[" line="6" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/code/preprocess.py" timestamp="1537844098103">
         <mark key="[" line="29" column="51" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/cnn/model.py" timestamp="1539167380033">
+        <mark key="[" line="29" column="44" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/__init__.py" timestamp="1536628825812">
         <mark key="[" line="0" column="0" />
@@ -122,6 +125,7 @@
       <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_predict.py" timestamp="1537002109538">
         <mark key="[" line="13" column="29" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/payload/Android_aiqiyi_2018091901.pcap_5.txt" timestamp="1539172818088" />
       <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/XGBoost.py" timestamp="1537964263928">
         <mark key="[" line="3" column="0" />
       </file>
