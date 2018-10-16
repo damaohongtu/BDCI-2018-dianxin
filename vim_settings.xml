@@ -230,8 +230,11 @@
         <mark key="]" line="167" column="0" />
         <mark key="." line="167" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/tmp.py" timestamp="1539688945146">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/tmp.py" timestamp="1539691676800">
+        <mark key="[" line="18" column="8" />
+        <mark key="]" line="25" column="17" />
+        <mark key="." line="25" column="0" />
+        <mark key="^" line="18" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/payload_cut_2.py" timestamp="1539088832420">
         <mark key="[" line="15" column="23" />
@@ -247,20 +250,8 @@
       <jump line="6" column="39" filename="$USER_HOME$/workplace/experiment/HTTPSHandshake/test.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>#/usr/bin/env/python
-from scapy.all import *
-import scapy
-from numpy import *
-from entropy import kolmogorov, shannon
-class TCPStream:
-    def __init__(self,pkt):
-        self.time=pkt.time
-        
-        self.pkt=pkt
-
-    def avrg_len(self):
-        return self</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">cHJpbnQocFtdLnNob3coKSkK</text>
       </register>
       <register name="-" type="4">
         <text>rom entropy import kolmogorov, shannon</text>
@@ -269,7 +260,7 @@ class TCPStream:
         <text>contract</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">cHJpbnQoIi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIikK</text>
+        <text encoding="base64">cHJpbnQocFtdLnNob3coKSkK</text>
       </register>
       <register name="1" type="4">
         <text>#/usr/bin/env/python
