@@ -11,6 +11,7 @@
         <mark key="]" line="33" column="0" />
         <mark key="." line="33" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/scapy_ssl_tls/ssl_tls_keystore.py" timestamp="1539659548134" />
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse.py" timestamp="1539086138790">
         <mark key="[" line="61" column="61" />
       </file>
@@ -37,6 +38,9 @@
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/code/classification_w/logisticRegression.py" timestamp="1537930753943">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/.local/lib/python3.6/site-packages/scapy/config.py" timestamp="1539660093007">
+        <mark key="[" line="447" column="66" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/wfe.py" timestamp="1537794841935">
         <mark key="[" line="55" column="0" />
@@ -81,7 +85,6 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/code/preprocess.py" timestamp="1537844098103">
         <mark key="[" line="29" column="51" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/scapy_ssl_tls/ssl_tls_crypto.py" timestamp="1539656546306" />
       <file name="$USER_HOME$/workplace/experiment/wd_https/cnn/model.py" timestamp="1539167380033">
         <mark key="[" line="29" column="44" />
       </file>
@@ -98,6 +101,9 @@
       </file>
       <file name="$USER_HOME$/workplace/experiment/wide_deep/python/train.py" timestamp="1536733965281">
         <mark key="[" line="174" column="67" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/scapy_ssl_tls/ssl_tls.py" timestamp="1539660486709">
+        <mark key="[" line="237" column="80" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/utils/testing/integration.py" timestamp="1536585954206">
         <mark key="[" line="28" column="14" />
@@ -122,7 +128,7 @@
         <mark key="]" line="0" column="13066" />
         <mark key="." line="0" column="13066" />
       </file>
-      <file name="/Python Console" timestamp="1539654783611">
+      <file name="/Python Console" timestamp="1539659268527">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_predict.py" timestamp="1537002109538">
@@ -148,6 +154,9 @@
       </file>
       <file name="$USER_HOME$/workplace/BDCI/utils/data/split_data.py" timestamp="1536557621917">
         <mark key="[" line="1" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/test.py" timestamp="1539660374795">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/input/preprocess.py" timestamp="1539486031182">
         <mark key="'" line="0" column="0" />
