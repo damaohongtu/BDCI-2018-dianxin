@@ -250,11 +250,11 @@
       <jump line="6" column="39" filename="$USER_HOME$/workplace/experiment/HTTPSHandshake/test.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">cHJpbnQocFtdLnNob3coKSkK</text>
+      <register name="&quot;" type="4">
+        <text>base features:</text>
       </register>
       <register name="-" type="4">
-        <text>rom entropy import kolmogorov, shannon</text>
+        <text>base features:</text>
       </register>
       <register name="/" type="4">
         <text>contract</text>
