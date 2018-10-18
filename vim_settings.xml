@@ -12,7 +12,7 @@
         <mark key="." line="33" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/tcp_stream.py" timestamp="1539859875409">
-        <mark key="'" line="55" column="44" />
+        <mark key="'" line="59" column="44" />
         <mark key="[" line="25" column="28" />
         <mark key="]" line="25" column="28" />
         <mark key="." line="25" column="28" />
@@ -170,7 +170,7 @@
         <mark key="[" line="13" column="29" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/https_parse.py" timestamp="1539858861028">
-        <mark key="[" line="64" column="58" />
+        <mark key="[" line="65" column="58" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/XGBoost.py" timestamp="1537964263928">
         <mark key="[" line="3" column="0" />
@@ -266,12 +266,12 @@
         <mark key="]" line="167" column="0" />
         <mark key="." line="167" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/tmp.py" timestamp="1539854003576">
-        <mark key="'" line="6" column="13" />
-        <mark key="[" line="3" column="14" />
-        <mark key="]" line="3" column="14" />
-        <mark key="." line="3" column="14" />
-        <mark key="^" line="21" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/tmp.py" timestamp="1539864194384">
+        <mark key="'" line="15" column="13" />
+        <mark key="[" line="16" column="20" />
+        <mark key="]" line="15" column="95" />
+        <mark key="." line="15" column="0" />
+        <mark key="^" line="14" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/payload_cut_2.py" timestamp="1539088832420">
         <mark key="[" line="15" column="23" />
@@ -288,10 +288,11 @@
       <jump line="4" column="13" filename="$USER_HOME$/workplace/experiment/HTTPSHandshake/tmp.py" />
       <jump line="16" column="18" filename="$USER_HOME$/workplace/experiment/HTTPSHandshake/tcp_stream.py" />
       <jump line="50" column="44" filename="$USER_HOME$/workplace/experiment/HTTPSHandshake/tcp_stream.py" />
+      <jump line="15" column="13" filename="$USER_HOME$/workplace/experiment/HTTPSHandshake/tmp.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">CmRlZiBzZXJ2ZXJfaGVsbG9fc2Vzc2lvbl9pZF9sZW4ocGt0KToKCWlmIHN0cihwa3Quc3ByaW50ZikuZmluZCgiVExTU2VydmVySGVsbG8iKT4tMToKCQl0cnk6CgkJCXJldHVybiBwa3RbIlRMUyBTZXJ2ZXIgSGVsbG8iXS5zZXNzaW9uX2lkX2xlbmd0aAoJCWV4Y2VwdDoKCQkJcGFzcw==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">cHJpbnQoIi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIikK</text>
       </register>
       <register name="-" type="4">
         <text>[&quot;SSL/TLS&quot;][&quot;TLS Handshakes&quot;]</text>
@@ -300,7 +301,7 @@
         <text>contract</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">cHJpbnQocFtdLnNob3coKSkK</text>
+        <text encoding="base64">cHJpbnQoIi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIikK</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">CmRlZiBzZXJ2ZXJfaGVsbG9fc2Vzc2lvbl9pZF9sZW4ocGt0KToKCWlmIHN0cihwa3Quc3ByaW50ZikuZmluZCgiVExTU2VydmVySGVsbG8iKT4tMToKCQl0cnk6CgkJCXJldHVybiBwa3RbIlRMUyBTZXJ2ZXIgSGVsbG8iXS5zZXNzaW9uX2lkX2xlbmd0aAoJCWV4Y2VwdDoKCQkJcGFzcw==</text>
