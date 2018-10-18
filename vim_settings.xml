@@ -13,8 +13,8 @@
       </file>
       <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/tcp_stream.py" timestamp="1539829179555">
         <mark key="[" line="19" column="8" />
-        <mark key="]" line="60" column="0" />
-        <mark key="." line="60" column="0" />
+        <mark key="]" line="68" column="0" />
+        <mark key="." line="68" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse.py" timestamp="1539086138790">
         <mark key="[" line="61" column="61" />
@@ -188,8 +188,10 @@
       <file name="$USER_HOME$/workplace/BDCI/DeepFM_BDCI/deepfm.py" timestamp="1539492268236">
         <mark key="[" line="32" column="27" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/features" timestamp="1539825356548">
-        <mark key="[" line="53" column="13" />
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/features" timestamp="1539831209617">
+        <mark key="[" line="56" column="0" />
+        <mark key="]" line="56" column="0" />
+        <mark key="." line="56" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/utils/data/split_data.py" timestamp="1536557621917">
         <mark key="[" line="1" column="0" />
@@ -283,10 +285,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>_</text>
+        <text>push_flag_ratio,average_len,average_payload_len,pkt_count,flow_average_inter_arrival_time,kolmogorov,shannon</text>
       </register>
       <register name="-" type="4">
-        <text>_</text>
+        <text>push_flag_ratio,average_len,average_payload_len,pkt_count,flow_average_inter_arrival_time,kolmogorov,shannon</text>
       </register>
       <register name="/" type="4">
         <text>contract</text>
