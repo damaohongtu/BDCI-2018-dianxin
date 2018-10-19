@@ -265,12 +265,12 @@
         <mark key="]" line="167" column="0" />
         <mark key="." line="167" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/tmp.py" timestamp="1539864194384">
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/tmp.py" timestamp="1539913225567">
         <mark key="'" line="15" column="13" />
-        <mark key="[" line="16" column="20" />
-        <mark key="]" line="15" column="95" />
-        <mark key="." line="15" column="0" />
-        <mark key="^" line="14" column="0" />
+        <mark key="[" line="13" column="8" />
+        <mark key="]" line="13" column="8" />
+        <mark key="." line="13" column="8" />
+        <mark key="^" line="13" column="8" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/payload_cut_2.py" timestamp="1539088832420">
         <mark key="[" line="15" column="23" />
@@ -290,11 +290,11 @@
       <jump line="15" column="13" filename="$USER_HOME$/workplace/experiment/HTTPSHandshake/tmp.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">cHJpbnQoIi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIikK</text>
+      <register name="&quot;" type="4">
+        <text>0</text>
       </register>
       <register name="-" type="4">
-        <text>[&quot;SSL/TLS&quot;][&quot;TLS Handshakes&quot;]</text>
+        <text>0</text>
       </register>
       <register name="/" type="4">
         <text>contract</text>
