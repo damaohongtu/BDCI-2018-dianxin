@@ -11,11 +11,11 @@
         <mark key="]" line="33" column="0" />
         <mark key="." line="33" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/tcp_stream.py" timestamp="1539912004306">
-        <mark key="'" line="71" column="44" />
-        <mark key="[" line="75" column="74" />
-        <mark key="]" line="25" column="28" />
-        <mark key="." line="25" column="28" />
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/tcp_stream.py" timestamp="1539919693632">
+        <mark key="'" line="78" column="44" />
+        <mark key="[" line="125" column="8" />
+        <mark key="]" line="125" column="8" />
+        <mark key="." line="125" column="8" />
         <mark key="^" line="9" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse.py" timestamp="1539086138790">
@@ -291,7 +291,14 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>0</text>
+        <text>avrg_ip_ttl(self):
+		return mean(self.ip_ttl)
+	def max_ip_ttl(self):
+		return max(self.ip_ttl)
+	def min_ip_ttl(self):
+		return min(self.ip_ttl)
+	def var_ip_ttl(self):
+		return np.var(self.ip_ttl)</text>
       </register>
       <register name="-" type="4">
         <text>0</text>
@@ -303,31 +310,38 @@
         <text encoding="base64">cHJpbnQoIi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIikK</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">CmRlZiBzZXJ2ZXJfaGVsbG9fc2Vzc2lvbl9pZF9sZW4ocGt0KToKCWlmIHN0cihwa3Quc3ByaW50ZikuZmluZCgiVExTU2VydmVySGVsbG8iKT4tMToKCQl0cnk6CgkJCXJldHVybiBwa3RbIlRMUyBTZXJ2ZXIgSGVsbG8iXS5zZXNzaW9uX2lkX2xlbmd0aAoJCWV4Y2VwdDoKCQkJcGFzcw==</text>
+        <text>avrg_ip_ttl(self):
+		return mean(self.ip_ttl)
+	def max_ip_ttl(self):
+		return max(self.ip_ttl)
+	def min_ip_ttl(self):
+		return min(self.ip_ttl)
+	def var_ip_ttl(self):
+		return np.var(self.ip_ttl)</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">ZGVmIHNlc3Npb25fbGVuKHBrdCk6CglpZiBzdHIocGt0LnNwcmludGYpLmZpbmQoIiIpPi0xOg==</text>
+        <text encoding="base64">CmRlZiBzZXJ2ZXJfaGVsbG9fc2Vzc2lvbl9pZF9sZW4ocGt0KToKCWlmIHN0cihwa3Quc3ByaW50ZikuZmluZCgiVExTU2VydmVySGVsbG8iKT4tMToKCQl0cnk6CgkJCXJldHVybiBwa3RbIlRMUyBTZXJ2ZXIgSGVsbG8iXS5zZXNzaW9uX2lkX2xlbmd0aAoJCWV4Y2VwdDoKCQkJcGFzcw==</text>
       </register>
       <register name="3" type="4">
+        <text encoding="base64">ZGVmIHNlc3Npb25fbGVuKHBrdCk6CglpZiBzdHIocGt0LnNwcmludGYpLmZpbmQoIiIpPi0xOg==</text>
+      </register>
+      <register name="4" type="4">
         <text encoding="base64">CWVsc2U6CgkJcmV0dXJuIE5vbmU=</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">CQlzZWxmLnBheWxvYWQgKz0gc3RyKHBrdFtUQ1BdLnBheWxvYWQpCg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">CQlzZWxmLnBheWxvYWQgPSBzdHIocGt0W1RDUF0ucGF5bG9hZCkK</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">cGF5bG9hZD1wZC5yZWFkX2NzdigiLi9wYXlsb2FkLmNzdiIpCg==</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICMgZXZhbF9kYXRhPW5wLmFzYXJyYXkob3V0cHV0X3ZhbCxkdHlwZT1ucC5mbG9hdDMyKQo=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICMgdHJhaW5fZGF0YT1ucC5hc2FycmF5KG91dHB1dF90cmFpbixkdHlwZT1ucC5mbG9hdDMyKQo=</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICMgb3V0cHV0X3RyYWluPXBkLnJlYWRfY3N2KCcuLi9kYXRhL3BheWxvYWRfdHJhaW4uY3N2JykK</text>
+        <text encoding="base64">ICAgICMgdHJhaW5fZGF0YT1ucC5hc2FycmF5KG91dHB1dF90cmFpbixkdHlwZT1ucC5mbG9hdDMyKQo=</text>
       </register>
     </registers>
     <search>
