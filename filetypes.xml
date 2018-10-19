@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="features" type="PLAIN_TEXT" />
+      <mapping pattern="DomainName" type="PLAIN_TEXT" />
       <mapping pattern="0" type="PLAIN_TEXT" />
       <mapping ext="tfrecords" type="PLAIN_TEXT" />
     </extensionMap>
