@@ -123,7 +123,7 @@
       <file name="$USER_HOME$/workplace/BDCI/data/load_data_with_header.py" timestamp="1536997203899">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/classification/input.py" timestamp="1540182288052">
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/classification/input.py" timestamp="1540189343762">
         <mark key="[" line="9" column="23" />
         <mark key="]" line="9" column="23" />
         <mark key="." line="9" column="23" />
@@ -152,7 +152,7 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/file_concat.py" timestamp="1537879602812">
         <mark key="[" line="43" column="9" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/classification/logisticRegression.py" timestamp="1539827248684">
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/classification/logisticRegression.py" timestamp="1540196361620">
         <mark key="[" line="10" column="0" />
         <mark key="]" line="10" column="0" />
         <mark key="." line="10" column="0" />
@@ -163,7 +163,11 @@
       <file name="$USER_HOME$/workplace/experiment/https/https_data/android_auto_run.py" timestamp="1536819794266">
         <mark key="[" line="32" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/output/test2.csv" timestamp="1540188720871" />
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/output/test2.csv" timestamp="1540196614988">
+        <mark key="[" line="43" column="0" />
+        <mark key="]" line="43" column="0" />
+        <mark key="." line="43" column="0" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/https/https_data/pcap_parse.py" timestamp="1536807438495">
         <mark key="[" line="0" column="46" />
       </file>
@@ -178,7 +182,7 @@
       <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_predict.py" timestamp="1537002109538">
         <mark key="[" line="13" column="29" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/https_parse.py" timestamp="1540182484989">
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/https_parse.py" timestamp="1540188954443">
         <mark key="[" line="119" column="0" />
         <mark key="]" line="119" column="0" />
         <mark key="." line="119" column="0" />
@@ -221,6 +225,11 @@
         <mark key="]" line="53" column="0" />
         <mark key="." line="53" column="0" />
         <mark key="^" line="21" column="17" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/classification/sni_classification.py" timestamp="1540195951989">
+        <mark key="[" line="21" column="35" />
+        <mark key="]" line="21" column="35" />
+        <mark key="." line="21" column="35" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/input/preprocess.py" timestamp="1539486031182">
         <mark key="'" line="0" column="0" />
@@ -272,7 +281,7 @@
       <file name="$USER_HOME$/workplace/BDCI/wide_deep/predict_concat.py" timestamp="1536993895809">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/data/train.csv" timestamp="1540187936783" />
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/data/train.csv" timestamp="1540189570201" />
       <file name="$USER_HOME$/workplace/BDCI/data/test.py" timestamp="1536485067998">
         <mark key="[" line="4" column="31" />
       </file>
@@ -284,12 +293,12 @@
         <mark key="]" line="167" column="0" />
         <mark key="." line="167" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/tmp.py" timestamp="1540178085673">
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/tmp.py" timestamp="1540195159124">
         <mark key="'" line="15" column="13" />
-        <mark key="[" line="32" column="0" />
-        <mark key="]" line="94" column="0" />
-        <mark key="." line="94" column="0" />
-        <mark key="^" line="94" column="0" />
+        <mark key="[" line="30" column="0" />
+        <mark key="]" line="30" column="0" />
+        <mark key="." line="30" column="0" />
+        <mark key="^" line="31" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/payload_cut_2.py" timestamp="1539088832420">
         <mark key="[" line="15" column="23" />
@@ -309,11 +318,11 @@
       <jump line="15" column="13" filename="$USER_HOME$/workplace/experiment/HTTPSHandshake/tmp.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>', 'interface.music.163.com</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">dGVzdDJfMjg1LGh0dHBzLDE5Mi4xNjguMTM3LjExMyw1MDExMywxMjAuMjIxLjEyLjMwLDQ0Myw2LGNhcmRzaXFpeWljb20sMC4zMTMsMTI0NSwxMjA1LDE2MywwLjIxODMsMC45OTY1LDcuOTk4MSwxNDAwLDQyLDk5OTMwLjQxMzg2NTc4MzQ2LDEsMSw3NjMuMjU3NjY4NzExNjU2NSw3NDM4LDYwLDI0Njk5NjQuNTIyNTYzODkwNiwzMiw0OC4xNDcyMzkyNjM4MDM2ODQsNjQsNDUK</text>
       </register>
       <register name="-" type="4">
-        <text>', 'interface.music.163.com</text>
+        <text>common_features</text>
       </register>
       <register name="/" type="4">
         <text>contract</text>
@@ -321,99 +330,32 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50IChmbG93Lm1pbl9pcF90dGwpCg==</text>
       </register>
-      <register name="1" type="4">
-        <text>test1_100,
-https,
-192.168.137.113,
-33101,
-120.221.12.30,
-443,
-6,
-cards.iqiyi.com,
-0.250,
-1178,
-1138,
-36,
-0.0491,
-0.982,
-7.9866,
-1400,
-71,
-183695.82330246916,
-1,
-1,
-297.6388888888889,
-2720,
-60,
-376682.61959876545,
-32,
-47.638888888888886,
-64,
-45</text>
+      <register name="1" type="2">
+        <text encoding="base64">dGVzdDJfMjg1LGh0dHBzLDE5Mi4xNjguMTM3LjExMyw1MDExMywxMjAuMjIxLjEyLjMwLDQ0Myw2LGNhcmRzaXFpeWljb20sMC4zMTMsMTI0NSwxMjA1LDE2MywwLjIxODMsMC45OTY1LDcuOTk4MSwxNDAwLDQyLDk5OTMwLjQxMzg2NTc4MzQ2LDEsMSw3NjMuMjU3NjY4NzExNjU2NSw3NDM4LDYwLDI0Njk5NjQuNTIyNTYzODkwNiwzMiw0OC4xNDcyMzkyNjM4MDM2ODQsNjQsNDUK</text>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50IChmbG93LmNpcGhlcl9zdWl0ZSkKICAgICAgICAgICAgICAgIHByaW50IChmbG93LnRsc19zZXNzaW9uX3RpY2tldF9saWZldGltZSkKICAgICAgICAgICAgICAgIHByaW50IChmbG93LnNlcnZlcl9oZWxsb19leHRlbnNpb25zX2xlbmd0aCkKICAgICAgICAgICAgICAgIHByaW50IChmbG93LmlwX2Noa3N1bSkKICAgICAgICAgICAgICAgIHByaW50IChmbG93LnRjcF9vcHRpb25zKQogICAgICAgICAgICAgICAgcHJpbnQgKCItLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIik=</text>
+      <register name="2" type="2">
+        <text encoding="base64">dGVzdDJfMjgwLGh0dHBzLDE5Mi4xNjguMTM3LjExMyw1NTAwMSwxMjAuMjIxLjEyLjMwLDQ0Myw2LGNhcmRzaXFpeWljb20sMC4yNDAsMTIzMywxMTkzLDEwNCwwLjIyOTYsMC45OTQxLDcuOTk3NCwxNDAwLDUxLDE0MzIzMS43MzI4OTU3MTAwNywxLDEsNTQ4LjA4NjUzODQ2MTUzODUsNTE4NSw2MCwxNDM2ODEwLjA5ODI4MDMyNTUsMzIsNDcuOTIzMDc2OTIzMDc2OTIsNjQsNDUK</text>
       </register>
-      <register name="3" type="4">
-        <text>'protocol_name',
-             'src',
-             'sport',
-             'dst',
-             'dport',
-             'proto',</text>
+      <register name="3" type="2">
+        <text encoding="base64">dGVzdDJfMjY4LGh0dHBzLDE5Mi4xNjguMTM3LjExMyw0MTA5NSw2MC4yMTcuMjQ4LjI4LDQ0Myw2LGNvbWljaXFpeWljb20sMC4yMzEsMTE0MCwxMTAwLDM5LDAuMTIwMiwwLjk4MDEsNy45ODQ2LDEzMjAsNzEsMTUyMjg1LjY3MjU4MzgyNjQ3LDEsMSwyMTUxNi44NDYxNTM4NDYxNTIsNjU1MzUsMTU1NDQsMjIwOTA0NDU4LjY0Mjk5Nzk1LDMyLDQ4Ljc0MzU4OTc0MzU4OTc0NSw2NCw0Nwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGNvbW1vbl9mZWF0dXJlcz1bJ3B1c2hfZmxhZ19yYXRpbycsJ2F2ZXJhZ2VfbGVuJywnYXZlcmFnZV9wYXlsb2FkX2xlbicsJ3BrdF9jb3VudCcsJ2Zsb3dfYXZlcmFnZV9pbnRlcl9hcnJpdmFsX3RpbWUnLCdrb2xtb2dvcm92Jywnc2hhbm5vbiddCg==</text>
+        <text encoding="base64">dGVzdDJfMjY3LGh0dHBzLDE5Mi4xNjguMTM3LjExMyw1OTM3OCwxMjAuMjIxLjEyLjMwLDQ0Myw2LGNhcmRzaXFpeWljb20sMC4zMTYsMTE5NiwxMTU2LDc2LDAuMDY1NiwwLjk4MDYsNy45OTU2LDE0MDAsNDIsMTQ5OTc0LjA2MTQ2MTIxODg0LDEsMSw1MDMuMjIzNjg0MjEwNTI2MywzOTk1LDYwLDg5OTA4Mi42OTk5NjUzNzQxLDMyLDQ4LjUsNjQsNDUK</text>
       </register>
-      <register name="5" type="4">
-        <text>'src',
-             'sport',
-             'dst',
-             'dport',
-             'proto',</text>
+      <register name="5" type="2">
+        <text encoding="base64">dGVzdDJfMjYxLGh0dHBzLDE5Mi4xNjguMTM3LjExMyw1ODc2NiwxMTEuMTMuNTcuNDUsNDQzLDYsaW1nN2lxaXlpcGljY29tLDAuMzI5LDEwMjIsOTgyLDczLDAuMDcxNSwwLjk4NTYsNy45OTE3LDE0MDAsNzEsMzA5ODEwLjA0Mjc4NDc2MjcsMSwxLDM0Ni44MDgyMTkxNzgwODIyLDM2NTUsNjAsNjE2NjA3Ljk2MzIyMDExNjMsMzIsNTQuNTA2ODQ5MzE1MDY4NDksNjQsNTMK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGNvbW1vbl9mZWF0dXJlcz1bJ3B1c2hfZmxhZ19yYXRpbycsJ2F2ZXJhZ2VfbGVuJywnYXZlcmFnZV9wYXlsb2FkX2xlbicsJ3BrdF9jb3VudCcsJ2Zsb3dfYXZlcmFnZV9pbnRlcl9hcnJpdmFsX3RpbWUnLCdrb2xtb2dvcm92Jywnc2hhbm5vbiddCg==</text>
+        <text encoding="base64">dGVzdDJfMjUwLGh0dHBzLDE5Mi4xNjguMTM3LjExMyw0NDQ5NCw2MC4yMTcuMjQ4LjI4LDQ0Myw2LGNvbWljaXFpeWljb20sMC41MzgsODI4LDc4OCwyNiwwLjE4NTIsMC45MDEzLDcuOTU3MywxMzIwLDcxLDI0NzEwNS4zMTM2MDk0Njc1LDEsMSwzMDM3NS41Mzg0NjE1Mzg0Niw2NTUzNSwxNTU0NCw0NTM3MjY5NzUuOTQwODI4MywwLDUxLjU3NjkyMzA3NjkyMzA4LDY0LDQ3Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text>id,
-protocol_name,
-src,
-sport,
-dst,
-dport,
-proto,
-extension_servername_indication,
-push_flag_ratio,
-average_len,
-average_payload_len,
-pkt_count,
-flow_average_inter_arrival_time,
-kolmogorov,
-shannon,
-max_len,
-min_len,
-std_len,
-len_extension_signature_algorithms,
-len_cipher_suites,
-avrg_tcp_window,
-max_tcp_window,
-min_tcp_window,
-var_tcp_window,
-session_id_length,
-avrg_ip_ttl,
-max_ip_ttl,
-min_ip_ttl,
-label</text>
+      <register name="7" type="2">
+        <text encoding="base64">dGVzdDJfMjE1LGh0dHBzLDE5Mi4xNjguMTM3LjExMyw0Mzg3NywxMjAuMjIxLjEyLjMwLDQ0Myw2LGNhcmRzaXFpeWljb20sMC4yMzEsMTE3OSwxMTM5LDkxLDAuMzY3MywwLjk5MjksNy45OTY0LDE0MDAsNTEsMTQyMDI4Ljc0ODcwMTg0NzYyLDEsMSw0NTg0MC45ODkwMTA5ODkwMSw2NTUzNSwyNjgwMCwxMDUwNTM3ODkuNjgxMTk3OSwzMiw0Ny45MjMwNzY5MjMwNzY5Miw2NCw0NQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">aWQscHJvdG9jb2xfbmFtZSxzcmMsc3BvcnQsZHN0LGRwb3J0LHByb3RvLGV4dGVuc2lvbl9zZXJ2ZXJuYW1lX2luZGljYXRpb24scHVzaF9mbGFnX3JhdGlvLGF2ZXJhZ2VfbGVuLGF2ZXJhZ2VfcGF5bG9hZF9sZW4scGt0X2NvdW50LGZsb3dfYXZlcmFnZV9pbnRlcl9hcnJpdmFsX3RpbWUsa29sbW9nb3JvdixzaGFubm9uLG1heF9sZW4sbWluX2xlbixzdGRfbGVuLGxlbl9leHRlbnNpb25fc2lnbmF0dXJlX2FsZ29yaXRobXMsbGVuX2NpcGhlcl9zdWl0ZXMsYXZyZ190Y3Bfd2luZG93LG1heF90Y3Bfd2luZG93LG1pbl90Y3Bfd2luZG93LHZhcl90Y3Bfd2luZG93LHNlc3Npb25faWRfbGVuZ3RoLGF2cmdfaXBfdHRsLG1heF9pcF90dGwsbWluX2lwX3R0bAo=</text>
+        <text encoding="base64">dGVzdDJfMTkxLGh0dHBzLDE5Mi4xNjguMTM3LjExMyw0NzQwMiwxMjAuMjIxLjEyLjMwLDQ0Myw2LGNhcmRzaXFpeWljb20sMC4xNjgsMTI4MywxMjQzLDEzMSwwLjEzMzgsMC45ODYyLDcuOTk4MiwxNDAwLDcxLDkzMDY5LjQ2ODU2MjQzODEsMSwxLDM4Mi4yMjEzNzQwNDU4MDE1NSw2MTYzLDYwLDExODY2NTYuMzA5NzcyMTU3OCwzMiw0Ni43NDA0NTgwMTUyNjcxNyw2NCw0NQo=</text>
       </register>
-      <register name="9" type="4">
-        <text>test2_186,https,192.168.137.113,47366,111.13.57.47,443,6,['static.g.iqiyi.com'],0.026,1370,1330,500,0.1855,0.9992,7.9997,1400,78,35531.049600000006,1,1,80.91,1445,60,25308.657899999987,[0, 0],53.154,64,53
-test2_189,https,192.168.137.113,34649,223.99.245.172,443,6,['paopao.iqiyi.com'],0.917,302,262,24,0.552,0.8102,7.6262,1320,71,149789.19270833334,1,1,51141.958333333336,65535,15544,503295885.20659727,[0, 0],59.333333333333336,64,48
-test2_190,https,192.168.137.113,54201,111.13.57.42,443,6,['img7.iqiyipic.com'],0.373,1008,968,59,0.4029,0.9845,7.9907,1400,71,306509.79316288425,1,1,389.1694915254237,3145,60,589974.0051709278,[0, 0],54.86440677966102,64,53
-test2_191,https,192.168.137.113,47402,120.221.12.30,443,6,['cards.iqiyi.com'],0.</text>
+      <register name="9" type="2">
+        <text encoding="base64">dGVzdDJfMTkwLGh0dHBzLDE5Mi4xNjguMTM3LjExMyw1NDIwMSwxMTEuMTMuNTcuNDIsNDQzLDYsaW1nN2lxaXlpcGljY29tLDAuMzczLDEwMDgsOTY4LDU5LDAuMzk5OSwwLjk4NDUsNy45OTA3LDE0MDAsNzEsMzA2NTA5Ljc5MzE2Mjg4NDI1LDEsMSwzODkuMTY5NDkxNTI1NDIzNywzMTQ1LDYwLDU4OTk3NC4wMDUxNzA5Mjc4LDAsNTQuODY0NDA2Nzc5NjYxMDIsNjQsNTMK</text>
       </register>
     </registers>
     <search>
