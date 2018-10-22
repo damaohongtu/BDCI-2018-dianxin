@@ -174,9 +174,11 @@
       <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_predict.py" timestamp="1537002109538">
         <mark key="[" line="13" column="29" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/https_parse.py" timestamp="1539920001487">
-        <mark key="[" line="75" column="0" />
-        <mark key="^" line="75" column="14" />
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/https_parse.py" timestamp="1540175189511">
+        <mark key="[" line="79" column="6" />
+        <mark key="]" line="79" column="6" />
+        <mark key="^" line="88" column="14" />
+        <mark key="." line="79" column="6" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/XGBoost.py" timestamp="1537964263928">
         <mark key="[" line="3" column="0" />
@@ -304,7 +306,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">d2hpbGUgcmVhZCBsaW5lOyBkbwogICAgbnNsb29rdXAgJGxpbmUKZG9uZSA8JDE=</text>
+        <text encoding="base64">ICAgICAgICAgIHByaW50ICgiLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSIpCiAgICAgICAgICAgICAgICBwcmludCAoZmxvdy5leHRlbnNpb25fc2VydmVybmFtZV9pbmRpY2F0aW9uKQ==</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">ICAgIHN0YXRpc3RpY3NfaXBfdHRsPQ==</text>
@@ -316,9 +318,12 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50IChmbG93Lm1pbl9pcF90dGwpCg==</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">d2hpbGUgcmVhZCBsaW5lOyBkbwogICAgbnNsb29rdXAgJGxpbmUKZG9uZSA8JDE=</text>
+        <text encoding="base64">ICAgICAgICAgIHByaW50ICgiLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSIpCiAgICAgICAgICAgICAgICBwcmludCAoZmxvdy5leHRlbnNpb25fc2VydmVybmFtZV9pbmRpY2F0aW9uKQ==</text>
       </register>
       <register name="2" type="4">
+        <text encoding="base64">d2hpbGUgcmVhZCBsaW5lOyBkbwogICAgbnNsb29rdXAgJGxpbmUKZG9uZSA8JDE=</text>
+      </register>
+      <register name="3" type="4">
         <text>avrg_ip_ttl(self):
 		return mean(self.ip_ttl)
 	def max_ip_ttl(self):
@@ -328,26 +333,23 @@
 	def var_ip_ttl(self):
 		return np.var(self.ip_ttl)</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text encoding="base64">CmRlZiBzZXJ2ZXJfaGVsbG9fc2Vzc2lvbl9pZF9sZW4ocGt0KToKCWlmIHN0cihwa3Quc3ByaW50ZikuZmluZCgiVExTU2VydmVySGVsbG8iKT4tMToKCQl0cnk6CgkJCXJldHVybiBwa3RbIlRMUyBTZXJ2ZXIgSGVsbG8iXS5zZXNzaW9uX2lkX2xlbmd0aAoJCWV4Y2VwdDoKCQkJcGFzcw==</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text encoding="base64">ZGVmIHNlc3Npb25fbGVuKHBrdCk6CglpZiBzdHIocGt0LnNwcmludGYpLmZpbmQoIiIpPi0xOg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text encoding="base64">CWVsc2U6CgkJcmV0dXJuIE5vbmU=</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">CQlzZWxmLnBheWxvYWQgKz0gc3RyKHBrdFtUQ1BdLnBheWxvYWQpCg==</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">CQlzZWxmLnBheWxvYWQgPSBzdHIocGt0W1RDUF0ucGF5bG9hZCkK</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">cGF5bG9hZD1wZC5yZWFkX2NzdigiLi9wYXlsb2FkLmNzdiIpCg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICMgZXZhbF9kYXRhPW5wLmFzYXJyYXkob3V0cHV0X3ZhbCxkdHlwZT1ucC5mbG9hdDMyKQo=</text>
+        <text encoding="base64">cGF5bG9hZD1wZC5yZWFkX2NzdigiLi9wYXlsb2FkLmNzdiIpCg==</text>
       </register>
     </registers>
     <search>
