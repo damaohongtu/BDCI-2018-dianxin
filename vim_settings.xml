@@ -11,9 +11,9 @@
         <mark key="]" line="33" column="0" />
         <mark key="." line="33" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/tcp_stream.py" timestamp="1539919851536">
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/tcp_stream.py" timestamp="1540182652881">
         <mark key="'" line="75" column="44" />
-        <mark key="[" line="122" column="8" />
+        <mark key="[" line="70" column="43" />
         <mark key="]" line="122" column="8" />
         <mark key="." line="122" column="8" />
         <mark key="^" line="9" column="0" />
@@ -56,10 +56,10 @@
       <file name="$USER_HOME$/.local/lib/python3.6/site-packages/scapy/config.py" timestamp="1539660093007">
         <mark key="[" line="447" column="66" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/file_concat.py" timestamp="1539830562367">
-        <mark key="[" line="10" column="196" />
-        <mark key="]" line="28" column="0" />
-        <mark key="." line="28" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/file_concat.py" timestamp="1540179238495">
+        <mark key="[" line="18" column="7" />
+        <mark key="]" line="18" column="7" />
+        <mark key="." line="18" column="7" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/wfe.py" timestamp="1537794841935">
         <mark key="[" line="55" column="0" />
@@ -123,10 +123,13 @@
       <file name="$USER_HOME$/workplace/BDCI/data/load_data_with_header.py" timestamp="1536997203899">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/classification/input.py" timestamp="1539827033222">
-        <mark key="[" line="14" column="0" />
-        <mark key="]" line="14" column="0" />
-        <mark key="." line="14" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/classification/input.py" timestamp="1540182288052">
+        <mark key="[" line="9" column="23" />
+        <mark key="]" line="9" column="23" />
+        <mark key="." line="9" column="23" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/output/test1.csv" timestamp="1540178919537">
+        <mark key="[" line="0" column="402" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wide_deep/python/train.py" timestamp="1536733965281">
         <mark key="[" line="174" column="67" />
@@ -174,11 +177,10 @@
       <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_predict.py" timestamp="1537002109538">
         <mark key="[" line="13" column="29" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/https_parse.py" timestamp="1540175189511">
-        <mark key="[" line="79" column="6" />
-        <mark key="]" line="79" column="6" />
-        <mark key="^" line="88" column="14" />
-        <mark key="." line="79" column="6" />
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/https_parse.py" timestamp="1540182484989">
+        <mark key="[" line="117" column="0" />
+        <mark key="]" line="117" column="0" />
+        <mark key="." line="117" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/XGBoost.py" timestamp="1537964263928">
         <mark key="[" line="3" column="0" />
@@ -280,12 +282,12 @@
         <mark key="]" line="167" column="0" />
         <mark key="." line="167" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/tmp.py" timestamp="1539913437988">
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/tmp.py" timestamp="1540178085673">
         <mark key="'" line="15" column="13" />
-        <mark key="[" line="13" column="8" />
-        <mark key="]" line="13" column="8" />
-        <mark key="." line="13" column="8" />
-        <mark key="^" line="13" column="8" />
+        <mark key="[" line="32" column="0" />
+        <mark key="]" line="94" column="0" />
+        <mark key="." line="94" column="0" />
+        <mark key="^" line="94" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/payload_cut_2.py" timestamp="1539088832420">
         <mark key="[" line="15" column="23" />
@@ -306,10 +308,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ICAgICAgICAgIHByaW50ICgiLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSIpCiAgICAgICAgICAgICAgICBwcmludCAoZmxvdy5leHRlbnNpb25fc2VydmVybmFtZV9pbmRpY2F0aW9uKQ==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50IChmbG93LmNpcGhlcl9zdWl0ZSkKICAgICAgICAgICAgICAgIHByaW50IChmbG93LnRsc19zZXNzaW9uX3RpY2tldF9saWZldGltZSkKICAgICAgICAgICAgICAgIHByaW50IChmbG93LnNlcnZlcl9oZWxsb19leHRlbnNpb25zX2xlbmd0aCkKICAgICAgICAgICAgICAgIHByaW50IChmbG93LmlwX2Noa3N1bSkKICAgICAgICAgICAgICAgIHByaW50IChmbG93LnRjcF9vcHRpb25zKQogICAgICAgICAgICAgICAgcHJpbnQgKCItLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIik=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICAgIHN0YXRpc3RpY3NfaXBfdHRsPQ==</text>
+        <text encoding="base64">ICAnZXh0ZW5zaW9uX3NlcnZlcm5hbWVfaW5kaWNhdGlvbics</text>
       </register>
       <register name="/" type="4">
         <text>contract</text>
@@ -318,38 +320,71 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50IChmbG93Lm1pbl9pcF90dGwpCg==</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">ICAgICAgICAgIHByaW50ICgiLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSIpCiAgICAgICAgICAgICAgICBwcmludCAoZmxvdy5leHRlbnNpb25fc2VydmVybmFtZV9pbmRpY2F0aW9uKQ==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50IChmbG93LmNpcGhlcl9zdWl0ZSkKICAgICAgICAgICAgICAgIHByaW50IChmbG93LnRsc19zZXNzaW9uX3RpY2tldF9saWZldGltZSkKICAgICAgICAgICAgICAgIHByaW50IChmbG93LnNlcnZlcl9oZWxsb19leHRlbnNpb25zX2xlbmd0aCkKICAgICAgICAgICAgICAgIHByaW50IChmbG93LmlwX2Noa3N1bSkKICAgICAgICAgICAgICAgIHByaW50IChmbG93LnRjcF9vcHRpb25zKQogICAgICAgICAgICAgICAgcHJpbnQgKCItLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIik=</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">d2hpbGUgcmVhZCBsaW5lOyBkbwogICAgbnNsb29rdXAgJGxpbmUKZG9uZSA8JDE=</text>
+        <text>'protocol_name',
+             'src',
+             'sport',
+             'dst',
+             'dport',
+             'proto',</text>
       </register>
-      <register name="3" type="4">
-        <text>avrg_ip_ttl(self):
-		return mean(self.ip_ttl)
-	def max_ip_ttl(self):
-		return max(self.ip_ttl)
-	def min_ip_ttl(self):
-		return min(self.ip_ttl)
-	def var_ip_ttl(self):
-		return np.var(self.ip_ttl)</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIGNvbW1vbl9mZWF0dXJlcz1bJ3B1c2hfZmxhZ19yYXRpbycsJ2F2ZXJhZ2VfbGVuJywnYXZlcmFnZV9wYXlsb2FkX2xlbicsJ3BrdF9jb3VudCcsJ2Zsb3dfYXZlcmFnZV9pbnRlcl9hcnJpdmFsX3RpbWUnLCdrb2xtb2dvcm92Jywnc2hhbm5vbiddCg==</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">CmRlZiBzZXJ2ZXJfaGVsbG9fc2Vzc2lvbl9pZF9sZW4ocGt0KToKCWlmIHN0cihwa3Quc3ByaW50ZikuZmluZCgiVExTU2VydmVySGVsbG8iKT4tMToKCQl0cnk6CgkJCXJldHVybiBwa3RbIlRMUyBTZXJ2ZXIgSGVsbG8iXS5zZXNzaW9uX2lkX2xlbmd0aAoJCWV4Y2VwdDoKCQkJcGFzcw==</text>
+        <text>'src',
+             'sport',
+             'dst',
+             'dport',
+             'proto',</text>
       </register>
-      <register name="5" type="4">
-        <text encoding="base64">ZGVmIHNlc3Npb25fbGVuKHBrdCk6CglpZiBzdHIocGt0LnNwcmludGYpLmZpbmQoIiIpPi0xOg==</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIGNvbW1vbl9mZWF0dXJlcz1bJ3B1c2hfZmxhZ19yYXRpbycsJ2F2ZXJhZ2VfbGVuJywnYXZlcmFnZV9wYXlsb2FkX2xlbicsJ3BrdF9jb3VudCcsJ2Zsb3dfYXZlcmFnZV9pbnRlcl9hcnJpdmFsX3RpbWUnLCdrb2xtb2dvcm92Jywnc2hhbm5vbiddCg==</text>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">CWVsc2U6CgkJcmV0dXJuIE5vbmU=</text>
+        <text>id,
+protocol_name,
+src,
+sport,
+dst,
+dport,
+proto,
+extension_servername_indication,
+push_flag_ratio,
+average_len,
+average_payload_len,
+pkt_count,
+flow_average_inter_arrival_time,
+kolmogorov,
+shannon,
+max_len,
+min_len,
+std_len,
+len_extension_signature_algorithms,
+len_cipher_suites,
+avrg_tcp_window,
+max_tcp_window,
+min_tcp_window,
+var_tcp_window,
+session_id_length,
+avrg_ip_ttl,
+max_ip_ttl,
+min_ip_ttl,
+label</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CQlzZWxmLnBheWxvYWQgKz0gc3RyKHBrdFtUQ1BdLnBheWxvYWQpCg==</text>
+        <text encoding="base64">aWQscHJvdG9jb2xfbmFtZSxzcmMsc3BvcnQsZHN0LGRwb3J0LHByb3RvLGV4dGVuc2lvbl9zZXJ2ZXJuYW1lX2luZGljYXRpb24scHVzaF9mbGFnX3JhdGlvLGF2ZXJhZ2VfbGVuLGF2ZXJhZ2VfcGF5bG9hZF9sZW4scGt0X2NvdW50LGZsb3dfYXZlcmFnZV9pbnRlcl9hcnJpdmFsX3RpbWUsa29sbW9nb3JvdixzaGFubm9uLG1heF9sZW4sbWluX2xlbixzdGRfbGVuLGxlbl9leHRlbnNpb25fc2lnbmF0dXJlX2FsZ29yaXRobXMsbGVuX2NpcGhlcl9zdWl0ZXMsYXZyZ190Y3Bfd2luZG93LG1heF90Y3Bfd2luZG93LG1pbl90Y3Bfd2luZG93LHZhcl90Y3Bfd2luZG93LHNlc3Npb25faWRfbGVuZ3RoLGF2cmdfaXBfdHRsLG1heF9pcF90dGwsbWluX2lwX3R0bAo=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">CQlzZWxmLnBheWxvYWQgPSBzdHIocGt0W1RDUF0ucGF5bG9hZCkK</text>
+      <register name="8" type="4">
+        <text>test2_186,https,192.168.137.113,47366,111.13.57.47,443,6,['static.g.iqiyi.com'],0.026,1370,1330,500,0.1855,0.9992,7.9997,1400,78,35531.049600000006,1,1,80.91,1445,60,25308.657899999987,[0, 0],53.154,64,53
+test2_189,https,192.168.137.113,34649,223.99.245.172,443,6,['paopao.iqiyi.com'],0.917,302,262,24,0.552,0.8102,7.6262,1320,71,149789.19270833334,1,1,51141.958333333336,65535,15544,503295885.20659727,[0, 0],59.333333333333336,64,48
+test2_190,https,192.168.137.113,54201,111.13.57.42,443,6,['img7.iqiyipic.com'],0.373,1008,968,59,0.4029,0.9845,7.9907,1400,71,306509.79316288425,1,1,389.1694915254237,3145,60,589974.0051709278,[0, 0],54.86440677966102,64,53
+test2_191,https,192.168.137.113,47402,120.221.12.30,443,6,['cards.iqiyi.com'],0.</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">cGF5bG9hZD1wZC5yZWFkX2NzdigiLi9wYXlsb2FkLmNzdiIpCg==</text>
+      <register name="9" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgICAKICAgICAgICBkZWYgbWF4X3dpbmRvdyhzZWxmKToKICAgICAgICAgICAgICAgIGRlZiBtaW5fd2luZG93KHNlbGYpOgogICAgICAgICAgICByZXR1cm4gbWluKHNlbGYudGNwX3dpbmRvdykKICAgICAgICBkZWYgdmFyX3dpbmRvdyhzZWxmKTo=</text>
       </register>
     </registers>
     <search>
