@@ -18,13 +18,14 @@
         <mark key="." line="122" column="8" />
         <mark key="^" line="9" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/classification/sni.py" timestamp="1540200518505" />
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse.py" timestamp="1539086138790">
         <mark key="[" line="61" column="61" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse_1.py" timestamp="1539586311081">
         <mark key="[" line="43" column="31" />
       </file>
-      <file name="/a.dummy" timestamp="1539155083867">
+      <file name="/a.dummy" timestamp="1540200444088">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_main.py" timestamp="1539483089001">
@@ -219,20 +220,10 @@
       <file name="$USER_HOME$/workplace/BDCI/utils/data/split_data.py" timestamp="1536557621917">
         <mark key="[" line="1" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/test.py" timestamp="1539688919274">
-        <mark key="'" line="25" column="39" />
-        <mark key="[" line="83" column="2" />
-        <mark key="]" line="53" column="0" />
-        <mark key="." line="53" column="0" />
-        <mark key="^" line="21" column="17" />
-      </file>
-      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/classification/sni_classification.py" timestamp="1540198653460" />
-      <file name="$USER_HOME$/workplace/BDCI/input/preprocess.py" timestamp="1539486031182">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="73" column="0" />
-        <mark key="]" line="73" column="0" />
-        <mark key="^" line="103" column="0" />
-        <mark key="." line="73" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/classification/sni_classification.py" timestamp="1540200184594">
+        <mark key="[" line="25" column="29" />
+        <mark key="]" line="25" column="29" />
+        <mark key="." line="25" column="29" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/lgb.py" timestamp="1537964810424">
         <mark key="[" line="37" column="0" />
@@ -299,6 +290,7 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/payload_cut_2.py" timestamp="1539088832420">
         <mark key="[" line="15" column="23" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/classification/eval_sni.csv" timestamp="1540200413773" />
     </filemarks>
     <jumps>
       <jump line="57" column="23" filename="$USER_HOME$/workplace/BDCI/input/preprocess.py" />
@@ -315,7 +307,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text />
+        <text encoding="base64">CnByaW50IChldmFsX2RhdGEp</text>
       </register>
       <register name="-" type="4">
         <text />
@@ -327,31 +319,31 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50IChmbG93Lm1pbl9pcF90dGwpCg==</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">CgoKbHI9TG9naXN0aWNSZWdyZXNzaW9uKCkKCnByaW50KGNyb3NzX3ZhbF9zY29yZShscix0cmFpbl9kYXRhLHRyYWluX2xhYmVscyxjdj01LHNjb3Jpbmc9J2FjY3VyYWN5Jykp</text>
+        <text encoding="base64">CnByaW50IChldmFsX2RhdGEp</text>
       </register>
       <register name="2" type="4">
+        <text encoding="base64">CgoKbHI9TG9naXN0aWNSZWdyZXNzaW9uKCkKCnByaW50KGNyb3NzX3ZhbF9zY29yZShscix0cmFpbl9kYXRhLHRyYWluX2xhYmVscyxjdj01LHNjb3Jpbmc9J2FjY3VyYWN5Jykp</text>
+      </register>
+      <register name="3" type="4">
         <text encoding="base64">Cm5hbWVzPVsiY18lZCIlaSBmb3IgaSBpbiByYW5nZSgzNildCm91dHB1dF90cmFpbltbbmFtZSBmb3IgbmFtZSBpbiBuYW1lc11dPXRyYWluX2RhdGEKb3V0cHV0X3ZhbFtuYW1lc109ZXZhbF9kYXRh</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">dGVzdDJfMjg1LGh0dHBzLDE5Mi4xNjguMTM3LjExMyw1MDExMywxMjAuMjIxLjEyLjMwLDQ0Myw2LGNhcmRzaXFpeWljb20sMC4zMTMsMTI0NSwxMjA1LDE2MywwLjIxODMsMC45OTY1LDcuOTk4MSwxNDAwLDQyLDk5OTMwLjQxMzg2NTc4MzQ2LDEsMSw3NjMuMjU3NjY4NzExNjU2NSw3NDM4LDYwLDI0Njk5NjQuNTIyNTYzODkwNiwzMiw0OC4xNDcyMzkyNjM4MDM2ODQsNjQsNDUK</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">dGVzdDJfMjgwLGh0dHBzLDE5Mi4xNjguMTM3LjExMyw1NTAwMSwxMjAuMjIxLjEyLjMwLDQ0Myw2LGNhcmRzaXFpeWljb20sMC4yNDAsMTIzMywxMTkzLDEwNCwwLjIyOTYsMC45OTQxLDcuOTk3NCwxNDAwLDUxLDE0MzIzMS43MzI4OTU3MTAwNywxLDEsNTQ4LjA4NjUzODQ2MTUzODUsNTE4NSw2MCwxNDM2ODEwLjA5ODI4MDMyNTUsMzIsNDcuOTIzMDc2OTIzMDc2OTIsNjQsNDUK</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">dGVzdDJfMjY4LGh0dHBzLDE5Mi4xNjguMTM3LjExMyw0MTA5NSw2MC4yMTcuMjQ4LjI4LDQ0Myw2LGNvbWljaXFpeWljb20sMC4yMzEsMTE0MCwxMTAwLDM5LDAuMTIwMiwwLjk4MDEsNy45ODQ2LDEzMjAsNzEsMTUyMjg1LjY3MjU4MzgyNjQ3LDEsMSwyMTUxNi44NDYxNTM4NDYxNTIsNjU1MzUsMTU1NDQsMjIwOTA0NDU4LjY0Mjk5Nzk1LDMyLDQ4Ljc0MzU4OTc0MzU4OTc0NSw2NCw0Nwo=</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">dGVzdDJfMjY3LGh0dHBzLDE5Mi4xNjguMTM3LjExMyw1OTM3OCwxMjAuMjIxLjEyLjMwLDQ0Myw2LGNhcmRzaXFpeWljb20sMC4zMTYsMTE5NiwxMTU2LDc2LDAuMDY1NiwwLjk4MDYsNy45OTU2LDE0MDAsNDIsMTQ5OTc0LjA2MTQ2MTIxODg0LDEsMSw1MDMuMjIzNjg0MjEwNTI2MywzOTk1LDYwLDg5OTA4Mi42OTk5NjUzNzQxLDMyLDQ4LjUsNjQsNDUK</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">dGVzdDJfMjYxLGh0dHBzLDE5Mi4xNjguMTM3LjExMyw1ODc2NiwxMTEuMTMuNTcuNDUsNDQzLDYsaW1nN2lxaXlpcGljY29tLDAuMzI5LDEwMjIsOTgyLDczLDAuMDcxNSwwLjk4NTYsNy45OTE3LDE0MDAsNzEsMzA5ODEwLjA0Mjc4NDc2MjcsMSwxLDM0Ni44MDgyMTkxNzgwODIyLDM2NTUsNjAsNjE2NjA3Ljk2MzIyMDExNjMsMzIsNTQuNTA2ODQ5MzE1MDY4NDksNjQsNTMK</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">dGVzdDJfMjUwLGh0dHBzLDE5Mi4xNjguMTM3LjExMyw0NDQ5NCw2MC4yMTcuMjQ4LjI4LDQ0Myw2LGNvbWljaXFpeWljb20sMC41MzgsODI4LDc4OCwyNiwwLjE4NTIsMC45MDEzLDcuOTU3MywxMzIwLDcxLDI0NzEwNS4zMTM2MDk0Njc1LDEsMSwzMDM3NS41Mzg0NjE1Mzg0Niw2NTUzNSwxNTU0NCw0NTM3MjY5NzUuOTQwODI4MywwLDUxLjU3NjkyMzA3NjkyMzA4LDY0LDQ3Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">dGVzdDJfMjE1LGh0dHBzLDE5Mi4xNjguMTM3LjExMyw0Mzg3NywxMjAuMjIxLjEyLjMwLDQ0Myw2LGNhcmRzaXFpeWljb20sMC4yMzEsMTE3OSwxMTM5LDkxLDAuMzY3MywwLjk5MjksNy45OTY0LDE0MDAsNTEsMTQyMDI4Ljc0ODcwMTg0NzYyLDEsMSw0NTg0MC45ODkwMTA5ODkwMSw2NTUzNSwyNjgwMCwxMDUwNTM3ODkuNjgxMTk3OSwzMiw0Ny45MjMwNzY5MjMwNzY5Miw2NCw0NQo=</text>
+        <text encoding="base64">dGVzdDJfMjUwLGh0dHBzLDE5Mi4xNjguMTM3LjExMyw0NDQ5NCw2MC4yMTcuMjQ4LjI4LDQ0Myw2LGNvbWljaXFpeWljb20sMC41MzgsODI4LDc4OCwyNiwwLjE4NTIsMC45MDEzLDcuOTU3MywxMzIwLDcxLDI0NzEwNS4zMTM2MDk0Njc1LDEsMSwzMDM3NS41Mzg0NjE1Mzg0Niw2NTUzNSwxNTU0NCw0NTM3MjY5NzUuOTQwODI4MywwLDUxLjU3NjkyMzA3NjkyMzA4LDY0LDQ3Cg==</text>
       </register>
     </registers>
     <search>
