@@ -18,9 +18,8 @@
         <mark key="." line="122" column="8" />
         <mark key="^" line="9" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/classification/sni.py" timestamp="1540200518505" />
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse.py" timestamp="1539086138790">
-        <mark key="[" line="61" column="61" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse.py" timestamp="1540283251473">
+        <mark key="[" line="72" column="21" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse_1.py" timestamp="1539586311081">
         <mark key="[" line="43" column="31" />
@@ -268,7 +267,6 @@
       <file name="$USER_HOME$/workplace/BDCI/wide_deep/predict_concat.py" timestamp="1536993895809">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/data/train.csv" timestamp="1540189570201" />
       <file name="$USER_HOME$/workplace/BDCI/data/test.py" timestamp="1536485067998">
         <mark key="[" line="4" column="31" />
       </file>
@@ -290,7 +288,6 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/payload_cut_2.py" timestamp="1539088832420">
         <mark key="[" line="15" column="23" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/classification/eval_sni.csv" timestamp="1540200413773" />
     </filemarks>
     <jumps>
       <jump line="57" column="23" filename="$USER_HOME$/workplace/BDCI/input/preprocess.py" />
