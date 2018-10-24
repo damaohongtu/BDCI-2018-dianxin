@@ -157,8 +157,11 @@
       <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/DomainName" timestamp="1539934715936">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/file_concat.py" timestamp="1540367293570">
-        <mark key="[" line="32" column="17" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/file_concat.py" timestamp="1540372878461">
+        <mark key="u" line="15" column="28" />
+        <mark key="[" line="15" column="28" />
+        <mark key="]" line="15" column="28" />
+        <mark key="." line="15" column="28" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/classification/logisticRegression.py" timestamp="1540196361620">
         <mark key="[" line="10" column="0" />
@@ -231,10 +234,10 @@
         <mark key="]" line="25" column="29" />
         <mark key="." line="25" column="29" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/lgb.py" timestamp="1540367032176">
-        <mark key="[" line="36" column="43" />
-        <mark key="]" line="41" column="0" />
-        <mark key="." line="41" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/lgb.py" timestamp="1540372929963">
+        <mark key="[" line="45" column="17" />
+        <mark key="]" line="45" column="17" />
+        <mark key="." line="45" column="17" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/lightGBM.py" timestamp="1538718841117">
         <mark key="[" line="18" column="19" />
@@ -258,8 +261,10 @@
         <mark key="]" line="3" column="22" />
         <mark key="." line="3" column="22" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/config.py" timestamp="1540368680221">
-        <mark key="[" line="7" column="5" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/config.py" timestamp="1540372688905">
+        <mark key="[" line="20" column="10" />
+        <mark key="]" line="20" column="10" />
+        <mark key="." line="20" column="10" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https_project/cnn_test.py" timestamp="1537444037284">
         <mark key="[" line="51" column="23" />
@@ -298,6 +303,9 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/payload_cut_2.py" timestamp="1539088832420">
         <mark key="[" line="15" column="23" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/test2.py" timestamp="1540371946793">
+        <mark key="[" line="8" column="2" />
+      </file>
     </filemarks>
     <jumps>
       <jump line="57" column="23" filename="$USER_HOME$/workplace/BDCI/input/preprocess.py" />
@@ -314,10 +322,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ICAgIAogICAgICAgICAgICAgICAgICAgICAnc3JjJywKICAgICAgICAgICAgICAgICAgICAgJ3Nwb3J0JywKICAgICAgICAgICAgICAgICAgICAgJ2RzdCcsCiAgICAgICAgICAgICAgICAgICAgICdkcG9ydCcsCiAgICAgICAgICAgICAgICAgICAgICdwcm90bycsCiAgICAgICAgICAgICAgICAgICAgICdleHRlbnNpb25fc2VydmVybmFtZV9pbmRpY2F0aW9uJyw=</text>
+        <text />
       </register>
       <register name="-" type="4">
-        <text>'protocol_name',</text>
+        <text />
       </register>
       <register name="/" type="4">
         <text>contract</text>
