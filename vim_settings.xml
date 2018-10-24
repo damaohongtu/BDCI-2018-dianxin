@@ -120,10 +120,10 @@
       <file name="$USER_HOME$/workplace/BDCI/__init__.py" timestamp="1536628825812">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/input_w.py" timestamp="1539584316500">
-        <mark key="[" line="8" column="38" />
-        <mark key="]" line="8" column="3" />
-        <mark key="." line="8" column="38" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/input_w.py" timestamp="1540364809732">
+        <mark key="[" line="10" column="17" />
+        <mark key="]" line="10" column="17" />
+        <mark key="." line="10" column="17" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/data/load_data_with_header.py" timestamp="1536997203899">
         <mark key="[" line="0" column="0" />
@@ -157,11 +157,7 @@
       <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/DomainName" timestamp="1539934715936">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/file_concat.py" timestamp="1540359908927">
-        <mark key="[" line="50" column="0" />
-        <mark key="]" line="50" column="0" />
-        <mark key="." line="50" column="0" />
-      </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/file_concat.py" timestamp="1540364746956" />
       <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/classification/logisticRegression.py" timestamp="1540196361620">
         <mark key="[" line="10" column="0" />
         <mark key="]" line="10" column="0" />
@@ -239,10 +235,10 @@
         <mark key="]" line="25" column="29" />
         <mark key="." line="25" column="29" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/lgb.py" timestamp="1540359432591">
-        <mark key="[" line="33" column="43" />
-        <mark key="]" line="38" column="0" />
-        <mark key="." line="38" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/lgb.py" timestamp="1540364539801">
+        <mark key="[" line="35" column="43" />
+        <mark key="]" line="40" column="0" />
+        <mark key="." line="40" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/lightGBM.py" timestamp="1538718841117">
         <mark key="[" line="18" column="19" />
@@ -319,10 +315,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text />
+        <text encoding="base64">ICAgIAogICAgICAgICAgICAgICAgICAgICAnc3JjJywKICAgICAgICAgICAgICAgICAgICAgJ3Nwb3J0JywKICAgICAgICAgICAgICAgICAgICAgJ2RzdCcsCiAgICAgICAgICAgICAgICAgICAgICdkcG9ydCcsCiAgICAgICAgICAgICAgICAgICAgICdwcm90bycsCiAgICAgICAgICAgICAgICAgICAgICdleHRlbnNpb25fc2VydmVybmFtZV9pbmRpY2F0aW9uJyw=</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>'protocol_name',</text>
       </register>
       <register name="/" type="4">
         <text>contract</text>
@@ -331,35 +327,35 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50IChmbG93Lm1pbl9pcF90dGwpCg==</text>
       </register>
       <register name="1" type="4">
+        <text encoding="base64">ICAgIAogICAgICAgICAgICAgICAgICAgICAnc3JjJywKICAgICAgICAgICAgICAgICAgICAgJ3Nwb3J0JywKICAgICAgICAgICAgICAgICAgICAgJ2RzdCcsCiAgICAgICAgICAgICAgICAgICAgICdkcG9ydCcsCiAgICAgICAgICAgICAgICAgICAgICdwcm90bycsCiAgICAgICAgICAgICAgICAgICAgICdleHRlbnNpb25fc2VydmVybmFtZV9pbmRpY2F0aW9uJyw=</text>
+      </register>
+      <register name="2" type="4">
+        <text encoding="base64">CmRlbCBvdXRwdXQ=</text>
+      </register>
+      <register name="3" type="4">
         <text>#end
 #start:拼接文件,分别利用文件的名称给数据添加标签</text>
       </register>
-      <register name="2" type="4">
+      <register name="4" type="4">
         <text>#start:定义数据的头部
 #output_columns=['id','protocol_name','src','sport','dst','dport','proto','push_flag_ratio','average_len','average_payload_len','pkt_count','flow_average_inter_arrival_time','kolmogorov','shannon','max_len','min_len','std_len','label']</text>
       </register>
-      <register name="3" type="4">
+      <register name="5" type="4">
         <text encoding="base64">CkBzb2Z0d2FyZTogZ2FybmVy</text>
       </register>
-      <register name="4" type="4">
+      <register name="6" type="4">
         <text encoding="base64">CkBsaWNlbnNlOiAoQykgQ29weXJpZ2h0IDIwMTMtMjAxNywgTm9kZSBTdXBwbHkgQ2hhaW4gTWFuYWdlciBDb3Jwb3JhdGlvbiBMaW1pdGVkLg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="7" type="4">
         <text encoding="base64">Ci0tLS0tLS0tLS0tLS0tLS0tLS0tLSAK5L2c6ICF77ya6I2J5qOaIArmnaXmupDvvJpDU0ROIArljp/mlofvvJpodHRwczovL2Jsb2cuY3Nkbi5uZXQvY2FvODEyNzU1MTU2L2FydGljbGUvZGV0YWlscy81NDYxOTE5OCAK54mI5p2D5aOw5piO77ya5pys5paH5Li65Y2a5Li75Y6f5Yib5paH56ug77yM6L2s6L296K+36ZmE5LiK5Y2a5paH6ZO+5o6l77yB</text>
       </register>
-      <register name="6" type="4">
+      <register name="8" type="4">
         <text>'''
 多余的处理一些东西的特定code
 '''</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">ICAgICAgICB3aXRoIG9wZW4oJy4uLy4uL2RhdGEvb3V0cHV0LycrcGNhcF9maWxlWzg6LTE2XSsnLmNzdicsJ3crJylhcyBmOgogICAgICAgICAgICBmLndyaXRlKCdpZCwnKycsJy5qb2luKGF0dHJzKSsnXG4nKQ==</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">CnByaW50IChldmFsX2RhdGEp</text>
-      </register>
       <register name="9" type="4">
-        <text encoding="base64">CgoKbHI9TG9naXN0aWNSZWdyZXNzaW9uKCkKCnByaW50KGNyb3NzX3ZhbF9zY29yZShscix0cmFpbl9kYXRhLHRyYWluX2xhYmVscyxjdj01LHNjb3Jpbmc9J2FjY3VyYWN5Jykp</text>
+        <text encoding="base64">ICAgICAgICB3aXRoIG9wZW4oJy4uLy4uL2RhdGEvb3V0cHV0LycrcGNhcF9maWxlWzg6LTE2XSsnLmNzdicsJ3crJylhcyBmOgogICAgICAgICAgICBmLndyaXRlKCdpZCwnKycsJy5qb2luKGF0dHJzKSsnXG4nKQ==</text>
       </register>
     </registers>
     <search>
