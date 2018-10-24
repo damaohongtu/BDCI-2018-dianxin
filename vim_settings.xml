@@ -209,8 +209,12 @@
       <file name="$USER_HOME$/workplace/BDCI/input/preprocess_old.py" timestamp="1539484430681">
         <mark key="[" line="30" column="16" />
       </file>
-      <file name="$USER_HOME$/workplace/Paper-01/experiment/paper01/Model2.py" timestamp="1540377875897">
-        <mark key="[" line="52" column="49" />
+      <file name="$USER_HOME$/workplace/Paper-01/experiment/paper01/Model2.py" timestamp="1540380285830">
+        <mark key="'" line="99" column="2" />
+        <mark key="[" line="99" column="38" />
+        <mark key="]" line="45" column="33" />
+        <mark key="." line="45" column="33" />
+        <mark key="^" line="45" column="33" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_predict.py" timestamp="1536999044609">
         <mark key="[" line="0" column="0" />
@@ -322,16 +326,22 @@
       <jump line="16" column="18" filename="$USER_HOME$/workplace/experiment/HTTPSHandshake/tcp_stream.py" />
       <jump line="50" column="44" filename="$USER_HOME$/workplace/experiment/HTTPSHandshake/tcp_stream.py" />
       <jump line="15" column="13" filename="$USER_HOME$/workplace/experiment/HTTPSHandshake/tmp.py" />
+      <jump line="45" column="33" filename="$USER_HOME$/workplace/Paper-01/experiment/paper01/Model2.py" />
+      <jump line="75" column="3" filename="$USER_HOME$/workplace/Paper-01/experiment/paper01/Model2.py" />
+      <jump line="76" column="3" filename="$USER_HOME$/workplace/Paper-01/experiment/paper01/Model2.py" />
+      <jump line="91" column="2" filename="$USER_HOME$/workplace/Paper-01/experiment/paper01/Model2.py" />
+      <jump line="92" column="2" filename="$USER_HOME$/workplace/Paper-01/experiment/paper01/Model2.py" />
+      <jump line="99" column="2" filename="$USER_HOME$/workplace/Paper-01/experiment/paper01/Model2.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text />
+        <text>最后一行表示怎么显示训练情况，静止0，进度条1，单行2</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>最后一行表示怎么显示训练情况，静止0，进度条1，单行2</text>
       </register>
       <register name="/" type="4">
-        <text>contract</text>
+        <text>print</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50IChmbG93Lm1pbl9pcF90dGwpCg==</text>
@@ -369,9 +379,9 @@
       </register>
     </registers>
     <search>
-      <last-search>contract</last-search>
+      <last-search>print</last-search>
       <last-offset />
-      <last-pattern>contract</last-pattern>
+      <last-pattern>print</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
@@ -381,6 +391,7 @@
         <entry>IMAGE_SIZE</entry>
         <entry>IMAGE</entry>
         <entry>contract</entry>
+        <entry>print</entry>
       </history-search>
       <history-cmd>
         <entry>/</entry>
