@@ -188,7 +188,7 @@
         <mark key="]" line="0" column="13066" />
         <mark key="." line="0" column="13066" />
       </file>
-      <file name="/Python Console" timestamp="1540377525523">
+      <file name="/Python Console" timestamp="1540384253055">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_predict.py" timestamp="1537002109538">
@@ -210,12 +210,12 @@
       <file name="$USER_HOME$/workplace/BDCI/input/preprocess_old.py" timestamp="1539484430681">
         <mark key="[" line="30" column="16" />
       </file>
-      <file name="$USER_HOME$/workplace/Paper-01/experiment/paper01/Model2.py" timestamp="1540381537369">
+      <file name="$USER_HOME$/workplace/Paper-01/experiment/paper01/Model2.py" timestamp="1540384987690">
         <mark key="'" line="105" column="2" />
-        <mark key="[" line="105" column="38" />
-        <mark key="]" line="51" column="33" />
-        <mark key="." line="51" column="33" />
-        <mark key="^" line="51" column="33" />
+        <mark key="[" line="106" column="42" />
+        <mark key="]" line="106" column="45" />
+        <mark key="." line="106" column="0" />
+        <mark key="^" line="106" column="42" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_predict.py" timestamp="1536999044609">
         <mark key="[" line="0" column="0" />
@@ -335,8 +335,8 @@
       <jump line="99" column="2" filename="$USER_HOME$/workplace/Paper-01/experiment/paper01/Model2.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>最后一行表示怎么显示训练情况，静止0，进度条1，单行2</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgZi53cml0ZShzdHIodHJhaW5fZmVhdHVyZS50b2xpc3QoKVswXSkpCg==</text>
       </register>
       <register name="-" type="4">
         <text>最后一行表示怎么显示训练情况，静止0，进度条1，单行2</text>
@@ -345,7 +345,7 @@
         <text>print</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50IChmbG93Lm1pbl9pcF90dGwpCg==</text>
+        <text encoding="base64">ICAgICAgZi53cml0ZShzdHIodHJhaW5fZmVhdHVyZS50b2xpc3QoKVswXSkpCg==</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ICAgIAogICAgICAgICAgICAgICAgICAgICAnc3JjJywKICAgICAgICAgICAgICAgICAgICAgJ3Nwb3J0JywKICAgICAgICAgICAgICAgICAgICAgJ2RzdCcsCiAgICAgICAgICAgICAgICAgICAgICdkcG9ydCcsCiAgICAgICAgICAgICAgICAgICAgICdwcm90bycsCiAgICAgICAgICAgICAgICAgICAgICdleHRlbnNpb25fc2VydmVybmFtZV9pbmRpY2F0aW9uJyw=</text>
