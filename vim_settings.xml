@@ -187,12 +187,12 @@
         <mark key="]" line="0" column="13066" />
         <mark key="." line="0" column="13066" />
       </file>
-      <file name="$USER_HOME$/workplace/tmp/Model2.py" timestamp="1540435637884">
-        <mark key="[" line="168" column="0" />
-        <mark key="]" line="103" column="0" />
-        <mark key="." line="103" column="0" />
+      <file name="$USER_HOME$/workplace/tmp/Model2.py" timestamp="1540436035885">
+        <mark key="[" line="182" column="0" />
+        <mark key="]" line="182" column="0" />
+        <mark key="." line="182" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1540384253055">
+      <file name="/Python Console" timestamp="1540444810662">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_predict.py" timestamp="1537002109538">
@@ -259,7 +259,7 @@
         <mark key="]" line="1" column="22" />
         <mark key="." line="1" column="22" />
       </file>
-      <file name="/Dummy.txt" timestamp="1540377526178">
+      <file name="/Dummy.txt" timestamp="1540444811010">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/.conda/envs/shanshan/lib/python3.6/site-packages/tensorflow/python/estimator/canned/dnn_linear_combined.py" timestamp="1536726413760">
@@ -273,10 +273,10 @@
         <mark key="]" line="3" column="22" />
         <mark key="." line="3" column="22" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/config.py" timestamp="1540372688905">
-        <mark key="[" line="20" column="10" />
-        <mark key="]" line="20" column="10" />
-        <mark key="." line="20" column="10" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/config.py" timestamp="1540445683595">
+        <mark key="[" line="19" column="61" />
+        <mark key="]" line="22" column="10" />
+        <mark key="." line="22" column="10" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https_project/cnn_test.py" timestamp="1537444037284">
         <mark key="[" line="51" column="23" />
@@ -312,6 +312,9 @@
         <mark key="." line="30" column="0" />
         <mark key="^" line="31" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/SNI.py" timestamp="1540445624045">
+        <mark key="[" line="16" column="0" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/payload_cut_2.py" timestamp="1539088832420">
         <mark key="[" line="15" column="23" />
       </file>
@@ -340,7 +343,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAjdHJhaW5fZmVhdHVyZSwgdHJhaW5fbGFiZWxzID0gWyBbWzUsNV0sWzUsNV1dLCBbWzUsNV0sWzAsMF1dIF0sIFsxLDBdCg==</text>
+        <text encoding="base64">IyBtb2RlbD1sci5maXQodHJhaW5fZGF0YSx0cmFpbl9sYWJlbHMpCg==</text>
       </register>
       <register name="-" type="4">
         <text>最后一行表示怎么显示训练情况，静止0，进度条1，单行2</text>
@@ -352,35 +355,33 @@
         <text encoding="base64">ICAgICAgZi53cml0ZShzdHIodHJhaW5fZmVhdHVyZS50b2xpc3QoKVswXSkpCg==</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">IyBtb2RlbD1sci5maXQodHJhaW5fZGF0YSx0cmFpbl9sYWJlbHMpCg==</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">ICAjdHJhaW5fZmVhdHVyZSwgdHJhaW5fbGFiZWxzID0gWyBbWzUsNV0sWzUsNV1dLCBbWzUsNV0sWzAsMF1dIF0sIFsxLDBdCg==</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text encoding="base64">ICAgIAogICAgICAgICAgICAgICAgICAgICAnc3JjJywKICAgICAgICAgICAgICAgICAgICAgJ3Nwb3J0JywKICAgICAgICAgICAgICAgICAgICAgJ2RzdCcsCiAgICAgICAgICAgICAgICAgICAgICdkcG9ydCcsCiAgICAgICAgICAgICAgICAgICAgICdwcm90bycsCiAgICAgICAgICAgICAgICAgICAgICdleHRlbnNpb25fc2VydmVybmFtZV9pbmRpY2F0aW9uJyw=</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text encoding="base64">CmRlbCBvdXRwdXQ=</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>#end
 #start:拼接文件,分别利用文件的名称给数据添加标签</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>#start:定义数据的头部
 #output_columns=['id','protocol_name','src','sport','dst','dport','proto','push_flag_ratio','average_len','average_payload_len','pkt_count','flow_average_inter_arrival_time','kolmogorov','shannon','max_len','min_len','std_len','label']</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text encoding="base64">CkBzb2Z0d2FyZTogZ2FybmVy</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">CkBsaWNlbnNlOiAoQykgQ29weXJpZ2h0IDIwMTMtMjAxNywgTm9kZSBTdXBwbHkgQ2hhaW4gTWFuYWdlciBDb3Jwb3JhdGlvbiBMaW1pdGVkLg==</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">Ci0tLS0tLS0tLS0tLS0tLS0tLS0tLSAK5L2c6ICF77ya6I2J5qOaIArmnaXmupDvvJpDU0ROIArljp/mlofvvJpodHRwczovL2Jsb2cuY3Nkbi5uZXQvY2FvODEyNzU1MTU2L2FydGljbGUvZGV0YWlscy81NDYxOTE5OCAK54mI5p2D5aOw5piO77ya5pys5paH5Li65Y2a5Li75Y6f5Yib5paH56ug77yM6L2s6L296K+36ZmE5LiK5Y2a5paH6ZO+5o6l77yB</text>
-      </register>
       <register name="9" type="4">
-        <text>'''
-多余的处理一些东西的特定code
-'''</text>
+        <text encoding="base64">Ci0tLS0tLS0tLS0tLS0tLS0tLS0tLSAK5L2c6ICF77ya6I2J5qOaIArmnaXmupDvvJpDU0ROIArljp/mlofvvJpodHRwczovL2Jsb2cuY3Nkbi5uZXQvY2FvODEyNzU1MTU2L2FydGljbGUvZGV0YWlscy81NDYxOTE5OCAK54mI5p2D5aOw5piO77ya5pys5paH5Li65Y2a5Li75Y6f5Yib5paH56ug77yM6L2s6L296K+36ZmE5LiK5Y2a5paH6ZO+5o6l77yB</text>
       </register>
     </registers>
     <search>
