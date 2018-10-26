@@ -119,7 +119,6 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/code/preprocess.py" timestamp="1537844098103">
         <mark key="[" line="29" column="51" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/classification/cross_clf_svm.py" timestamp="1540523074417" />
       <file name="$USER_HOME$/workplace/experiment/wd_https/cnn/model.py" timestamp="1539167380033">
         <mark key="[" line="29" column="44" />
       </file>
@@ -163,9 +162,9 @@
       <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/DomainName" timestamp="1539934715936">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/file_concat.py" timestamp="1540446836790">
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/file_concat.py" timestamp="1540527845781">
         <mark key="u" line="15" column="28" />
-        <mark key="[" line="15" column="36" />
+        <mark key="[" line="15" column="38" />
         <mark key="]" line="15" column="28" />
         <mark key="." line="15" column="28" />
       </file>
@@ -185,8 +184,8 @@
         <mark key="]" line="43" column="0" />
         <mark key="." line="43" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/save_result.py" timestamp="1540522525357">
-        <mark key="[" line="12" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/save_result.py" timestamp="1540528272001">
+        <mark key="[" line="33" column="25" />
         <mark key="]" line="12" column="0" />
         <mark key="." line="12" column="0" />
       </file>
@@ -203,7 +202,7 @@
         <mark key="]" line="182" column="0" />
         <mark key="." line="182" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1540519061449">
+      <file name="/Python Console" timestamp="1540527519856">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_predict.py" timestamp="1537002109538">
@@ -225,7 +224,6 @@
       <file name="$USER_HOME$/workplace/BDCI/input/preprocess_old.py" timestamp="1539484430681">
         <mark key="[" line="30" column="16" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/classification/logisticRegression.py" timestamp="1540520063863" />
       <file name="$USER_HOME$/workplace/Paper-01/experiment/paper01/Model2.py" timestamp="1540384987690">
         <mark key="'" line="105" column="2" />
         <mark key="[" line="106" column="42" />
@@ -268,7 +266,6 @@
         <mark key="]" line="45" column="17" />
         <mark key="." line="45" column="17" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/classification/cross_clf_nb.py" timestamp="1540524175832" />
       <file name="$USER_HOME$/workplace/experiment/wd_https/classification/lgb.py" timestamp="1540522483968">
         <mark key="[" line="15" column="25" />
       </file>
@@ -280,7 +277,7 @@
         <mark key="]" line="1" column="22" />
         <mark key="." line="1" column="22" />
       </file>
-      <file name="/Dummy.txt" timestamp="1540521659956">
+      <file name="/Dummy.txt" timestamp="1540527520083">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/.conda/envs/shanshan/lib/python3.6/site-packages/tensorflow/python/estimator/canned/dnn_linear_combined.py" timestamp="1536726413760">
@@ -294,8 +291,8 @@
         <mark key="]" line="3" column="22" />
         <mark key="." line="3" column="22" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/config.py" timestamp="1540522923825">
-        <mark key="[" line="23" column="18" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/config.py" timestamp="1540528366887">
+        <mark key="[" line="23" column="16" />
         <mark key="]" line="23" column="10" />
         <mark key="." line="23" column="10" />
       </file>
@@ -339,7 +336,6 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/payload_cut_2.py" timestamp="1539088832420">
         <mark key="[" line="15" column="23" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/classification/cross_clf_lr.py" timestamp="1540523899230" />
       <file name="$USER_HOME$/workplace/experiment/wd_https/test2.py" timestamp="1540371946793">
         <mark key="[" line="8" column="2" />
       </file>
