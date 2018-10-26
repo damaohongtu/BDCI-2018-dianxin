@@ -214,6 +214,7 @@
       <file name="$USER_HOME$/workplace/BDCI/input/preprocess_old.py" timestamp="1539484430681">
         <mark key="[" line="30" column="16" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/classification/logisticRegression.py" timestamp="1540520063863" />
       <file name="$USER_HOME$/workplace/Paper-01/experiment/paper01/Model2.py" timestamp="1540384987690">
         <mark key="'" line="105" column="2" />
         <mark key="[" line="106" column="42" />
@@ -251,7 +252,7 @@
         <mark key="]" line="45" column="17" />
         <mark key="." line="45" column="17" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/classification/lgb.py" timestamp="1540446922439">
+      <file name="$USER_HOME$/workplace/experiment/wd_https/classification/lgb.py" timestamp="1540520240905">
         <mark key="[" line="17" column="38" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/lightGBM.py" timestamp="1538718841117">
@@ -345,11 +346,16 @@
       <jump line="99" column="2" filename="$USER_HOME$/workplace/Paper-01/experiment/paper01/Model2.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">IyBtb2RlbD1sci5maXQodHJhaW5fZGF0YSx0cmFpbl9sYWJlbHMpCg==</text>
+      <register name="&quot;" type="4">
+        <text>from sklearn import metrics
+from sklearn.metrics import confusion_matrix
+from sklearn.preprocessing import label_binarize
+from result import figures
+import numpy as np
+import os</text>
       </register>
       <register name="-" type="4">
-        <text>最后一行表示怎么显示训练情况，静止0，进度条1，单行2</text>
+        <text encoding="base64">ID0gZ2V0X2RhdGFzZXQobl9ncmFtKQ==</text>
       </register>
       <register name="/" type="4">
         <text>print</text>
@@ -357,34 +363,39 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgZi53cml0ZShzdHIodHJhaW5fZmVhdHVyZS50b2xpc3QoKVswXSkpCg==</text>
       </register>
-      <register name="1" type="2">
+      <register name="1" type="4">
+        <text>from sklearn import metrics
+from sklearn.metrics import confusion_matrix
+from sklearn.preprocessing import label_binarize
+from result import figures
+import numpy as np
+import os</text>
+      </register>
+      <register name="2" type="4">
+        <text encoding="base64">Cm5ncmFtcyA9IFsnJywgJzFfZ3JhbScsICcyX2dyYW0nLCAnM19ncmFtJ10KCgpwYXRoID0gJ2Nyb3NzX3Jlc3VsdC8nICsgbmdyYW1zW25fZ3JhbV0gKyAnLycgKyBlc3RpbWF0b3IuX19uYW1lX18gKyAnLycKCmlmIG5vdCBvcy5wYXRoLmV4aXN0cyhwYXRoKTogb3MubWFrZWRpcnMocGF0aCk=</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">IyBtb2RlbD1sci5maXQodHJhaW5fZGF0YSx0cmFpbl9sYWJlbHMpCg==</text>
       </register>
-      <register name="2" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAjdHJhaW5fZmVhdHVyZSwgdHJhaW5fbGFiZWxzID0gWyBbWzUsNV0sWzUsNV1dLCBbWzUsNV0sWzAsMF1dIF0sIFsxLDBdCg==</text>
       </register>
-      <register name="3" type="4">
+      <register name="5" type="4">
         <text encoding="base64">ICAgIAogICAgICAgICAgICAgICAgICAgICAnc3JjJywKICAgICAgICAgICAgICAgICAgICAgJ3Nwb3J0JywKICAgICAgICAgICAgICAgICAgICAgJ2RzdCcsCiAgICAgICAgICAgICAgICAgICAgICdkcG9ydCcsCiAgICAgICAgICAgICAgICAgICAgICdwcm90bycsCiAgICAgICAgICAgICAgICAgICAgICdleHRlbnNpb25fc2VydmVybmFtZV9pbmRpY2F0aW9uJyw=</text>
       </register>
-      <register name="4" type="4">
+      <register name="6" type="4">
         <text encoding="base64">CmRlbCBvdXRwdXQ=</text>
       </register>
-      <register name="5" type="4">
+      <register name="7" type="4">
         <text>#end
 #start:拼接文件,分别利用文件的名称给数据添加标签</text>
       </register>
-      <register name="6" type="4">
+      <register name="8" type="4">
         <text>#start:定义数据的头部
 #output_columns=['id','protocol_name','src','sport','dst','dport','proto','push_flag_ratio','average_len','average_payload_len','pkt_count','flow_average_inter_arrival_time','kolmogorov','shannon','max_len','min_len','std_len','label']</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">CkBzb2Z0d2FyZTogZ2FybmVy</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">CkBsaWNlbnNlOiAoQykgQ29weXJpZ2h0IDIwMTMtMjAxNywgTm9kZSBTdXBwbHkgQ2hhaW4gTWFuYWdlciBDb3Jwb3JhdGlvbiBMaW1pdGVkLg==</text>
-      </register>
       <register name="9" type="4">
-        <text encoding="base64">Ci0tLS0tLS0tLS0tLS0tLS0tLS0tLSAK5L2c6ICF77ya6I2J5qOaIArmnaXmupDvvJpDU0ROIArljp/mlofvvJpodHRwczovL2Jsb2cuY3Nkbi5uZXQvY2FvODEyNzU1MTU2L2FydGljbGUvZGV0YWlscy81NDYxOTE5OCAK54mI5p2D5aOw5piO77ya5pys5paH5Li65Y2a5Li75Y6f5Yib5paH56ug77yM6L2s6L296K+36ZmE5LiK5Y2a5paH6ZO+5o6l77yB</text>
+        <text encoding="base64">CkBzb2Z0d2FyZTogZ2FybmVy</text>
       </register>
     </registers>
     <search>
