@@ -47,6 +47,11 @@
       <file name="$USER_HOME$/workplace/BDCI/is_similar.py" timestamp="1536497984162">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/classification/cross_clf_knn.py" timestamp="1540524120261">
+        <mark key="[" line="11" column="6" />
+        <mark key="]" line="11" column="6" />
+        <mark key="." line="11" column="6" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/code/classification_w/logisticRegression.py" timestamp="1537930753943">
         <mark key="[" line="0" column="0" />
       </file>
@@ -114,6 +119,7 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/code/preprocess.py" timestamp="1537844098103">
         <mark key="[" line="29" column="51" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/classification/cross_clf_svm.py" timestamp="1540523074417" />
       <file name="$USER_HOME$/workplace/experiment/wd_https/cnn/model.py" timestamp="1539167380033">
         <mark key="[" line="29" column="44" />
       </file>
@@ -179,6 +185,11 @@
         <mark key="]" line="43" column="0" />
         <mark key="." line="43" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/save_result.py" timestamp="1540522525357">
+        <mark key="[" line="12" column="0" />
+        <mark key="]" line="12" column="0" />
+        <mark key="." line="12" column="0" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/https/https_data/pcap_parse.py" timestamp="1536807438495">
         <mark key="[" line="0" column="46" />
       </file>
@@ -242,6 +253,11 @@
       <file name="$USER_HOME$/workplace/BDCI/utils/data/split_data.py" timestamp="1536557621917">
         <mark key="[" line="1" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/classification/cross_clf_gbdt.py" timestamp="1540522859598">
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="0" />
+        <mark key="." line="4" column="0" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/classification/sni_classification.py" timestamp="1540200184594">
         <mark key="[" line="25" column="29" />
         <mark key="]" line="25" column="29" />
@@ -252,8 +268,9 @@
         <mark key="]" line="45" column="17" />
         <mark key="." line="45" column="17" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/classification/lgb.py" timestamp="1540520240905">
-        <mark key="[" line="17" column="38" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/classification/cross_clf_nb.py" timestamp="1540524175832" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/classification/lgb.py" timestamp="1540522483968">
+        <mark key="[" line="15" column="25" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/lightGBM.py" timestamp="1538718841117">
         <mark key="[" line="18" column="19" />
@@ -263,7 +280,7 @@
         <mark key="]" line="1" column="22" />
         <mark key="." line="1" column="22" />
       </file>
-      <file name="/Dummy.txt" timestamp="1540519061631">
+      <file name="/Dummy.txt" timestamp="1540521659956">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/.conda/envs/shanshan/lib/python3.6/site-packages/tensorflow/python/estimator/canned/dnn_linear_combined.py" timestamp="1536726413760">
@@ -277,10 +294,10 @@
         <mark key="]" line="3" column="22" />
         <mark key="." line="3" column="22" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/config.py" timestamp="1540521310920">
-        <mark key="[" line="22" column="18" />
-        <mark key="]" line="22" column="10" />
-        <mark key="." line="22" column="10" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/config.py" timestamp="1540522923825">
+        <mark key="[" line="23" column="18" />
+        <mark key="]" line="23" column="10" />
+        <mark key="." line="23" column="10" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https_project/cnn_test.py" timestamp="1537444037284">
         <mark key="[" line="51" column="23" />
@@ -322,6 +339,7 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/payload_cut_2.py" timestamp="1539088832420">
         <mark key="[" line="15" column="23" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/classification/cross_clf_lr.py" timestamp="1540523899230" />
       <file name="$USER_HOME$/workplace/experiment/wd_https/test2.py" timestamp="1540371946793">
         <mark key="[" line="8" column="2" />
       </file>
@@ -347,15 +365,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>from sklearn import metrics
-from sklearn.metrics import confusion_matrix
-from sklearn.preprocessing import label_binarize
-from result import figures
-import numpy as np
-import os</text>
+        <text encoding="base64">CmlmIG5vdCBvcy5wYXRoLmV4aXN0cyhwYXRoKTogb3MubWFrZWRpcnMocGF0aCk=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ID0gZ2V0X2RhdGFzZXQobl9ncmFtKQ==</text>
+        <text>if not os.path.exists(path): os.makedirs(path)</text>
       </register>
       <register name="/" type="4">
         <text>print</text>
@@ -364,38 +377,43 @@ import os</text>
         <text encoding="base64">ICAgICAgZi53cml0ZShzdHIodHJhaW5fZmVhdHVyZS50b2xpc3QoKVswXSkpCg==</text>
       </register>
       <register name="1" type="4">
+        <text encoding="base64">CmlmIG5vdCBvcy5wYXRoLmV4aXN0cyhwYXRoKTogb3MubWFrZWRpcnMocGF0aCk=</text>
+      </register>
+      <register name="2" type="4">
+        <text encoding="base64">CmFscGhhYmV0ID0gWyc5Z2FtZScsICdhbGlwYXknLCAnYW1hcCcsICdiYWljaXpoYW4nLCAnYmFpZHUnLCAnZGlhbnBpbmcnLCAnZG91eXUnLAogJ2Vhc3Rtb25leScsICdoaWlkbycsICdodXlhJywgJ2lmZW5nJywgJ2ltbW9tbycsICdpcWl5aScsICdqZCcsICdrZy5xcScsCiAna3Vnb3UnLCAna3V3bycsICdtZ3R2JywgJ25ld3MucXEnLCAncGluZHVvZHVvJywgJ3Fpbmd0aW5nJywgJ3FxbXVzaWMnLAogJ3F1bmFyJywgJ3N1bmluZycsICd0YW9iYW8nLCAndG91dGlhbycsICd2aWRlby5xcScsICd3ZWlibycsICd3b3N0b3JlJywKICd4aWFtaScsICd4aW1hbGF5YScsICd4dW5sZWknLCAnemh1c2hvdS4zNjAnLCAnbGF2ZicsICdxcWJyb3dzZXInLCAncXlwbGF5ZXInXQoKbmdyYW1zID0gWycnLCAnMV9ncmFtJywgJzJfZ3JhbScsICczX2dyYW0nXQ==</text>
+      </register>
+      <register name="3" type="4">
         <text>from sklearn import metrics
 from sklearn.metrics import confusion_matrix
 from sklearn.preprocessing import label_binarize
-from result import figures
-import numpy as np
-import os</text>
+from confusion_matrix import plot_confusion_matrix
+from time import time</text>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">Cm5ncmFtcyA9IFsnJywgJzFfZ3JhbScsICcyX2dyYW0nLCAnM19ncmFtJ10KCgpwYXRoID0gJ2Nyb3NzX3Jlc3VsdC8nICsgbmdyYW1zW25fZ3JhbV0gKyAnLycgKyBlc3RpbWF0b3IuX19uYW1lX18gKyAnLycKCmlmIG5vdCBvcy5wYXRoLmV4aXN0cyhwYXRoKTogb3MubWFrZWRpcnMocGF0aCk=</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">IyBtb2RlbD1sci5maXQodHJhaW5fZGF0YSx0cmFpbl9sYWJlbHMpCg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAjdHJhaW5fZmVhdHVyZSwgdHJhaW5fbGFiZWxzID0gWyBbWzUsNV0sWzUsNV1dLCBbWzUsNV0sWzAsMF1dIF0sIFsxLDBdCg==</text>
+      <register name="4" type="4">
+        <text encoding="base64">Cm5fZ3JhbSA9IDM=</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">ICAgIAogICAgICAgICAgICAgICAgICAgICAnc3JjJywKICAgICAgICAgICAgICAgICAgICAgJ3Nwb3J0JywKICAgICAgICAgICAgICAgICAgICAgJ2RzdCcsCiAgICAgICAgICAgICAgICAgICAgICdkcG9ydCcsCiAgICAgICAgICAgICAgICAgICAgICdwcm90bycsCiAgICAgICAgICAgICAgICAgICAgICdleHRlbnNpb25fc2VydmVybmFtZV9pbmRpY2F0aW9uJyw=</text>
+        <text encoding="base64">CgpuZ3JhbXMgPSBbJycsICcxX2dyYW0nLCAnMl9ncmFtJywgJzNfZ3JhbSdd</text>
       </register>
       <register name="6" type="4">
-        <text encoding="base64">CmRlbCBvdXRwdXQ=</text>
+        <text encoding="base64">CgphbHBoYWJldCA9IFsnOWdhbWUnLCAnYWxpcGF5JywgJ2FtYXAnLCAnYmFpY2l6aGFuJywgJ2JhaWR1JywgJ2RpYW5waW5nJywgJ2RvdXl1JywKICdlYXN0bW9uZXknLCAnaGlpZG8nLCAnaHV5YScsICdpZmVuZycsICdpbW1vbW8nLCAnaXFpeWknLCAnamQnLCAna2cucXEnLAogJ2t1Z291JywgJ2t1d28nLCAnbWd0dicsICduZXdzLnFxJywgJ3BpbmR1b2R1bycsICdxaW5ndGluZycsICdxcW11c2ljJywKICdxdW5hcicsICdzdW5pbmcnLCAndGFvYmFvJywgJ3RvdXRpYW8nLCAndmlkZW8ucXEnLCAnd2VpYm8nLCAnd29zdG9yZScsCiAneGlhbWknLCAneGltYWxheWEnLCAneHVubGVpJywgJ3podXNob3UuMzYwJywgJ2xhdmYnLCAncXFicm93c2VyJywgJ3F5cGxheWVyJ10=</text>
       </register>
       <register name="7" type="4">
-        <text>#end
-#start:拼接文件,分别利用文件的名称给数据添加标签</text>
+        <text>from sklearn import metrics
+from sklearn.metrics import confusion_matrix
+from sklearn.preprocessing import label_binarize
+from confusion_matrix import plot_confusion_matrix
+import numpy as np</text>
       </register>
       <register name="8" type="4">
-        <text>#start:定义数据的头部
-#output_columns=['id','protocol_name','src','sport','dst','dport','proto','push_flag_ratio','average_len','average_payload_len','pkt_count','flow_average_inter_arrival_time','kolmogorov','shannon','max_len','min_len','std_len','label']</text>
+        <text encoding="base64">ICdjcm9zc19yZXN1bHQvJyArIG5ncmFtc1tuX2dyYW1dICsgJy8nICsgZXN0aW1hdG9yLl9fbmFtZV9fICsgJy8nCgppZiBub3Qgb3MucGF0aC5leGlzdHMocGF0aCk6IG9zLm1ha2VkaXJzKHBhdGgp</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">CkBzb2Z0d2FyZTogZ2FybmVy</text>
+        <text>['9GAME', 'ALIPAY', 'AMAP', 'baicizhan', 'baidu', 'dianping', 'douyu',
+ 'eastmoney', 'hiido', 'huya', 'ifeng', 'immomo', 'iqiyi', 'jd', 'kg.qq',
+ 'kugou', 'kuwo', 'mgtv', 'news.qq', 'pinduoduo', 'qingting', 'qqmusic',
+ 'qunar', 'suning', 'taobao', 'toutiao', 'video.qq', 'weibo', 'wostore',
+ 'xiami', 'ximalaya', 'xunlei', 'zhushou.360', 'lavf', 'qqbrowser', 'qyplayer']</text>
       </register>
     </registers>
     <search>
