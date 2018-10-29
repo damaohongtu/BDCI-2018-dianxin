@@ -87,7 +87,7 @@
         <mark key="]" line="18" column="0" />
         <mark key="." line="18" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_deep/wd_https_keras.py" timestamp="1539157132480">
+      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_deep/wd_https_keras.py" timestamp="1540809590678">
         <mark key="[" line="136" column="42" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/payload_cut.py" timestamp="1537854930840">
@@ -294,8 +294,10 @@
         <mark key="]" line="36" column="10" />
         <mark key="." line="36" column="10" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/rnn_cnn.py" timestamp="1540804915359">
-        <mark key="[" line="17" column="77" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/rnn_cnn.py" timestamp="1540809639752">
+        <mark key="[" line="83" column="70" />
+        <mark key="]" line="83" column="70" />
+        <mark key="." line="83" column="70" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https_project/cnn_test.py" timestamp="1537444037284">
         <mark key="[" line="51" column="23" />
@@ -365,10 +367,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">CmRlbCBvdXRwdXRfdHJhaW4sb3V0cHV0X3ZhbA==</text>
+        <text>optimizer=&quot;adam&quot;</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICBuYW1lcz1yZWNvcmRfdHlwZV9uYW1lcw==</text>
+        <text>optimizer=&quot;adam&quot;</text>
       </register>
       <register name="/" type="4">
         <text>SSL\/TLS</text>
