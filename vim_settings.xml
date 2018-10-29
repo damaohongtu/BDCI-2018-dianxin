@@ -18,10 +18,8 @@
         <mark key="." line="122" column="8" />
         <mark key="^" line="9" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse.py" timestamp="1540792892045">
-        <mark key="[" line="132" column="0" />
-        <mark key="]" line="147" column="0" />
-        <mark key="." line="147" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse.py" timestamp="1540801113206">
+        <mark key="[" line="72" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse_1.py" timestamp="1539586311081">
         <mark key="[" line="43" column="31" />
@@ -166,7 +164,7 @@
       <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/DomainName" timestamp="1539934715936">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/file_concat.py" timestamp="1540799580925">
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/file_concat.py" timestamp="1540800350396">
         <mark key="u" line="15" column="28" />
         <mark key="[" line="70" column="18" />
         <mark key="]" line="70" column="18" />
@@ -291,10 +289,10 @@
         <mark key="]" line="3" column="22" />
         <mark key="." line="3" column="22" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/config.py" timestamp="1540797015102">
-        <mark key="[" line="25" column="65" />
-        <mark key="]" line="34" column="10" />
-        <mark key="." line="34" column="10" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/config.py" timestamp="1540800850213">
+        <mark key="[" line="26" column="65" />
+        <mark key="]" line="36" column="10" />
+        <mark key="." line="36" column="10" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https_project/cnn_test.py" timestamp="1537444037284">
         <mark key="[" line="51" column="23" />
