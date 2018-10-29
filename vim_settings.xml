@@ -18,10 +18,10 @@
         <mark key="." line="122" column="8" />
         <mark key="^" line="9" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse.py" timestamp="1540368338054">
-        <mark key="[" line="8" column="31" />
-        <mark key="]" line="131" column="0" />
-        <mark key="." line="131" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse.py" timestamp="1540792892045">
+        <mark key="[" line="132" column="0" />
+        <mark key="]" line="147" column="0" />
+        <mark key="." line="147" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse_1.py" timestamp="1539586311081">
         <mark key="[" line="43" column="31" />
@@ -122,6 +122,9 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/cnn/model.py" timestamp="1539167380033">
         <mark key="[" line="29" column="44" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/tcp_stream.py" timestamp="1540792116485">
+        <mark key="[" line="55" column="0" />
+      </file>
       <file name="$USER_HOME$/workplace/BDCI/__init__.py" timestamp="1536628825812">
         <mark key="[" line="0" column="0" />
       </file>
@@ -141,6 +144,7 @@
       <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/output/test1.csv" timestamp="1540187383574">
         <mark key="[" line="0" column="402" />
       </file>
+      <file name="$USER_HOME$/.conda/envs/scapy/lib/python2.7/site-packages/scapy_ssl_tls/ssl_tls.py" timestamp="1540780898345" />
       <file name="$USER_HOME$/workplace/experiment/wide_deep/python/train.py" timestamp="1536733965281">
         <mark key="[" line="174" column="67" />
       </file>
@@ -202,13 +206,16 @@
         <mark key="]" line="182" column="0" />
         <mark key="." line="182" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1540778406508">
+      <file name="/Python Console" timestamp="1540790227581">
         <mark key="[" line="0" column="0" />
+        <mark key="]" line="3" column="0" />
+        <mark key="^" line="3" column="0" />
+        <mark key="." line="3" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_predict.py" timestamp="1537002109538">
         <mark key="[" line="13" column="29" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/https_parse.py" timestamp="1540779504866">
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/https_parse.py" timestamp="1540779903235">
         <mark key="[" line="120" column="62" />
         <mark key="]" line="119" column="0" />
         <mark key="." line="119" column="0" />
@@ -223,13 +230,6 @@
       </file>
       <file name="$USER_HOME$/workplace/BDCI/input/preprocess_old.py" timestamp="1539484430681">
         <mark key="[" line="30" column="16" />
-      </file>
-      <file name="$USER_HOME$/workplace/Paper-01/experiment/paper01/Model2.py" timestamp="1540384987690">
-        <mark key="'" line="105" column="2" />
-        <mark key="[" line="106" column="42" />
-        <mark key="]" line="106" column="45" />
-        <mark key="." line="106" column="0" />
-        <mark key="^" line="106" column="42" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/Catboost_model/catboost_predict.py" timestamp="1536999044609">
         <mark key="[" line="0" column="0" />
@@ -291,10 +291,10 @@
         <mark key="]" line="3" column="22" />
         <mark key="." line="3" column="22" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/config.py" timestamp="1540532230474">
-        <mark key="[" line="17" column="24" />
-        <mark key="]" line="23" column="10" />
-        <mark key="." line="23" column="10" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/config.py" timestamp="1540792489953">
+        <mark key="[" line="16" column="52" />
+        <mark key="]" line="25" column="10" />
+        <mark key="." line="25" column="10" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https_project/cnn_test.py" timestamp="1537444037284">
         <mark key="[" line="51" column="23" />
@@ -323,12 +323,10 @@
         <mark key="]" line="167" column="0" />
         <mark key="." line="167" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/tmp.py" timestamp="1540778329764">
-        <mark key="'" line="15" column="13" />
-        <mark key="[" line="29" column="0" />
-        <mark key="]" line="29" column="0" />
-        <mark key="." line="29" column="0" />
-        <mark key="^" line="30" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/tmp.py" timestamp="1540792124711">
+        <mark key="[" line="24" column="4" />
+        <mark key="]" line="24" column="4" />
+        <mark key="." line="24" column="4" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/SNI.py" timestamp="1540446024623">
         <mark key="[" line="16" column="0" />
@@ -358,64 +356,199 @@
       <jump line="91" column="2" filename="$USER_HOME$/workplace/Paper-01/experiment/paper01/Model2.py" />
       <jump line="92" column="2" filename="$USER_HOME$/workplace/Paper-01/experiment/paper01/Model2.py" />
       <jump line="99" column="2" filename="$USER_HOME$/workplace/Paper-01/experiment/paper01/Model2.py" />
+      <jump line="77" column="22" filename="$USER_HOME$/workplace/experiment/HTTPSHandshake/tmp.py" />
+      <jump line="76" column="21" filename="$USER_HOME$/workplace/experiment/HTTPSHandshake/tmp.py" />
+      <jump line="69" column="17" filename="$USER_HOME$/workplace/experiment/HTTPSHandshake/tmp.py" />
+      <jump line="101" column="0" filename="$USER_HOME$/workplace/experiment/HTTPSHandshake/tmp.py" />
+      <jump line="102" column="0" filename="$USER_HOME$/workplace/experiment/HTTPSHandshake/tmp.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">CmlmIG5vdCBvcy5wYXRoLmV4aXN0cyhwYXRoKTogb3MubWFrZWRpcnMocGF0aCk=</text>
+        <text />
       </register>
       <register name="-" type="4">
-        <text>if not os.path.exists(path): os.makedirs(path)</text>
+        <text />
       </register>
       <register name="/" type="4">
-        <text>print</text>
+        <text>SSL\/TLS</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgZi53cml0ZShzdHIodHJhaW5fZmVhdHVyZS50b2xpc3QoKVswXSkpCg==</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">CmlmIG5vdCBvcy5wYXRoLmV4aXN0cyhwYXRoKTogb3MubWFrZWRpcnMocGF0aCk=</text>
+        <text># print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[2].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[3].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[4].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# # print(p[5].sprintf)
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[6].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[7].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[8].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[9].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[10].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[11].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[12].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[13].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[14].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[15].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[16].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[17].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[18].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[19].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[20].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[21].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[22].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[23].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[24].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[25].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[26].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[27].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[28].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[29].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+# print(p[30].show())
+# print(&quot;--------------------------------------------------------------------------------------&quot;)
+print(p[0][&quot;TLS Record&quot;].content_type)
+print(p[1][&quot;TLS Record&quot;].content_type)
+print(p[2][&quot;TLS Record&quot;].content_type)
+print(p[3][&quot;TLS Record&quot;].content_type)
+print(p[4][&quot;TLS Record&quot;].content_type)
+print(p[5][&quot;TLS Record&quot;].content_type)
+print(p[6][&quot;TLS Record&quot;].content_type)
+print(p[7][&quot;TLS Record&quot;].content_type)
+# print(p[8][&quot;TLS Record&quot;].content_type)
+print(p[9][&quot;TLS Record&quot;].content_type)
+print(p[10][&quot;TLS Record&quot;].content_type)
+print(p[11][&quot;TLS Record&quot;].content_type)
+print(p[12][&quot;TLS Record&quot;].content_type)
+print(p[13][&quot;TLS Record&quot;].content_type)
+# print(p[14][&quot;TLS Record&quot;].content_type)
+print(p[15][&quot;TLS Record&quot;].content_type)
+print(p[16][&quot;TLS Record&quot;].content_type)
+# print(p[17][&quot;TLS Record&quot;].content_type)
+print(p[18][&quot;TLS Record&quot;].content_type)
+print(p[19][&quot;TLS Record&quot;].content_type)
+print(p[20][&quot;TLS Record&quot;].content_type)
+print(p[21][&quot;TLS Record&quot;].content_type)
+print(p[22][&quot;TLS Record&quot;].content_type)
+print(p[23][&quot;TLS Record&quot;].content_type)
+print(p[24][&quot;TLS Record&quot;].content_type)
+print(p[25][&quot;TLS Record&quot;].content_type)
+print(p[26][&quot;TLS Record&quot;].content_type)
+# print(p[27][&quot;TLS Record&quot;].content_type)
+print(p[28][&quot;TLS Record&quot;].content_type)
+print(p[29][&quot;TLS Record&quot;].content_type)
+print(p[30][&quot;TLS Record&quot;].content_type)
+print(p[31][&quot;TLS Record&quot;].content_type)
+print(p[32][&quot;TLS Record&quot;].content_type)
+
+
+print(&quot;--------------------------------------------------------------------------------------&quot;)
+print(p[14][&quot;SSLv2 Record&quot;].content_type)
+print(&quot;--------------------------------------------------------------------------------------&quot;)
+print(&quot;--------------------------------------------------------------------------------------&quot;)
+print(p[17][&quot;SSLv2 Record&quot;].content_type)
+print(&quot;--------------------------------------------------------------------------------------&quot;)
+print(&quot;--------------------------------------------------------------------------------------&quot;)
+print(p[27][&quot;SSLv2 Record&quot;].content_type)
+print(&quot;--------------------------------------------------------------------------------------&quot;)</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">CmFscGhhYmV0ID0gWyc5Z2FtZScsICdhbGlwYXknLCAnYW1hcCcsICdiYWljaXpoYW4nLCAnYmFpZHUnLCAnZGlhbnBpbmcnLCAnZG91eXUnLAogJ2Vhc3Rtb25leScsICdoaWlkbycsICdodXlhJywgJ2lmZW5nJywgJ2ltbW9tbycsICdpcWl5aScsICdqZCcsICdrZy5xcScsCiAna3Vnb3UnLCAna3V3bycsICdtZ3R2JywgJ25ld3MucXEnLCAncGluZHVvZHVvJywgJ3Fpbmd0aW5nJywgJ3FxbXVzaWMnLAogJ3F1bmFyJywgJ3N1bmluZycsICd0YW9iYW8nLCAndG91dGlhbycsICd2aWRlby5xcScsICd3ZWlibycsICd3b3N0b3JlJywKICd4aWFtaScsICd4aW1hbGF5YScsICd4dW5sZWknLCAnemh1c2hvdS4zNjAnLCAnbGF2ZicsICdxcWJyb3dzZXInLCAncXlwbGF5ZXInXQoKbmdyYW1zID0gWycnLCAnMV9ncmFtJywgJzJfZ3JhbScsICczX2dyYW0nXQ==</text>
+        <text encoding="base64">CiM=</text>
       </register>
       <register name="3" type="4">
+        <text>print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)
+print(p[].type)</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">CmlmIG5vdCBvcy5wYXRoLmV4aXN0cyhwYXRoKTogb3MubWFrZWRpcnMocGF0aCk=</text>
+      </register>
+      <register name="5" type="4">
+        <text encoding="base64">CmFscGhhYmV0ID0gWyc5Z2FtZScsICdhbGlwYXknLCAnYW1hcCcsICdiYWljaXpoYW4nLCAnYmFpZHUnLCAnZGlhbnBpbmcnLCAnZG91eXUnLAogJ2Vhc3Rtb25leScsICdoaWlkbycsICdodXlhJywgJ2lmZW5nJywgJ2ltbW9tbycsICdpcWl5aScsICdqZCcsICdrZy5xcScsCiAna3Vnb3UnLCAna3V3bycsICdtZ3R2JywgJ25ld3MucXEnLCAncGluZHVvZHVvJywgJ3Fpbmd0aW5nJywgJ3FxbXVzaWMnLAogJ3F1bmFyJywgJ3N1bmluZycsICd0YW9iYW8nLCAndG91dGlhbycsICd2aWRlby5xcScsICd3ZWlibycsICd3b3N0b3JlJywKICd4aWFtaScsICd4aW1hbGF5YScsICd4dW5sZWknLCAnemh1c2hvdS4zNjAnLCAnbGF2ZicsICdxcWJyb3dzZXInLCAncXlwbGF5ZXInXQoKbmdyYW1zID0gWycnLCAnMV9ncmFtJywgJzJfZ3JhbScsICczX2dyYW0nXQ==</text>
+      </register>
+      <register name="6" type="4">
         <text>from sklearn import metrics
 from sklearn.metrics import confusion_matrix
 from sklearn.preprocessing import label_binarize
 from confusion_matrix import plot_confusion_matrix
 from time import time</text>
       </register>
-      <register name="4" type="4">
+      <register name="7" type="4">
         <text encoding="base64">Cm5fZ3JhbSA9IDM=</text>
       </register>
-      <register name="5" type="4">
+      <register name="8" type="4">
         <text encoding="base64">CgpuZ3JhbXMgPSBbJycsICcxX2dyYW0nLCAnMl9ncmFtJywgJzNfZ3JhbSdd</text>
       </register>
-      <register name="6" type="4">
+      <register name="9" type="4">
         <text encoding="base64">CgphbHBoYWJldCA9IFsnOWdhbWUnLCAnYWxpcGF5JywgJ2FtYXAnLCAnYmFpY2l6aGFuJywgJ2JhaWR1JywgJ2RpYW5waW5nJywgJ2RvdXl1JywKICdlYXN0bW9uZXknLCAnaGlpZG8nLCAnaHV5YScsICdpZmVuZycsICdpbW1vbW8nLCAnaXFpeWknLCAnamQnLCAna2cucXEnLAogJ2t1Z291JywgJ2t1d28nLCAnbWd0dicsICduZXdzLnFxJywgJ3BpbmR1b2R1bycsICdxaW5ndGluZycsICdxcW11c2ljJywKICdxdW5hcicsICdzdW5pbmcnLCAndGFvYmFvJywgJ3RvdXRpYW8nLCAndmlkZW8ucXEnLCAnd2VpYm8nLCAnd29zdG9yZScsCiAneGlhbWknLCAneGltYWxheWEnLCAneHVubGVpJywgJ3podXNob3UuMzYwJywgJ2xhdmYnLCAncXFicm93c2VyJywgJ3F5cGxheWVyJ10=</text>
       </register>
-      <register name="7" type="4">
-        <text>from sklearn import metrics
-from sklearn.metrics import confusion_matrix
-from sklearn.preprocessing import label_binarize
-from confusion_matrix import plot_confusion_matrix
-import numpy as np</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">ICdjcm9zc19yZXN1bHQvJyArIG5ncmFtc1tuX2dyYW1dICsgJy8nICsgZXN0aW1hdG9yLl9fbmFtZV9fICsgJy8nCgppZiBub3Qgb3MucGF0aC5leGlzdHMocGF0aCk6IG9zLm1ha2VkaXJzKHBhdGgp</text>
-      </register>
-      <register name="9" type="4">
-        <text>['9GAME', 'ALIPAY', 'AMAP', 'baicizhan', 'baidu', 'dianping', 'douyu',
- 'eastmoney', 'hiido', 'huya', 'ifeng', 'immomo', 'iqiyi', 'jd', 'kg.qq',
- 'kugou', 'kuwo', 'mgtv', 'news.qq', 'pinduoduo', 'qingting', 'qqmusic',
- 'qunar', 'suning', 'taobao', 'toutiao', 'video.qq', 'weibo', 'wostore',
- 'xiami', 'ximalaya', 'xunlei', 'zhushou.360', 'lavf', 'qqbrowser', 'qyplayer']</text>
+      <register name=":" type="4">
+        <text>%s/SSL\/TLS/TLS Record</text>
       </register>
     </registers>
     <search>
-      <last-search>print</last-search>
+      <last-search>SSL\/TLS</last-search>
       <last-offset />
-      <last-pattern>print</last-pattern>
+      <last-pattern>SSL\/TLS</last-pattern>
+      <last-replace>TLS Record</last-replace>
+      <last-substitute>SSL\/TLS</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
@@ -426,9 +559,20 @@ import numpy as np</text>
         <entry>IMAGE</entry>
         <entry>contract</entry>
         <entry>print</entry>
+        <entry>application</entry>
+        <entry>type</entry>
+        <entry>.type</entry>
+        <entry>&quot;SSL</entry>
+        <entry>SSL\/TLS</entry>
       </history-search>
       <history-cmd>
         <entry>/</entry>
+        <entry>s/type/content_type/g</entry>
+        <entry>s/type/content_type</entry>
+        <entry>%s/.type/.content_type/g</entry>
+        <entry>%s/&quot;SSL/TLS&quot;/&quot;TLS rECORD&quot;</entry>
+        <entry>%s/SSL\/TLS/TLS\/Record/g</entry>
+        <entry>%s/SSL\/TLS/TLS Record</entry>
       </history-cmd>
       <history-expr />
       <history-input />
