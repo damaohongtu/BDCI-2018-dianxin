@@ -142,7 +142,6 @@
       <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/output/test1.csv" timestamp="1540187383574">
         <mark key="[" line="0" column="402" />
       </file>
-      <file name="$USER_HOME$/.conda/envs/scapy/lib/python2.7/site-packages/scapy_ssl_tls/ssl_tls.py" timestamp="1540780898345" />
       <file name="$USER_HOME$/workplace/experiment/wide_deep/python/train.py" timestamp="1536733965281">
         <mark key="[" line="174" column="67" />
       </file>
@@ -284,18 +283,18 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/payload_cut.py" timestamp="1539084362999">
         <mark key="[" line="17" column="27" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/sniFilter.py" timestamp="1540865903208">
-        <mark key="[" line="7" column="5" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/sniFilter.py" timestamp="1540882428632">
+        <mark key="[" line="44" column="1" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/test.py" timestamp="1539159254530">
         <mark key="[" line="3" column="22" />
         <mark key="]" line="3" column="22" />
         <mark key="." line="3" column="22" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/config.py" timestamp="1540862675008">
-        <mark key="[" line="38" column="17" />
-        <mark key="]" line="38" column="10" />
-        <mark key="." line="38" column="10" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/config.py" timestamp="1540882108451">
+        <mark key="[" line="39" column="76" />
+        <mark key="]" line="39" column="10" />
+        <mark key="." line="39" column="10" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/rnn_cnn.py" timestamp="1540809639752">
         <mark key="[" line="83" column="70" />
