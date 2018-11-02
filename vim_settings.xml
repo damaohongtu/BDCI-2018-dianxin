@@ -18,7 +18,7 @@
         <mark key="." line="122" column="8" />
         <mark key="^" line="9" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse.py" timestamp="1540868851123">
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse.py" timestamp="1541150272996">
         <mark key="[" line="113" column="86" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse_1.py" timestamp="1539586311081">
@@ -123,7 +123,7 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/cnn/model.py" timestamp="1539167380033">
         <mark key="[" line="29" column="44" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/tcp_stream.py" timestamp="1541075505759">
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/tcp_stream.py" timestamp="1541150068911">
         <mark key="[" line="55" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/__init__.py" timestamp="1536628825812">
@@ -256,6 +256,9 @@
         <mark key="]" line="4" column="0" />
         <mark key="." line="4" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/test.py" timestamp="1541149971620">
+        <mark key="[" line="19" column="16" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/classification/sni_classification.py" timestamp="1540200184594">
         <mark key="[" line="25" column="29" />
         <mark key="]" line="25" column="29" />
@@ -280,6 +283,7 @@
       <file name="/Dummy.txt" timestamp="1540527520083">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/packet_length/test1.csv" timestamp="1541149830430" />
       <file name="$USER_HOME$/.conda/envs/shanshan/lib/python3.6/site-packages/tensorflow/python/estimator/canned/dnn_linear_combined.py" timestamp="1536726413760">
         <mark key="[" line="320" column="36" />
       </file>
@@ -299,7 +303,6 @@
         <mark key="]" line="39" column="10" />
         <mark key="." line="39" column="10" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/rnn_cnn.py" timestamp="1540884836743" />
       <file name="$USER_HOME$/workplace/experiment/https_project/cnn_test.py" timestamp="1537444037284">
         <mark key="[" line="51" column="23" />
         <mark key="]" line="51" column="23" />
