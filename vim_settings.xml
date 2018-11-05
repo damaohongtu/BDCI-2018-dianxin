@@ -196,6 +196,9 @@
       <file name="$USER_HOME$/workplace/experiment/https/https_data/pcap_parse.py" timestamp="1536807438495">
         <mark key="[" line="0" column="46" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/dnn_rnn_cnn.py" timestamp="1541381460900">
+        <mark key="[" line="27" column="0" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/payload2/Android_aiqiyi_2018091901.pcap_0.txt" timestamp="1537850412752">
         <mark key="[" line="0" column="13065" />
         <mark key="]" line="0" column="13066" />
@@ -283,7 +286,6 @@
       <file name="/Dummy.txt" timestamp="1540527520083">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/packet_length/test1.csv" timestamp="1541149830430" />
       <file name="$USER_HOME$/.conda/envs/shanshan/lib/python3.6/site-packages/tensorflow/python/estimator/canned/dnn_linear_combined.py" timestamp="1536726413760">
         <mark key="[" line="320" column="36" />
       </file>
@@ -302,6 +304,9 @@
         <mark key="[" line="39" column="76" />
         <mark key="]" line="39" column="10" />
         <mark key="." line="39" column="10" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/rnn_cnn.py" timestamp="1541381020784">
+        <mark key="[" line="114" column="27" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https_project/cnn_test.py" timestamp="1537444037284">
         <mark key="[" line="51" column="23" />
