@@ -196,8 +196,11 @@
       <file name="$USER_HOME$/workplace/experiment/https/https_data/pcap_parse.py" timestamp="1536807438495">
         <mark key="[" line="0" column="46" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/dnn_rnn_cnn.py" timestamp="1541381460900">
-        <mark key="[" line="27" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/dnn_rnn_cnn.py" timestamp="1541381890114">
+        <mark key="[" line="127" column="0" />
+        <mark key="]" line="128" column="80" />
+        <mark key="^" line="127" column="79" />
+        <mark key="." line="128" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/payload2/Android_aiqiyi_2018091901.pcap_0.txt" timestamp="1537850412752">
         <mark key="[" line="0" column="13065" />
@@ -391,24 +394,22 @@
       <jump line="1446" column="31" filename="$USER_HOME$/.local/lib/python3.6/site-packages/scapy_ssl_tls/ssl_tls.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>cnn_train_data=pd.read_csv(config.HTTPS_CONFIG[&quot;packet_length_train_path&quot;])
-cnn_val_data=pd.read_csv(config.HTTPS_CONFIG[&quot;packet_length_val_path&quot;])
-# print(train_data)
-
-rnn_train_data=pd.read_csv(config.HTTPS_CONFIG[&quot;record_type_train_path&quot;])
-rnn_val_data=pd.read_csv(config.HTTPS_CONFIG[&quot;record_type_val_path&quot;])</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ZD1EZW5zZSgzMixhY3RpdmF0aW9uPSdyZWx1JyxrZXJuZWxfcmVndWxhcml6ZXI9bDFfbDIobDE9MC4wMSxsMj0wLjAxKSkoZG5uX2lucCkK</text>
       </register>
       <register name="-" type="4">
-        <text>optimizer=&quot;adam&quot;</text>
+        <text># print(X_train_rnn)</text>
       </register>
       <register name="/" type="4">
         <text>content</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgZi53cml0ZShzdHIodHJhaW5fZmVhdHVyZS50b2xpc3QoKVswXSkpCg==</text>
+        <text encoding="base64">ZD1EZW5zZSgzMixhY3RpdmF0aW9uPSdyZWx1JyxrZXJuZWxfcmVndWxhcml6ZXI9bDFfbDIobDE9MC4wMSxsMj0wLjAxKSkoZG5uX2lucCkK</text>
       </register>
       <register name="1" type="4">
+        <text encoding="base64">CiMgcHJpbnQoWF90cmFpbl9ybm4p</text>
+      </register>
+      <register name="2" type="4">
         <text>cnn_train_data=pd.read_csv(config.HTTPS_CONFIG[&quot;packet_length_train_path&quot;])
 cnn_val_data=pd.read_csv(config.HTTPS_CONFIG[&quot;packet_length_val_path&quot;])
 # print(train_data)
@@ -416,23 +417,23 @@ cnn_val_data=pd.read_csv(config.HTTPS_CONFIG[&quot;packet_length_val_path&quot;]
 rnn_train_data=pd.read_csv(config.HTTPS_CONFIG[&quot;record_type_train_path&quot;])
 rnn_val_data=pd.read_csv(config.HTTPS_CONFIG[&quot;record_type_val_path&quot;])</text>
       </register>
-      <register name="2" type="4">
+      <register name="3" type="4">
         <text>#!/usr/bin/env python
 #coding=utf-8</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">dHJhaW5faW5kZXgsdmFsX2luZGV4PXRyYWluX3Rlc3Rfc3BsaXQocmFuZ2UocmVjb3JkX3R5cGUuX19sZW5fXygpKSx0ZXN0X3NpemU9MC4yLHNodWZmbGU9VHJ1ZSkK</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text encoding="base64">CmRlbCBvdXRwdXRfdHJhaW4sb3V0cHV0X3ZhbA==</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text># print(&quot;--------------------------------------------------------------------------------------&quot;)
 # print(p[2].show())
 # print(&quot;--------------------------------------------------------------------------------------&quot;)
@@ -538,41 +539,8 @@ print(&quot;--------------------------------------------------------------------
 print(p[27][&quot;SSLv2 Record&quot;].content_type)
 print(&quot;--------------------------------------------------------------------------------------&quot;)</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">CiM=</text>
-      </register>
       <register name="9" type="4">
-        <text>print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)
-print(p[].type)</text>
+        <text encoding="base64">CiM=</text>
       </register>
       <register name=":" type="4">
         <text>%s/SSL\/TLS/TLS Record</text>
