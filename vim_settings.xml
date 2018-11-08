@@ -3,7 +3,6 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/lossTest.py" timestamp="1541646238648" />
       <file name="$USER_HOME$/workplace/BDCI/data/load_data.py" timestamp="1537002013615">
         <mark key="[" line="9" column="28" />
       </file>
@@ -216,7 +215,7 @@
         <mark key="]" line="182" column="0" />
         <mark key="." line="182" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1541645227231">
+      <file name="/Python Console" timestamp="1541653685847">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="3" column="0" />
         <mark key="^" line="3" column="0" />
@@ -290,7 +289,7 @@
         <mark key="]" line="1" column="22" />
         <mark key="." line="1" column="22" />
       </file>
-      <file name="/Dummy.txt" timestamp="1541646278979">
+      <file name="/Dummy.txt" timestamp="1541653686052">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/.conda/envs/shanshan/lib/python3.6/site-packages/tensorflow/python/estimator/canned/dnn_linear_combined.py" timestamp="1536726413760">
