@@ -114,8 +114,8 @@
         <mark key="]" line="8" column="51" />
         <mark key="." line="8" column="51" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/move.sh" timestamp="1541659742963">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/move.sh" timestamp="1541663051116">
+        <mark key="[" line="1" column="3" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/lstm/test.py" timestamp="1538098975712">
         <mark key="[" line="0" column="0" />
@@ -205,11 +205,11 @@
       <file name="$USER_HOME$/workplace/experiment/https/https_data/pcap_parse.py" timestamp="1536807438495">
         <mark key="[" line="0" column="46" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/dnn_rnn_cnn.py" timestamp="1541396849472">
-        <mark key="[" line="154" column="18" />
-        <mark key="]" line="133" column="80" />
-        <mark key="^" line="132" column="79" />
-        <mark key="." line="133" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/dnn_rnn_cnn.py" timestamp="1541661423693">
+        <mark key="[" line="139" column="0" />
+        <mark key="]" line="140" column="81" />
+        <mark key="^" line="138" column="0" />
+        <mark key="." line="140" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/payload2/Android_aiqiyi_2018091901.pcap_0.txt" timestamp="1537850412752">
         <mark key="[" line="0" column="13065" />
@@ -304,8 +304,8 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/payload_cut.py" timestamp="1539084362999">
         <mark key="[" line="17" column="27" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/sniFilter.py" timestamp="1540883887122">
-        <mark key="[" line="44" column="1" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/sniFilter.py" timestamp="1541663407719">
+        <mark key="[" line="24" column="13" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/test.py" timestamp="1539159254530">
         <mark key="[" line="3" column="22" />
@@ -317,11 +317,11 @@
         <mark key="]" line="39" column="10" />
         <mark key="." line="39" column="10" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/rnn_cnn.py" timestamp="1541658405594">
-        <mark key="[" line="140" column="16" />
-        <mark key="]" line="129" column="19" />
-        <mark key="^" line="128" column="0" />
-        <mark key="." line="129" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/rnn_cnn.py" timestamp="1541662706230">
+        <mark key="[" line="142" column="40" />
+        <mark key="]" line="142" column="41" />
+        <mark key="^" line="141" column="0" />
+        <mark key="." line="142" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https_project/cnn_test.py" timestamp="1537444037284">
         <mark key="[" line="51" column="23" />
@@ -406,14 +406,8 @@
       <jump line="1446" column="31" filename="$USER_HOME$/.local/lib/python3.6/site-packages/scapy_ssl_tls/ssl_tls.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>3
-4
-5
-6
-7
-8
-9</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Y3IgPSBEZW5zZSgyNTYsYWN0aXZhdGlvbj0ncmVsdScpKGNyX2lucCkK</text>
       </register>
       <register name="-" type="4">
         <text># print(X_train_rnn)</text>
@@ -422,7 +416,7 @@
         <text>content</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">cj1TaW1wbGVSTk4oMTI4KShyKQo=</text>
+        <text encoding="base64">Y3IgPSBEZW5zZSgyNTYsYWN0aXZhdGlvbj0ncmVsdScpKGNyX2lucCkK</text>
       </register>
       <register name="1" type="4">
         <text>3
