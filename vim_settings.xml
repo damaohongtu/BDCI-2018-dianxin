@@ -212,7 +212,7 @@
         <mark key="]" line="182" column="0" />
         <mark key="." line="182" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1541638825180">
+      <file name="/Python Console" timestamp="1541645227231">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="3" column="0" />
         <mark key="^" line="3" column="0" />
@@ -286,7 +286,7 @@
         <mark key="]" line="1" column="22" />
         <mark key="." line="1" column="22" />
       </file>
-      <file name="/Dummy.txt" timestamp="1541638825423">
+      <file name="/Dummy.txt" timestamp="1541645227402">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/.conda/envs/shanshan/lib/python3.6/site-packages/tensorflow/python/estimator/canned/dnn_linear_combined.py" timestamp="1536726413760">
@@ -308,7 +308,7 @@
         <mark key="]" line="39" column="10" />
         <mark key="." line="39" column="10" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/rnn_cnn.py" timestamp="1541639352172">
+      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/rnn_cnn.py" timestamp="1541644188155">
         <mark key="[" line="128" column="0" />
         <mark key="]" line="128" column="19" />
         <mark key="^" line="127" column="0" />
@@ -397,8 +397,14 @@
       <jump line="1446" column="31" filename="$USER_HOME$/.local/lib/python3.6/site-packages/scapy_ssl_tls/ssl_tls.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">cj1TaW1wbGVSTk4oMTI4KShyKQo=</text>
+      <register name="&quot;" type="4">
+        <text>3
+4
+5
+6
+7
+8
+9</text>
       </register>
       <register name="-" type="4">
         <text># print(X_train_rnn)</text>
@@ -410,9 +416,34 @@
         <text encoding="base64">cj1TaW1wbGVSTk4oMTI4KShyKQo=</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">CiMgcHJpbnQoWF90cmFpbl9ybm4p</text>
+        <text>3
+4
+5
+6
+7
+8
+9</text>
       </register>
       <register name="2" type="4">
+        <text>3
+4
+5
+6</text>
+      </register>
+      <register name="3" type="4">
+        <text>3
+4
+5
+6
+7
+8
+9
+10</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">CiMgcHJpbnQoWF90cmFpbl9ybm4p</text>
+      </register>
+      <register name="5" type="4">
         <text>cnn_train_data=pd.read_csv(config.HTTPS_CONFIG[&quot;packet_length_train_path&quot;])
 cnn_val_data=pd.read_csv(config.HTTPS_CONFIG[&quot;packet_length_val_path&quot;])
 # print(train_data)
@@ -420,130 +451,18 @@ cnn_val_data=pd.read_csv(config.HTTPS_CONFIG[&quot;packet_length_val_path&quot;]
 rnn_train_data=pd.read_csv(config.HTTPS_CONFIG[&quot;record_type_train_path&quot;])
 rnn_val_data=pd.read_csv(config.HTTPS_CONFIG[&quot;record_type_val_path&quot;])</text>
       </register>
-      <register name="3" type="4">
+      <register name="6" type="4">
         <text>#!/usr/bin/env python
 #coding=utf-8</text>
       </register>
-      <register name="4" type="2">
+      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="9" type="2">
         <text encoding="base64">dHJhaW5faW5kZXgsdmFsX2luZGV4PXRyYWluX3Rlc3Rfc3BsaXQocmFuZ2UocmVjb3JkX3R5cGUuX19sZW5fXygpKSx0ZXN0X3NpemU9MC4yLHNodWZmbGU9VHJ1ZSkK</text>
-      </register>
-      <register name="7" type="4">
-        <text encoding="base64">CmRlbCBvdXRwdXRfdHJhaW4sb3V0cHV0X3ZhbA==</text>
-      </register>
-      <register name="8" type="4">
-        <text># print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[2].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[3].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[4].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# # print(p[5].sprintf)
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[6].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[7].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[8].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[9].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[10].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[11].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[12].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[13].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[14].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[15].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[16].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[17].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[18].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[19].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[20].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[21].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[22].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[23].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[24].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[25].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[26].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[27].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[28].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[29].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-# print(p[30].show())
-# print(&quot;--------------------------------------------------------------------------------------&quot;)
-print(p[0][&quot;TLS Record&quot;].content_type)
-print(p[1][&quot;TLS Record&quot;].content_type)
-print(p[2][&quot;TLS Record&quot;].content_type)
-print(p[3][&quot;TLS Record&quot;].content_type)
-print(p[4][&quot;TLS Record&quot;].content_type)
-print(p[5][&quot;TLS Record&quot;].content_type)
-print(p[6][&quot;TLS Record&quot;].content_type)
-print(p[7][&quot;TLS Record&quot;].content_type)
-# print(p[8][&quot;TLS Record&quot;].content_type)
-print(p[9][&quot;TLS Record&quot;].content_type)
-print(p[10][&quot;TLS Record&quot;].content_type)
-print(p[11][&quot;TLS Record&quot;].content_type)
-print(p[12][&quot;TLS Record&quot;].content_type)
-print(p[13][&quot;TLS Record&quot;].content_type)
-# print(p[14][&quot;TLS Record&quot;].content_type)
-print(p[15][&quot;TLS Record&quot;].content_type)
-print(p[16][&quot;TLS Record&quot;].content_type)
-# print(p[17][&quot;TLS Record&quot;].content_type)
-print(p[18][&quot;TLS Record&quot;].content_type)
-print(p[19][&quot;TLS Record&quot;].content_type)
-print(p[20][&quot;TLS Record&quot;].content_type)
-print(p[21][&quot;TLS Record&quot;].content_type)
-print(p[22][&quot;TLS Record&quot;].content_type)
-print(p[23][&quot;TLS Record&quot;].content_type)
-print(p[24][&quot;TLS Record&quot;].content_type)
-print(p[25][&quot;TLS Record&quot;].content_type)
-print(p[26][&quot;TLS Record&quot;].content_type)
-# print(p[27][&quot;TLS Record&quot;].content_type)
-print(p[28][&quot;TLS Record&quot;].content_type)
-print(p[29][&quot;TLS Record&quot;].content_type)
-print(p[30][&quot;TLS Record&quot;].content_type)
-print(p[31][&quot;TLS Record&quot;].content_type)
-print(p[32][&quot;TLS Record&quot;].content_type)
-
-
-print(&quot;--------------------------------------------------------------------------------------&quot;)
-print(p[14][&quot;SSLv2 Record&quot;].content_type)
-print(&quot;--------------------------------------------------------------------------------------&quot;)
-print(&quot;--------------------------------------------------------------------------------------&quot;)
-print(p[17][&quot;SSLv2 Record&quot;].content_type)
-print(&quot;--------------------------------------------------------------------------------------&quot;)
-print(&quot;--------------------------------------------------------------------------------------&quot;)
-print(p[27][&quot;SSLv2 Record&quot;].content_type)
-print(&quot;--------------------------------------------------------------------------------------&quot;)</text>
-      </register>
-      <register name="9" type="4">
-        <text encoding="base64">CiM=</text>
       </register>
       <register name=":" type="4">
         <text>%s/SSL\/TLS/TLS Record</text>
