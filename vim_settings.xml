@@ -3,6 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/lossTest.py" timestamp="1541646238648" />
       <file name="$USER_HOME$/workplace/BDCI/data/load_data.py" timestamp="1537002013615">
         <mark key="[" line="9" column="28" />
       </file>
@@ -32,6 +33,9 @@
       </file>
       <file name="$USER_HOME$/workplace/experiment/wide_deep/python/lib/read_conf.py" timestamp="1536733926675">
         <mark key="[" line="162" column="46" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/iris.csv" timestamp="1541646169844">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/.conda/envs/scapy/lib/python2.7/site-packages/scapy/plist.py" timestamp="1539668734120">
         <mark key="[" line="114" column="16" />
@@ -286,7 +290,7 @@
         <mark key="]" line="1" column="22" />
         <mark key="." line="1" column="22" />
       </file>
-      <file name="/Dummy.txt" timestamp="1541645227402">
+      <file name="/Dummy.txt" timestamp="1541646278979">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/.conda/envs/shanshan/lib/python3.6/site-packages/tensorflow/python/estimator/canned/dnn_linear_combined.py" timestamp="1536726413760">
@@ -308,11 +312,11 @@
         <mark key="]" line="39" column="10" />
         <mark key="." line="39" column="10" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/rnn_cnn.py" timestamp="1541644188155">
-        <mark key="[" line="128" column="0" />
-        <mark key="]" line="128" column="19" />
-        <mark key="^" line="127" column="0" />
-        <mark key="." line="128" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/rnn_cnn.py" timestamp="1541646251432">
+        <mark key="[" line="24" column="0" />
+        <mark key="]" line="129" column="19" />
+        <mark key="^" line="128" column="0" />
+        <mark key="." line="129" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https_project/cnn_test.py" timestamp="1537444037284">
         <mark key="[" line="51" column="23" />
