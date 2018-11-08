@@ -114,6 +114,9 @@
         <mark key="]" line="8" column="51" />
         <mark key="." line="8" column="51" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/move.sh" timestamp="1541659742963">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/lstm/test.py" timestamp="1538098975712">
         <mark key="[" line="0" column="0" />
       </file>
@@ -182,6 +185,9 @@
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/code/input.py" timestamp="1537930554209">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/clean.sh" timestamp="1541660096230">
+        <mark key="[" line="3" column="64" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https/https_data/android_auto_run.py" timestamp="1536819794266">
         <mark key="[" line="32" column="0" />
@@ -306,13 +312,13 @@
         <mark key="]" line="3" column="22" />
         <mark key="." line="3" column="22" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/config.py" timestamp="1541387814995">
-        <mark key="[" line="10" column="45" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/config.py" timestamp="1541658933004">
+        <mark key="[" line="40" column="17" />
         <mark key="]" line="39" column="10" />
         <mark key="." line="39" column="10" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/rnn_cnn.py" timestamp="1541646251432">
-        <mark key="[" line="24" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/rnn_cnn.py" timestamp="1541658405594">
+        <mark key="[" line="140" column="16" />
         <mark key="]" line="129" column="19" />
         <mark key="^" line="128" column="0" />
         <mark key="." line="129" column="0" />
