@@ -212,7 +212,7 @@
         <mark key="]" line="182" column="0" />
         <mark key="." line="182" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1541399297354">
+      <file name="/Python Console" timestamp="1541638825180">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="3" column="0" />
         <mark key="^" line="3" column="0" />
@@ -286,7 +286,7 @@
         <mark key="]" line="1" column="22" />
         <mark key="." line="1" column="22" />
       </file>
-      <file name="/Dummy.txt" timestamp="1540527520083">
+      <file name="/Dummy.txt" timestamp="1541638825423">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/.conda/envs/shanshan/lib/python3.6/site-packages/tensorflow/python/estimator/canned/dnn_linear_combined.py" timestamp="1536726413760">
@@ -308,8 +308,11 @@
         <mark key="]" line="39" column="10" />
         <mark key="." line="39" column="10" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/rnn_cnn.py" timestamp="1541399597863">
-        <mark key="[" line="125" column="17" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/rnn_cnn.py" timestamp="1541639352172">
+        <mark key="[" line="120" column="0" />
+        <mark key="]" line="120" column="19" />
+        <mark key="^" line="119" column="0" />
+        <mark key="." line="120" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https_project/cnn_test.py" timestamp="1537444037284">
         <mark key="[" line="51" column="23" />
@@ -395,7 +398,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ZD1EZW5zZSgzMixhY3RpdmF0aW9uPSdyZWx1JyxrZXJuZWxfcmVndWxhcml6ZXI9bDFfbDIobDE9MC4wMSxsMj0wLjAxKSkoZG5uX2lucCkK</text>
+        <text encoding="base64">cj1TaW1wbGVSTk4oMTI4KShyKQo=</text>
       </register>
       <register name="-" type="4">
         <text># print(X_train_rnn)</text>
@@ -404,7 +407,7 @@
         <text>content</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ZD1EZW5zZSgzMixhY3RpdmF0aW9uPSdyZWx1JyxrZXJuZWxfcmVndWxhcml6ZXI9bDFfbDIobDE9MC4wMSxsMj0wLjAxKSkoZG5uX2lucCkK</text>
+        <text encoding="base64">cj1TaW1wbGVSTk4oMTI4KShyKQo=</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">CiMgcHJpbnQoWF90cmFpbl9ybm4p</text>
