@@ -88,12 +88,6 @@
       <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/DomainName" timestamp="1539934715936">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/file_concat.py" timestamp="1540868460007">
-        <mark key="u" line="15" column="28" />
-        <mark key="[" line="104" column="13" />
-        <mark key="]" line="92" column="0" />
-        <mark key="." line="92" column="0" />
-      </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/code/input.py" timestamp="1537930554209">
         <mark key="[" line="0" column="0" />
       </file>
@@ -203,9 +197,6 @@
       <file name="$USER_HOME$/workplace/experiment/https/test.py" timestamp="1536403486042">
         <mark key="[" line="11" column="0" />
       </file>
-      <file name="$USER_HOME$/.local/lib/python3.6/site-packages/scapy_ssl_tls/ssl_tls.py" timestamp="1541075742240">
-        <mark key="'" line="1446" column="31" />
-      </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/pcapDetail.py" timestamp="1541838440179">
         <mark key="[" line="10" column="0" />
         <mark key="]" line="10" column="0" />
@@ -311,6 +302,9 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/XGBoost.py" timestamp="1537964263928">
         <mark key="[" line="3" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/rnnOnly.py" timestamp="1541842249607">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/test.py" timestamp="1541656235660">
         <mark key="[" line="78" column="0" />
       </file>
@@ -344,7 +338,7 @@
         <mark key="]" line="39" column="10" />
         <mark key="." line="39" column="10" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/rnn_cnn.py" timestamp="1541813944501">
+      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/rnn_cnn.py" timestamp="1541842293336">
         <mark key="[" line="157" column="17" />
         <mark key="]" line="142" column="41" />
         <mark key="^" line="141" column="0" />
@@ -424,8 +418,21 @@
       <jump line="1446" column="31" filename="$USER_HOME$/.local/lib/python3.6/site-packages/scapy_ssl_tls/ssl_tls.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">IyBmcm9tIHNjYXB5LmFsbCBpbXBvcnQgSVAsVENQCg==</text>
+      <register name="&quot;" type="4">
+        <text>rnn_inp= Input(shape=(128,))
+r=Embedding(257,16,input_length=128)(rnn_inp)
+r=SimpleRNN(128,return_sequences=True)(r)
+r=SimpleRNN(128)(r)
+# r=LSTM(128,return_sequences=True)(r)
+# r=LSTM(128)(r)
+r=Dense(32,activation='relu', kernel_regularizer=l1_l2(l1=0.01, l2=0.01))(r)
+# r=Dense(32,activation='relu', kernel_regularizer=l1_l2(l1=0.01, l2=0.01))(r)
+
+cr_inp = concatenate([c, r])
+# 加入注意力机制
+attention_probs=Dense(64,activation='softmax',name=&quot;attention_probs&quot;)(cr_inp)
+cr_inp=Multiply()([cr_inp,attention_probs])
+# wide特征和deep特征拼接，wide特征直接和输出节点相连</text>
       </register>
       <register name="-" type="4">
         <text>from scapy.all import *</text>
@@ -436,35 +443,45 @@
       <register name="0" type="2">
         <text encoding="base64">YT1bWzAuNDY0MTAzOTQsIDAuNTM1ODk2MSBdLFswLjQ2NDEwMzk0LCAwLjUzNTg5NjEgXSxbMC40NjQxMDM5NCwgMC41MzU4OTYxIF1dCg==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">IyBmcm9tIHNjYXB5LmFsbCBpbXBvcnQgSVAsVENQCg==</text>
+      <register name="1" type="4">
+        <text>rnn_inp= Input(shape=(128,))
+r=Embedding(257,16,input_length=128)(rnn_inp)
+r=SimpleRNN(128,return_sequences=True)(r)
+r=SimpleRNN(128)(r)
+# r=LSTM(128,return_sequences=True)(r)
+# r=LSTM(128)(r)
+r=Dense(32,activation='relu', kernel_regularizer=l1_l2(l1=0.01, l2=0.01))(r)
+# r=Dense(32,activation='relu', kernel_regularizer=l1_l2(l1=0.01, l2=0.01))(r)
+
+cr_inp = concatenate([c, r])
+# 加入注意力机制
+attention_probs=Dense(64,activation='softmax',name=&quot;attention_probs&quot;)(cr_inp)
+cr_inp=Multiply()([cr_inp,attention_probs])
+# wide特征和deep特征拼接，wide特征直接和输出节点相连</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">YT1bWzAuNDY0MTAzOTQsIDAuNTM1ODk2MSBdLFswLjQ2NDEwMzk0LCAwLjUzNTg5NjEgXSxbMC40NjQxMDM5NCwgMC41MzU4OTYxIF1dCg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">CiMgcHJpbnQoWF90cmFpbl9ybm4pCgp5X3Rlc3Rfcm5uPWZpbHRlcmVkX3ZhbF9kYXRhWyJsYWJlbCJdClhfdGVzdF9ybm4gPSBmaWx0ZXJlZF92YWxfZGF0YVtybm5feF9uYW1lXQojIHlfdGVzdF9ybm49bnAuYXNhcnJheSh5X3Rlc3Rfcm5uKS5yZXNoYXBlKC0xLDEpCiMgeV90ZXN0X3Jubj1vbmVob3QoeV90ZXN0X3JubikKeV90ZXN0X3Jubj10b19jYXRlZ29yaWNhbCh5X3Rlc3Rfcm5uKQpYX3Rlc3Rfcm5uPW5wLmFzYXJyYXkoWF90ZXN0X3Jubik=</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">ICAgdHJhaW49cGQuRGF0YUZyYW1lKCkKICAgIHZhbD1wZC5EYXRhRnJhbWUoKQ==</text>
+        <text encoding="base64">CnlfdHJhaW5fcm5uPWZpbHRlcmVkX3RyYWluX2RhdGFbImxhYmVsIl0KWF90cmFpbl9ybm4gPSBmaWx0ZXJlZF90cmFpbl9kYXRhW3Jubl94X25hbWVdCiMgeV90cmFpbl9ybm49bnAuYXNhcnJheSh5X3RyYWluX3JubikucmVzaGFwZSgtMSwxKQojIHlfdHJhaW5fcm5uPW9uZWhvdCh5X3RyYWluX3JubikKeV90cmFpbl9ybm49dG9fY2F0ZWdvcmljYWwoeV90cmFpbl9ybm4pClhfdHJhaW5fcm5uPW5wLmFzYXJyYXkoWF90cmFpbl9ybm4p</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIHlfdGVzdF9ybm49dG9fY2F0ZWdvcmljYWwoeV90ZXN0X3JubikK</text>
+      <register name="4" type="4">
+        <text encoding="base64">CiMgY25uX3RyYWluX2RhdGE9cGQucmVhZF9jc3YoY29uZmlnLkhUVFBTX0NPTkZJR1sicGFja2V0X2xlbmd0aF90cmFpbl9wYXRoIl0pCiMgY25uX3ZhbF9kYXRhPXBkLnJlYWRfY3N2KGNvbmZpZy5IVFRQU19DT05GSUdbInBhY2tldF9sZW5ndGhfdmFsX3BhdGgiXSkKIyAjIHByaW50KHRyYWluX2RhdGEpCiMKIyBybm5fdHJhaW5fZGF0YT1wZC5yZWFkX2Nzdihjb25maWcuSFRUUFNfQ09ORklHWyJyZWNvcmRfdHlwZV90cmFpbl9wYXRoIl0pCiMgcm5uX3ZhbF9kYXRhPXBkLnJlYWRfY3N2KGNvbmZpZy5IVFRQU19DT05GSUdbInJlY29yZF90eXBlX3ZhbF9wYXRoIl0pCiMKIwojIHlfdHJhaW5fY25uPWNubl90cmFpbl9kYXRhLnBvcCgibGFiZWwiKQojIFhfdHJhaW5fY25uID0gY25uX3RyYWluX2RhdGEuZHJvcChbImlkIl0sYXhpcz0xKQojIHlfdHJhaW5fY25uPW5wLmFzYXJyYXkoeV90cmFpbl9jbm4pLnJlc2hhcGUoLTEsMSkKIyB5X3RyYWluX2Nubj1vbmVob3QoeV90cmFpbl9jbm4pCiMgWF90cmFpbl9jbm49bnAuYXNhcnJheShYX3RyYWluX2NubikucmVzaGFwZSgoLTEsMTI4LDEpKQojCiMgIyBwcmludChYX3RyYWluX3JubikKIwojIHlfdGVzdF9jbm49Y25uX3ZhbF9kYXRhLnBvcCgibGFiZWwiKQojIFhfdGVzdF9jbm4gPSBjbm5fdmFsX2RhdGEuZHJvcChbImlkIl0sYXhpcz0xKQojIHlfdGVzdF9jbm49bnAuYXNhcnJheSh5X3Rlc3RfY25uKS5yZXNoYXBlKC0xLDEpCiMgeV90ZXN0X2Nubj1vbmVob3QoeV90ZXN0X2NubikKIyBYX3Rlc3RfY25uPW5wLmFzYXJyYXkoWF90ZXN0X2NubikucmVzaGFwZSgoLTEsMTI4LDEpKQojCiMKIwojIHlfdHJhaW5fcm5uPXJubl90cmFpbl9kYXRhLnBvcCgibGFiZWwiKQojIFhfdHJhaW5fcm5uID0gcm5uX3RyYWluX2RhdGEuZHJvcChbImlkIl0sYXhpcz0xKQojIHlfdHJhaW5fcm5uPW5wLmFzYXJyYXkoeV90cmFpbl9ybm4pLnJlc2hhcGUoLTEsMSkKIyB5X3RyYWluX3Jubj1vbmVob3QoeV90cmFpbl9ybm4pCiMgWF90cmFpbl9ybm49bnAuYXNhcnJheShYX3RyYWluX3JubikKIwojICMgcHJpbnQoWF90cmFpbl9ybm4pCiMKIyB5X3Rlc3Rfcm5uPXJubl92YWxfZGF0YS5wb3AoImxhYmVsIikKIyBYX3Rlc3Rfcm5uID0gcm5uX3ZhbF9kYXRhLmRyb3AoWyJpZCJdLGF4aXM9MSkKIyB5X3Rlc3Rfcm5uPW5wLmFzYXJyYXkoeV90ZXN0X3JubikucmVzaGFwZSgtMSwxKQojIHlfdGVzdF9ybm49b25laG90KHlfdGVzdF9ybm4pCiMgWF90ZXN0X3Jubj1ucC5hc2FycmF5KFhfdGVzdF9ybm4pCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHlfdGVzdF9ybm49ZmlsdGVyZWRfdmFsX2RhdGFbImxhYmVsIl0K</text>
+        <text encoding="base64">IyBmcm9tIHNjYXB5LmFsbCBpbXBvcnQgSVAsVENQCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHlfdHJhaW5fcm5uPXRvX2NhdGVnb3JpY2FsKHlfdHJhaW5fcm5uKQo=</text>
+        <text encoding="base64">YT1bWzAuNDY0MTAzOTQsIDAuNTM1ODk2MSBdLFswLjQ2NDEwMzk0LCAwLjUzNTg5NjEgXSxbMC40NjQxMDM5NCwgMC41MzU4OTYxIF1dCg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIHlfdHJhaW5fcm5uPWZpbHRlZWRfdHJhaW5fZGF0YVsibGFiZWwiXQo=</text>
+      <register name="7" type="4">
+        <text encoding="base64">ICAgdHJhaW49cGQuRGF0YUZyYW1lKCkKICAgIHZhbD1wZC5EYXRhRnJhbWUoKQ==</text>
       </register>
-      <register name="8" type="4">
-        <text>y_train_rnn=filtered_train_data[&quot;label&quot;]
-X_train_rnn = filtered_train_data[rnn_x_name]
-y_train_rnn=to_categorical(y_train_rnn)
-X_train_rnn=np.asarray(X_train_rnn)</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIHlfdGVzdF9ybm49dG9fY2F0ZWdvcmljYWwoeV90ZXN0X3JubikK</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">ICAgICMgeV90cmFpbl9jbm49bnAuYXNhcnJheSh5X3RyYWluX2NubikucmVzaGFwZSgtMSwxKQogICAgIyB5X3RyYWluX2Nubj1vbmVob3QoeV90cmFpbl9jbm4p</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIHlfdGVzdF9ybm49ZmlsdGVyZWRfdmFsX2RhdGFbImxhYmVsIl0K</text>
       </register>
       <register name=":" type="4">
         <text>%s/SSL\/TLS/TLS Record</text>
