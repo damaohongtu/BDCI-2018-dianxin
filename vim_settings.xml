@@ -188,8 +188,8 @@
         <mark key="]" line="34" column="1" />
         <mark key="." line="34" column="1" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse.py" timestamp="1541748405082">
-        <mark key="[" line="149" column="32" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse.py" timestamp="1541837716882">
+        <mark key="[" line="12" column="1" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse_1.py" timestamp="1539586311081">
         <mark key="[" line="43" column="31" />
@@ -205,6 +205,9 @@
       </file>
       <file name="$USER_HOME$/.local/lib/python3.6/site-packages/scapy_ssl_tls/ssl_tls.py" timestamp="1541075742240">
         <mark key="'" line="1446" column="31" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/pcapDetail.py" timestamp="1541837702274">
+        <mark key="[" line="8" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/code/classification_w/logisticRegression.py" timestamp="1537930753943">
         <mark key="[" line="0" column="0" />
