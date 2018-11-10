@@ -5,6 +5,7 @@
       <mapping pattern="DomainName" type="PLAIN_TEXT" />
       <mapping pattern="0" type="PLAIN_TEXT" />
       <mapping ext="tfrecords" type="PLAIN_TEXT" />
+      <mapping ext="h5" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
