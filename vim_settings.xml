@@ -168,7 +168,7 @@
         <mark key="]" line="25" column="29" />
         <mark key="." line="25" column="29" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse_time.py" timestamp="1541908561238">
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse_time.py" timestamp="1541934064007">
         <mark key="[" line="74" column="0" />
         <mark key="]" line="74" column="0" />
         <mark key="." line="74" column="0" />
@@ -204,8 +204,8 @@
         <mark key="]" line="34" column="1" />
         <mark key="." line="34" column="1" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse.py" timestamp="1541929406626">
-        <mark key="[" line="71" column="20" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse.py" timestamp="1541934105773">
+        <mark key="[" line="146" column="4" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse_1.py" timestamp="1539586311081">
         <mark key="[" line="43" column="31" />
@@ -297,8 +297,11 @@
         <mark key="]" line="10" column="0" />
         <mark key="." line="10" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/clean.sh" timestamp="1541660096230">
-        <mark key="[" line="3" column="64" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/clean.sh" timestamp="1541934230938">
+        <mark key="[" line="3" column="57" />
+        <mark key="]" line="3" column="72" />
+        <mark key="^" line="2" column="71" />
+        <mark key="." line="3" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https/https_data/android_auto_run.py" timestamp="1536819794266">
         <mark key="[" line="32" column="0" />
@@ -446,7 +449,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHRpbWVfZGF0YT1kZi5zYW1wbGUobj01MClbdGltZV9uYW1lc10K</text>
+        <text encoding="base64">cm0gLXJmIC9ob21lL3NzL3dvcmtwbGFjZS9leHBlcmltZW50L2RhdGEvd2RfaHR0cHMvcGFja2V0X2xlbmd0aC90b3RhbC8qCg==</text>
       </register>
       <register name="-" type="4">
         <text>from scapy.all import *</text>
@@ -455,7 +458,7 @@
         <text>content</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHRpbWVfZGF0YT1kZi5zYW1wbGUobj01MClbdGltZV9uYW1lc10K</text>
+        <text encoding="base64">cm0gLXJmIC9ob21lL3NzL3dvcmtwbGFjZS9leHBlcmltZW50L2RhdGEvd2RfaHR0cHMvcGFja2V0X2xlbmd0aC90b3RhbC8qCg==</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ICAgIHdpdGggb3Blbihjb25maWcuSFRUUFNfQ09ORklHWyJyZWNvcmRfdHlwZV90b3RhbCJdK3BjYXBfZmlsZVs6LThdKydfcmVjb3JkX3R5cGUuY3N2JywnYScpYXMgZjoKICAgICAgICBmb3IgKGZsb3csaSkgaW4gemlwKGZsb3dzLnZhbHVlcygpLHJhbmdlKGxlbihmbG93cykpKToKICAgICAgICAgICAgIyDlj6rmnInplb/luqblpKfkuo4yMOeahOa1geaJjeS8muS/neeVmQogICAgICAgICAgICBpZiBmbG93LnBrdF9jb3VudD49MjA6CiAgICAgICAgICAgICAgICB0bXA9cGFkQXJyYXkoZmxvdy5yZWNvcmRfdHlwZSwyNTYpCiAgICAgICAgICAgICAgICB0bXA9c3RyKHRtcCkuc3RyaXAoJ1tdJykKICAgICAgICAgICAgICAgIGYud3JpdGUocGNhcF9maWxlWzotNV0rIl8iK3N0cihpKSsiLCIrdG1wKyJcbiIp</text>
