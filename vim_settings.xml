@@ -130,7 +130,6 @@
         <mark key="^" line="3" column="0" />
         <mark key="." line="3" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/DeepTraffic/2.encrypted_traffic_classification/4.TrainAndTest/1d_cnn_25+3/encrypt_traffic_cnn_1d_2class.sh" timestamp="1541987217440" />
       <file name="$USER_HOME$/workplace/DeepTraffic/2.encrypted_traffic_classification/4.TrainAndTest/1d_cnn_25+3/encrypt_traffic_cnn_1d.py" timestamp="1541987401085">
         <mark key="[" line="42" column="62" />
       </file>
@@ -210,6 +209,9 @@
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse_1.py" timestamp="1539586311081">
         <mark key="[" line="43" column="31" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse.py" timestamp="1542020601976">
+        <mark key="[" line="21" column="9" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wide_deep/python/lib/read_conf.py" timestamp="1536733926675">
         <mark key="[" line="162" column="46" />
