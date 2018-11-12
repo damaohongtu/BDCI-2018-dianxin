@@ -130,6 +130,10 @@
         <mark key="^" line="3" column="0" />
         <mark key="." line="3" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/DeepTraffic/2.encrypted_traffic_classification/4.TrainAndTest/1d_cnn_25+3/encrypt_traffic_cnn_1d_2class.sh" timestamp="1541987217440" />
+      <file name="$USER_HOME$/workplace/DeepTraffic/2.encrypted_traffic_classification/4.TrainAndTest/1d_cnn_25+3/encrypt_traffic_cnn_1d.py" timestamp="1541987401085">
+        <mark key="[" line="42" column="62" />
+      </file>
       <file name="$USER_HOME$/workplace/Paper-01/experiment/Model/Model2.py" timestamp="1540357698920">
         <mark key="[" line="153" column="0" />
         <mark key="]" line="153" column="0" />
@@ -324,6 +328,9 @@
         <mark key="]" line="119" column="0" />
         <mark key="." line="119" column="0" />
       </file>
+      <file name="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py" timestamp="1541988290340">
+        <mark key="[" line="276" column="51" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/XGBoost.py" timestamp="1537964263928">
         <mark key="[" line="3" column="0" />
       </file>
@@ -346,7 +353,7 @@
         <mark key="." line="47" column="0" />
         <mark key="^" line="47" column="1" />
       </file>
-      <file name="/Dummy.txt" timestamp="1541929003550">
+      <file name="/Dummy.txt" timestamp="1541988600048">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/.conda/envs/shanshan/lib/python3.6/site-packages/tensorflow/python/estimator/canned/dnn_linear_combined.py" timestamp="1536726413760">
