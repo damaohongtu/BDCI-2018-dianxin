@@ -187,6 +187,7 @@
         <mark key="]" line="1" column="22" />
         <mark key="." line="1" column="22" />
       </file>
+      <file name="$USER_HOME$/.conda/envs/scapy/lib/python2.7/site-packages/scapy/layers/dot11.py" timestamp="1542023827764" />
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/payload_cut.py" timestamp="1539084362999">
         <mark key="[" line="17" column="27" />
       </file>
@@ -222,10 +223,11 @@
       <file name="$USER_HOME$/workplace/experiment/https/test.py" timestamp="1536403486042">
         <mark key="[" line="11" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/pcapDetail.py" timestamp="1542022196640">
-        <mark key="[" line="14" column="24" />
-        <mark key="]" line="10" column="0" />
-        <mark key="." line="10" column="0" />
+      <file name="$USER_HOME$/.conda/envs/scapy/lib/python2.7/site-packages/scapy/packet.py" timestamp="1542023850032" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/pcapDetail.py" timestamp="1542023542972">
+        <mark key="[" line="18" column="6" />
+        <mark key="]" line="18" column="34" />
+        <mark key="." line="18" column="6" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/code/classification_w/logisticRegression.py" timestamp="1537930753943">
         <mark key="[" line="0" column="0" />
@@ -455,10 +457,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAogICAgd2l0aCBvcGVuKCwnYScpYXMgZjoKICAgICAgICBmb3IgKGZsb3csaSkgaW4gemlwKGZsb3dzLnZhbHVlcygpLHJhbmdlKGxlbihmbG93cykpKToKICAgICAgICAgICAgIyDlj6rmnInplb/luqblpKfkuo4yMOeahOa1geaJjeS8muS/neeVmQogICAgICAgICAgICBpZiBmbG93LnBrdF9jb3VudD49MjA6</text>
+        <text />
       </register>
       <register name="-" type="4">
-        <text>from scapy.all import *</text>
+        <text />
       </register>
       <register name="/" type="4">
         <text>content</text>
