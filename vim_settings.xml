@@ -140,8 +140,9 @@
         <mark key="^" line="3" column="0" />
         <mark key="." line="3" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/DeepTraffic/2.encrypted_traffic_classification/4.TrainAndTest/1d_cnn_25+3/encrypt_traffic_cnn_1d.py" timestamp="1541987401085">
-        <mark key="[" line="42" column="62" />
+      <file name="$USER_HOME$/workplace/DeepTraffic/2.encrypted_traffic_classification/4.TrainAndTest/1d_cnn_25+3/encrypt_traffic_cnn_1d.py" timestamp="1542100384955">
+        <mark key="[" line="21" column="0" />
+        <mark key="^" line="21" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/Paper-01/experiment/Model/Model2.py" timestamp="1540357698920">
         <mark key="[" line="153" column="0" />
@@ -477,7 +478,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">cHV0IC1yIC9ob21lL3NzL3dvcmtwbGFjZS9leHBlcmltZW50L2RhdGEvd2RfaHR0cHMvb3V0cHV0L3RvdGFsLwo=</text>
+        <text encoding="base64">IyBUUkFJTl9ST1VORCA9IGludChzeXMuYXJndlszXSkK</text>
       </register>
       <register name="-" type="4">
         <text />
@@ -486,7 +487,7 @@
         <text>content</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">YyA9IERlbnNlKDI1NiwgYWN0aXZhdGlvbj0ncmVsdScsIGtlcm5lbF9yZWd1bGFyaXplcj1sMV9sMihsMT0wLjAxLCBsMj0wLjAxKSkoYykK</text>
+        <text encoding="base64">IyBUUkFJTl9ST1VORCA9IGludChzeXMuYXJndlszXSkK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">cHV0IC1yIC9ob21lL3NzL3dvcmtwbGFjZS9leHBlcmltZW50L2RhdGEvd2RfaHR0cHMvb3V0cHV0L3RvdGFsLwo=</text>
