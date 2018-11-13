@@ -140,7 +140,7 @@
         <mark key="^" line="3" column="0" />
         <mark key="." line="3" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/DeepTraffic/2.encrypted_traffic_classification/4.TrainAndTest/1d_cnn_25+3/encrypt_traffic_cnn_1d.py" timestamp="1542100384955">
+      <file name="$USER_HOME$/workplace/DeepTraffic/2.encrypted_traffic_classification/4.TrainAndTest/1d_cnn_25+3/encrypt_traffic_cnn_1d.py" timestamp="1542109620535">
         <mark key="[" line="21" column="0" />
         <mark key="^" line="21" column="0" />
       </file>
@@ -357,8 +357,10 @@
         <mark key="]" line="55" column="0" />
         <mark key="." line="55" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/array2mnist.py" timestamp="1542106719806">
-        <mark key="[" line="7" column="5" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/array2mnist.py" timestamp="1542109240821">
+        <mark key="[" line="14" column="14" />
+        <mark key="]" line="14" column="14" />
+        <mark key="." line="14" column="14" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/cnnOnly.py" timestamp="1542087831772">
         <mark key="[" line="41" column="40" />
@@ -380,7 +382,7 @@
         <mark key="." line="47" column="0" />
         <mark key="^" line="47" column="1" />
       </file>
-      <file name="/Dummy.txt" timestamp="1541988600048">
+      <file name="/Dummy.txt" timestamp="1542109688687">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/.conda/envs/shanshan/lib/python3.6/site-packages/tensorflow/python/estimator/canned/dnn_linear_combined.py" timestamp="1536726413760">
@@ -480,11 +482,11 @@
       <jump line="156" column="65" filename="$USER_HOME$/workplace/experiment/wd_https/flows2csv/tcp_stream.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">IyBUUkFJTl9ST1VORCA9IGludChzeXMuYXJndlszXSkK</text>
+      <register name="&quot;" type="4">
+        <text>raining-images</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>raining-images</text>
       </register>
       <register name="/" type="4">
         <text>content</text>
@@ -492,36 +494,36 @@
       <register name="0" type="2">
         <text encoding="base64">IyBUUkFJTl9ST1VORCA9IGludChzeXMuYXJndlszXSkK</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">cHV0IC1yIC9ob21lL3NzL3dvcmtwbGFjZS9leHBlcmltZW50L2RhdGEvd2RfaHR0cHMvb3V0cHV0L3RvdGFsLwo=</text>
+      <register name="1" type="4">
+        <text encoding="base64">ICAgIGVsc2U6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcignSW1hZ2UgZXhjZWVkcyBtYXhpbXVtIHNpemU6IDI1NngyNTYgcGl4ZWxzJyk7</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">cHV0IC1yIC9ob21lL3NzL3dvcmtwbGFjZS9leHBlcmltZW50L2RhdGEvd2RfaHR0cHMvcGFja2V0X2xlbmd0aC90b3RhbC8K</text>
+      <register name="2" type="4">
+        <text encoding="base64">ICBGaWxlTGlzdCA9IFtdCgoKICAgIHNodWZmbGUoRmlsZUxpc3QpICMgVXNlZnVsbCBmb3IgZnVydGhlciBzZWdtZW50aW5nIHRoZSB2YWxpZGF0aW9uIHNldAoKICAgIGZvciBmaWxlbmFtZSBpbiBGaWxlTGlzdDoKCiAgICAgICAgbGFiZWwgPSBpbnQoZmlsZW5hbWUuc3BsaXQoJy8nKVsyXSkKCiAgICAgICAgSW0gPSBJbWFnZS5vcGVuKGZpbGVuYW1lKQoKICAgICAgICBwaXhlbCA9IEltLmxvYWQoKQoKICAgICAgICB3aWR0aCwgaGVpZ2h0ID0gSW0uc2l6ZQoKICAgICAgICBmb3IgeCBpbiByYW5nZSgwLHdpZHRoKToKICAgICAgICAgICAgZm9yIHkgaW4gcmFuZ2UoMCxoZWlnaHQpOgogICAgICAgICAgICAgICAgZGF0YV9pbWFnZS5hcHBlbmQocGl4ZWxbeSx4XSkKCiAgICAgICAgZGF0YV9sYWJlbC5hcHBlbmQobGFiZWwpICMgbGFiZWxzIHN0YXJ0IChvbmUgdW5zaWduZWQgYnl0ZSBlYWNoKQ==</text>
       </register>
       <register name="3" type="4">
+        <text encoding="base64">ICAgIGZvciBkaXJuYW1lIGluIG9zLmxpc3RkaXIobmFtZVswXSlbMTpdOiAjIFsxOl0gRXhjbHVkZXMgLkRTX1N0b3JlIGZyb20gTWFjIE9TCiAgICAgICAgcGF0aCA9IG9zLnBhdGguam9pbihuYW1lWzBdLGRpcm5hbWUpCiAgICAgICAgZm9yIGZpbGVuYW1lIGluIG9zLmxpc3RkaXIocGF0aCk6CiAgICAgICAgICAgIGlmIGZpbGVuYW1lLmVuZHN3aXRoKCIucG5nIik6CiAgICAgICAgICAgICAgICBGaWxlTGlzdC5hcHBlbmQob3MucGF0aC5qb2luKG5hbWVbMF0sZGlybmFtZSxmaWxlbmFtZSkp</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">cHV0IC1yIC9ob21lL3NzL3dvcmtwbGFjZS9leHBlcmltZW50L2RhdGEvd2RfaHR0cHMvb3V0cHV0L3RvdGFsLwo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">cHV0IC1yIC9ob21lL3NzL3dvcmtwbGFjZS9leHBlcmltZW50L2RhdGEvd2RfaHR0cHMvcGFja2V0X2xlbmd0aC90b3RhbC8K</text>
+      </register>
+      <register name="6" type="4">
         <text>put -r /home/ss/workplace/experiment/data/wd_https/record_type/total/
 put -r /home/ss/workplace/experiment/data/wd_https/time_interval/total/</text>
       </register>
-      <register name="4" type="4">
+      <register name="7" type="4">
         <text>import numpy as np
 print(np.sort(all_train_index))
 print(np.sort(all_val_index))
 print(all.shape)</text>
       </register>
-      <register name="5" type="4">
+      <register name="8" type="4">
         <text encoding="base64">ICAgICAgICAgICAgICAgIAogICAgd2l0aCBvcGVuKCwnYScpYXMgZjoKICAgICAgICBmb3IgKGZsb3csaSkgaW4gemlwKGZsb3dzLnZhbHVlcygpLHJhbmdlKGxlbihmbG93cykpKToKICAgICAgICAgICAgIyDlj6rmnInplb/luqblpKfkuo4yMOeahOa1geaJjeS8muS/neeVmQogICAgICAgICAgICBpZiBmbG93LnBrdF9jb3VudD49MjA6</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">CgogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAKICAgIHdpdGggb3BlbigsJ2EnKWFzIGY6CiAgICAgICAgZm9yIChmbG93LGkpIGluIHppcChmbG93cy52YWx1ZXMoKSxyYW5nZShsZW4oZmxvd3MpKSk6CiAgICAgICAgICAgICMg5Y+q5pyJ6ZW/5bqm5aSn5LqOMjDnmoTmtYHmiY3kvJrkv53nlZkKICAgICAgICAgICAgaWYgZmxvdy5wa3RfY291bnQ+PTIwOg==</text>
-      </register>
-      <register name="7" type="4">
-        <text encoding="base64">ICAgIHdpdGggb3BlbigsJ2EnKWFzIGY6CiAgICAgICAgZm9yIChmbG93LGkpIGluIHppcChmbG93cy52YWx1ZXMoKSxyYW5nZShsZW4oZmxvd3MpKSk6CiAgICAgICAgICAgICMg5Y+q5pyJ6ZW/5bqm5aSn5LqOMjDnmoTmtYHmiY3kvJrkv53nlZkKICAgICAgICAgICAgaWYgZmxvdy5wa3RfY291bnQ+PTIwOgogICAgICAgICAgICAgICAg</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">ICAgIHdpdGggb3Blbihjb25maWcuSFRUUFNfQ09ORklHWyJyZWNvcmRfdHlwZV90b3RhbCJdK3BjYXBfZmlsZVs6LThdKydfcmVjb3JkX3R5cGUuY3N2JywnYScpYXMgZjoKICAgICAgICBmb3IgKGZsb3csaSkgaW4gemlwKGZsb3dzLnZhbHVlcygpLHJhbmdlKGxlbihmbG93cykpKToKICAgICAgICAgICAgIyDlj6rmnInplb/luqblpKfkuo4yMOeahOa1geaJjeS8muS/neeVmQogICAgICAgICAgICBpZiBmbG93LnBrdF9jb3VudD49MjA6CiAgICAgICAgICAgICAgICB0bXA9cGFkQXJyYXkoZmxvdy5yZWNvcmRfdHlwZSwyNTYpCiAgICAgICAgICAgICAgICB0bXA9c3RyKHRtcCkuc3RyaXAoJ1tdJykKICAgICAgICAgICAgICAgIGYud3JpdGUocGNhcF9maWxlWzotNV0rIl8iK3N0cihpKSsiLCIrdG1wKyJcbiIp</text>
-      </register>
       <register name="9" type="4">
-        <text encoding="base64">ICAgICAgICB3aXRoIG9wZW4oY29uZmlnLkhUVFBTX0NPTkZJR1sidG90YWxfcGF0aCJdK3NvZnR3YXJlKycuY3N2JywndysnKWFzIGY6CiAgICAgICAgICAgIGYud3JpdGUoJ2lkLCcrJywnLmpvaW4oYXR0cnMpKydcbicpCiAgICAgICAgd2l0aCBvcGVuKGNvbmZpZy5IVFRQU19DT05GSUdbInJlY29yZF90eXBlX3RvdGFsIl0rc29mdHdhcmUrJ19yZWNvcmRfdHlwZS5jc3YnLCd3KycpYXMgZjoKICAgICAgICAgICAgZi53cml0ZSgnLCcuam9pbihyZWNvcmRfdHlwZV9uYW1lcykrJ1xuJyk=</text>
+        <text encoding="base64">CgogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAKICAgIHdpdGggb3BlbigsJ2EnKWFzIGY6CiAgICAgICAgZm9yIChmbG93LGkpIGluIHppcChmbG93cy52YWx1ZXMoKSxyYW5nZShsZW4oZmxvd3MpKSk6CiAgICAgICAgICAgICMg5Y+q5pyJ6ZW/5bqm5aSn5LqOMjDnmoTmtYHmiY3kvJrkv53nlZkKICAgICAgICAgICAgaWYgZmxvdy5wa3RfY291bnQ+PTIwOg==</text>
       </register>
       <register name=":" type="4">
         <text>%s/SSL\/TLS/TLS Record</text>
