@@ -187,7 +187,6 @@
         <mark key="]" line="1" column="22" />
         <mark key="." line="1" column="22" />
       </file>
-      <file name="$USER_HOME$/.conda/envs/scapy/lib/python2.7/site-packages/scapy/layers/dot11.py" timestamp="1542023827764" />
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/payload_cut.py" timestamp="1539084362999">
         <mark key="[" line="17" column="27" />
       </file>
@@ -211,8 +210,11 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse_1.py" timestamp="1542022325303">
         <mark key="[" line="43" column="31" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse.py" timestamp="1542020601976">
-        <mark key="[" line="21" column="9" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse.py" timestamp="1542071708977">
+        <mark key="[" line="115" column="3" />
+        <mark key="]" line="114" column="84" />
+        <mark key="^" line="114" column="3" />
+        <mark key="." line="114" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wide_deep/python/lib/read_conf.py" timestamp="1536733926675">
         <mark key="[" line="162" column="46" />
@@ -223,8 +225,7 @@
       <file name="$USER_HOME$/workplace/experiment/https/test.py" timestamp="1536403486042">
         <mark key="[" line="11" column="0" />
       </file>
-      <file name="$USER_HOME$/.conda/envs/scapy/lib/python2.7/site-packages/scapy/packet.py" timestamp="1542025354397" />
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/pcapDetail.py" timestamp="1542026906185">
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/pcapDetail.py" timestamp="1542070974929">
         <mark key="[" line="18" column="6" />
         <mark key="]" line="18" column="34" />
         <mark key="." line="18" column="6" />
@@ -271,8 +272,9 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/classification/input_w.py" timestamp="1541741978364">
         <mark key="[" line="10" column="64" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/tcp_stream.py" timestamp="1541908358587">
-        <mark key="[" line="55" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/tcp_stream.py" timestamp="1542071990539">
+        <mark key="'" line="157" column="65" />
+        <mark key="[" line="84" column="21" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/classification/input.py" timestamp="1540189343762">
         <mark key="[" line="9" column="23" />
@@ -371,8 +373,8 @@
         <mark key="]" line="3" column="22" />
         <mark key="." line="3" column="22" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/config.py" timestamp="1541908703328">
-        <mark key="[" line="18" column="66" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/config.py" timestamp="1542071785710">
+        <mark key="[" line="38" column="0" />
         <mark key="]" line="40" column="10" />
         <mark key="." line="40" column="10" />
       </file>
@@ -454,10 +456,11 @@
       <jump line="1434" column="12" filename="$USER_HOME$/.local/lib/python3.6/site-packages/scapy_ssl_tls/ssl_tls.py" />
       <jump line="1436" column="7" filename="$USER_HOME$/.local/lib/python3.6/site-packages/scapy_ssl_tls/ssl_tls.py" />
       <jump line="1446" column="31" filename="$USER_HOME$/.local/lib/python3.6/site-packages/scapy_ssl_tls/ssl_tls.py" />
+      <jump line="156" column="65" filename="$USER_HOME$/workplace/experiment/wd_https/flows2csv/tcp_stream.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text />
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIGQ9Y29uZmlnLkhUVFBTX0NPTkZJR1sidGltZV9pbnRlcnZhbF90b3RhbCJdK3BjYXBfZmlsZVs6LThdKydfdGltZV9pbnRlcnZhbC5jc3YnCg==</text>
       </register>
       <register name="-" type="4">
         <text />
@@ -466,7 +469,7 @@
         <text>content</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">cm0gLXJmIC9ob21lL3NzL3dvcmtwbGFjZS9leHBlcmltZW50L2RhdGEvd2RfaHR0cHMvcGFja2V0X2xlbmd0aC90b3RhbC8qCg==</text>
+        <text encoding="base64">ICAgIGQ9Y29uZmlnLkhUVFBTX0NPTkZJR1sidGltZV9pbnRlcnZhbF90b3RhbCJdK3BjYXBfZmlsZVs6LThdKydfdGltZV9pbnRlcnZhbC5jc3YnCg==</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ICAgICAgICAgICAgICAgIAogICAgd2l0aCBvcGVuKCwnYScpYXMgZjoKICAgICAgICBmb3IgKGZsb3csaSkgaW4gemlwKGZsb3dzLnZhbHVlcygpLHJhbmdlKGxlbihmbG93cykpKToKICAgICAgICAgICAgIyDlj6rmnInplb/luqblpKfkuo4yMOeahOa1geaJjeS8muS/neeVmQogICAgICAgICAgICBpZiBmbG93LnBrdF9jb3VudD49MjA6</text>
