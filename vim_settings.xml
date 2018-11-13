@@ -102,7 +102,7 @@
       <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/DomainName" timestamp="1539934715936">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/file_concat.py" timestamp="1542079926305">
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/file_concat.py" timestamp="1542085910534">
         <mark key="[" line="124" column="0" />
         <mark key="]" line="124" column="0" />
         <mark key="." line="124" column="0" />
@@ -347,6 +347,12 @@
         <mark key="]" line="55" column="0" />
         <mark key="." line="55" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/cnnOnly.py" timestamp="1542085492961">
+        <mark key="[" line="79" column="13" />
+        <mark key="]" line="79" column="80" />
+        <mark key="^" line="78" column="12" />
+        <mark key="." line="79" column="0" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/test.py" timestamp="1541656235660">
         <mark key="[" line="78" column="0" />
       </file>
@@ -461,11 +467,8 @@
       <jump line="156" column="65" filename="$USER_HOME$/workplace/experiment/wd_https/flows2csv/tcp_stream.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>import numpy as np
-print(np.sort(all_train_index))
-print(np.sort(all_val_index))
-print(all.shape)</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">YyA9IERlbnNlKDI1NiwgYWN0aXZhdGlvbj0ncmVsdScsIGtlcm5lbF9yZWd1bGFyaXplcj1sMV9sMihsMT0wLjAxLCBsMj0wLjAxKSkoYykK</text>
       </register>
       <register name="-" type="4">
         <text />
@@ -474,7 +477,7 @@ print(all.shape)</text>
         <text>content</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGQ9Y29uZmlnLkhUVFBTX0NPTkZJR1sidGltZV9pbnRlcnZhbF90b3RhbCJdK3BjYXBfZmlsZVs6LThdKydfdGltZV9pbnRlcnZhbC5jc3YnCg==</text>
+        <text encoding="base64">YyA9IERlbnNlKDI1NiwgYWN0aXZhdGlvbj0ncmVsdScsIGtlcm5lbF9yZWd1bGFyaXplcj1sMV9sMihsMT0wLjAxLCBsMj0wLjAxKSkoYykK</text>
       </register>
       <register name="1" type="4">
         <text>import numpy as np
