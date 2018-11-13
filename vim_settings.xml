@@ -37,8 +37,8 @@
         <mark key="]" line="11" column="6" />
         <mark key="." line="11" column="6" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/get_data.sh" timestamp="1542096203307">
-        <mark key="[" line="7" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/get_data.sh" timestamp="1542096769747">
+        <mark key="[" line="8" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/stream.py" timestamp="1539681336602">
         <mark key="[" line="0" column="0" />
@@ -109,6 +109,11 @@
         <mark key="[" line="124" column="0" />
         <mark key="]" line="124" column="0" />
         <mark key="." line="124" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/put_data.sh" timestamp="1542097008929">
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="3" column="0" />
+        <mark key="." line="3" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/code/input.py" timestamp="1537930554209">
         <mark key="[" line="0" column="0" />
@@ -472,7 +477,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">YyA9IERlbnNlKDI1NiwgYWN0aXZhdGlvbj0ncmVsdScsIGtlcm5lbF9yZWd1bGFyaXplcj1sMV9sMihsMT0wLjAxLCBsMj0wLjAxKSkoYykK</text>
+        <text encoding="base64">cHV0IC1yIC9ob21lL3NzL3dvcmtwbGFjZS9leHBlcmltZW50L2RhdGEvd2RfaHR0cHMvb3V0cHV0L3RvdGFsLwo=</text>
       </register>
       <register name="-" type="4">
         <text />
@@ -483,68 +488,36 @@
       <register name="0" type="2">
         <text encoding="base64">YyA9IERlbnNlKDI1NiwgYWN0aXZhdGlvbj0ncmVsdScsIGtlcm5lbF9yZWd1bGFyaXplcj1sMV9sMihsMT0wLjAxLCBsMj0wLjAxKSkoYykK</text>
       </register>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">cHV0IC1yIC9ob21lL3NzL3dvcmtwbGFjZS9leHBlcmltZW50L2RhdGEvd2RfaHR0cHMvb3V0cHV0L3RvdGFsLwo=</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">cHV0IC1yIC9ob21lL3NzL3dvcmtwbGFjZS9leHBlcmltZW50L2RhdGEvd2RfaHR0cHMvcGFja2V0X2xlbmd0aC90b3RhbC8K</text>
+      </register>
+      <register name="3" type="4">
+        <text>put -r /home/ss/workplace/experiment/data/wd_https/record_type/total/
+put -r /home/ss/workplace/experiment/data/wd_https/time_interval/total/</text>
+      </register>
+      <register name="4" type="4">
         <text>import numpy as np
 print(np.sort(all_train_index))
 print(np.sort(all_val_index))
 print(all.shape)</text>
       </register>
-      <register name="2" type="4">
+      <register name="5" type="4">
         <text encoding="base64">ICAgICAgICAgICAgICAgIAogICAgd2l0aCBvcGVuKCwnYScpYXMgZjoKICAgICAgICBmb3IgKGZsb3csaSkgaW4gemlwKGZsb3dzLnZhbHVlcygpLHJhbmdlKGxlbihmbG93cykpKToKICAgICAgICAgICAgIyDlj6rmnInplb/luqblpKfkuo4yMOeahOa1geaJjeS8muS/neeVmQogICAgICAgICAgICBpZiBmbG93LnBrdF9jb3VudD49MjA6</text>
       </register>
-      <register name="3" type="4">
+      <register name="6" type="4">
         <text encoding="base64">CgogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAKICAgIHdpdGggb3BlbigsJ2EnKWFzIGY6CiAgICAgICAgZm9yIChmbG93LGkpIGluIHppcChmbG93cy52YWx1ZXMoKSxyYW5nZShsZW4oZmxvd3MpKSk6CiAgICAgICAgICAgICMg5Y+q5pyJ6ZW/5bqm5aSn5LqOMjDnmoTmtYHmiY3kvJrkv53nlZkKICAgICAgICAgICAgaWYgZmxvdy5wa3RfY291bnQ+PTIwOg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="7" type="4">
         <text encoding="base64">ICAgIHdpdGggb3BlbigsJ2EnKWFzIGY6CiAgICAgICAgZm9yIChmbG93LGkpIGluIHppcChmbG93cy52YWx1ZXMoKSxyYW5nZShsZW4oZmxvd3MpKSk6CiAgICAgICAgICAgICMg5Y+q5pyJ6ZW/5bqm5aSn5LqOMjDnmoTmtYHmiY3kvJrkv53nlZkKICAgICAgICAgICAgaWYgZmxvdy5wa3RfY291bnQ+PTIwOgogICAgICAgICAgICAgICAg</text>
       </register>
-      <register name="5" type="4">
+      <register name="8" type="4">
         <text encoding="base64">ICAgIHdpdGggb3Blbihjb25maWcuSFRUUFNfQ09ORklHWyJyZWNvcmRfdHlwZV90b3RhbCJdK3BjYXBfZmlsZVs6LThdKydfcmVjb3JkX3R5cGUuY3N2JywnYScpYXMgZjoKICAgICAgICBmb3IgKGZsb3csaSkgaW4gemlwKGZsb3dzLnZhbHVlcygpLHJhbmdlKGxlbihmbG93cykpKToKICAgICAgICAgICAgIyDlj6rmnInplb/luqblpKfkuo4yMOeahOa1geaJjeS8muS/neeVmQogICAgICAgICAgICBpZiBmbG93LnBrdF9jb3VudD49MjA6CiAgICAgICAgICAgICAgICB0bXA9cGFkQXJyYXkoZmxvdy5yZWNvcmRfdHlwZSwyNTYpCiAgICAgICAgICAgICAgICB0bXA9c3RyKHRtcCkuc3RyaXAoJ1tdJykKICAgICAgICAgICAgICAgIGYud3JpdGUocGNhcF9maWxlWzotNV0rIl8iK3N0cihpKSsiLCIrdG1wKyJcbiIp</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">ICAgICAgICB3aXRoIG9wZW4oY29uZmlnLkhUVFBTX0NPTkZJR1sidG90YWxfcGF0aCJdK3NvZnR3YXJlKycuY3N2JywndysnKWFzIGY6CiAgICAgICAgICAgIGYud3JpdGUoJ2lkLCcrJywnLmpvaW4oYXR0cnMpKydcbicpCiAgICAgICAgd2l0aCBvcGVuKGNvbmZpZy5IVFRQU19DT05GSUdbInJlY29yZF90eXBlX3RvdGFsIl0rc29mdHdhcmUrJ19yZWNvcmRfdHlwZS5jc3YnLCd3KycpYXMgZjoKICAgICAgICAgICAgZi53cml0ZSgnLCcuam9pbihyZWNvcmRfdHlwZV9uYW1lcykrJ1xuJyk=</text>
-      </register>
-      <register name="7" type="4">
-        <text encoding="base64">ICAgd2l0aCBvcGVuKGNvbmZpZy5IVFRQU19DT05GSUdbInRvdGFsX3BhdGgiXStwY2FwX2ZpbGVbOi04XSsnLmNzdicsJ2EnKWFzIGY6CiAgICAgICAgIyBmLndyaXRlKCdpZCwnKycsJy5qb2luKGF0dHJzKSsnXG4nKQogICAgICAgIGZvciAoZmxvdyxpKSBpbiB6aXAoZmxvd3MudmFsdWVzKCkscmFuZ2UobGVuKGZsb3dzKSkpOgogICAgICAgICAgICAjIOWPquaciemVv+W6puWkp+S6jjIw55qE5rWB5omN5Lya5L+d55WZCiAgICAgICAgICAgIGlmIGZsb3cucGt0X2NvdW50Pj0yMDoKICAgICAgICAgICAgICAgIHRtcD0oIiVzLCVzLCVzLCVzLCVzLCVzLCVzLCUuM2YsJXMsJXMsJXMsJXMsJXMsJXMsJXMsJXMsJXMsJXMsJXMsJXMsJXMsJXMsJXMsJXMsJXMsJXMiCiAgICAgICAgICAgICAgICAgICAgICUocHJvdG9fbmFtZShmbG93LnNwb3J0LGZsb3cuZHBvcnQpLAogICAgICAgICAgICAgICAgICAgICAgIGZsb3cuc3JjLAogICAgICAgICAgICAgICAgICAgICAgIGZsb3cuc3BvcnQsCiAgICAgICAgICAgICAgICAgICAgICAgZmxvdy5kc3QsCiAgICAgICAgICAgICAgICAgICAgICAgZmxvdy5kcG9ydCwKICAgICAgICAgICAgICAgICAgICAgICBmbG93LnByb3RvLAogICAgICAgICAgICAgICAgICAgICAgIHN0cihzZXQoZmxvdy5leHRlbnNpb25fc2VydmVybmFtZV9pbmRpY2F0aW9uKSkuc3RyaXAoInNldChbXSkiKS5zdHJpcCgiLCIpLAogICAgICAgICAgICAgICAgICAgICAgIGZsb3cucHVzaF9mbGFnX3JhdGlvKCksCiAgICAgICAgICAgICAgICAgICAgICAgZmxvdy5hdnJnX2xlbigpLAogICAgICAgICAgICAgICAgICAgICAgIGZsb3cuYXZyZ19wYXlsb2FkX2xlbigpLAogICAgICAgICAgICAgICAgICAgICAgIGZsb3cucGt0X2NvdW50LAogICAgICAgICAgICAgICAgICAgICAgIGZsb3cuYXZyZ19pbnRlcl9hcnJpdmFsX3RpbWUoKSwKICAgICAgICAgICAgICAgICAgICAgICBmbG93LmtvbG1vZ29yb3YoKSwKICAgICAgICAgICAgICAgICAgICAgICBmbG93LnNoYW5ub24oKSwKICAgICAgICAgICAgICAgICAgICAgICBmbG93Lm1heF9sZW4oKSwKICAgICAgICAgICAgICAgICAgICAgICBmbG93Lm1pbl9sZW4oKSwKICAgICAgICAgICAgICAgICAgICAgICBmbG93LnN0ZF9sZW4oKSwKICAgICAgICAgICAgICAgICAgICAgICAjbGVuKGZsb3cuZXh0ZW5zaW9uX3NpZ25hdHVyZV9hbGdvcml0aG1zKSwKICAgICAgICAgICAgICAgICAgICAgICBsZW4oZmxvdy5jaXBoZXJfc3VpdGVzKSwKICAgICAgICAgICAgICAgICAgICAgICBmbG93LmF2cmdfd2luZG93KCksCiAgICAgICAgICAgICAgICAgICAgICAgZmxvdy5tYXhfd2luZG93KCksCiAgICAgICAgICAgICAgICAgICAgICAgZmxvdy5taW5fd2luZG93KCksCiAgICAgICAgICAgICAgICAgICAgICAgZmxvdy52YXJfd2luZG93KCksCiAgICAgICAgICAgICAgICAgICAgICAgbWF4KGZsb3cuc2Vzc2lvbl9pZF9sZW5ndGgpLAogICAgICAgICAgICAgICAgICAgICAgIGZsb3cuYXZyZ19pcF90dGwoKSwKICAgICAgICAgICAgICAgICAgICAgICBmbG93Lm1heF9pcF90dGwoKSwKICAgICAgICAgICAgICAgICAgICAgICBmbG93Lm1pbl9pcF90dGwoKQogICAgICAgICAgICAgICAgICAgICAgICkpCiAgICAgICAgICAgICAgICBmLndyaXRlKHBjYXBfZmlsZVs6LTVdKyJfIitzdHIoaSkrIiwiK3RtcCsiXG4iKQogICAgICAgICAgICAgICAgcHJpbnQgKCJwYWNrZXQgbnVtYmVyOiVkIiVpKQogICAgICAgIHByaW50ICgiZmluaXNoICVzIiVwY2FwX2ZpbGUpCg==</text>
-      </register>
-      <register name="8" type="4">
-        <text>attrs = ['protocol_name',
-         'src',
-         'sport',
-         'dst',
-         'dport',
-         'proto',
-         'extension_servername_indication',
-         'push_flag_ratio',
-         'average_len',
-         'average_payload_len',
-         'pkt_count',
-         'flow_average_inter_arrival_time',
-         'kolmogorov',
-         'shannon',
-         'max_len',
-         'min_len',
-         'std_len',
-         #'len_extension_signature_algorithms',
-         'len_cipher_suites',
-         'avrg_tcp_window',
-         'max_tcp_window',
-         'min_tcp_window',
-         'var_tcp_window',
-         'session_id_length',
-         'avrg_ip_ttl',
-         'max_ip_ttl',
-         'min_ip_ttl'
-         ]</text>
-      </register>
       <register name="9" type="4">
-        <text>&quot;&quot;&quot;
-@author: TianMao
-@contact: tianmao1994@yahoo.com
-@file: sniFilter.py
-@time: 18-10-29 下午7:50
-@desc: 使用多线程来解包，每一种软件处理开启一个线程
-&quot;&quot;&quot;</text>
+        <text encoding="base64">ICAgICAgICB3aXRoIG9wZW4oY29uZmlnLkhUVFBTX0NPTkZJR1sidG90YWxfcGF0aCJdK3NvZnR3YXJlKycuY3N2JywndysnKWFzIGY6CiAgICAgICAgICAgIGYud3JpdGUoJ2lkLCcrJywnLmpvaW4oYXR0cnMpKydcbicpCiAgICAgICAgd2l0aCBvcGVuKGNvbmZpZy5IVFRQU19DT05GSUdbInJlY29yZF90eXBlX3RvdGFsIl0rc29mdHdhcmUrJ19yZWNvcmRfdHlwZS5jc3YnLCd3KycpYXMgZjoKICAgICAgICAgICAgZi53cml0ZSgnLCcuam9pbihyZWNvcmRfdHlwZV9uYW1lcykrJ1xuJyk=</text>
       </register>
       <register name=":" type="4">
         <text>%s/SSL\/TLS/TLS Record</text>
