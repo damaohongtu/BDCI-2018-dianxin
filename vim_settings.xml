@@ -11,6 +11,9 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/lengthOverview2.py" timestamp="1541927474279">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/ubyteOverview.py" timestamp="1542161609155">
+        <mark key="[" line="8" column="2" />
+      </file>
       <file name="/a.dummy" timestamp="1540200444088">
         <mark key="[" line="0" column="0" />
       </file>
@@ -233,7 +236,6 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/payload2/Android_shoujibaidu_2018091901.pcap_4.txt" timestamp="1539088658626">
         <mark key="[" line="0" column="3" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/reverseDNS.sh" timestamp="1542096103369" />
       <file name="$USER_HOME$/workplace/experiment/https/test.py" timestamp="1536403486042">
         <mark key="[" line="11" column="0" />
       </file>
@@ -325,6 +327,9 @@
       <file name="$USER_HOME$/workplace/experiment/https/https_data/android_auto_run.py" timestamp="1536819794266">
         <mark key="[" line="32" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/encrypt_traffic_cnn_1d.py" timestamp="1542161306173">
+        <mark key="[" line="17" column="0" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/https/https_data/pcap_parse.py" timestamp="1536807438495">
         <mark key="[" line="0" column="46" />
       </file>
@@ -346,8 +351,8 @@
         <mark key="]" line="119" column="0" />
         <mark key="." line="119" column="0" />
       </file>
-      <file name="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py" timestamp="1542110431041">
-        <mark key="[" line="85" column="51" />
+      <file name="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py" timestamp="1542110696861">
+        <mark key="[" line="236" column="39" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/XGBoost.py" timestamp="1537964263928">
         <mark key="[" line="3" column="0" />
@@ -357,10 +362,10 @@
         <mark key="]" line="55" column="0" />
         <mark key="." line="55" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/array2mnist.py" timestamp="1542109240821">
-        <mark key="[" line="14" column="14" />
-        <mark key="]" line="14" column="14" />
-        <mark key="." line="14" column="14" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/array2mnist.py" timestamp="1542160782792">
+        <mark key="[" line="15" column="10" />
+        <mark key="]" line="15" column="10" />
+        <mark key="." line="15" column="10" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/cnnOnly.py" timestamp="1542087831772">
         <mark key="[" line="41" column="40" />
@@ -396,8 +401,8 @@
         <mark key="]" line="3" column="22" />
         <mark key="." line="3" column="22" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/config.py" timestamp="1542080061341">
-        <mark key="[" line="38" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/config.py" timestamp="1542160934896">
+        <mark key="[" line="48" column="4" />
         <mark key="]" line="44" column="10" />
         <mark key="." line="44" column="10" />
       </file>
@@ -483,10 +488,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>raining-images</text>
+        <text>'./packet_payload_train.csv'</text>
       </register>
       <register name="-" type="4">
-        <text>raining-images</text>
+        <text>'./packet_payload_train.csv'</text>
       </register>
       <register name="/" type="4">
         <text>content</text>
