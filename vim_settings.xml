@@ -11,8 +11,11 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/lengthOverview2.py" timestamp="1541927474279">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/ubyteOverview.py" timestamp="1542162748143">
-        <mark key="[" line="8" column="2" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/ubyteOverview.py" timestamp="1542165757238">
+        <mark key="[" line="14" column="0" />
+        <mark key="]" line="14" column="85" />
+        <mark key="^" line="13" column="14" />
+        <mark key="." line="14" column="0" />
       </file>
       <file name="/a.dummy" timestamp="1540200444088">
         <mark key="[" line="0" column="0" />
@@ -327,8 +330,8 @@
       <file name="$USER_HOME$/workplace/experiment/https/https_data/android_auto_run.py" timestamp="1536819794266">
         <mark key="[" line="32" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/encrypt_traffic_cnn_1d.py" timestamp="1542162104886">
-        <mark key="[" line="17" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/encrypt_traffic_cnn_1d.py" timestamp="1542165191363">
+        <mark key="[" line="25" column="12" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https/https_data/pcap_parse.py" timestamp="1536807438495">
         <mark key="[" line="0" column="46" />
@@ -489,8 +492,8 @@
       <jump line="271" column="4" filename="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>'./packet_payload_train.csv'</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">dHJhaW4sdmFsLHRlc3QgPSBpbnB1dF9kYXRhLnJlYWRfZGF0YV9zZXRzKGNvbmZpZy5IVFRQU19DT05GSUdbInVieXRlIl0sb25lX2hvdD1UcnVlKQo=</text>
       </register>
       <register name="-" type="4">
         <text>'./packet_payload_train.csv'</text>
@@ -499,7 +502,7 @@
         <text>7</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">IyBUUkFJTl9ST1VORCA9IGludChzeXMuYXJndlszXSkK</text>
+        <text encoding="base64">dHJhaW4sdmFsLHRlc3QgPSBpbnB1dF9kYXRhLnJlYWRfZGF0YV9zZXRzKGNvbmZpZy5IVFRQU19DT05GSUdbInVieXRlIl0sb25lX2hvdD1UcnVlKQo=</text>
       </register>
       <register name="1" type="4">
         <text encoding="base64">ICAgIGVsc2U6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcignSW1hZ2UgZXhjZWVkcyBtYXhpbXVtIHNpemU6IDI1NngyNTYgcGl4ZWxzJyk7</text>
