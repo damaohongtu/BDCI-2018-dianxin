@@ -207,6 +207,13 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/payload_cut.py" timestamp="1539084362999">
         <mark key="[" line="17" column="27" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/mnist.py" timestamp="1542273580260">
+        <mark key="'" line="73" column="4" />
+        <mark key="[" line="8" column="2" />
+        <mark key="]" line="73" column="16" />
+        <mark key="^" line="73" column="16" />
+        <mark key="." line="73" column="16" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/https_project/train.py" timestamp="1536301340898">
         <mark key="[" line="16" column="2" />
       </file>
@@ -357,9 +364,9 @@
         <mark key="]" line="119" column="0" />
         <mark key="." line="119" column="0" />
       </file>
-      <file name="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py" timestamp="1542273001147">
+      <file name="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py" timestamp="1542273292987">
         <mark key="'" line="79" column="48" />
-        <mark key="[" line="85" column="51" />
+        <mark key="[" line="4" column="3" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/XGBoost.py" timestamp="1537964263928">
         <mark key="[" line="3" column="0" />
@@ -500,6 +507,9 @@
       <jump line="76" column="13" filename="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py" />
       <jump line="78" column="48" filename="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py" />
       <jump line="79" column="48" filename="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py" />
+      <jump line="255" column="23" filename="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/mnist.py" />
+      <jump line="265" column="22" filename="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/mnist.py" />
+      <jump line="73" column="4" filename="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/mnist.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -509,7 +519,7 @@
         <text>from keras.layers import BatchNormlization</text>
       </register>
       <register name="/" type="4">
-        <text>cla</text>
+        <text>extract_labels</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">dHJhaW4sdmFsLHRlc3QgPSBpbnB1dF9kYXRhLnJlYWRfZGF0YV9zZXRzKGNvbmZpZy5IVFRQU19DT05GSUdbInVieXRlIl0sb25lX2hvdD1UcnVlKQo=</text>
@@ -552,9 +562,9 @@ y</text>
       </register>
     </registers>
     <search>
-      <last-search>cla</last-search>
+      <last-search>extract_labels</last-search>
       <last-offset />
-      <last-pattern>cla</last-pattern>
+      <last-pattern>extract_labels</last-pattern>
       <last-replace>TLS Record</last-replace>
       <last-substitute>SSL\/TLS</last-substitute>
       <last-dir>1</last-dir>
@@ -575,6 +585,7 @@ y</text>
         <entry>content</entry>
         <entry>7</entry>
         <entry>cla</entry>
+        <entry>extract_labels</entry>
       </history-search>
       <history-cmd>
         <entry>/</entry>
