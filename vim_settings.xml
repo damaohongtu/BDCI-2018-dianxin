@@ -330,8 +330,8 @@
       <file name="$USER_HOME$/workplace/experiment/https/https_data/android_auto_run.py" timestamp="1536819794266">
         <mark key="[" line="32" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/encrypt_traffic_cnn_1d.py" timestamp="1542261153730">
-        <mark key="[" line="25" column="12" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/encrypt_traffic_cnn_1d.py" timestamp="1542261730670">
+        <mark key="[" line="32" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https/https_data/pcap_parse.py" timestamp="1536807438495">
         <mark key="[" line="0" column="46" />
@@ -354,9 +354,9 @@
         <mark key="]" line="119" column="0" />
         <mark key="." line="119" column="0" />
       </file>
-      <file name="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py" timestamp="1542164759838">
-        <mark key="'" line="271" column="4" />
-        <mark key="[" line="85" column="49" />
+      <file name="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py" timestamp="1542267315026">
+        <mark key="'" line="79" column="48" />
+        <mark key="[" line="85" column="51" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/XGBoost.py" timestamp="1537964263928">
         <mark key="[" line="3" column="0" />
@@ -380,6 +380,9 @@
       <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/test.py" timestamp="1541656235660">
         <mark key="[" line="78" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/out.txt" timestamp="1542263120223">
+        <mark key="[" line="0" column="1" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/classification_w/lgb.py" timestamp="1540372929963">
         <mark key="[" line="45" column="17" />
         <mark key="]" line="45" column="17" />
@@ -391,7 +394,7 @@
         <mark key="." line="47" column="0" />
         <mark key="^" line="47" column="1" />
       </file>
-      <file name="/Dummy.txt" timestamp="1542261159026">
+      <file name="/Dummy.txt" timestamp="1542267380156">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/.conda/envs/shanshan/lib/python3.6/site-packages/tensorflow/python/estimator/canned/dnn_linear_combined.py" timestamp="1536726413760">
@@ -490,59 +493,64 @@
       <jump line="1446" column="31" filename="$USER_HOME$/.local/lib/python3.6/site-packages/scapy_ssl_tls/ssl_tls.py" />
       <jump line="156" column="65" filename="$USER_HOME$/workplace/experiment/wd_https/flows2csv/tcp_stream.py" />
       <jump line="271" column="4" filename="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py" />
+      <jump line="141" column="6" filename="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py" />
+      <jump line="75" column="39" filename="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py" />
+      <jump line="76" column="13" filename="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py" />
+      <jump line="78" column="48" filename="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py" />
+      <jump line="79" column="48" filename="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">dHJhaW4sdmFsLHRlc3QgPSBpbnB1dF9kYXRhLnJlYWRfZGF0YV9zZXRzKGNvbmZpZy5IVFRQU19DT05GSUdbInVieXRlIl0sb25lX2hvdD1UcnVlKQo=</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">CjIwMTgtMTEtMTQgMTQ6MjQ6MjMKREFUQV9ESVI6IC4uLy4uL2RhdGEvd2RfaHR0cHMvdWJ5dGUvCjAsIE5vdnBuLCAwLjM5MTMwNDM0NzgyNjA4NywgMC40ODIxNDI4NTcxNDI4NTcxNQoxLCBWcG4sIDAuNTc5NzEwMTQ0OTI3NTM2MywgMC40ODc4MDQ4NzgwNDg3ODA1ClRvdGFsIGFjY3VyYWN5OiAwLjQ4NTUwNzI1CgoKMjAxOC0xMS0xNSAxMzo1MTo1NgpEQVRBX0RJUjogLi4vLi4vZGF0YS93ZF9odHRwcy91Ynl0ZS8KMCwgTm92cG4sIDAuMzkxMzA0MzQ3ODI2MDg3LCAwLjQ4MjE0Mjg1NzE0Mjg1NzE1CjEsIFZwbiwgMC41Nzk3MTAxNDQ5Mjc1MzYzLCAwLjQ4NzgwNDg3ODA0ODc4MDUKVG90YWwgYWNjdXJhY3k6IDAuNDg1NTA3MjUK</text>
       </register>
       <register name="-" type="4">
         <text>'./packet_payload_train.csv'</text>
       </register>
       <register name="/" type="4">
-        <text>7</text>
+        <text>cla</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">dHJhaW4sdmFsLHRlc3QgPSBpbnB1dF9kYXRhLnJlYWRfZGF0YV9zZXRzKGNvbmZpZy5IVFRQU19DT05GSUdbInVieXRlIl0sb25lX2hvdD1UcnVlKQo=</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">ICAgIGVsc2U6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcignSW1hZ2UgZXhjZWVkcyBtYXhpbXVtIHNpemU6IDI1NngyNTYgcGl4ZWxzJyk7</text>
+        <text encoding="base64">CjIwMTgtMTEtMTQgMTQ6MjQ6MjMKREFUQV9ESVI6IC4uLy4uL2RhdGEvd2RfaHR0cHMvdWJ5dGUvCjAsIE5vdnBuLCAwLjM5MTMwNDM0NzgyNjA4NywgMC40ODIxNDI4NTcxNDI4NTcxNQoxLCBWcG4sIDAuNTc5NzEwMTQ0OTI3NTM2MywgMC40ODc4MDQ4NzgwNDg3ODA1ClRvdGFsIGFjY3VyYWN5OiAwLjQ4NTUwNzI1CgoKMjAxOC0xMS0xNSAxMzo1MTo1NgpEQVRBX0RJUjogLi4vLi4vZGF0YS93ZF9odHRwcy91Ynl0ZS8KMCwgTm92cG4sIDAuMzkxMzA0MzQ3ODI2MDg3LCAwLjQ4MjE0Mjg1NzE0Mjg1NzE1CjEsIFZwbiwgMC41Nzk3MTAxNDQ5Mjc1MzYzLCAwLjQ4NzgwNDg3ODA0ODc4MDUKVG90YWwgYWNjdXJhY3k6IDAuNDg1NTA3MjUK</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">ICBGaWxlTGlzdCA9IFtdCgoKICAgIHNodWZmbGUoRmlsZUxpc3QpICMgVXNlZnVsbCBmb3IgZnVydGhlciBzZWdtZW50aW5nIHRoZSB2YWxpZGF0aW9uIHNldAoKICAgIGZvciBmaWxlbmFtZSBpbiBGaWxlTGlzdDoKCiAgICAgICAgbGFiZWwgPSBpbnQoZmlsZW5hbWUuc3BsaXQoJy8nKVsyXSkKCiAgICAgICAgSW0gPSBJbWFnZS5vcGVuKGZpbGVuYW1lKQoKICAgICAgICBwaXhlbCA9IEltLmxvYWQoKQoKICAgICAgICB3aWR0aCwgaGVpZ2h0ID0gSW0uc2l6ZQoKICAgICAgICBmb3IgeCBpbiByYW5nZSgwLHdpZHRoKToKICAgICAgICAgICAgZm9yIHkgaW4gcmFuZ2UoMCxoZWlnaHQpOgogICAgICAgICAgICAgICAgZGF0YV9pbWFnZS5hcHBlbmQocGl4ZWxbeSx4XSkKCiAgICAgICAgZGF0YV9sYWJlbC5hcHBlbmQobGFiZWwpICMgbGFiZWxzIHN0YXJ0IChvbmUgdW5zaWduZWQgYnl0ZSBlYWNoKQ==</text>
+        <text encoding="base64">ICAgIGVsc2U6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcignSW1hZ2UgZXhjZWVkcyBtYXhpbXVtIHNpemU6IDI1NngyNTYgcGl4ZWxzJyk7</text>
       </register>
       <register name="3" type="4">
+        <text encoding="base64">ICBGaWxlTGlzdCA9IFtdCgoKICAgIHNodWZmbGUoRmlsZUxpc3QpICMgVXNlZnVsbCBmb3IgZnVydGhlciBzZWdtZW50aW5nIHRoZSB2YWxpZGF0aW9uIHNldAoKICAgIGZvciBmaWxlbmFtZSBpbiBGaWxlTGlzdDoKCiAgICAgICAgbGFiZWwgPSBpbnQoZmlsZW5hbWUuc3BsaXQoJy8nKVsyXSkKCiAgICAgICAgSW0gPSBJbWFnZS5vcGVuKGZpbGVuYW1lKQoKICAgICAgICBwaXhlbCA9IEltLmxvYWQoKQoKICAgICAgICB3aWR0aCwgaGVpZ2h0ID0gSW0uc2l6ZQoKICAgICAgICBmb3IgeCBpbiByYW5nZSgwLHdpZHRoKToKICAgICAgICAgICAgZm9yIHkgaW4gcmFuZ2UoMCxoZWlnaHQpOgogICAgICAgICAgICAgICAgZGF0YV9pbWFnZS5hcHBlbmQocGl4ZWxbeSx4XSkKCiAgICAgICAgZGF0YV9sYWJlbC5hcHBlbmQobGFiZWwpICMgbGFiZWxzIHN0YXJ0IChvbmUgdW5zaWduZWQgYnl0ZSBlYWNoKQ==</text>
+      </register>
+      <register name="4" type="4">
         <text encoding="base64">ICAgIGZvciBkaXJuYW1lIGluIG9zLmxpc3RkaXIobmFtZVswXSlbMTpdOiAjIFsxOl0gRXhjbHVkZXMgLkRTX1N0b3JlIGZyb20gTWFjIE9TCiAgICAgICAgcGF0aCA9IG9zLnBhdGguam9pbihuYW1lWzBdLGRpcm5hbWUpCiAgICAgICAgZm9yIGZpbGVuYW1lIGluIG9zLmxpc3RkaXIocGF0aCk6CiAgICAgICAgICAgIGlmIGZpbGVuYW1lLmVuZHN3aXRoKCIucG5nIik6CiAgICAgICAgICAgICAgICBGaWxlTGlzdC5hcHBlbmQob3MucGF0aC5qb2luKG5hbWVbMF0sZGlybmFtZSxmaWxlbmFtZSkp</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">cHV0IC1yIC9ob21lL3NzL3dvcmtwbGFjZS9leHBlcmltZW50L2RhdGEvd2RfaHR0cHMvb3V0cHV0L3RvdGFsLwo=</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">cHV0IC1yIC9ob21lL3NzL3dvcmtwbGFjZS9leHBlcmltZW50L2RhdGEvd2RfaHR0cHMvcGFja2V0X2xlbmd0aC90b3RhbC8K</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>put -r /home/ss/workplace/experiment/data/wd_https/record_type/total/
 put -r /home/ss/workplace/experiment/data/wd_https/time_interval/total/</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>import numpy as np
 print(np.sort(all_train_index))
 print(np.sort(all_val_index))
 print(all.shape)</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAogICAgd2l0aCBvcGVuKCwnYScpYXMgZjoKICAgICAgICBmb3IgKGZsb3csaSkgaW4gemlwKGZsb3dzLnZhbHVlcygpLHJhbmdlKGxlbihmbG93cykpKToKICAgICAgICAgICAgIyDlj6rmnInplb/luqblpKfkuo4yMOeahOa1geaJjeS8muS/neeVmQogICAgICAgICAgICBpZiBmbG93LnBrdF9jb3VudD49MjA6</text>
-      </register>
       <register name="9" type="4">
-        <text encoding="base64">CgogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAKICAgIHdpdGggb3BlbigsJ2EnKWFzIGY6CiAgICAgICAgZm9yIChmbG93LGkpIGluIHppcChmbG93cy52YWx1ZXMoKSxyYW5nZShsZW4oZmxvd3MpKSk6CiAgICAgICAgICAgICMg5Y+q5pyJ6ZW/5bqm5aSn5LqOMjDnmoTmtYHmiY3kvJrkv53nlZkKICAgICAgICAgICAgaWYgZmxvdy5wa3RfY291bnQ+PTIwOg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAogICAgd2l0aCBvcGVuKCwnYScpYXMgZjoKICAgICAgICBmb3IgKGZsb3csaSkgaW4gemlwKGZsb3dzLnZhbHVlcygpLHJhbmdlKGxlbihmbG93cykpKToKICAgICAgICAgICAgIyDlj6rmnInplb/luqblpKfkuo4yMOeahOa1geaJjeS8muS/neeVmQogICAgICAgICAgICBpZiBmbG93LnBrdF9jb3VudD49MjA6</text>
       </register>
       <register name=":" type="4">
         <text>%s/SSL\/TLS/TLS Record</text>
       </register>
     </registers>
     <search>
-      <last-search>7</last-search>
+      <last-search>cla</last-search>
       <last-offset />
-      <last-pattern>7</last-pattern>
+      <last-pattern>cla</last-pattern>
       <last-replace>TLS Record</last-replace>
       <last-substitute>SSL\/TLS</last-substitute>
       <last-dir>1</last-dir>
@@ -562,6 +570,7 @@ print(all.shape)</text>
         <entry>SSL\/TLS</entry>
         <entry>content</entry>
         <entry>7</entry>
+        <entry>cla</entry>
       </history-search>
       <history-cmd>
         <entry>/</entry>
