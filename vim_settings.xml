@@ -330,8 +330,11 @@
       <file name="$USER_HOME$/workplace/experiment/https/https_data/android_auto_run.py" timestamp="1536819794266">
         <mark key="[" line="32" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/encrypt_traffic_cnn_1d.py" timestamp="1542261730670">
-        <mark key="[" line="32" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/encrypt_traffic_cnn_1d.py" timestamp="1542271855693">
+        <mark key="[" line="28" column="0" />
+        <mark key="]" line="89" column="0" />
+        <mark key="." line="89" column="0" />
+        <mark key="n" line="28" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/https/https_data/pcap_parse.py" timestamp="1536807438495">
         <mark key="[" line="0" column="46" />
@@ -354,7 +357,7 @@
         <mark key="]" line="119" column="0" />
         <mark key="." line="119" column="0" />
       </file>
-      <file name="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py" timestamp="1542267315026">
+      <file name="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py" timestamp="1542273001147">
         <mark key="'" line="79" column="48" />
         <mark key="[" line="85" column="51" />
       </file>
@@ -371,11 +374,10 @@
         <mark key="]" line="15" column="10" />
         <mark key="." line="15" column="10" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/cnnOnly.py" timestamp="1542087831772">
-        <mark key="[" line="41" column="40" />
-        <mark key="]" line="41" column="16" />
-        <mark key="^" line="41" column="16" />
-        <mark key="." line="41" column="16" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/cnnOnly.py" timestamp="1542268574564">
+        <mark key="[" line="9" column="41" />
+        <mark key="]" line="45" column="0" />
+        <mark key="." line="45" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/test.py" timestamp="1541656235660">
         <mark key="[" line="78" column="0" />
@@ -500,11 +502,11 @@
       <jump line="79" column="48" filename="$USER_HOME$/.local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">CjIwMTgtMTEtMTQgMTQ6MjQ6MjMKREFUQV9ESVI6IC4uLy4uL2RhdGEvd2RfaHR0cHMvdWJ5dGUvCjAsIE5vdnBuLCAwLjM5MTMwNDM0NzgyNjA4NywgMC40ODIxNDI4NTcxNDI4NTcxNQoxLCBWcG4sIDAuNTc5NzEwMTQ0OTI3NTM2MywgMC40ODc4MDQ4NzgwNDg3ODA1ClRvdGFsIGFjY3VyYWN5OiAwLjQ4NTUwNzI1CgoKMjAxOC0xMS0xNSAxMzo1MTo1NgpEQVRBX0RJUjogLi4vLi4vZGF0YS93ZF9odHRwcy91Ynl0ZS8KMCwgTm92cG4sIDAuMzkxMzA0MzQ3ODI2MDg3LCAwLjQ4MjE0Mjg1NzE0Mjg1NzE1CjEsIFZwbiwgMC41Nzk3MTAxNDQ5Mjc1MzYzLCAwLjQ4NzgwNDg3ODA0ODc4MDUKVG90YWwgYWNjdXJhY3k6IDAuNDg1NTA3MjUK</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">IyB5X3Rlc3RfY25uPW5wLmFzYXJyYXkoeV90ZXN0X2NubikucmVzaGFwZSgtMSwxKQo=</text>
       </register>
       <register name="-" type="4">
-        <text>'./packet_payload_train.csv'</text>
+        <text>from keras.layers import BatchNormlization</text>
       </register>
       <register name="/" type="4">
         <text>cla</text>
@@ -512,36 +514,38 @@
       <register name="0" type="2">
         <text encoding="base64">dHJhaW4sdmFsLHRlc3QgPSBpbnB1dF9kYXRhLnJlYWRfZGF0YV9zZXRzKGNvbmZpZy5IVFRQU19DT05GSUdbInVieXRlIl0sb25lX2hvdD1UcnVlKQo=</text>
       </register>
-      <register name="1" type="4">
-        <text encoding="base64">CjIwMTgtMTEtMTQgMTQ6MjQ6MjMKREFUQV9ESVI6IC4uLy4uL2RhdGEvd2RfaHR0cHMvdWJ5dGUvCjAsIE5vdnBuLCAwLjM5MTMwNDM0NzgyNjA4NywgMC40ODIxNDI4NTcxNDI4NTcxNQoxLCBWcG4sIDAuNTc5NzEwMTQ0OTI3NTM2MywgMC40ODc4MDQ4NzgwNDg3ODA1ClRvdGFsIGFjY3VyYWN5OiAwLjQ4NTUwNzI1CgoKMjAxOC0xMS0xNSAxMzo1MTo1NgpEQVRBX0RJUjogLi4vLi4vZGF0YS93ZF9odHRwcy91Ynl0ZS8KMCwgTm92cG4sIDAuMzkxMzA0MzQ3ODI2MDg3LCAwLjQ4MjE0Mjg1NzE0Mjg1NzE1CjEsIFZwbiwgMC41Nzk3MTAxNDQ5Mjc1MzYzLCAwLjQ4NzgwNDg3ODA0ODc4MDUKVG90YWwgYWNjdXJhY3k6IDAuNDg1NTA3MjUK</text>
+      <register name="1" type="2">
+        <text encoding="base64">IyB5X3Rlc3RfY25uPW5wLmFzYXJyYXkoeV90ZXN0X2NubikucmVzaGFwZSgtMSwxKQo=</text>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">ICAgIGVsc2U6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcignSW1hZ2UgZXhjZWVkcyBtYXhpbXVtIHNpemU6IDI1NngyNTYgcGl4ZWxzJyk7</text>
+      <register name="2" type="2">
+        <text encoding="base64">IyB5X3Rlc3RfY25uPW9uZWhvdCh5X3Rlc3RfY25uKQo=</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">ICBGaWxlTGlzdCA9IFtdCgoKICAgIHNodWZmbGUoRmlsZUxpc3QpICMgVXNlZnVsbCBmb3IgZnVydGhlciBzZWdtZW50aW5nIHRoZSB2YWxpZGF0aW9uIHNldAoKICAgIGZvciBmaWxlbmFtZSBpbiBGaWxlTGlzdDoKCiAgICAgICAgbGFiZWwgPSBpbnQoZmlsZW5hbWUuc3BsaXQoJy8nKVsyXSkKCiAgICAgICAgSW0gPSBJbWFnZS5vcGVuKGZpbGVuYW1lKQoKICAgICAgICBwaXhlbCA9IEltLmxvYWQoKQoKICAgICAgICB3aWR0aCwgaGVpZ2h0ID0gSW0uc2l6ZQoKICAgICAgICBmb3IgeCBpbiByYW5nZSgwLHdpZHRoKToKICAgICAgICAgICAgZm9yIHkgaW4gcmFuZ2UoMCxoZWlnaHQpOgogICAgICAgICAgICAgICAgZGF0YV9pbWFnZS5hcHBlbmQocGl4ZWxbeSx4XSkKCiAgICAgICAgZGF0YV9sYWJlbC5hcHBlbmQobGFiZWwpICMgbGFiZWxzIHN0YXJ0IChvbmUgdW5zaWduZWQgYnl0ZSBlYWNoKQ==</text>
+      <register name="3" type="2">
+        <text encoding="base64">IyBwcmludChYX3RyYWluX3JubikK</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">ICAgIGZvciBkaXJuYW1lIGluIG9zLmxpc3RkaXIobmFtZVswXSlbMTpdOiAjIFsxOl0gRXhjbHVkZXMgLkRTX1N0b3JlIGZyb20gTWFjIE9TCiAgICAgICAgcGF0aCA9IG9zLnBhdGguam9pbihuYW1lWzBdLGRpcm5hbWUpCiAgICAgICAgZm9yIGZpbGVuYW1lIGluIG9zLmxpc3RkaXIocGF0aCk6CiAgICAgICAgICAgIGlmIGZpbGVuYW1lLmVuZHN3aXRoKCIucG5nIik6CiAgICAgICAgICAgICAgICBGaWxlTGlzdC5hcHBlbmQob3MucGF0aC5qb2luKG5hbWVbMF0sZGlybmFtZSxmaWxlbmFtZSkp</text>
+      <register name="4" type="2">
+        <text encoding="base64">IyB5X3RyYWluX2Nubj1ucC5hc2FycmF5KHlfdHJhaW5fY25uKS5yZXNoYXBlKC0xLDEpCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">cHV0IC1yIC9ob21lL3NzL3dvcmtwbGFjZS9leHBlcmltZW50L2RhdGEvd2RfaHR0cHMvb3V0cHV0L3RvdGFsLwo=</text>
+        <text encoding="base64">IyB5X3RyYWluX2Nubj1vbmVob3QoeV90cmFpbl9jbm4pCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">cHV0IC1yIC9ob21lL3NzL3dvcmtwbGFjZS9leHBlcmltZW50L2RhdGEvd2RfaHR0cHMvcGFja2V0X2xlbmd0aC90b3RhbC8K</text>
+        <text encoding="base64">ZnJvbSBrZXJhcy5sYXllcnMgaW1wb3J0IE11bHRpcGx5Cg==</text>
       </register>
       <register name="7" type="4">
-        <text>put -r /home/ss/workplace/experiment/data/wd_https/record_type/total/
-put -r /home/ss/workplace/experiment/data/wd_https/time_interval/total/</text>
+        <text>from keras.layers import Dropout
+from keras.layers import Activation</text>
       </register>
       <register name="8" type="4">
-        <text>import numpy as np
-print(np.sort(all_train_index))
-print(np.sort(all_val_index))
-print(all.shape)</text>
+        <text>from keras.layers import Embedding
+from keras.layers import SimpleRNN
+from keras.layers import LSTM</text>
       </register>
       <register name="9" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAogICAgd2l0aCBvcGVuKCwnYScpYXMgZjoKICAgICAgICBmb3IgKGZsb3csaSkgaW4gemlwKGZsb3dzLnZhbHVlcygpLHJhbmdlKGxlbihmbG93cykpKToKICAgICAgICAgICAgIyDlj6rmnInplb/luqblpKfkuo4yMOeahOa1geaJjeS8muS/neeVmQogICAgICAgICAgICBpZiBmbG93LnBrdF9jb3VudD49MjA6</text>
+        <text># From Site1997: This would cause nan or 0 gradient if &quot;tf.matmul(h_fc1_drop, w_fc2) + b_fc2&quot; is all zero or nan, 
+# so when the training iteration is big enough, all weights could suddenly became 0.
+# Use tf.nn.softmax_cross_entropy_with_logits instead. It handles the extreme case safely.
+y</text>
       </register>
       <register name=":" type="4">
         <text>%s/SSL\/TLS/TLS Record</text>
