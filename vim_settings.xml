@@ -111,6 +111,11 @@
       <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/DomainName" timestamp="1539934715936">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/payloadMain/payload.py" timestamp="1542354817631">
+        <mark key="[" line="32" column="0" />
+        <mark key="]" line="32" column="0" />
+        <mark key="." line="32" column="0" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/file_concat.py" timestamp="1542085910534">
         <mark key="[" line="124" column="0" />
         <mark key="]" line="124" column="0" />
@@ -384,10 +389,10 @@
         <mark key="]" line="15" column="10" />
         <mark key="." line="15" column="10" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/cnnOnly.py" timestamp="1542268574564">
-        <mark key="[" line="9" column="41" />
-        <mark key="]" line="45" column="0" />
-        <mark key="." line="45" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/cnnOnly.py" timestamp="1542354973702">
+        <mark key="[" line="23" column="46" />
+        <mark key="]" line="46" column="0" />
+        <mark key="." line="46" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/test.py" timestamp="1541656235660">
         <mark key="[" line="78" column="0" />
@@ -515,11 +520,12 @@
       <jump line="73" column="4" filename="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/mnist.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">IyB5X3Rlc3RfY25uPW5wLmFzYXJyYXkoeV90ZXN0X2NubikucmVzaGFwZSgtMSwxKQo=</text>
+      <register name="&quot;" type="4">
+        <text>y_test_cnn=to_categorical(y_test_cnn)
+X_test_cnn=np.asarray(X_test_cnn).reshape((-1,1024,1))</text>
       </register>
       <register name="-" type="4">
-        <text>from keras.layers import BatchNormlization</text>
+        <text>X_train_cnn=np.asarray(X_train_cnn).reshape((-1,1024,1))</text>
       </register>
       <register name="/" type="4">
         <text>extract_labels</text>
@@ -527,38 +533,38 @@
       <register name="0" type="2">
         <text encoding="base64">dHJhaW4sdmFsLHRlc3QgPSBpbnB1dF9kYXRhLnJlYWRfZGF0YV9zZXRzKGNvbmZpZy5IVFRQU19DT05GSUdbInVieXRlIl0sb25lX2hvdD1UcnVlKQo=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">IyB5X3Rlc3RfY25uPW5wLmFzYXJyYXkoeV90ZXN0X2NubikucmVzaGFwZSgtMSwxKQo=</text>
+      <register name="1" type="4">
+        <text>y_test_cnn=to_categorical(y_test_cnn)
+X_test_cnn=np.asarray(X_test_cnn).reshape((-1,1024,1))</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">IyB5X3Rlc3RfY25uPW9uZWhvdCh5X3Rlc3RfY25uKQo=</text>
+      <register name="2" type="4">
+        <text encoding="base64">CgoKZGVmIG9uZWhvdCh4KToKICAgIHJldHVybiBucC5hcnJheShPbmVIb3RFbmNvZGVyKCkuZml0X3RyYW5zZm9ybSh4KS50b2RlbnNlKCkpCgpjbm5feF9uYW1lPVsicF8lZCIlaSBmb3IgaSBpbiByYW5nZSgxMDI0KV0KZmlsdGVyZWRfdHJhaW5fZGF0YT1wZC5yZWFkX2Nzdihjb25maWcuSFRUUFNfQ09ORklHWyJwYWNrZXRfcGF5bG9hZF90cmFpbl9wYXRoIl0pCmZpbHRlcmVkX3ZhbF9kYXRhPXBkLnJlYWRfY3N2KGNvbmZpZy5IVFRQU19DT05GSUdbInBhY2tldF9wYXlsb2FkX3ZhbF9wYXRoIl0p</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">IyBwcmludChYX3RyYWluX3JubikK</text>
+      <register name="3" type="4">
+        <text>seed = 8
+np.random.seed(seed)
+
+choose=config.HTTPS_CONFIG[config.HTTPS_CONFIG[&quot;choose&quot;],]
+names=os.listdir(choose)
+alphabet=[names[i][:-4] for i in range(len(names))]</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">IyB5X3RyYWluX2Nubj1ucC5hc2FycmF5KHlfdHJhaW5fY25uKS5yZXNoYXBlKC0xLDEpCg==</text>
+        <text encoding="base64">IyB5X3Rlc3RfY25uPW5wLmFzYXJyYXkoeV90ZXN0X2NubikucmVzaGFwZSgtMSwxKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">IyB5X3RyYWluX2Nubj1vbmVob3QoeV90cmFpbl9jbm4pCg==</text>
+        <text encoding="base64">IyB5X3Rlc3RfY25uPW9uZWhvdCh5X3Rlc3RfY25uKQo=</text>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">IyBwcmludChYX3RyYWluX3JubikK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">IyB5X3RyYWluX2Nubj1ucC5hc2FycmF5KHlfdHJhaW5fY25uKS5yZXNoYXBlKC0xLDEpCg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">IyB5X3RyYWluX2Nubj1vbmVob3QoeV90cmFpbl9jbm4pCg==</text>
+      </register>
+      <register name="9" type="2">
         <text encoding="base64">ZnJvbSBrZXJhcy5sYXllcnMgaW1wb3J0IE11bHRpcGx5Cg==</text>
-      </register>
-      <register name="7" type="4">
-        <text>from keras.layers import Dropout
-from keras.layers import Activation</text>
-      </register>
-      <register name="8" type="4">
-        <text>from keras.layers import Embedding
-from keras.layers import SimpleRNN
-from keras.layers import LSTM</text>
-      </register>
-      <register name="9" type="4">
-        <text># From Site1997: This would cause nan or 0 gradient if &quot;tf.matmul(h_fc1_drop, w_fc2) + b_fc2&quot; is all zero or nan, 
-# so when the training iteration is big enough, all weights could suddenly became 0.
-# Use tf.nn.softmax_cross_entropy_with_logits instead. It handles the extreme case safely.
-y</text>
       </register>
       <register name=":" type="4">
         <text>%s/SSL\/TLS/TLS Record</text>
