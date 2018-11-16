@@ -268,8 +268,8 @@
         <mark key="." line="33" column="1" />
         <mark key="^" line="41" column="3" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/mnist.py" timestamp="1542346535878">
-        <mark key="[" line="224" column="35" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/mnist.py" timestamp="1542360362180">
+        <mark key="[" line="270" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/file_concat.py" timestamp="1540197846200">
         <mark key="[" line="18" column="17" />
@@ -353,6 +353,11 @@
       </file>
       <file name="$USER_HOME$/workplace/experiment/https/https_data/pcap_parse.py" timestamp="1536807438495">
         <mark key="[" line="0" column="46" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/data.py" timestamp="1542360433750">
+        <mark key="[" line="45" column="0" />
+        <mark key="]" line="45" column="0" />
+        <mark key="." line="45" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2weka/payload2/Android_aiqiyi_2018091901.pcap_0.txt" timestamp="1537850412752">
         <mark key="[" line="0" column="13065" />
@@ -521,11 +526,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>y_test_cnn=to_categorical(y_test_cnn)
-X_test_cnn=np.asarray(X_test_cnn).reshape((-1,1024,1))</text>
+        <text encoding="base64">CkBkZXByZWNhdGVkKE5vbmUsICdQbGVhc2UgdXNlIHRmLm9uZV9ob3Qgb24gdGVuc29ycy4nKQ==</text>
       </register>
       <register name="-" type="4">
-        <text>X_train_cnn=np.asarray(X_train_cnn).reshape((-1,1024,1))</text>
+        <text>@deprecated(None, 'Please use tf.data to implement this functionality.')</text>
       </register>
       <register name="/" type="4">
         <text>extract_labels</text>
@@ -534,13 +538,24 @@ X_test_cnn=np.asarray(X_test_cnn).reshape((-1,1024,1))</text>
         <text encoding="base64">dHJhaW4sdmFsLHRlc3QgPSBpbnB1dF9kYXRhLnJlYWRfZGF0YV9zZXRzKGNvbmZpZy5IVFRQU19DT05GSUdbInVieXRlIl0sb25lX2hvdD1UcnVlKQo=</text>
       </register>
       <register name="1" type="4">
+        <text encoding="base64">CkBkZXByZWNhdGVkKE5vbmUsICdQbGVhc2UgdXNlIHRmLm9uZV9ob3Qgb24gdGVuc29ycy4nKQ==</text>
+      </register>
+      <register name="2" type="4">
+        <text encoding="base64">ICAgICIiIkV4dHJhY3QgdGhlIGltYWdlcyBpbnRvIGEgNEQgdWludDggbnVtcHkgYXJyYXkgW2luZGV4LCB5LCB4LCBkZXB0aF0uCgogICAgQXJnczoKICAgICAgZjogQSBmaWxlIG9iamVjdCB0aGF0IGNhbiBiZSBwYXNzZWQgaW50byBhIGd6aXAgcmVhZGVyLgoKICAgIFJldHVybnM6CiAgICAgIGRhdGE6IEEgNEQgdWludDggbnVtcHkgYXJyYXkgW2luZGV4LCB5LCB4LCBkZXB0aF0uCgogICAgUmFpc2VzOgogICAgICBWYWx1ZUVycm9yOiBJZiB0aGUgYnl0ZXN0cmVhbSBkb2VzIG5vdCBzdGFydCB3aXRoIDIwNTEuCgogICAgIiIi</text>
+      </register>
+      <register name="3" type="4">
+        <text>from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function</text>
+      </register>
+      <register name="4" type="4">
         <text>y_test_cnn=to_categorical(y_test_cnn)
 X_test_cnn=np.asarray(X_test_cnn).reshape((-1,1024,1))</text>
       </register>
-      <register name="2" type="4">
+      <register name="5" type="4">
         <text encoding="base64">CgoKZGVmIG9uZWhvdCh4KToKICAgIHJldHVybiBucC5hcnJheShPbmVIb3RFbmNvZGVyKCkuZml0X3RyYW5zZm9ybSh4KS50b2RlbnNlKCkpCgpjbm5feF9uYW1lPVsicF8lZCIlaSBmb3IgaSBpbiByYW5nZSgxMDI0KV0KZmlsdGVyZWRfdHJhaW5fZGF0YT1wZC5yZWFkX2Nzdihjb25maWcuSFRUUFNfQ09ORklHWyJwYWNrZXRfcGF5bG9hZF90cmFpbl9wYXRoIl0pCmZpbHRlcmVkX3ZhbF9kYXRhPXBkLnJlYWRfY3N2KGNvbmZpZy5IVFRQU19DT05GSUdbInBhY2tldF9wYXlsb2FkX3ZhbF9wYXRoIl0p</text>
       </register>
-      <register name="3" type="4">
+      <register name="6" type="4">
         <text>seed = 8
 np.random.seed(seed)
 
@@ -548,23 +563,14 @@ choose=config.HTTPS_CONFIG[config.HTTPS_CONFIG[&quot;choose&quot;],]
 names=os.listdir(choose)
 alphabet=[names[i][:-4] for i in range(len(names))]</text>
       </register>
-      <register name="4" type="2">
+      <register name="7" type="2">
         <text encoding="base64">IyB5X3Rlc3RfY25uPW5wLmFzYXJyYXkoeV90ZXN0X2NubikucmVzaGFwZSgtMSwxKQo=</text>
       </register>
-      <register name="5" type="2">
+      <register name="8" type="2">
         <text encoding="base64">IyB5X3Rlc3RfY25uPW9uZWhvdCh5X3Rlc3RfY25uKQo=</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">IyBwcmludChYX3RyYWluX3JubikK</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">IyB5X3RyYWluX2Nubj1ucC5hc2FycmF5KHlfdHJhaW5fY25uKS5yZXNoYXBlKC0xLDEpCg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">IyB5X3RyYWluX2Nubj1vbmVob3QoeV90cmFpbl9jbm4pCg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ZnJvbSBrZXJhcy5sYXllcnMgaW1wb3J0IE11bHRpcGx5Cg==</text>
+        <text encoding="base64">IyBwcmludChYX3RyYWluX3JubikK</text>
       </register>
       <register name=":" type="4">
         <text>%s/SSL\/TLS/TLS Record</text>
