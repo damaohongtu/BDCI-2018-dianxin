@@ -242,11 +242,11 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse_1.py" timestamp="1542022325303">
         <mark key="[" line="43" column="31" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse.py" timestamp="1542611798450">
-        <mark key="[" line="152" column="29" />
-        <mark key="]" line="152" column="21" />
-        <mark key="^" line="179" column="5" />
-        <mark key="." line="152" column="29" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse.py" timestamp="1542631338635">
+        <mark key="[" line="151" column="38" />
+        <mark key="]" line="151" column="38" />
+        <mark key="^" line="178" column="5" />
+        <mark key="." line="151" column="38" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wide_deep/python/lib/read_conf.py" timestamp="1536733926675">
         <mark key="[" line="162" column="46" />
@@ -529,10 +529,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>index_i</text>
+        <text>[:index_i]</text>
       </register>
       <register name="-" type="4">
-        <text>index_i</text>
+        <text>[:index_i]</text>
       </register>
       <register name="/" type="4">
         <text>extract_labels</text>
