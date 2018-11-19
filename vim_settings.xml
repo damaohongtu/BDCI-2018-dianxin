@@ -242,11 +242,11 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse_1.py" timestamp="1542022325303">
         <mark key="[" line="43" column="31" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse.py" timestamp="1542608397391">
-        <mark key="[" line="120" column="33" />
-        <mark key="]" line="114" column="84" />
-        <mark key="^" line="114" column="3" />
-        <mark key="." line="114" column="0" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse.py" timestamp="1542611798450">
+        <mark key="[" line="152" column="29" />
+        <mark key="]" line="152" column="21" />
+        <mark key="^" line="179" column="5" />
+        <mark key="." line="152" column="29" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/wide_deep/python/lib/read_conf.py" timestamp="1536733926675">
         <mark key="[" line="162" column="46" />
@@ -307,9 +307,9 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/classification/input_w.py" timestamp="1541741978364">
         <mark key="[" line="10" column="64" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/tcp_stream.py" timestamp="1542071990539">
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/tcp_stream.py" timestamp="1542611416865">
         <mark key="'" line="157" column="65" />
-        <mark key="[" line="84" column="21" />
+        <mark key="[" line="157" column="69" />
       </file>
       <file name="$USER_HOME$/workplace/experiment/HTTPSHandshake/classification/input.py" timestamp="1540189343762">
         <mark key="[" line="9" column="23" />
@@ -433,7 +433,7 @@
         <mark key="]" line="3" column="22" />
         <mark key="." line="3" column="22" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/config.py" timestamp="1542160934896">
+      <file name="$USER_HOME$/workplace/experiment/wd_https/config.py" timestamp="1542610964129">
         <mark key="[" line="48" column="4" />
         <mark key="]" line="44" column="10" />
         <mark key="." line="44" column="10" />
@@ -529,36 +529,40 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">CkBkZXByZWNhdGVkKE5vbmUsICdQbGVhc2UgdXNlIHRmLm9uZV9ob3Qgb24gdGVuc29ycy4nKQ==</text>
+        <text>index_i</text>
       </register>
       <register name="-" type="4">
-        <text>@deprecated(None, 'Please use tf.data to implement this functionality.')</text>
+        <text>index_i</text>
       </register>
       <register name="/" type="4">
         <text>extract_labels</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">dHJhaW4sdmFsLHRlc3QgPSBpbnB1dF9kYXRhLnJlYWRfZGF0YV9zZXRzKGNvbmZpZy5IVFRQU19DT05GSUdbInVieXRlIl0sb25lX2hvdD1UcnVlKQo=</text>
+        <text encoding="base64">ICAgICMgc29mdHdhcmVzPXNldChbcGNhcF9maWxlWzotOF0gZm9yIHBjYXBfZmlsZSBpbiBwY2FwX2ZpbGVzXSkK</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">CkBkZXByZWNhdGVkKE5vbmUsICdQbGVhc2UgdXNlIHRmLm9uZV9ob3Qgb24gdGVuc29ycy4nKQ==</text>
+        <text>def run(pcaps):
+    parse(pcap_files)</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">ICAgICIiIkV4dHJhY3QgdGhlIGltYWdlcyBpbnRvIGEgNEQgdWludDggbnVtcHkgYXJyYXkgW2luZGV4LCB5LCB4LCBkZXB0aF0uCgogICAgQXJnczoKICAgICAgZjogQSBmaWxlIG9iamVjdCB0aGF0IGNhbiBiZSBwYXNzZWQgaW50byBhIGd6aXAgcmVhZGVyLgoKICAgIFJldHVybnM6CiAgICAgIGRhdGE6IEEgNEQgdWludDggbnVtcHkgYXJyYXkgW2luZGV4LCB5LCB4LCBkZXB0aF0uCgogICAgUmFpc2VzOgogICAgICBWYWx1ZUVycm9yOiBJZiB0aGUgYnl0ZXN0cmVhbSBkb2VzIG5vdCBzdGFydCB3aXRoIDIwNTEuCgogICAgIiIi</text>
+        <text encoding="base64">CkBkZXByZWNhdGVkKE5vbmUsICdQbGVhc2UgdXNlIHRmLm9uZV9ob3Qgb24gdGVuc29ycy4nKQ==</text>
       </register>
       <register name="3" type="4">
+        <text encoding="base64">ICAgICIiIkV4dHJhY3QgdGhlIGltYWdlcyBpbnRvIGEgNEQgdWludDggbnVtcHkgYXJyYXkgW2luZGV4LCB5LCB4LCBkZXB0aF0uCgogICAgQXJnczoKICAgICAgZjogQSBmaWxlIG9iamVjdCB0aGF0IGNhbiBiZSBwYXNzZWQgaW50byBhIGd6aXAgcmVhZGVyLgoKICAgIFJldHVybnM6CiAgICAgIGRhdGE6IEEgNEQgdWludDggbnVtcHkgYXJyYXkgW2luZGV4LCB5LCB4LCBkZXB0aF0uCgogICAgUmFpc2VzOgogICAgICBWYWx1ZUVycm9yOiBJZiB0aGUgYnl0ZXN0cmVhbSBkb2VzIG5vdCBzdGFydCB3aXRoIDIwNTEuCgogICAgIiIi</text>
+      </register>
+      <register name="4" type="4">
         <text>from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>y_test_cnn=to_categorical(y_test_cnn)
 X_test_cnn=np.asarray(X_test_cnn).reshape((-1,1024,1))</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text encoding="base64">CgoKZGVmIG9uZWhvdCh4KToKICAgIHJldHVybiBucC5hcnJheShPbmVIb3RFbmNvZGVyKCkuZml0X3RyYW5zZm9ybSh4KS50b2RlbnNlKCkpCgpjbm5feF9uYW1lPVsicF8lZCIlaSBmb3IgaSBpbiByYW5nZSgxMDI0KV0KZmlsdGVyZWRfdHJhaW5fZGF0YT1wZC5yZWFkX2Nzdihjb25maWcuSFRUUFNfQ09ORklHWyJwYWNrZXRfcGF5bG9hZF90cmFpbl9wYXRoIl0pCmZpbHRlcmVkX3ZhbF9kYXRhPXBkLnJlYWRfY3N2KGNvbmZpZy5IVFRQU19DT05GSUdbInBhY2tldF9wYXlsb2FkX3ZhbF9wYXRoIl0p</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>seed = 8
 np.random.seed(seed)
 
@@ -566,17 +570,14 @@ choose=config.HTTPS_CONFIG[config.HTTPS_CONFIG[&quot;choose&quot;],]
 names=os.listdir(choose)
 alphabet=[names[i][:-4] for i in range(len(names))]</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">IyB5X3Rlc3RfY25uPW5wLmFzYXJyYXkoeV90ZXN0X2NubikucmVzaGFwZSgtMSwxKQo=</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">IyB5X3Rlc3RfY25uPW9uZWhvdCh5X3Rlc3RfY25uKQo=</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">IyBwcmludChYX3RyYWluX3JubikK</text>
-      </register>
       <register name=":" type="4">
-        <text>%s/SSL\/TLS/TLS Record</text>
+        <text>wq</text>
       </register>
     </registers>
     <search>
@@ -613,6 +614,7 @@ alphabet=[names[i][:-4] for i in range(len(names))]</text>
         <entry>%s/&quot;SSL/TLS&quot;/&quot;TLS rECORD&quot;</entry>
         <entry>%s/SSL\/TLS/TLS\/Record/g</entry>
         <entry>%s/SSL\/TLS/TLS Record</entry>
+        <entry>wq</entry>
       </history-cmd>
       <history-expr />
       <history-input />
