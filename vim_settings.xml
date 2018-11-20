@@ -17,7 +17,7 @@
         <mark key="^" line="13" column="14" />
         <mark key="." line="14" column="0" />
       </file>
-      <file name="/a.dummy" timestamp="1540200444088">
+      <file name="/a.dummy" timestamp="1542676502944">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/XGBoost_model/xgboost_main.py" timestamp="1539483089001">
@@ -151,10 +151,6 @@
         <mark key="^" line="3" column="0" />
         <mark key="." line="3" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/DeepTraffic/2.encrypted_traffic_classification/4.TrainAndTest/1d_cnn_25+3/encrypt_traffic_cnn_1d.py" timestamp="1542109620535">
-        <mark key="[" line="21" column="0" />
-        <mark key="^" line="21" column="0" />
-      </file>
       <file name="$USER_HOME$/workplace/Paper-01/experiment/Model/Model2.py" timestamp="1540357698920">
         <mark key="[" line="153" column="0" />
         <mark key="]" line="153" column="0" />
@@ -179,6 +175,12 @@
         <mark key="[" line="56" column="0" />
         <mark key="]" line="56" column="0" />
         <mark key="." line="56" column="0" />
+      </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/util_tfrecord.py" timestamp="1542677331225">
+        <mark key="[" line="82" column="0" />
+        <mark key="]" line="82" column="0" />
+        <mark key="." line="82" column="0" />
+        <mark key="^" line="75" column="14" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/utils/data/split_data.py" timestamp="1536557621917">
         <mark key="[" line="1" column="0" />
@@ -473,6 +475,9 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/SNI.py" timestamp="1540446024623">
         <mark key="[" line="16" column="0" />
       </file>
+      <file name="$USER_HOME$/workplace/experiment/wd_https/print_progress.py" timestamp="1542676455466">
+        <mark key="[" line="8" column="2" />
+      </file>
       <file name="$USER_HOME$/workplace/experiment/wd_https/test2.py" timestamp="1540371946793">
         <mark key="[" line="8" column="2" />
       </file>
@@ -529,7 +534,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>[:index_i]</text>
+        <text encoding="base64">ICAgICMgR2V0IHRoZSBpbWFnZSBhcyByYXcgYnl0ZXMuCiAgICBpbWFnZV9yYXcgPSBwYXJzZWRfZXhhbXBsZVsnaW1hZ2UnXQoKICAgICMgRGVjb2RlIHRoZSByYXcgYnl0ZXMgc28gaXQgYmVjb21lcyBhIHRlbnNvciB3aXRoIHR5cGUuCiAgICBpbWFnZSA9IHRmLmRlY29kZV9yYXcoaW1hZ2VfcmF3LCB0Zi51aW50OCkKCiAgICAjIFRoZSB0eXBlIGlzIG5vdyB1aW50OCBidXQgd2UgbmVlZCBpdCB0byBiZSBmbG9hdC4KICAgIGltYWdlID0gdGYuY2FzdChpbWFnZSwgdGYuZmxvYXQzMikKCiAgICAjIEdldCB0aGUgbGFiZWwgYXNzb2NpYXRlZCB3aXRoIHRoZSBpbWFnZS4=</text>
       </register>
       <register name="-" type="4">
         <text>[:index_i]</text>
@@ -538,43 +543,38 @@
         <text>extract_labels</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICMgc29mdHdhcmVzPXNldChbcGNhcF9maWxlWzotOF0gZm9yIHBjYXBfZmlsZSBpbiBwY2FwX2ZpbGVzXSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgJ3gxJzogdGYuRml4ZWRMZW5GZWF0dXJlKFtdLCB0Zi5pbnQ2NCksCg==</text>
       </register>
       <register name="1" type="4">
+        <text encoding="base64">ICAgICMgR2V0IHRoZSBpbWFnZSBhcyByYXcgYnl0ZXMuCiAgICBpbWFnZV9yYXcgPSBwYXJzZWRfZXhhbXBsZVsnaW1hZ2UnXQoKICAgICMgRGVjb2RlIHRoZSByYXcgYnl0ZXMgc28gaXQgYmVjb21lcyBhIHRlbnNvciB3aXRoIHR5cGUuCiAgICBpbWFnZSA9IHRmLmRlY29kZV9yYXcoaW1hZ2VfcmF3LCB0Zi51aW50OCkKCiAgICAjIFRoZSB0eXBlIGlzIG5vdyB1aW50OCBidXQgd2UgbmVlZCBpdCB0byBiZSBmbG9hdC4KICAgIGltYWdlID0gdGYuY2FzdChpbWFnZSwgdGYuZmxvYXQzMikKCiAgICAjIEdldCB0aGUgbGFiZWwgYXNzb2NpYXRlZCB3aXRoIHRoZSBpbWFnZS4=</text>
+      </register>
+      <register name="2" type="4">
+        <text encoding="base64">ICAgICMgRGVmaW5lIGEgZGljdCB3aXRoIHRoZSBkYXRhLW5hbWVzIGFuZCB0eXBlcyB3ZSBleHBlY3QgdG8KICAgICMgZmluZCBpbiB0aGUgVEZSZWNvcmRzIGZpbGUuCiAgICAjIEl0IGlzIGEgYml0IGF3a3dhcmQgdGhhdCB0aGlzIG5lZWRzIHRvIGJlIHNwZWNpZmllZCBhZ2FpbiwKICAgICMgYmVjYXVzZSBpdCBjb3VsZCBoYXZlIGJlZW4gd3JpdHRlbiBpbiB0aGUgaGVhZGVyIG9mIHRoZQogICAgIyBURlJlY29yZHMgZmlsZSBpbnN0ZWFkLg==</text>
+      </register>
+      <register name="3" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgIyBMb2FkIHRoZSBpbWFnZS1maWxlIHVzaW5nIG1hdHBsb3RsaWIncyBpbXJlYWQgZnVuY3Rpb24uCiAgICAgICAgICAgIGltZyA9IGltcmVhZChwYXRoKQoKICAgICAgICAgICAgIyBDb252ZXJ0IHRoZSBpbWFnZSB0byByYXcgYnl0ZXMuCiAgICAgICAgICAgIGltZ19ieXRlcyA9IGltZy50b3N0cmluZygpCgogICAgICAgICAgICAjIENyZWF0ZSBhIGRpY3Qgd2l0aCB0aGUgZGF0YSB3ZSB3YW50IHRvIHNhdmUgaW4gdGhlCiAgICAgICAgICAgICMgVEZSZWNvcmRzIGZpbGUuIFlvdSBjYW4gYWRkIG1vcmUgcmVsZXZhbnQgZGF0YSBoZXJlLg==</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">CiAgICAjIEFyZ3M6CiAgICAjIGltYWdlX3BhdGhzICAgTGlzdCBvZiBmaWxlLXBhdGhzIGZvciB0aGUgaW1hZ2VzLgogICAgIyBsYWJlbHMgICAgICAgIENsYXNzLWxhYmVscyBmb3IgdGhlIGltYWdlcy4KICAgICMgb3V0X3BhdGggICAgICBGaWxlLXBhdGggZm9yIHRoZSBURlJlY29yZHMgb3V0cHV0IGZpbGUu</text>
+      </register>
+      <register name="5" type="4">
         <text>def run(pcaps):
     parse(pcap_files)</text>
       </register>
-      <register name="2" type="4">
+      <register name="6" type="4">
         <text encoding="base64">CkBkZXByZWNhdGVkKE5vbmUsICdQbGVhc2UgdXNlIHRmLm9uZV9ob3Qgb24gdGVuc29ycy4nKQ==</text>
       </register>
-      <register name="3" type="4">
+      <register name="7" type="4">
         <text encoding="base64">ICAgICIiIkV4dHJhY3QgdGhlIGltYWdlcyBpbnRvIGEgNEQgdWludDggbnVtcHkgYXJyYXkgW2luZGV4LCB5LCB4LCBkZXB0aF0uCgogICAgQXJnczoKICAgICAgZjogQSBmaWxlIG9iamVjdCB0aGF0IGNhbiBiZSBwYXNzZWQgaW50byBhIGd6aXAgcmVhZGVyLgoKICAgIFJldHVybnM6CiAgICAgIGRhdGE6IEEgNEQgdWludDggbnVtcHkgYXJyYXkgW2luZGV4LCB5LCB4LCBkZXB0aF0uCgogICAgUmFpc2VzOgogICAgICBWYWx1ZUVycm9yOiBJZiB0aGUgYnl0ZXN0cmVhbSBkb2VzIG5vdCBzdGFydCB3aXRoIDIwNTEuCgogICAgIiIi</text>
       </register>
-      <register name="4" type="4">
+      <register name="8" type="4">
         <text>from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function</text>
       </register>
-      <register name="5" type="4">
+      <register name="9" type="4">
         <text>y_test_cnn=to_categorical(y_test_cnn)
 X_test_cnn=np.asarray(X_test_cnn).reshape((-1,1024,1))</text>
-      </register>
-      <register name="6" type="4">
-        <text encoding="base64">CgoKZGVmIG9uZWhvdCh4KToKICAgIHJldHVybiBucC5hcnJheShPbmVIb3RFbmNvZGVyKCkuZml0X3RyYW5zZm9ybSh4KS50b2RlbnNlKCkpCgpjbm5feF9uYW1lPVsicF8lZCIlaSBmb3IgaSBpbiByYW5nZSgxMDI0KV0KZmlsdGVyZWRfdHJhaW5fZGF0YT1wZC5yZWFkX2Nzdihjb25maWcuSFRUUFNfQ09ORklHWyJwYWNrZXRfcGF5bG9hZF90cmFpbl9wYXRoIl0pCmZpbHRlcmVkX3ZhbF9kYXRhPXBkLnJlYWRfY3N2KGNvbmZpZy5IVFRQU19DT05GSUdbInBhY2tldF9wYXlsb2FkX3ZhbF9wYXRoIl0p</text>
-      </register>
-      <register name="7" type="4">
-        <text>seed = 8
-np.random.seed(seed)
-
-choose=config.HTTPS_CONFIG[config.HTTPS_CONFIG[&quot;choose&quot;],]
-names=os.listdir(choose)
-alphabet=[names[i][:-4] for i in range(len(names))]</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">IyB5X3Rlc3RfY25uPW5wLmFzYXJyYXkoeV90ZXN0X2NubikucmVzaGFwZSgtMSwxKQo=</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">IyB5X3Rlc3RfY25uPW9uZWhvdCh5X3Rlc3RfY25uKQo=</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
