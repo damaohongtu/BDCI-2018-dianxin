@@ -176,11 +176,11 @@
         <mark key="]" line="56" column="0" />
         <mark key="." line="56" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/util_tfrecord.py" timestamp="1542677331225">
-        <mark key="[" line="82" column="0" />
-        <mark key="]" line="82" column="0" />
-        <mark key="." line="82" column="0" />
-        <mark key="^" line="75" column="14" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/util_tfrecord.py" timestamp="1542679168000">
+        <mark key="[" line="133" column="4" />
+        <mark key="]" line="133" column="25" />
+        <mark key="." line="133" column="0" />
+        <mark key="^" line="132" column="9" />
       </file>
       <file name="$USER_HOME$/workplace/BDCI/utils/data/split_data.py" timestamp="1536557621917">
         <mark key="[" line="1" column="0" />
@@ -533,8 +533,8 @@
       <jump line="73" column="4" filename="$USER_HOME$/workplace/experiment/wd_https/wide_cnn_rnn/mnist.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">ICAgICMgR2V0IHRoZSBpbWFnZSBhcyByYXcgYnl0ZXMuCiAgICBpbWFnZV9yYXcgPSBwYXJzZWRfZXhhbXBsZVsnaW1hZ2UnXQoKICAgICMgRGVjb2RlIHRoZSByYXcgYnl0ZXMgc28gaXQgYmVjb21lcyBhIHRlbnNvciB3aXRoIHR5cGUuCiAgICBpbWFnZSA9IHRmLmRlY29kZV9yYXcoaW1hZ2VfcmF3LCB0Zi51aW50OCkKCiAgICAjIFRoZSB0eXBlIGlzIG5vdyB1aW50OCBidXQgd2UgbmVlZCBpdCB0byBiZSBmbG9hdC4KICAgIGltYWdlID0gdGYuY2FzdChpbWFnZSwgdGYuZmxvYXQzMikKCiAgICAjIEdldCB0aGUgbGFiZWwgYXNzb2NpYXRlZCB3aXRoIHRoZSBpbWFnZS4=</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIHgxID0geyd4MSc6IHgxX2JhdGNofQo=</text>
       </register>
       <register name="-" type="4">
         <text>[:index_i]</text>
@@ -543,38 +543,39 @@
         <text>extract_labels</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgJ3gxJzogdGYuRml4ZWRMZW5GZWF0dXJlKFtdLCB0Zi5pbnQ2NCksCg==</text>
+        <text encoding="base64">ICAgIHgxID0geyd4MSc6IHgxX2JhdGNofQo=</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">ICAgICMgR2V0IHRoZSBpbWFnZSBhcyByYXcgYnl0ZXMuCiAgICBpbWFnZV9yYXcgPSBwYXJzZWRfZXhhbXBsZVsnaW1hZ2UnXQoKICAgICMgRGVjb2RlIHRoZSByYXcgYnl0ZXMgc28gaXQgYmVjb21lcyBhIHRlbnNvciB3aXRoIHR5cGUuCiAgICBpbWFnZSA9IHRmLmRlY29kZV9yYXcoaW1hZ2VfcmF3LCB0Zi51aW50OCkKCiAgICAjIFRoZSB0eXBlIGlzIG5vdyB1aW50OCBidXQgd2UgbmVlZCBpdCB0byBiZSBmbG9hdC4KICAgIGltYWdlID0gdGYuY2FzdChpbWFnZSwgdGYuZmxvYXQzMikKCiAgICAjIEdldCB0aGUgbGFiZWwgYXNzb2NpYXRlZCB3aXRoIHRoZSBpbWFnZS4=</text>
+        <text>with tf.Session() as sess:
+    X_1=sess.run(X1_test.eval())
+    print(X_1)</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">ICAgICMgRGVmaW5lIGEgZGljdCB3aXRoIHRoZSBkYXRhLW5hbWVzIGFuZCB0eXBlcyB3ZSBleHBlY3QgdG8KICAgICMgZmluZCBpbiB0aGUgVEZSZWNvcmRzIGZpbGUuCiAgICAjIEl0IGlzIGEgYml0IGF3a3dhcmQgdGhhdCB0aGlzIG5lZWRzIHRvIGJlIHNwZWNpZmllZCBhZ2FpbiwKICAgICMgYmVjYXVzZSBpdCBjb3VsZCBoYXZlIGJlZW4gd3JpdHRlbiBpbiB0aGUgaGVhZGVyIG9mIHRoZQogICAgIyBURlJlY29yZHMgZmlsZSBpbnN0ZWFkLg==</text>
+        <text encoding="base64">ICAgICMgR2V0IHRoZSBpbWFnZSBhcyByYXcgYnl0ZXMuCiAgICBpbWFnZV9yYXcgPSBwYXJzZWRfZXhhbXBsZVsnaW1hZ2UnXQoKICAgICMgRGVjb2RlIHRoZSByYXcgYnl0ZXMgc28gaXQgYmVjb21lcyBhIHRlbnNvciB3aXRoIHR5cGUuCiAgICBpbWFnZSA9IHRmLmRlY29kZV9yYXcoaW1hZ2VfcmF3LCB0Zi51aW50OCkKCiAgICAjIFRoZSB0eXBlIGlzIG5vdyB1aW50OCBidXQgd2UgbmVlZCBpdCB0byBiZSBmbG9hdC4KICAgIGltYWdlID0gdGYuY2FzdChpbWFnZSwgdGYuZmxvYXQzMikKCiAgICAjIEdldCB0aGUgbGFiZWwgYXNzb2NpYXRlZCB3aXRoIHRoZSBpbWFnZS4=</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgIyBMb2FkIHRoZSBpbWFnZS1maWxlIHVzaW5nIG1hdHBsb3RsaWIncyBpbXJlYWQgZnVuY3Rpb24uCiAgICAgICAgICAgIGltZyA9IGltcmVhZChwYXRoKQoKICAgICAgICAgICAgIyBDb252ZXJ0IHRoZSBpbWFnZSB0byByYXcgYnl0ZXMuCiAgICAgICAgICAgIGltZ19ieXRlcyA9IGltZy50b3N0cmluZygpCgogICAgICAgICAgICAjIENyZWF0ZSBhIGRpY3Qgd2l0aCB0aGUgZGF0YSB3ZSB3YW50IHRvIHNhdmUgaW4gdGhlCiAgICAgICAgICAgICMgVEZSZWNvcmRzIGZpbGUuIFlvdSBjYW4gYWRkIG1vcmUgcmVsZXZhbnQgZGF0YSBoZXJlLg==</text>
+        <text encoding="base64">ICAgICMgRGVmaW5lIGEgZGljdCB3aXRoIHRoZSBkYXRhLW5hbWVzIGFuZCB0eXBlcyB3ZSBleHBlY3QgdG8KICAgICMgZmluZCBpbiB0aGUgVEZSZWNvcmRzIGZpbGUuCiAgICAjIEl0IGlzIGEgYml0IGF3a3dhcmQgdGhhdCB0aGlzIG5lZWRzIHRvIGJlIHNwZWNpZmllZCBhZ2FpbiwKICAgICMgYmVjYXVzZSBpdCBjb3VsZCBoYXZlIGJlZW4gd3JpdHRlbiBpbiB0aGUgaGVhZGVyIG9mIHRoZQogICAgIyBURlJlY29yZHMgZmlsZSBpbnN0ZWFkLg==</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">CiAgICAjIEFyZ3M6CiAgICAjIGltYWdlX3BhdGhzICAgTGlzdCBvZiBmaWxlLXBhdGhzIGZvciB0aGUgaW1hZ2VzLgogICAgIyBsYWJlbHMgICAgICAgIENsYXNzLWxhYmVscyBmb3IgdGhlIGltYWdlcy4KICAgICMgb3V0X3BhdGggICAgICBGaWxlLXBhdGggZm9yIHRoZSBURlJlY29yZHMgb3V0cHV0IGZpbGUu</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBMb2FkIHRoZSBpbWFnZS1maWxlIHVzaW5nIG1hdHBsb3RsaWIncyBpbXJlYWQgZnVuY3Rpb24uCiAgICAgICAgICAgIGltZyA9IGltcmVhZChwYXRoKQoKICAgICAgICAgICAgIyBDb252ZXJ0IHRoZSBpbWFnZSB0byByYXcgYnl0ZXMuCiAgICAgICAgICAgIGltZ19ieXRlcyA9IGltZy50b3N0cmluZygpCgogICAgICAgICAgICAjIENyZWF0ZSBhIGRpY3Qgd2l0aCB0aGUgZGF0YSB3ZSB3YW50IHRvIHNhdmUgaW4gdGhlCiAgICAgICAgICAgICMgVEZSZWNvcmRzIGZpbGUuIFlvdSBjYW4gYWRkIG1vcmUgcmVsZXZhbnQgZGF0YSBoZXJlLg==</text>
       </register>
       <register name="5" type="4">
+        <text encoding="base64">CiAgICAjIEFyZ3M6CiAgICAjIGltYWdlX3BhdGhzICAgTGlzdCBvZiBmaWxlLXBhdGhzIGZvciB0aGUgaW1hZ2VzLgogICAgIyBsYWJlbHMgICAgICAgIENsYXNzLWxhYmVscyBmb3IgdGhlIGltYWdlcy4KICAgICMgb3V0X3BhdGggICAgICBGaWxlLXBhdGggZm9yIHRoZSBURlJlY29yZHMgb3V0cHV0IGZpbGUu</text>
+      </register>
+      <register name="6" type="4">
         <text>def run(pcaps):
     parse(pcap_files)</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text encoding="base64">CkBkZXByZWNhdGVkKE5vbmUsICdQbGVhc2UgdXNlIHRmLm9uZV9ob3Qgb24gdGVuc29ycy4nKQ==</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text encoding="base64">ICAgICIiIkV4dHJhY3QgdGhlIGltYWdlcyBpbnRvIGEgNEQgdWludDggbnVtcHkgYXJyYXkgW2luZGV4LCB5LCB4LCBkZXB0aF0uCgogICAgQXJnczoKICAgICAgZjogQSBmaWxlIG9iamVjdCB0aGF0IGNhbiBiZSBwYXNzZWQgaW50byBhIGd6aXAgcmVhZGVyLgoKICAgIFJldHVybnM6CiAgICAgIGRhdGE6IEEgNEQgdWludDggbnVtcHkgYXJyYXkgW2luZGV4LCB5LCB4LCBkZXB0aF0uCgogICAgUmFpc2VzOgogICAgICBWYWx1ZUVycm9yOiBJZiB0aGUgYnl0ZXN0cmVhbSBkb2VzIG5vdCBzdGFydCB3aXRoIDIwNTEuCgogICAgIiIi</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function</text>
-      </register>
-      <register name="9" type="4">
-        <text>y_test_cnn=to_categorical(y_test_cnn)
-X_test_cnn=np.asarray(X_test_cnn).reshape((-1,1024,1))</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
