@@ -35,7 +35,6 @@
         <mark key="^" line="21" column="3" />
         <mark key="." line="22" column="0" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse_ok.py" timestamp="1542692214624" />
       <file name="$USER_HOME$/workplace/BDCI/is_similar.py" timestamp="1536497984162">
         <mark key="[" line="0" column="0" />
       </file>
@@ -245,8 +244,8 @@
       <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse_1.py" timestamp="1542022325303">
         <mark key="[" line="43" column="31" />
       </file>
-      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse.py" timestamp="1542631338635">
-        <mark key="[" line="151" column="38" />
+      <file name="$USER_HOME$/workplace/experiment/wd_https/flows2csv/https_parse.py" timestamp="1543315463056">
+        <mark key="[" line="138" column="10" />
         <mark key="]" line="151" column="38" />
         <mark key="^" line="178" column="5" />
         <mark key="." line="151" column="38" />
